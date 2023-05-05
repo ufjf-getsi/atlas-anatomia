@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	<!-- <script src="../../../_css/cssefeitos.css"></script>  -->
+	<link rel="stylesheet" href="../../../_css/alfinetes.css">
+	<title>Teste Atlas Anatomia</title>
+</head>
+<script language="javascript" src="../../../_javascript/funcoes.js"></script>
+<script language="javascript" src="../../../_javascript/mouseCoords.js"></script>
+
+<script type="text/javascript"> 
+	$(document).ready(function () {
+        $('.principal').each(function () {
+            var x = $(this).first().position().left;
+            var y = $(this).first().position().top;
+        });
+    }); 
+
+</script>
+<body>
+
+<!-- IMAGEM DE FUNDO -->
+<img src="imagem_01.png" onclick="showCoords(event)" style="position: absolute; text-align: center">
+
+<div class='parent'>
+	<!-- EXEMPLO DE ALFINETE AZUL -->
+	<div class="principal" id="alfinete_azul" style="position: absolute; left: 297px; top: 119px;" >
+	  <img class ="alfinete" src="../alfinete_azul.png">
+	  <br>
+	  	<div class="texto">
+		  <p class="nome"></p> 
+		</div>
+	</div>
+
+	<!-- EXEMPLO DE ALFINETE VERMELHO -->
+	<div class="principal" id="alfinete_vermelho" style="position: absolute; left:418px; top: 124px;">
+	  <img class="alfinete" src="../alfinete_vermelho.png">
+	  <br>
+	  	<div class="texto">
+		  <p class="nome"></p>
+		  <p class="desc"></p>
+		</div>
+	</div>
+
+	<div class="principal" id="medula" style="position: absolute; left: 318px; top: 352px;" >
+	  <img class ="alfinete" src="../alfinete_azul.png">
+	  <br>
+	  	<div class="texto">
+		  <p class="nome"></p> 
+		</div>
+	</div>
+</div>
+ 
+<script>
+ 
+
+vermelho("#alfinete_vermelho",
+	     "Segundo",
+	     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since th 1500s, when an unknown printer took a galley of type.");
+azul("#alfinete_azul",
+	     "Texto do alfinete azul");
+azul("#medula",
+	     "Medula");
+</script>
+
+</body>
+</html>

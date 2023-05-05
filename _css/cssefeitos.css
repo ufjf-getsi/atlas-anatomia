@@ -1,0 +1,42 @@
+.view {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    background: #fff url(../images/bgimg.jpg) no-repeat center center
+}
+.view .mask, .view .content {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative
+}
+
+.view-second img {  
+    transition: all 0.2s ease-in;
+}
+.view-second .mask { 
+    background-color: rgba(100,100,100, 0.7); 
+    width: 300px;
+    padding: 60px;
+    height: 300px;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    transition: all 0.2s ease-in-out;
+}
+
+.view-second:hover .mask { 
+    opacity:0; 
+    transform: translate(-80px, 0px);
+}

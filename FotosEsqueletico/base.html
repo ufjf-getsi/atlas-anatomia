@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Atlas Interativo de Anatomia</title>
+	<meta charset="UTF-8"/>
+	
+	<link rel="icon" type="image/x-icon" href="../_imagens/LogoUfjf.png">
+	<link rel="stylesheet" type="text/css" href="../_css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="../_css/menu.css">
+	<link rel="stylesheet" type="text/css" href="../_css/fotos.css">
+
+	<style> 
+		@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+		#contentTitle{
+			color: #000;
+			font-family: 'Titillium Web', sans-serif;
+			font-size: 20px;
+			font-weight: bolder; 	
+		}
+ 
+	</style>
+	<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script> 
+ 		 
+	    let i;
+	    let k;
+	    let mainTitle;
+	    let images;
+	    let titles;
+	    let data = JSON.parse(localStorage.data); 
+	    let initPath;
+
+	    $( window ).load(function() {
+	    	mainTitle = data[0];
+	    	images = data[1];
+	    	k = images.length;
+	    	titles = data[2];
+
+	    	i=0; 
+	    	
+ 	        $("#loadExternalFile").html('<object id="loadedFile" data="'+images[0]+'">');
+
+	        $( "#loadedFile" ).css( "width", "800px" );
+	        $( "#loadedFile" ).css( "height", "500px" );
+	        $("#imgTitle").text(titles[0]);
+			$(".mainTitle").html(mainTitle); 
+
+	    	$("#container").width(((k*2)+1)*10);
+			for(p = 0; p < k; p++){  
+				$( "#container" ).append( "<div class='child' id=item_"+p+"></div>" );
+			} 
+			$("#item_"+i).addClass("selected");
+
+			$(".child").on('click', function(event){
+			    goToImage($(this).attr('id'));
+			});
+		});
+
+	</script>
+</head> 
+
+<script language="javascript" src="../_javascript/funcoes.js"></script>
+<body>
+	<div class="navbar">
+		<a href="https://www2.ufjf.br/ufjf/"><img src="../_imagens/ufjf.png" style="margin-left: 25px;"></a>
+	</div>
+	<div class="content">
+		<div id="LogoPrincipal">		
+			<center>
+				<img src="../_imagens/Logo.png" width="15%" height="15%" style="margin-top: 15px;">
+				<hr>
+			</center>
+		</div>
+		<div id="tituloSistema">Sistema Esquelético</div>
+
+		<div>
+			<center>
+				<div>
+					<button class="slideButton slideLeft"  onclick="slideLeft();">
+						<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+	  						<path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+						</svg>
+					</button>
+					<button class="slideButton slideRight" onclick="slideRight();">
+						<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+	  						<path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+						</svg>
+					</button>
+				</div>
+				<div class="mainTitle"></div>
+				<div id="mainContent">
+					<p class="tituloImagem" style="margin-right: 100%;">
+						<span id="imgTitle">ERRO na programação</span>
+					</p>			
+					<div>
+						<p id="mainContent"> 
+							<div id="loadExternalFile" style="height: 800px; width: 800px;"></div> 
+						</p>
+					</div>
+					<div id="container"></div>			
+				</div>
+			</center>
+		</div>  
+		<center>		
+			<footer>
+				<hr>
+				<div id="opcoes">
+					<a href="javascript:history.back()" style="padding-right: 65%;">Voltar</a>
+					<a id="home" href="../index.html">Home</a>
+					<a href="../instrucoes.html">Instruções</a>
+					<a href="../sobre.html">Sobre</a>
+					<a href="../equipe.html">Equipe</a>
+				</div>
+				<div id="departamento">Departamento de Anatomia - UFJF</div>
+			</footer>
+		</center>
+	</div>
+</body>
+</html>
