@@ -299,6 +299,10 @@ img#imgSistema{
 	border-width: 4px;
 }
 
-div#LogoPrincipal {
+#LogoPrincipal {
+	text-align: center;
+}
+
+#selecione{
 	text-align: center;
 }
