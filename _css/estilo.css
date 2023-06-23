@@ -3,27 +3,27 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
 @import url(https://fonts.googleapis.com/css?family=Cinzel);
 
-body{
+body {
 	background-image: url("../_imagens/fundo.png");
 	font-family: 'Cinzel', sans-serif;
 	color: #FFFFFF;
 	font-size: 17px;
 	padding: 0%;
-	margin-top: 0%;  
+	margin-top: 0%;
 }
 
-p.tituloImagem{
+p.tituloImagem {
 	text-align: left;
 	margin-top: 15px;
-    margin-left: 450px; 
-    float: left;
-    color: black;
-    font-family: arial;
-    font-weight: bold;
-    font-size: 130%;
+	margin-left: 450px;
+	float: left;
+	color: black;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 130%;
 }
 
-p#loadExternalFile{
+p#loadExternalFile {
 	height: 750px;
 	width: 800px;
 	text-align: center;
@@ -31,142 +31,141 @@ p#loadExternalFile{
 	margin-top: 100px;
 }
 
-.content{ 
-  	margin-top: 30px;
+.content {
+	margin-top: 30px;
 	text-align: center;
 }
 
-.navbar { 
-  	background: #F1F1F1;
-    border-bottom: 1px solid #E1E1E1;
-    width: 100%;
-    padding: 0; 
-    font-family: Arial, Helvetica, sans-serif;
-    height: 30px; 
-    overflow: hidden; 
-  	position: fixed;
-  	top: 0;
-  	margin-left: -0.5%;
-  	z-index: 1;
+.navbar {
+	background: #F1F1F1;
+	border-bottom: 1px solid #E1E1E1;
+	width: 100%;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 30px;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	margin-left: -0.5%;
+	z-index: 1;
 }
 
-div#mainContent{  
+div#mainContent {
 	background-image: url("../_imagens/BaseFigura.png");
 	background-repeat: no-repeat;
-	background-size: 1200px; 
-	background-position: center top; 
-  	padding-top: 30px;
+	background-size: 1200px;
+	background-position: center top;
+	padding-top: 30px;
 }
 
-			table#mainMenu{
-				text-align: center;
-				border-color: #fff;
-				margin-top: 30px;
-				margin-left: -70px;
-			}
+table#mainMenu {
+	text-align: center;
+	border-color: #fff;
+	margin: 30px auto 0 auto;
+}
 
-			table#mainMenu td{
-				width: 150px;
-				padding-left: 40px;
-				padding-right: 40px;  
-			}
+table#mainMenu td {
+	width: 150px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
 
-			table#mainMenu td{ 
-				margin-top: 5%;
-				margin-bottom: 20%;
-			}
+table#mainMenu td {
+	margin-top: 5%;
+	margin-bottom: 20%;
+}
 
-			tr#espacamento{
-				height: 50px;
-			}
+tr#espacamento {
+	height: 50px;
+}
 
 
-footer{ 
+footer {
 	font-family: 'Cinzel', sans-serif;
-	text-shadow: 3px 2px 1px rgba(0,0,0,1);
-	font-size: 12pt; 
-    position:fixed;
-    bottom: 0px;
-    width: 100%; 
-    height: 7%;
-}
- 
-hr{
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #333, #fff, #333);
+	text-shadow: 3px 2px 1px rgba(0, 0, 0, 1);
+	font-size: 12pt;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 7%;
 }
 
-div#principal{
+hr {
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: linear-gradient(to right, #333, #fff, #333);
+}
+
+div#principal {
 	text-align: center;
 }
 
 
-div#faixa{  
+div#faixa {
 	margin-top: -10px;
 	margin-left: 5px;
 	margin-right: 5px;
-	height: 50px;  
-    background: linear-gradient(90deg,rgba(255,255,255, 0.1),rgba(255,255,255, 0.3),rgba(255,255,255, 0.1)); 
+	height: 50px;
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
 }
 
-div#menu{
+div#menu {
 	position: relative;
 	margin-top: 0;
-	text-align: left; 
+	text-align: left;
 	margin-left: 5%;
 	margin-top: 1.5%;
 }
 
-div#tituloSistema{
+div#tituloSistema {
 	position: absolute;
-  	top: 9.5%;
-	font-size: 15pt;   
-	padding-left: 5%; 
+	top: 9.5%;
+	font-size: 15pt;
+	padding-left: 5%;
 	color: white;
-	text-shadow: 2px 2px 2px rgba(0,0,0,1);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
-div#opcoes{
-    text-align: right;
-    padding-right: 80px; 
+div#opcoes {
+	text-align: right;
+	padding-right: 80px;
 }
 
-div#opcoes a{	
+div#opcoes a {
 	font-family: 'Cinzel', sans-serif;
 	color: #FFFFFF;
-	padding-left:1%;
+	padding-left: 1%;
 	text-decoration: none;
 }
 
-div#opcoes a:hover{	
+div#opcoes a:hover {
 	color: #888888;
 }
 
-div#menu ul.principal{
+div#menu ul.principal {
 	display: inline-block;
 }
 
-div#submenu{
+div#submenu {
 	text-align: center;
 	padding-top: 2%;
 }
 
-div#departamento{
+div#departamento {
 	margin-top: -1%;
 }
 
-div.tituloImagem{
+div.tituloImagem {
 	color: black;
 	background: black;
 }
 
-img#imgSistema{
+img#imgSistema {
 	width: 150px;
-	height: 150px;	
+	height: 150px;
 	border-radius: 8%;
-	box-shadow: -10px 10px 10px rgba(0,0,0,0.8);
+	box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.8);
 }
 
 /* Gray Scale */
@@ -176,118 +175,123 @@ img#imgSistema{
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
+
 .hover08 figure:hover img {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
-} 
+}
 
 .view {
 	width: 150px;
-	height: 150px;	
+	height: 150px;
 	border-radius: 8%;
-	box-shadow: -10px 10px 10px rgba(0,0,0,0.8);
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    background: none;
+	box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.8);
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	background: none;
 }
-.view .mask, .view .content {
-    width: 300px;
-    height: 200px;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0
+
+.view .mask,
+.view .content {
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0
 }
+
 .view img {
-    display: block;
-    position: relative
+	display: block;
+	position: relative
 }
 
-.view-second img {  
-    transition: all 0.2s ease-in;
-}
-.view-second .mask { 
-    background-color: rgba(100,100,100, 0.5); 
-    width: 300px;
-    padding: 60px;
-    height: 300px;
-    opacity: 1;
-    transform: translate(0px, 0px);
-    transition: all 0.2s ease-in-out;
+.view-second img {
+	transition: all 0.2s ease-in;
 }
 
-.view-second:hover .mask { 
-    opacity:0; 
-    transform: translate(-80px, 0px);
-} 
+.view-second .mask {
+	background-color: rgba(100, 100, 100, 0.5);
+	width: 300px;
+	padding: 60px;
+	height: 300px;
+	opacity: 1;
+	transform: translate(0px, 0px);
+	transition: all 0.2s ease-in-out;
+}
 
-.nomes td{
+.view-second:hover .mask {
+	opacity: 0;
+	transform: translate(-80px, 0px);
+}
+
+.nomes td {
 	padding-top: 10px;
 	vertical-align: top;
 }
 
-.slideButton { 
-    width: 60px;
-    height: 60px;  
-    background: rgba(255, 255, 255, 0.5);
-    color: rgba(0, 0, 0, 0.3);
-    border: none;
-  	cursor: pointer;
-    border-radius: 15%;   
- 	display: flex;
-    left: 50%;
-    margin-top: 340px;
-    position: absolute; 
-    box-shadow: 4px 4px #222;
+.slideButton {
+	width: 60px;
+	height: 60px;
+	background: rgba(255, 255, 255, 0.5);
+	color: rgba(0, 0, 0, 0.3);
+	border: none;
+	cursor: pointer;
+	border-radius: 15%;
+	display: flex;
+	left: 50%;
+	margin-top: 340px;
+	position: absolute;
+	box-shadow: 4px 4px #222;
 }
 
-.slideButton:active{
+.slideButton:active {
 	box-shadow: 2px 2px #222;
 	transform: translate(2px, 2px);
 }
 
-.slideLeft{
+.slideLeft {
 	margin-left: -600px;
 }
 
-.slideRight{
+.slideRight {
 	margin-left: 560px;
 }
 
-#container{
-    margin: auto; 
-    margin-top: -200px;
-    z-index: 1;
+#container {
+	margin: auto;
+	margin-top: -200px;
+	z-index: 1;
 }
 
-.child{
-    text-align: center;
-    width: 10px;
-    height: 10px;
-    background: rgba(255, 255, 255, 0.3);
-    float: left;
-    margin-top: 13px;
-    margin-right: 10px;
-    cursor: pointer;
-    border-radius: 2px;
+.child {
+	text-align: center;
+	width: 10px;
+	height: 10px;
+	background: rgba(255, 255, 255, 0.3);
+	float: left;
+	margin-top: 13px;
+	margin-right: 10px;
+	cursor: pointer;
+	border-radius: 2px;
 }
 
-.selected{
-    background: rgba(255, 255, 255, 0.9);
+.selected {
+	background: rgba(255, 255, 255, 0.9);
 }
 
-.mainTitle{ 
+.mainTitle {
 	margin-left: 5px;
 	margin-right: 5px;
-	height: 50px;  
-    background: linear-gradient(90deg,rgba(255,255,255, 0),rgba(255,255,255, 0.3),rgba(255,255,255, 0));
-    color: white;
-    font-size: 250%;
+	height: 50px;
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+	color: white;
+	font-size: 250%;
 }
 
-.mainSystemImage{
+.mainSystemImage {
 	display: table;
 	margin: 0 auto;
 	top: 50%;
@@ -304,6 +308,6 @@ img#imgSistema{
 	text-align: center;
 }
 
-#selecione{
+#selecione {
 	text-align: center;
 }
