@@ -3,6 +3,82 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
 @import url(https://fonts.googleapis.com/css?family=Cinzel);
 
+.menu {
+	display: grid;
+  	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.view {
+	width: 150px;
+	height: 150px;	
+	border-radius: 8%;
+	box-shadow: -10px 10px 10px rgba(0,0,0,0.8);
+    overflow: hidden;
+    position: relative;
+}
+
+.menu .card {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 5%;
+}
+
+.menu .title {
+	color: #ffffff;
+	text-shadow: 2px 2px 2px rgba(0,0,0,1);
+}
+
+footer {
+	text-shadow: 3px 2px 1px rgba(0,0,0,1);
+	font-size: 12px; 
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+.selecione{
+	text-align: center;
+}
+
+.imgSistema{
+	width: 100%;
+	height: 100%;	
+	border-radius: 8%;
+	box-shadow: -10px 10px 10px rgba(0,0,0,0.8);
+}
+
+.departamento {
+	text-align: center;
+}
+
+@media screen and (max-width:400px) {
+	.view {
+		width: 80px;
+		height: 80px;
+	}
+
+	.menu .title {
+		font-size: 15px;
+	}
+}
+
+.opcoes{
+    text-align: right;
+    padding-right: 80px; 
+}
+
+.opcoes a{	
+	font-family: 'Cinzel', sans-serif;
+	color: #FFFFFF;
+	padding-left:1%;
+	text-decoration: none;
+}
+
+.opcoes a:hover{	
+	color: #888888;
+}
+
 body{
 	background-image: url("../_imagens/fundo.png");
 	font-family: 'Cinzel', sans-serif;
@@ -33,7 +109,6 @@ p#loadExternalFile{
 
 .content{ 
   	margin-top: 30px;
-	text-align: center;
 }
 
 .navbar { 
@@ -58,50 +133,9 @@ div#mainContent{
   	padding-top: 30px;
 }
 
-			table#mainMenu{
-				text-align: center;
-				border-color: #fff;
-				margin-top: 30px;
-				margin-left: -70px;
-			}
-
-			table#mainMenu td{
-				width: 150px;
-				padding-left: 40px;
-				padding-right: 40px;  
-			}
-
-			table#mainMenu td{ 
-				margin-top: 5%;
-				margin-bottom: 20%;
-			}
-
-			tr#espacamento{
-				height: 50px;
-			}
-
-
-footer{ 
-	font-family: 'Cinzel', sans-serif;
-	text-shadow: 3px 2px 1px rgba(0,0,0,1);
-	font-size: 12pt; 
-    position:fixed;
-    bottom: 0px;
-    width: 100%; 
-    height: 7%;
-}
- 
-hr{
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #333, #fff, #333);
-}
-
 div#principal{
 	text-align: center;
 }
-
 
 div#faixa{  
 	margin-top: -10px;
@@ -109,14 +143,6 @@ div#faixa{
 	margin-right: 5px;
 	height: 50px;  
     background: linear-gradient(90deg,rgba(255,255,255, 0.1),rgba(255,255,255, 0.3),rgba(255,255,255, 0.1)); 
-}
-
-div#menu{
-	position: relative;
-	margin-top: 0;
-	text-align: left; 
-	margin-left: 5%;
-	margin-top: 1.5%;
 }
 
 div#tituloSistema{
@@ -128,22 +154,6 @@ div#tituloSistema{
 	text-shadow: 2px 2px 2px rgba(0,0,0,1);
 }
 
-div#opcoes{
-    text-align: right;
-    padding-right: 80px; 
-}
-
-div#opcoes a{	
-	font-family: 'Cinzel', sans-serif;
-	color: #FFFFFF;
-	padding-left:1%;
-	text-decoration: none;
-}
-
-div#opcoes a:hover{	
-	color: #888888;
-}
-
 div#menu ul.principal{
 	display: inline-block;
 }
@@ -153,20 +163,10 @@ div#submenu{
 	padding-top: 2%;
 }
 
-div#departamento{
-	margin-top: -1%;
-}
 
 div.tituloImagem{
 	color: black;
 	background: black;
-}
-
-img#imgSistema{
-	width: 150px;
-	height: 150px;	
-	border-radius: 8%;
-	box-shadow: -10px 10px 10px rgba(0,0,0,0.8);
 }
 
 /* Gray Scale */
@@ -181,17 +181,6 @@ img#imgSistema{
 	filter: grayscale(0);
 } 
 
-.view {
-	width: 150px;
-	height: 150px;	
-	border-radius: 8%;
-	box-shadow: -10px 10px 10px rgba(0,0,0,0.8);
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    background: none;
-}
 .view .mask, .view .content {
     width: 300px;
     height: 200px;
@@ -209,7 +198,7 @@ img#imgSistema{
     transition: all 0.2s ease-in;
 }
 .view-second .mask { 
-    background-color: rgba(100,100,100, 0.5); 
+    background-color: rgba(92, 92, 92, 0.274); 
     width: 300px;
     padding: 60px;
     height: 300px;
@@ -304,6 +293,3 @@ img#imgSistema{
 	text-align: center;
 }
 
-#selecione{
-	text-align: center;
-}

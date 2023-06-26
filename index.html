@@ -1,131 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 	<title>Atlas Interativo de Anatomia</title>
 	<link rel="icon" type="image/x-icon" href="_imagens/LogoUfjf.png">
-	<meta charset="UTF-8"/>
+	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="_css/estilo.css">
 </head>
 <script language="javascript" src="_javascript/funcoes.js"></script>
+
 <body>
 	<div class="navbar">
 		<a href="https://www2.ufjf.br/ufjf/"><img src="_imagens/ufjf.png" style="margin-left: 25px;"></a>
 	</div>
 	<div class="content">
 		<div id="LogoPrincipal">
-				<img id="logo" src="_imagens/Logo.png">
-				<hr>
+			<img id="logo" src="_imagens/Logo.png">
+			<hr>
 		</div>
-		<div id="selecione">
-			Selecione um Sistema:
+
+		<p class="selecione"> Selecione um Sistema:</p>
+		<div class="menu">
+			<div class="card">
+				<a href="esqueletico.html">
+					<div class="view view-second">
+						<img class='imgSistema' src='_imagens/botoes/esqueletico.jpg'>
+						<div class="mask"></div>
+
+					</div>
+				</a>
+				<p class="title">Esquelético</p>
+			</div>
+
+			<div class="card">
+				<a href="esqueletico.html">
+					<div class="view view-second">
+						<img class='imgSistema' src='_imagens/botoes/articular.jpg'>
+						<div class="mask"></div>
+					</div>
+				</a>
+				<p class="title">Articular</p>
+			</div>
+
+			<div class="card">
+				<a href="esqueletico.html">
+					<div class="view view-second">
+						<img class='imgSistema' src='_imagens/botoes/muscular.jpg'>
+						<div class="mask"></div>
+					</div>
+				</a>
+				<p class="title">Muscular</p>
+			</div>
+
+			<div class="card">
+				<a href="esqueletico.html">
+					<div class="view view-second">
+						<img class='imgSistema' src='_imagens/botoes/nervoso.jpg'>
+						<div class="mask"></div>
+					</div>
+				</a>
+				<p class="title">Nervoso</p>
+			</div>
+
+			<div class="card">
+				<a href="esqueletico.html">
+					<div class="view view-second">
+						<img class='imgSistema' src='_imagens/botoes/circulatorio.jpg'>
+						<div class="mask"></div>
+					</div>
+				</a>
+				<p class="title">Circulatório</p>
+			</div>
+
+			<div class="card">
+				<a href="esqueletico.html">
+					<div class="view view-second">
+						<img class='imgSistema' src='_imagens/botoes/respiratorio.jpg'>
+						<div class="mask"></div>
+					</div>
+				</a>
+				<p class="title">Respiratório</p>
+			</div>
+
+			<div class="card">
+				<a href="esqueletico.html">
+					<div class="view view-second">
+						<img class='imgSistema' src='_imagens/botoes/digestorio.jpg'>
+						<div class="mask"></div>
+					</div>
+				</a>
+				<p class="title">Digestório</p>
+			</div>
+
+			<div class="card">
+				<a href="esqueletico.html">
+					<div class="view view-second">
+						<img class='imgSistema' src='_imagens/botoes/urinario.jpg'>
+						<div class="mask"></div>
+					</div>
+				</a>
+				<p class="title">Urinário</p>
+			</div>
+
+			<div class="card">
+				<a href="esqueletico.html">
+					<div class="view view-second">
+						<img class='imgSistema' src='_imagens/botoes/genfem.jpg'>
+						<div class="mask"></div>
+					</div>
+				</a>
+				<p class="title">Genital Feminino</p>
+			</div>
+
+			<div class="card">
+				<a href="esqueletico.html">
+					<div class="view view-second">
+						<img class='imgSistema' src='_imagens/botoes/genmasc.jpg'>
+						<div class="mask"></div>
+					</div>
+				</a>
+				<p class="title">Genital Masculino</p>
+			</div>
 		</div>
-	 
-		<div id="menu">
-			<center>
-			<table id="mainMenu">
-				<tr>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/esqueletico.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/articular.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/muscular.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/nervoso.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/circulatorio.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-				</tr>
-				<tr class="nomes">
-					<td>Esquelético</td><td>Articular</td><td>Muscular</td><td>Nervoso</td><td>Circulatório</td>
-				</tr>
-				<tr id="espacamento">
-				</tr>
-				<tr>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/respiratorio.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/digestorio.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/urinario.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/genfem.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/genmasc.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-				</tr>
-				<tr class="nomes">
-					<td>Respiratório</td><td>Digestório</td><td>Urinário</td><td>Genital Feminino</td><td>Genital Masculino</td>
-				</tr>
-			</table>
-			</center>
-		</div>
-			<footer>
-				<div id="opcoes">
-					<a href="instrucoes.html">Instruções</a>
-					<a href="sobre.html">Sobre</a>
-					<a href="equipe.html">Equipe</a>
-				</div>
-				<div id="departamento">Departamento de Anatomia - UFJF</div>
-			</footer>
+
+		<footer>	
+			<div class="opcoes">
+				<a href="instrucoes.html">Instruções</a>
+				<a href="sobre.html">Sobre</a>
+				<a href="equipe.html">Equipe</a>
+			</div>
+			<div class="departamento">Departamento de Anatomia - UFJF</div>
+		</footer>
 	</div>
 </body>
+
 </html>

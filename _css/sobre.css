@@ -12,20 +12,19 @@
 	font-weight: normal; 
 }
 
-#lines {
+.lines {
 	list-style-type: none;
 }
 
-#lines li {
+.lines li {
 	padding: 5px;
 }
 
 #flex {
 	display: flex; 
+	flex-wrap: wrap;
 	justify-content: space-around;
 }
-
-
 
 div#textoInst{
 	color: #000;
