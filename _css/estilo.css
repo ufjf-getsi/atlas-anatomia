@@ -11,6 +11,8 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	gap: 3vh;
+	width: 80vw;
+	margin: auto;
 }
 
 .view {
