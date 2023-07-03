@@ -5,20 +5,25 @@
 	<title>Atlas Interativo de Anatomia</title>
 	<link rel="icon" type="image/x-icon" href="_imagens/LogoUfjf.png">
 	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="_css/layout.css">
 	<link rel="stylesheet" href="_css/estilo.css">
 </head>
 <script language="javascript" src="_javascript/funcoes.js"></script>
 
 <body>
-	<div class="navbar">
-		<a href="https://www2.ufjf.br/ufjf/"><img src="_imagens/ufjf.png" style="margin-left: 25px;"></a>
-	</div>
-	<div class="content">
-		<div id="LogoPrincipal">
-			<img id="logo" src="_imagens/Logo.png">
-			<hr>
+	<header>
+		<div class="navbar">
+			<a href="https://www2.ufjf.br/ufjf/">
+				<img src="_imagens/ufjf.png">
+			</a>
 		</div>
+		<div class="logoPrincipal">
+			<img class="logo" src="_imagens/Logo.png">
+		</div>
+		<hr>
+	</header>
 
+	<main>
 		<p class="selecione"> Selecione um Sistema:</p>
 		<div class="menu">
 			<div class="card">
@@ -122,16 +127,17 @@
 				<p class="title">Genital Masculino</p>
 			</div>
 		</div>
+	</main>
 
-		<footer>	
-			<div class="opcoes">
-				<a href="instrucoes.html">Instruções</a>
-				<a href="sobre.html">Sobre</a>
-				<a href="equipe.html">Equipe</a>
-			</div>
-			<div class="departamento">Departamento de Anatomia - UFJF</div>
-		</footer>
-	</div>
+	<footer>
+		<hr>
+		<p class="departamento">Departamento de Anatomia - UFJF</p>
+		<div class="opcoes">
+			<a href="instrucoes.html">Instruções</a>
+			<a href="sobre.html">Sobre</a>
+			<a href="equipe.html">Equipe</a>
+		</div>
+	</footer>
 </body>
 
 </html>

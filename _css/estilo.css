@@ -5,12 +5,12 @@
 
 .menu {
 	display: grid;
-  	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .view {
-	width: 150px;
-	height: 150px;	
+	width: 200px;
+	height: 200px;	
 	border-radius: 8%;
 	box-shadow: -10px 10px 10px rgba(0,0,0,0.8);
     overflow: hidden;
@@ -29,14 +29,6 @@
 	text-shadow: 2px 2px 2px rgba(0,0,0,1);
 }
 
-footer {
-	text-shadow: 3px 2px 1px rgba(0,0,0,1);
-	font-size: 12px; 
-	position: fixed;
-	bottom: 0px;
-	width: 100%;
-}
-
 .selecione{
 	text-align: center;
 }
@@ -46,10 +38,6 @@ footer {
 	height: 100%;	
 	border-radius: 8%;
 	box-shadow: -10px 10px 10px rgba(0,0,0,0.8);
-}
-
-.departamento {
-	text-align: center;
 }
 
 @media screen and (max-width:400px) {
@@ -62,32 +50,6 @@ footer {
 		font-size: 15px;
 	}
 }
-
-.opcoes{
-    text-align: right;
-    padding-right: 80px; 
-}
-
-.opcoes a{	
-	font-family: 'Cinzel', sans-serif;
-	color: #FFFFFF;
-	padding-left:1%;
-	text-decoration: none;
-}
-
-.opcoes a:hover{	
-	color: #888888;
-}
-
-body{
-	background-image: url("../_imagens/fundo.png");
-	font-family: 'Cinzel', sans-serif;
-	color: #FFFFFF;
-	font-size: 17px;
-	padding: 0%;
-	margin-top: 0%;
-}
-
 p.tituloImagem {
 	text-align: left;
 	margin-top: 15px;
@@ -105,25 +67,6 @@ p#loadExternalFile {
 	text-align: center;
 	margin-left: -500px;
 	margin-top: 100px;
-}
-
-.content{ 
-  	margin-top: 30px;
-	text-align: center;
-}
-
-.navbar {
-	background: #F1F1F1;
-	border-bottom: 1px solid #E1E1E1;
-	width: 100%;
-	padding: 0;
-	font-family: Arial, Helvetica, sans-serif;
-	height: 30px;
-	overflow: hidden;
-	position: fixed;
-	top: 0;
-	margin-left: -0.5%;
-	z-index: 1;
 }
 
 div#mainContent {
@@ -292,7 +235,4 @@ div.tituloImagem {
 	border-width: 4px;
 }
 
-#LogoPrincipal {
-	text-align: center;
-}
 

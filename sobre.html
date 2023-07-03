@@ -4,6 +4,7 @@
 	<title>Atlas Interativo de Anatomia</title>
 	<link rel="icon" type="image/x-icon" href="_imagens/LogoUfjf.png">
 	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="_css/layout.css">
 	<link rel="stylesheet" href="_css/estilo.css">
 	<link rel="stylesheet" href="_css/fotos.css">
 	<link rel="stylesheet" href="_css/sobre.css">
@@ -19,39 +20,42 @@
 
 <script language="javascript" src="_javascript/funcoes.js"></script>
 <body>
-	<div class="navbar">
-		<a href="https://www2.ufjf.br/ufjf/"><img src="_imagens/ufjf.png" style="margin-left: 25px;"></a>
-	</div>
-
-	<div class="content">
-		<div id="LogoPrincipal">		
-			<img src="_imagens/Logo.png" width="15%" height="15%" style="margin-top: 15px;">
-			<hr>
+	<header>
+		<div class="navbar">
+			<a href="https://www2.ufjf.br/ufjf/">
+				<img src="_imagens/ufjf.png">
+			</a>
 		</div>
-		
-		<main id="rcorners1">
+		<div class="logoPrincipal">
+			<img class="logo" src="_imagens/Logo.png">
+		</div>
+		<hr>
+	</header>
+
+	<main>
+		<div class="rcorners1">
 			<p><b>SOBRE</b></p>
-			<p id="texto">
-				As figuras dos atlas convencionais nem sempre refletem a realidade das estruturas observadas no laboratório de anatomia.
-				Diante da necessidade de um maior contato dos alunos com as peças anatômicas, os professores e alunos do Departamento de Anatomia
-				e da Faculdade de Ciência da Computação da Universidade Federal de Juiz de Fora, criaram um <b>Atlas Interativo de Anatomia</b>. 
-			</p>
-			<p id="texto">
-				O Atlas é uma forma do aluno rever as peças estudadas no anatômico e ao mesmo tempo consolidar, mesmo longe do laboratório, o
-				conteúdo ministrado durante as aulas práticas.
-			</p>
-		</main>
-	</div>
+		<p id="texto">
+			As figuras dos atlas convencionais nem sempre refletem a realidade das estruturas observadas no laboratório de anatomia.
+			Diante da necessidade de um maior contato dos alunos com as peças anatômicas, os professores e alunos do Departamento de Anatomia
+			e da Faculdade de Ciência da Computação da Universidade Federal de Juiz de Fora, criaram um <b>Atlas Interativo de Anatomia</b>. 
+		</p>
+		<p id="texto">
+			O Atlas é uma forma do aluno rever as peças estudadas no anatômico e ao mesmo tempo consolidar, mesmo longe do laboratório, o
+			conteúdo ministrado durante as aulas práticas.
+		</p>
+		</div>		
+	</main>
 
 	<footer>
-		<hr>			
-		<div class="opcoes">				
+		<hr>
+		<p class="departamento">Departamento de Anatomia - UFJF</p>
+		<div class="opcoes">
 			<a id="home" href="index.html">Home</a>
 			<a href="instrucoes.html">Instruções</a>
 			<a href="sobre.html">Sobre</a>
 			<a href="equipe.html">Equipe</a>
 		</div>
-		<div class="departamento">Departamento de Anatomia - UFJF</div>
 	</footer>
 </body>
 </html>

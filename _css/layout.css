@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+    background-image: url("../_imagens/fundo.png");
+    color: #F1F1F1;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 1.5em;
+}
+
+header {
+    height: 15vh;
+}
+
+header .logoPrincipal {
+    height: 70%;
+}
+
+header .navbar {
+	background: #F1F1F1;
+    height: 30%;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+header .navbar a img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: 20px;
+}
+
+main {
+    min-height: 75vh;
+}
+
+footer {
+    min-height: 200px;
+    justify-content: space-around;
+    background-color: #18181854;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.departamento {
+	text-align: center;
+}
+
+.opcoes{
+    text-align: center;
+}
+
+.opcoes a{	
+	font-family: 'Cinzel', sans-serif;
+	color: #FFFFFF;
+    padding: 0 10px;
+	text-decoration: none;
+    font-size: clamp(0.5rem, 4vw, 2rem);
+}
+
+.opcoes a:hover{	
+	color: #888888;
+    border-bottom: 3px solid rgb(88, 88, 88);
+}
