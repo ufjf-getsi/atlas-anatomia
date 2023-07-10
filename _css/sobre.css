@@ -1,4 +1,4 @@
-#rcorners1 {
+.rcorners1 {
 	border-radius: 25px;
 	background: rgba(255,255,255,0.6);
 	color: #000;
@@ -10,6 +10,8 @@
 
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: normal; 
+
+	margin-top: 30px;
 }
 
 .lines {
