@@ -1,0 +1,108 @@
+ul.principal {
+	margin: 0;
+	list-style: none;
+	width: 200px; 
+	vertical-align: text-bottom;
+} 
+
+ul.secundario{ 
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 200px;  
+} 
+
+.faixa{  
+	height: 50px;
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+}
+
+.tituloSistema{
+	font-size: 15pt;
+	padding-left: 5%;
+	color: white;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.menu {
+	display: flex;
+}
+
+ul.menu {
+	margin: 0;
+	padding: 0;
+	left: 200px;
+	top: 0px;
+	list-style: none;
+	width: 200px; 
+} 
+
+ul.menu2 {
+	margin: 0;
+	padding: 0;
+	left: 200px;
+	top: 0px;
+	list-style: none;
+	width: 200px; 
+} 
+
+
+ul.principal li{ 
+	position: relative;     
+}
+ul.secundario li{ 
+	position: relative;    
+} 
+   
+li ul{
+	position: absolute; 
+	display: none;
+}
+ 
+ul.principal li a{
+	display: block;
+	text-decoration: none;
+	color: white;  
+    background: linear-gradient(90deg,rgba(255,255,255, 0),rgba(255,255,255, 0.3),rgba(255,255,255, 0)); 
+	padding: 5px;
+	border:0;
+	height: 40px;
+	text-align: center;  
+} 
+
+ul.principal li button{
+	cursor: pointer;
+	font-family: 'Cinzel', sans-serif;
+	font-size: 17px;
+	display: block;
+	text-decoration: none;
+	color: white;  
+    background: linear-gradient(90deg,rgba(255,255,255, 0.02),rgba(255,255,255, 0.3),rgba(255,255,255, 0.02)); 
+	padding: 5px;
+	border:0;
+	height: 50px;
+	width: 200px;
+	text-align: center; 
+} 
+
+li:hover ul.secundario{
+	display: block;
+} 
+
+li.terciario:hover ul.menu{
+	display: block;
+}
+
+li.quaternario:hover ul.menu2{
+	display: block;
+}
+
+ul.principal li:hover{
+	background: linear-gradient(90deg,rgba(255,255,255, 0),rgba(255,255,255, 0.1),rgba(255,255,255, 0)); 
+}
+ 
+ul.secundario li:hover { 
+	position: relative;    
+	background: linear-gradient(90deg,rgba(255,255,255, 0),rgba(255,255,255, 0.25),rgba(255,255,255, 0));	
+}
+ 

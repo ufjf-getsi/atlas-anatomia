@@ -1,8 +1,3 @@
-@charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Philosopher);
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
-@import url(https://fonts.googleapis.com/css?family=Cinzel);
-
 .menu {
 	display: grid;
   	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -50,6 +45,7 @@
 		font-size: 15px;
 	}
 }
+
 p.tituloImagem {
 	text-align: left;
 	margin-top: 15px;
@@ -75,41 +71,6 @@ div#mainContent {
 	background-size: 1200px;
 	background-position: center top;
 	padding-top: 30px;
-}
-
-div#principal{
-	text-align: center;
-}
-
-div#faixa{  
-	margin-top: -10px;
-	margin-left: 5px;
-	margin-right: 5px;
-	height: 50px;
-	background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
-}
-
-div#tituloSistema{
-	position: absolute;
-	top: 9.5%;
-	font-size: 15pt;
-	padding-left: 5%;
-	color: white;
-	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
-}
-
-div#menu ul.principal{
-	display: inline-block;
-}
-
-div#submenu {
-	text-align: center;
-	padding-top: 2%;
-}
-
-div.tituloImagem {
-	color: black;
-	background: black;
 }
 
 /* Gray Scale */
