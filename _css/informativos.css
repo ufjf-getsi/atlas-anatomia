@@ -8,6 +8,8 @@
     background: rgba(255, 255, 255, 0.767);
     border: solid 0.3px #d8d8d82c;
     color: #ebebeb;
+
+    font-size: clamp(18px, 1.5em, 2vw);
 }
 
 .title {
@@ -20,6 +22,7 @@
     color: #ebebeb;
     background-color: #3b678b;
     box-shadow: inset 1px 3px 2rem rgba(18, 55, 126, 0.815);
+    text-indent: 0px;
 }
 
 .subtitle {
@@ -33,7 +36,6 @@ section {
     flex-grow: 1;
     margin: 15px;
     font-family: 'Poppins', sans-serif;
-    font-size: clamp(1vw, 18px, 2vw);
     color: #2e2e2e;
     text-indent: 50px;
 }
