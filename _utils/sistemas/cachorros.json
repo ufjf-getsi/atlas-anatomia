@@ -1,0 +1,14 @@
+{
+    "images": [
+        "https://img.freepik.com/fotos-gratis/beagles-filhotes-procurando-algo_1150-18193.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Vs2f24Wt-FwFJODmCuNz8wTZqslVTtdBRg&usqp=CAU"
+    ],
+    "titles": [
+        "dog 1",
+        "dog 2"
+    ],
+    "alfinetes": [
+        "../_utils/alfinetes/cachorros/img1.json",
+        "../_utils/alfinetes/cachorros/img2.json"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "sistemas": [
+        {
+            "id": 0,
+            "name": "Cachorros",
+            "src": "../_utils/sistemas/cachorros.json"
+        },
+        {
+            "id": 1,
+            "name": "Esquelético",
+            "src": "../_utils/sistemas/esqueletico.json"
+        }
+    ]
+}

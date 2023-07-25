@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Poppins&display=swap');
 
-#tituloSistema {
+#systemName {
     text-align: center;
     font-size: 1.5em;
     font-weight: 500;
@@ -13,7 +13,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.container {
+.card {
     width: 90%;
     margin: auto;
     background: rgba(255, 255, 255, 0.678);
@@ -21,6 +21,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#container {
+    position: relative;
+}
+
+.alfinete {
     position: relative;
 }
 
@@ -32,7 +39,10 @@ object {
 #content {
     width: clamp(600px, 80vw, 1000px);
     aspect-ratio: 1;
+    object-fit: cover;
     background-color: rgb(10, 35, 82);
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 .navigationBar {

@@ -1,0 +1,22 @@
+{
+    "pins": [
+        {
+            "posX": "1%",
+            "posY": "9%",
+            "type": true,
+            "description": "É um alfinete vermelho...."
+        },
+        {
+            "posX": "70%",
+            "posY": "60%",
+            "type": true,
+            "description": "É um alfinete vermelho...."
+        },
+        {
+            "posX": "7%",
+            "posY": "0%",
+            "type": true,
+            "description": "É um alfinete vermelho...."
+        }
+    ]
+}

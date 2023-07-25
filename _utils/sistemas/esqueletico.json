@@ -1,0 +1,14 @@
+{
+    "images": [
+        "../FotosEsqueletico/Cranio/visaoGeral/imagem_01.png",
+        "../FotosEsqueletico/Cranio/visaoGeral/imagem_01.png"
+    ],
+    "titles": [
+        "Frontal",
+        "Lateral"
+    ],
+    "alfinetes": [
+        "../_utils/alfinetes/esqueletico/img1.json",
+        "../_utils/alfinetes/esqueletico/img2.json"
+    ]
+}
