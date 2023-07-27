@@ -8,8 +8,11 @@
 	<link rel="stylesheet" type="text/css" href="../_css/layout.css">
 	<link rel="stylesheet" type="text/css" href="../_css/base.css">
 
-	<script src="../_javascript/alternativo.js"></script>
-	<script language="javascript" src="../_javascript/funcoes.js"></script>
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+	<script src="../_javascript/main.js"></script>
+	<script src="../_javascript/navigation.js"></script>
+	<script src="../_javascript/pins.js"></script>
+
 	<script>
 		document.addEventListener("DOMContentLoaded", () => {
 			const url = window.location.href.split('=');
@@ -38,30 +41,32 @@
 	<main>
 		<div class="card">
 
-			<h1 id="mainTitle"></h1>
-			<h1 id="imageTitle"></h1>
+			<h1 id="main-title"></h1>
+			<h1 id="image-title"></h1>
 
 			<div id="container">
 				<img id="content" />
-				<div id="pinsArea"></div>
-			</div>
-			
-			<button class="slideButton slideLeft" onclick="slideLeft();">
-				<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-caret-left-fill"
-					viewBox="0 0 16 16">
-					<path
-						d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
-				</svg>
-			</button>
-			<button class="slideButton slideRight" onclick="slideRight();">
-				<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
-					class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-					<path
-						d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
-				</svg>
-			</button>
+				<div id="pins-area"></div>
+				<p id="tooltip" class="hide"></p>
 
-			<div class="navigationBar">
+				<button class="slide-button slide-left" onclick="slideLeft();">
+					<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-caret-left-fill"
+						viewBox="0 0 16 16">
+						<path
+							d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+					</svg>
+				</button>
+				<button class="slide-button slide-right" onclick="slideRight();">
+					<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+						class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+						<path
+							d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+					</svg>
+				</button>
+
+			</div>
+		
+			<div class="navigation-bar">
 				<div id="navigations"></div>
 			</div>
 		</div>

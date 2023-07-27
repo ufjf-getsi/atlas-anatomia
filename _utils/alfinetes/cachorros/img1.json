@@ -3,14 +3,15 @@
         {
             "posX": "31%",
             "posY": "29%",
-            "type": true,
-            "description": "É um alfinete vermelho...."
+            "type": "red",
+            "description": "conteúdo 1 conteúdo 1 conteúdo 1 conteúdo 1 conteúdo 1 conteúdo 1 ",
+            "placement": "right"
         },
         {
             "posX": "41%",
             "posY": "39%",
-            "type": true,
-            "description": "É um alfinete vermelho...."
+            "type": "red",
+            "description": "conteúdo 2"
         }
     ]
 }

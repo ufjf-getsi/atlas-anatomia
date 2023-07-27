@@ -3,20 +3,23 @@
         {
             "posX": "1%",
             "posY": "9%",
-            "type": true,
-            "description": "É um alfinete vermelho...."
+            "type": "red",
+            "description": "É um alfinete vermelho....",
+            "placement": "bottom"
         },
         {
-            "posX": "70%",
-            "posY": "60%",
-            "type": true,
-            "description": "É um alfinete vermelho...."
+            "posX": "13%",
+            "posY": "9%",
+            "type": "blue",
+            "description": "É um alfinete vermelho....",
+            "placement": "right"
         },
         {
-            "posX": "7%",
-            "posY": "0%",
-            "type": true,
-            "description": "É um alfinete vermelho...."
+            "posX": "1%",
+            "posY": "92%",
+            "type": "blue",
+            "description": "É um alfinete vermelho....",
+            "placement": "right"
         }
     ]
 }

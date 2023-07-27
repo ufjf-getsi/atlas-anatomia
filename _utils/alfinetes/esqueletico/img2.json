@@ -3,19 +3,19 @@
         {
             "posX": "6%",
             "posY": "3%",
-            "type": true,
+            "type": "red",
             "description": "É um alfinete vermelho...."
         },
         {
             "posX": "60%",
             "posY": "20%",
-            "type": true,
+            "type": "red",
             "description": "É um alfinete vermelho...."
         },
         {
             "posX": "63%",
             "posY": "31%",
-            "type": true,
+            "type": "blue",
             "description": "É um alfinete vermelho...."
         }
     ]
