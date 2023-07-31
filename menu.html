@@ -9,19 +9,11 @@
 	<link rel="stylesheet" type="text/css" href="_css/esqueletico.css">
 </head>
 
-<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-
 <script language="javascript" src="_javascript/alternativo.js"></script>
 <script language="javascript" src="_javascript/funcoes.js"></script>
 <script type="text/javascript">
 
-	function loadFigure(mainTitle, filesPath, imagesNames) {
-		let result = [mainTitle, filesPath, imagesNames];
-		window.location.href = "FotosEsqueletico/base.html";
-		localStorage.data = JSON.stringify(result);
-	}
-
-	function teste(systemIndex) {
+	function loadSystem(systemIndex) {
 		window.location.href = `base.html?system=${systemIndex}`;
 	}
 
@@ -69,11 +61,11 @@
 									Visão Frontal
 								</button></li>
 
-							<li><button type="button" onclick="teste(0)">
+							<li><button type="button" onclick="loadSystem(0)">
 									Cachorros (TESTE)
 								</button></li>
 
-								<li><button type="button" onclick="teste(1)">
+								<li><button type="button" onclick="loadSystem(1)">
 									Cranio (TESTE)
 								</button></li>
 
