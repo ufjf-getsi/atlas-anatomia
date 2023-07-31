@@ -6,7 +6,7 @@
         },
         {
             "id": 1,
-            "url": "../_utils/sistemas/esqueletico.json"
+            "url": "../_utils/sistemas/esqueletico/esqueletico.json"
         }
     ]
 }
