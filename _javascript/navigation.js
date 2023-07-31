@@ -1,9 +1,9 @@
 // carrega as navegações para navegar pelas imagens
-const loadNavigations = (imagesNumber) => {
+const loadNavigations = (piecesNumber) => {
 
     let links = "";
     
-    for(let i=0; i<imagesNumber; i++) {
+    for(let i=0; i<piecesNumber; i++) {
         links += `<button class="selectors ${resolve(i)}" onClick=navigateToImage(${i}) id="item_${i}"></button>`
     }
 
@@ -17,11 +17,11 @@ const resolve = (i) => {
         return "selected";
 }
 
-// navega para a página/imagem de acordo com o index
+// navega para a imagem de acordo com o index
 const navigateToImage = (index) => {
     
-    // começa a carregar os alfinetes
-    loadPins(pinsURL[index])
+    // carrega os alfinetes da imagem
+    loadPins(pieces[index].pins)
 
     const backgroundImage = document.getElementById("content");
     const imageTitle = document.getElementById("image-title");
@@ -34,26 +34,26 @@ const navigateToImage = (index) => {
     selected[0] ? selected[0].classList.remove("selected") : {};
     willBeSelected.classList.add("selected");
 
-    backgroundImage.src = images[index];
-    imageTitle.innerText = titles[index];
+    backgroundImage.src = pieces[index].image;
+    imageTitle.innerText = pieces[index].title;
 }
 
 const slideRight = () => {
-	imageIndex++;
+	pieceIndex++;
 
-	if(imageIndex >= images.length){
-		imageIndex=0;
+	if(pieceIndex >= piecesNumber){
+		pieceIndex=0;
 	}
 
-	navigateToImage(imageIndex);
+	navigateToImage(pieceIndex);
 }
 
 const slideLeft = () => {
-	imageIndex--;
+	pieceIndex--;
 
-	if(imageIndex < 0){
-		imageIndex=images.length-1;
+	if(pieceIndex < 0){
+		pieceIndex=piecesNumber-1;
 	}
 
-	navigateToImage(imageIndex);
+	navigateToImage(pieceIndex);
 }

@@ -31,29 +31,36 @@
     border: none;
 }
 
-.show {
-    display: block;
-}
-
-.hide {
-    display: none;
-}
-
 #tooltip {
     max-width: 60%;
     background-color: #dfdfdff1;
     border-radius: 5px;
-    padding: 5px;
     color: #303030;
     font-family: 'Poppins', sans-serif;
-    font-size: 3vw;
+    font-size: 1em;
+    display: none;
+}
+
+#tooltip[show-data] {
+    display: block;
+}
+
+
+
+#tooltip-title {
+    color: red;
+    border-radius: 10px;
+}
+
+#tooltip-content {  
+    
 }
 
 #container {
-    background-color: rgb(49, 49, 49);
+    background-color: #111111;
     display: flex;
     position: relative;
-    border: 3px solid #000000;
+    border: 3px solid #111111;
     border-radius: 10px;
     box-shadow: 1px 3px 2rem rgba(42, 42, 43, 0.699);
 

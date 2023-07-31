@@ -1,64 +1,61 @@
-const loadPins = async (pinsImageURL) => {
-
-    const pinsData = await fetchData(pinsImageURL);
-    const { pins } = pinsData; 
+const loadPins = async (pinsData) => {
 
     const pinsArea = document.getElementById("pins-area");
     pinsArea.innerHTML= "";
 
     let pinsHTML = "";
 
-    pins.forEach((pin, i) => {
-        pinsHTML += `<button id="pin_${i}" class="pin" onmouseover="loadPinContent(${i}) " onmouseout="hideContent(${i})" style="position: absolute; left: ${pin.posX};top: ${pin.posY};">
-            ${resolvePinType(pin.type)}            
+    pinsData.forEach((pin, i) => {
+        pinsHTML += `<button id="pin_${i}" class="pin" onmouseover="loadPinContent(${i}) " onmouseout="hideContent(${i})" style="position: absolute; left: ${pin.x * 100}%;top: ${pin.y * 100}%;">
+            ${resolvePinColor(pin.color)}            
         </button>`
     });
 
     pinsArea.innerHTML += pinsHTML;
 }
 
-// carrega as informações do alfinete de acordo com a URL dos alfinetes a atual imagem
+// carrega as informações do alfinete
 const loadPinContent = async (index) => {
     
-    const pinsData = await fetchData(pinsURL[imageIndex]);
-    const { pins } = pinsData; 
-    const { description, placement } = pins[index];
+    const pinData = pieces[pieceIndex].pins[index];
+    const { title, description, placement } = pinData;
 
     const pin = document.getElementById(`pin_${index}`);
-    const tooltip = document.getElementById("tooltip");
+    const tooltipTitle = document.getElementById("tooltip-title");
+    const tooltipContent = document.getElementById("tooltip-content");
 
-    // insere a descrição como conteúdo do alfinete
-    tooltip.innerText =  description;
+    // atualiza informações do alfinete
+    tooltipTitle.innerText = title;
+    tooltipContent.innerText =  description;
 
     // carrega o alfinete na tela
-    showContent(index, pin, tooltip, placement)
+    showContent(pin, placement)
 
 }
 
 // mostra o conteudo do alfinete na tela
-const showContent = (index, pin, tooltip, placement = "bottom") => {
+const showContent = (pin, placement = "bottom") => {
+
+    const tooltip = document.getElementById("tooltip");
 
     Popper.createPopper(pin, tooltip, {
         placement
     });
 
-    tooltip.classList.remove("hide")
-    tooltip.classList.add("show")
+    tooltip.setAttribute('show-data','true');
 
 }
 
 // esconde o conteudo do alfinete
-const hideContent = (index) => {
+const hideContent = () => {
 
     const tooltip = document.getElementById("tooltip");
-    
-    tooltip.classList.remove("show")
-    tooltip.classList.add("hide")
+    tooltip.removeAttribute('show-data');
 }   
 
 // retorna a imagem de acordo com tipo
-const resolvePinType = (type) => {
-    if(type == 'red') 
+const resolvePinColor = (color) => {
+    if(color == 'red') 
         return `<img src="../_imagens/alfinete_vermelho.png" style="width: 100%" />`
     else return `<img src="../_imagens/alfinete_azul.png" style="width: 100%" />`
 }

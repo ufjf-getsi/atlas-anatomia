@@ -1,5 +1,5 @@
-let data, images, titles, pinsURL;
-let imageIndex = 0;
+let pieceIndex = 0;
+let pieces, piecesNumber;
 
 // busca os dados do JSON
 const fetchData = async (url) => {
@@ -9,34 +9,26 @@ const fetchData = async (url) => {
     return json;
 }
 
-// carrega os dados quando a tela for carregada
+// carrega os dados quando a tela for chamada
 const onLoadWindow = async (system) => {
 
-    // carrega o JSON
+    // carrega o JSON com as informações de todos os sistemas
     const url = "../_utils/sistemas.json";
-    let data = await fetchData(url)
-    
-    const systemName = data.sistemas[system].name;
-    const systemURL = data.sistemas[system].src;
+    const data = await fetchData(url)
+    const systemURL = data.systems[system].url;
 
-    // dados do sistema ( imagens, titulos...)
+    // dados do sistema
     const systemData = await fetchData(systemURL)
+    const { systemName } = systemData;
+    pieces = systemData.pieces; 
+    piecesNumber = pieces.length;
 
-    images = systemData.images;
-    titles = systemData.titles;
-    pinsURL = systemData.alfinetes;
-    const imagesNumber = images.length;
+    // inicar navegando para a primeira imagem 
+    loadNavigations(piecesNumber)
+    navigateToImage(pieceIndex)
 
-    loadPins(pinsURL[imageIndex]);
-    loadNavigations(imagesNumber)
-
-    // seleciona os elementos no html pra manipular
-    const backgroundImage = document.getElementById("content");
-    const imageTitle = document.getElementById("image-title");
+    // define o título do sistema
     const mainTitle = document.getElementById("main-title");
-    
-    backgroundImage.src = images[imageIndex];
-    imageTitle.innerText = titles[imageIndex];
     mainTitle.innerHTML= "Sistema " + systemName;
 
 }

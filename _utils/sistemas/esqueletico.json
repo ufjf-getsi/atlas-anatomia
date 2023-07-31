@@ -1,14 +1,25 @@
 {
-    "images": [
-        "../FotosEsqueletico/Cranio/visaoGeral/imagem_01.png",
-        "../FotosEsqueletico/Cranio/visaoGeral/imagem_01.png"
-    ],
-    "titles": [
-        "Frontal",
-        "Lateral"
-    ],
-    "alfinetes": [
-        "../_utils/alfinetes/esqueletico/img1.json",
-        "../_utils/alfinetes/esqueletico/img2.json"
+    "systemName": "Esquelético",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Cranio Frontal",
+            "description": "ddddddddd",
+            "image": "../FotosEsqueletico/Cranio/visaoGeral/imagem_01.png",
+            "width": 800,
+            "height": 800,
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Dente 1",
+                    "description": "Alfinete 1",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.50,
+                    "y": 0.70,
+                    "placement": "right"
+                }
+            ]
+        }
     ]
 }
