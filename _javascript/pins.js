@@ -55,8 +55,15 @@ const hideContent = () => {
 
 // retorna a imagem de acordo com tipo
 const resolvePinColor = (color) => {
-    if(color == 'red') 
+
+    const tooltipTitle = document.getElementById("tooltip-title");
+
+    if(color == 'red') {
+        tooltipTitle.setAttribute('color','red');
         return `<img src="../_imagens/alfinete_vermelho.png" style="width: 100%" />`
-    else return `<img src="../_imagens/alfinete_azul.png" style="width: 100%" />`
+    } else {
+        tooltipTitle.setAttribute('color','blue');
+        return `<img src="../_imagens/alfinete_azul.png" style="width: 100%" />`
+    }
 }
 
