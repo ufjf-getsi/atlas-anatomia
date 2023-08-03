@@ -77,33 +77,6 @@
 	}
 }
 
-p.tituloImagem {
-	text-align: left;
-	margin-top: 15px;
-	margin-left: 450px;
-	float: left;
-	color: black;
-	font-family: arial;
-	font-weight: bold;
-	font-size: 130%;
-}
-
-p#loadExternalFile {
-	height: 750px;
-	width: 800px;
-	text-align: center;
-	margin-left: -500px;
-	margin-top: 100px;
-}
-
-div#mainContent {
-	background-image: url("../_imagens/BaseFigura.png");
-	background-repeat: no-repeat;
-	background-size: 1200px;
-	background-position: center top;
-	padding-top: 30px;
-}
-
 /* Gray Scale */
 .hover08 figure img {
 	-webkit-filter: grayscale(100%);
@@ -153,65 +126,6 @@ div#mainContent {
 .nomes td {
 	padding-top: 10px;
 	vertical-align: top;
-}
-
-.slideButton {
-	width: 60px;
-	height: 60px;
-	background: rgba(255, 255, 255, 0.5);
-	color: rgba(0, 0, 0, 0.3);
-	border: none;
-	cursor: pointer;
-	border-radius: 15%;
-	display: flex;
-	left: 50%;
-	margin-top: 340px;
-	position: absolute;
-	box-shadow: 4px 4px #222;
-}
-
-.slideButton:active {
-	box-shadow: 2px 2px #222;
-	transform: translate(2px, 2px);
-}
-
-.slideLeft {
-	margin-left: -600px;
-}
-
-.slideRight {
-	margin-left: 560px;
-}
-
-#container {
-	margin: auto;
-	margin-top: -200px;
-	z-index: 1;
-}
-
-.child {
-	text-align: center;
-	width: 10px;
-	height: 10px;
-	background: rgba(255, 255, 255, 0.3);
-	float: left;
-	margin-top: 13px;
-	margin-right: 10px;
-	cursor: pointer;
-	border-radius: 2px;
-}
-
-.selected {
-	background: rgba(255, 255, 255, 0.9);
-}
-
-.mainTitle {
-	margin-left: 5px;
-	margin-right: 5px;
-	height: 50px;
-	background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-	color: white;
-	font-size: 250%;
 }
 
 .mainSystemImage {

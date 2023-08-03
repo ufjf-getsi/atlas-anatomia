@@ -1,0 +1,35 @@
+{
+    "systemName": "Esquelético",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Cranio Frontal",
+            "description": "ddddddddd",
+            "image": "https://img.freepik.com/fotos-gratis/beagles-filhotes-procurando-algo_1150-18193.jpg",
+            "width": 800,
+            "height": 800,
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "pin 0",
+                    "description": "...",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.1,
+                    "y": 0.12,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "pin 0",
+                    "description": "...",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.12,
+                    "placement": "right"
+                }
+            ]
+        }
+    ]
+}

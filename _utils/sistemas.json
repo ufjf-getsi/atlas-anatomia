@@ -1,0 +1,12 @@
+{
+    "systems": [
+        {
+            "id": 0,
+            "url": "../_utils/sistemas/cachorros.json"
+        },
+        {
+            "id": 1,
+            "url": "../_utils/sistemas/esqueletico/esqueletico.json"
+        }
+    ]
+}
