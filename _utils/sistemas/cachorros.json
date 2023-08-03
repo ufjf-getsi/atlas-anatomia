@@ -18,6 +18,16 @@
                     "x": 0.1,
                     "y": 0.12,
                     "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "pin 0",
+                    "description": "...",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.12,
+                    "placement": "right"
                 }
             ]
         }
