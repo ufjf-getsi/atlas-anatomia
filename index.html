@@ -7,8 +7,17 @@
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="_css/layout.css">
 	<link rel="stylesheet" href="_css/estilo.css">
+	<link rel="stylesheet" href="_css/novoMenu.css">
 </head>
-<script language="javascript" src="_javascript/funcoes.js"></script>
+
+<script language="javascript" src="_javascript/home.js"></script>
+<script language="javascript" src="_javascript/menu.js"></script>
+
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		loadSystems()
+	})
+</script>
 
 <body>
 	<header>
@@ -25,78 +34,19 @@
 
 	<main>
 		<p class="selecione"> Selecione um Sistema:</p>
-		<div class="menu">
-			<div class="card">
-				<a href="menu.html">
-					<img class='imgSistema' src='_imagens/botoes/esqueletico.jpg'>
-				</a>
-				<div class="title"><a href="menu.html"> Esquelético</a></div>
-			</div>
-
-			<div class="card">
-				<a href="esqueletico.html">
-					<img class='imgSistema' src='_imagens/botoes/articular.jpg'>
-				</a>
-				<div class="title"><a href="esqueletico.html">Articular</a></div>
-			</div>
-
-			<div class="card">
-				<a href="esqueletico.html">
-					<img class='imgSistema' src='_imagens/botoes/muscular.jpg'>
-				</a>
-				<div class="title"><a href="esqueletico.html">Muscular</a></div>
-			</div>
-
-			<div class="card">
-				<a href="esqueletico.html">
-					<img class='imgSistema' src='_imagens/botoes/nervoso.jpg'>
-				</a>
-				<div class="title"><a href="esqueletico.html">Nervoso</a></div>
-			</div>
-
-			<div class="card">
-				<a href="esqueletico.html">
-					<img class='imgSistema' src='_imagens/botoes/circulatorio.jpg'>
-				</a>
-				<div class="title"><a href="esqueletico.html">Circulatório</a></div>
-			</div>
-
-			<div class="card">
-				<a href="esqueletico.html">
-					<img class='imgSistema' src='_imagens/botoes/respiratorio.jpg'>
-				</a>
-				<div class="title"><a href="esqueletico.html">Respiratório</a></div>
-			</div>
-
-			<div class="card">
-				<a href="esqueletico.html">
-					<img class='imgSistema' src='_imagens/botoes/digestorio.jpg'>
-				</a>
-				<div class="title"><a href="esqueletico.html">Digestório</a></div>
-			</div>
-
-			<div class="card">
-				<a href="esqueletico.html">
-					<img class='imgSistema' src='_imagens/botoes/urinario.jpg'>
-				</a>
-				<div class="title"><a href="esqueletico.html">Urinário</a></div>
-			</div>
-
-			<div class="card">
-				<a href="esqueletico.html">
-					<img class='imgSistema' src='_imagens/botoes/genfem.jpg'>
-				</a>
-				<div class="title"><a href="esqueletico.html">Genital Feminino</a></div>
-			</div>
-
-			<div class="card">
-				<a href="esqueletico.html">
-					<img class='imgSistema' src='_imagens/botoes/genmasc.jpg'>
-				</a>
-				<div class="title"><a href="esqueletico.html">Genital Masculino</a></div>
-			</div>
+		<div id="systems-grid"></div>
+		<div id="menu">
+			<button id="menu-container" onclick="toggleMenu()">
+				<div></div>
+				<div></div>
+				<div></div>
+			</button>
 		</div>
 	</main>
+
+	<div id="menu-sidebar-container">
+		a
+	</div>
 
 	<footer>
 		<hr>

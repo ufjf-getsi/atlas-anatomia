@@ -1,4 +1,4 @@
-.menu {
+#systems-grid {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -19,7 +19,7 @@
     position: relative;
 }
 
-.menu .card {
+#systems-grid .card {
 	order: inherit;
 	
 	display: grid;
@@ -31,7 +31,7 @@
 
 }
 
-.menu .card a{
+#systems-grid .card a{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -40,13 +40,13 @@
 	height: 100%;
 }
 
-.menu .card a img{
+#systems-grid .card a img{
 	width: 100%;
 	aspect-ratio: 1;
 
 }
 
-.menu .title, .menu .title a {
+#systems-grid .title, #systems-grid .title a {
 	color: #ffffff;
 	text-shadow: 2px 2px 2px rgba(0,0,0,1);
 	display: flex;
@@ -64,17 +64,6 @@
 	height: 100%;	
 	border-radius: 8%;
 	box-shadow: -10px 10px 10px rgba(0,0,0,0.8);
-}
-
-@media screen and (max-width:400px) {
-	.view {
-		width: 80px;
-		height: 80px;
-	}
-
-	.menu .title {
-		font-size: 15px;
-	}
 }
 
 /* Gray Scale */

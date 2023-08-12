@@ -1,0 +1,76 @@
+#menu-container {
+    width: 30px;
+    aspect-ratio: 1;
+    padding: 0;
+    border: none;
+    background: transparent;
+    position: relative;
+    background-color: white;
+}
+
+#menu-container div {
+    background-color: rgb(37, 37, 37);
+    height: 6px;
+    width: 100%;
+    transition: 0.3s all ease;
+    position: absolute;
+}
+
+#menu-container :nth-child(1) {
+    top: 4px;
+}
+
+#menu-container :nth-child(2) {
+    top: 12px;
+}
+
+#menu-container :nth-child(3) {
+    top: 20px;
+}
+
+#menu-container.active :nth-child(1) {
+    transform: rotate(45deg);
+    top: 12px;
+}
+
+#menu-container.active :nth-child(2) {
+    opacity: 0;
+}
+
+#menu-container.active :nth-child(3) {
+    transform: rotate(-45deg);
+    top: 12px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+main {
+    position: relative;
+
+}
+
+#menu-sidebar-container {
+    width: 45vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    transition: 0.75s all ease;
+    transform: translateX(45vw);
+}
+
+#menu-sidebar-container.active {
+    transform: translateX(0); 
+}
+
+.system {
+    font-weight: bold;
+    background-color: gray;
+}
+
+.subsystem {
+    background-color: rgb(185, 185, 185);
+}
+
