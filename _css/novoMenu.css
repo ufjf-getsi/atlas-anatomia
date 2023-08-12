@@ -46,11 +46,6 @@ body {
     overflow-x: hidden;
 }
 
-main {
-    position: relative;
-
-}
-
 #menu-sidebar-container {
     width: 45vw;
     position: absolute;

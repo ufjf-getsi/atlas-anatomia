@@ -1,0 +1,64 @@
+#systems-grid {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 3vh;
+	width: 80vw;
+	margin: auto;
+}
+
+#systems-grid .card {
+	order: inherit;
+	
+	display: grid;
+	grid-template-rows: 5fr 1fr;
+	align-items: center;
+	justify-content: center;
+	width: clamp(150px, 20%, 180px);
+	aspect-ratio: 1;
+
+}
+
+#systems-grid .card a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+#systems-grid .card a img{
+	width: 100%;
+	aspect-ratio: 1;
+	border-radius: 8%;
+	box-shadow: -10px 10px 10px rgba(0,0,0,0.8);
+	filter: grayscale(0.8);
+}
+
+#systems-grid .card a img:hover{
+	filter: grayscale(0);
+}
+
+#systems-grid .title, #systems-grid .title a {
+	color: #ffffff;
+	text-shadow: 2px 2px 2px rgba(0,0,0,1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.selecione{
+	text-align: center;
+}
+
+
+
+
+
+
+

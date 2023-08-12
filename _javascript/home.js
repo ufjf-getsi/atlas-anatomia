@@ -20,7 +20,7 @@ const loadSystems = async () => {
         html += `
         <div class="card">
             <a href="menu.html">
-                <img class='imgSistema' src='${data.image}'>
+                <img src='${data.image}'>
             </a>
             <div class="title"><a href="menu.html">${data.systemName}</a></div>
         </div>
