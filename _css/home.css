@@ -10,7 +10,7 @@
 	margin: auto;
 }
 
-#systems-grid .card {
+#systems-grid .system-card {
 	order: inherit;
 	
 	display: grid;
@@ -22,7 +22,7 @@
 
 }
 
-#systems-grid .card a{
+#systems-grid .system-card a{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -31,7 +31,7 @@
 	height: 100%;
 }
 
-#systems-grid .card a img{
+#systems-grid .system-card a img{
 	width: 100%;
 	aspect-ratio: 1;
 	border-radius: 8%;
@@ -39,11 +39,11 @@
 	filter: grayscale(0.8);
 }
 
-#systems-grid .card a img:hover{
+#systems-grid .system-card a img:hover{
 	filter: grayscale(0);
 }
 
-#systems-grid .title, #systems-grid .title a {
+#systems-grid .system-name, #systems-grid .system-name a {
 	color: #ffffff;
 	text-shadow: 2px 2px 2px rgba(0,0,0,1);
 	display: flex;

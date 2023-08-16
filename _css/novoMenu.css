@@ -47,17 +47,27 @@ body {
 }
 
 #menu-sidebar-container {
+
+    display: none;
+    
     width: 45vw;
     position: absolute;
     top: 0;
     right: 0;
-    background-color: red;
+    background-color: rgb(41, 41, 41);
     transition: 0.75s all ease;
     transform: translateX(45vw);
+    border-bottom-left-radius: 15px;
 }
 
 #menu-sidebar-container.active {
     transform: translateX(0); 
+}
+
+#menu-sidebar-container a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
 }
 
 .system {

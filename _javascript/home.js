@@ -1,6 +1,7 @@
 
 // busca os dados do JSON
 const fetchData = async (url) => {
+    
     const data = await fetch(url);
     const json = await data.json();
 
@@ -18,11 +19,11 @@ const loadSystems = async () => {
 
     systems.forEach(data => {
         html += `
-        <div class="card">
+        <div class="system-card">
             <a href="menu.html">
                 <img src='${data.image}'>
             </a>
-            <div class="title"><a href="menu.html">${data.systemName}</a></div>
+            <div class="system-name"><a href="menu.html">${data.systemName}</a></div>
         </div>
         `
     });

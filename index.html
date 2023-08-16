@@ -7,15 +7,17 @@
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="_css/layout.css">
 	<link rel="stylesheet" href="_css/home.css">
+	<link rel="stylesheet" href="_css/informativos.css">
 	<link rel="stylesheet" href="_css/novoMenu.css">
 </head>
 
-<script language="javascript" src="_javascript/home.js"></script>
 <script language="javascript" src="_javascript/menu.js"></script>
+<script language="javascript" src="_javascript/home.js"></script>
+<script language="javascript" src="_javascript/router.js"></script>
 
 <script>
 	document.addEventListener("DOMContentLoaded", () => {
-		loadSystems()
+        loadSystems();
 	})
 </script>
 
@@ -33,8 +35,6 @@
 	</header>
 
 	<main>
-		<p class="selecione"> Selecione um Sistema:</p>
-		<div id="systems-grid"></div>
 		<div id="menu">
 			<button id="menu-container" onclick="toggleMenu()">
 				<div></div>
@@ -42,11 +42,75 @@
 				<div></div>
 			</button>
 		</div>
-	</main>
+	
+		<div id="root">
+			<p class="selecione"> Selecione um Sistema:</p>
+			<div id="systems-grid"></div>
+		</div>
+	
+		<div id="menu-sidebar-container">
+			<a onclick="navigate('/')">Home</a>
+			<a onclick="navigate('/guide')">Instruções</a>
+			<a onclick="navigate('/team')">Equipe</a>
+			<a onclick="navigate('/about')">Sobre</a>
+		</div>
 
-	<div id="menu-sidebar-container">
-		a
-	</div>
+		<section id="about">
+			<div class="card">
+				<h1 class="title">SOBRE</h1>
+				<p>
+					As figuras dos atlas convencionais nem sempre refletem a realidade das estruturas observadas no laboratório de anatomia.
+					Diante da necessidade de um maior contato dos alunos com as peças anatômicas, os professores e alunos do Departamento de Anatomia
+					e da Faculdade de Ciência da Computação da Universidade Federal de Juiz de Fora, criaram um <b>Atlas Interativo de Anatomia</b>. 
+				</p>
+				<p>
+					O Atlas é uma forma do aluno rever as peças estudadas no anatômico e ao mesmo tempo consolidar, mesmo longe do laboratório, o
+					conteúdo ministrado durante as aulas práticas.
+				</p>
+			</div>		
+		</section>
+	
+		<section id="guide">
+			<div class="card">
+				<h1 class="title">INSTRUÇÕES DO ATLAS</h1>
+				<p class="subtitle">Passo a Passo</p>
+				<ul>
+					<li>Inicialmente você deve escolher o sistema que deseja estudar</li>
+					<li>Dentro do sistema, escolha uma subdivisão na barra de menus</li>
+					<li>Para navegar entre as figuras, clique nos botões à esquerda e à direita</li>
+					<li>Nas figuras, serão visualizados alfinetes nas cores vermelha e azul</li>
+					<li>Passe o mouse sobre os alfinetes para identificar a estrutura marcada</li>
+					<li>Os alfinetes vermelhos, quando clicados, apresentam informações adicionais sobre a estrutura.</li>
+				</ul>
+			</div>		
+		</section>
+	
+		<section id="team">
+			<div class="card">
+				<div class="flex">
+					<div>
+						<h2 class="title">Coordenadores do Projeto</h2>
+						<ul>
+							<li>Prof. Dra. Alice Beleigolli Rezende</li>
+							<li>Prof. Dr André Gustavo Fernandes de Oliveira</li>
+							<li>Prof. Dr. Igor de Oliveira Knop </li>
+						</ul>
+					</div>
+					
+					<div>
+						<h2 class="title">Membros de Extensão</h2>
+						<ul>
+							<li>Beatriz Oliveira Rodrigues</li>
+							<li>Clareliz Diógenes Santos</li>
+							<li>João Pedro Martins Cruz</li>
+							<li>Nina Aguiar Ferreira</li>
+							<li>Rafael Machado Malatesta</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
 
 	<footer>
 		<hr>
@@ -58,5 +122,4 @@
 		</div>
 	</footer>
 </body>
-
 </html>
