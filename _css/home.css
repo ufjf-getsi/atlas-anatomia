@@ -1,25 +1,18 @@
 #systems-grid {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	align-content: center;
-	flex-direction: row;
-	flex-wrap: wrap;
-	gap: 3vh;
-	width: 80vw;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	width: 85vw;
 	margin: auto;
 }
 
 #systems-grid .system-card {
 	order: inherit;
-	
 	display: grid;
 	grid-template-rows: 5fr 1fr;
 	align-items: center;
 	justify-content: center;
 	width: clamp(150px, 20%, 180px);
 	aspect-ratio: 1;
-
 }
 
 #systems-grid .system-card a{

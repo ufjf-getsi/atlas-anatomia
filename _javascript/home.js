@@ -1,13 +1,3 @@
-
-// busca os dados do JSON
-const fetchData = async (url) => {
-    
-    const data = await fetch(url);
-    const json = await data.json();
-
-    return json;
-}
-
 const loadSystems = async () => {
 
     const url = "../_utils/sistemas.json";
@@ -20,10 +10,10 @@ const loadSystems = async () => {
     systems.forEach(data => {
         html += `
         <div class="system-card">
-            <a href="menu.html">
+            <a onclick="navigate('${data.path}', '${data.id}')">
                 <img src='${data.image}'>
             </a>
-            <div class="system-name"><a href="menu.html">${data.systemName}</a></div>
+            <div class="system-name"><a>${data.systemName}</a></div>
         </div>
         `
     });

@@ -10,11 +10,11 @@ const fetchData = async (url) => {
 }
 
 // carrega os dados quando a tela for chamada
-const onLoadWindow = async (system) => {
+const loadSystemContent = async (system) => {
 
     // carrega o JSON com as informações de todos os sistemas
     const url = "../_utils/sistemas.json";
-    const data = await fetchData(url)
+    const data = await fetchData(url);
     const systemURL = data.systems[system].url;
 
     // dados do sistema

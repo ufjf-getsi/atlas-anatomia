@@ -1,55 +1,89 @@
 const routes = {
-    "/": {
-        path: "/index.html",
-        title: "Home",
+    "#home": {
+        atribute: "home",
     },
-    404: {
-        path: "/index.html",
-        title: "Home",
+    "#instrucoes": {
+        atribute: "guide",
     },
-    "/team": {
-        path: "/equipe.html",
-        title: "Equipe"
+    "#equipe": {
+        atribute: "team",
     },
-    "/guide": {
-        path: "/instrucoes.html",
-        title: "Equipe"
+    "#sobre": {
+        atribute: "about",
     },
-    "/about": {
-        path: "/sobre.html",
-        title: "Equipe"
-    }
+    "#esqueletico": {
+        atribute: "atlas",
+        id: 0,
+    },
+    "#articular": {
+        atribute: "atlas",
+        id: 1,
+    },
+    "#muscular": {
+        atribute: "atlas",
+        id: 2,
+    },
+    "#nervoso": {
+        atribute: "atlas",
+        id: 3,
+    },
+    "#circulatorio": {
+        atribute: "atlas",
+        id: 4,
+    },
+    "#respiratorio": {
+        atribute: "atlas",
+        id: 5,
+    },
+    "#digestorio": {
+        atribute: "atlas",
+        id: 6,
+    },
+    "#urinario": {
+        atribute: "atlas",
+        id: 7,
+    },
+    "#genital-feminino": {
+        atribute: "atlas",
+        id: 8,
+    },
+    "#genital-masculino": {
+        atribute: "atlas",
+        id: 9,
+    },
 }
 
+const navigate = (path, systemID) => {
 
-const navigate = (path) => {
     window.history.pushState(
         {},
         path,
         window.location.origin + path
     )
 
-    handler();
+    handler(path, systemID);
 }
 
 window.onpopstate = () => {
-    const root = document.getElementById("root");
-    root.innerHTML = routes[window.location.pathname];
-
     handler()
 }
 
+window.onhashchange = () => {
+    handler()
+}
 
-const handler = async () => {
-    const location = window.location.pathname;
+const handler = async (location, systemID) => {
 
-    if(!location.length) {
-        location = "/";
+    // caso nao tenha recebido por parâmetro
+    if(!location) {
+        location = window.location.hash
+        systemID = routes[location].id || 0;
     }
+        
+    const body = document.getElementsByTagName("body")[0];
+    body.setAttribute("show-data", routes[location].atribute)
 
-    const route = routes[location] || routes[404];
-    const html = await fetch(route.path).then(data => data.text());
-
-    const root = document.getElementById("root");
-    root.innerHTML = html;
+    //carrega as infomações do sistema apenas se estiver na seção do atlas
+    if(routes[location].atribute == "atlas")
+        loadSystemContent(systemID)
 }
