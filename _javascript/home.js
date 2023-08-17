@@ -1,10 +1,11 @@
-const loadSystems = async () => {
+// ARQUIVO RESPONSÁVEL POR MONTAR OS CARDS DA HOME
+// A PARTIR DO JSON GERAL DE SISTEMAS
 
-    const url = "../_utils/sistemas.json";
-    const { systems } = await fetchData(url);
+const loadSystemsCards = async () => {
+
+    const systems = await getAllSystemsData();
 
     const container = document.getElementById("systems-grid");
-
     let html = "";
 
     systems.forEach(data => {

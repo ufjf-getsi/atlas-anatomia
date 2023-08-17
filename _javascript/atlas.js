@@ -1,21 +1,14 @@
+// ARQUIVO RESPONSÁVEL POR MONTAR A SEÇÃO DAS IMAGENS E INFORMAÇÕES 
+// A PARTIR DO JSON ESPECÍFICO DE CADA SISTEMA
+
 let pieceIndex = 0;
 let pieces, piecesNumber;
-
-// busca os dados do JSON
-const fetchData = async (url) => {
-    const data = await fetch(url);
-    const json = await data.json();
-
-    return json;
-}
 
 // carrega os dados quando a tela for chamada
 const loadSystemContent = async (system) => {
 
-    // carrega o JSON com as informações de todos os sistemas
-    const url = "../_utils/sistemas.json";
-    const data = await fetchData(url);
-    const systemURL = data.systems[system].url;
+    const data = await getAllSystemsData()
+    const systemURL = data[system].url;
 
     // dados do sistema
     const systemData = await fetchData(systemURL)
@@ -29,7 +22,7 @@ const loadSystemContent = async (system) => {
 
     // define o título do sistema
     const mainTitle = document.getElementById("main-title");
-    mainTitle.innerHTML= "Sistema " + systemName;
+    mainTitle.innerHTML = systemName;
 
 }
 

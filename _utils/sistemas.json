@@ -12,63 +12,63 @@
             "systemName": "Articular",
             "id": 1,
             "path": "#articular",
-            "url": "../_utils/sistemas/esqueletico/esqueletico.json",
+            "url": "../_utils/sistemas/breve.json",
             "image": "././_utils/imagens/articular.jpg"
         },
         {
             "systemName": "Muscular",
             "id": 2,
             "path": "#muscular",
-            "url": "../_utils/sistemas/esqueletico/esqueletico.json",
+            "url": "../_utils/sistemas/breve.json",
             "image": "././_utils/imagens/muscular.jpg"
         },
         {
             "systemName": "Nervoso",
             "id": 3,
             "path": "#nervoso",
-            "url": "../_utils/sistemas/esqueletico/esqueletico.json",
+            "url": "../_utils/sistemas/breve.json",
             "image": "././_utils/imagens/nervoso.jpg"
         },
         {
             "systemName": "Circulatório",
             "id": 4,
             "path": "#circulatorio",
-            "url": "../_utils/sistemas/esqueletico/esqueletico.json",
+            "url": "../_utils/sistemas/breve.json",
             "image": "././_utils/imagens/circulatorio.jpg"
         },
         {
             "systemName": "Respiratório",
             "id": 5,
             "path": "#respiratorio",
-            "url": "../_utils/sistemas/esqueletico/esqueletico.json",
+            "url": "../_utils/sistemas/breve.json",
             "image": "././_utils/imagens/respiratorio.jpg"
         },
         {
-            "systemName": "Digestorio",
+            "systemName": "Digestório",
             "id": 6,
             "path": "#digestorio",
-            "url": "../_utils/sistemas/esqueletico/esqueletico.json",
+            "url": "../_utils/sistemas/breve.json",
             "image": "././_utils/imagens/digestorio.jpg"
         },
         {
             "systemName": "Urinário",
             "id": 7,
             "path": "#urinario",
-            "url": "../_utils/sistemas/esqueletico/esqueletico.json",
+            "url": "../_utils/sistemas/breve.json",
             "image": "././_utils/imagens/urinario.jpg"
         },
         {
             "systemName": "Genital Feminino",
             "id": 8,
             "path": "#genital-feminino",
-            "url": "../_utils/sistemas/esqueletico/esqueletico.json",
+            "url": "../_utils/sistemas/breve.json",
             "image": "././_utils/imagens/genfem.jpg"
         },
         {
             "systemName": "Genital Masculino",
             "id": 9,
             "path": "#genital-masculino",
-            "url": "../_utils/sistemas/esqueletico/esqueletico.json",
+            "url": "../_utils/sistemas/breve.json",
             "image": "././_utils/imagens/genmasc.jpg"
         }
     ]

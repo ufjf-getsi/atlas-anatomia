@@ -59,14 +59,14 @@
 
 #menu-sidebar-container {
     width: 35vw;
-    height: 100vh;
+    min-height: 100vh;
     position: absolute;
     top: 0;
     right: 0;
     background-color: rgb(41, 41, 41);
     transition: 0.75s all ease;
     border-bottom-left-radius: 15px;
-    transform: translateY(-100vh);
+    transform: translateY(-100%);
     z-index: 99;
 }
 

@@ -12,11 +12,12 @@
 	<link rel="stylesheet" href="_css/base.css">
 </head>
 
-<script src="_javascript/menu.js"></script>
-<script src="_javascript/home.js"></script>
 <script src="https://unpkg.com/@popperjs/core@2"></script>
-<script src="_javascript/base.js"></script>
-<script src="_javascript/navigation.js"></script>
+<script src="_javascript/menu.js"></script>
+<script src="_javascript/utils.js"></script>
+<script src="_javascript/home.js"></script>
+<script src="_javascript/atlas.js"></script>
+<script src="_javascript/navigations.js"></script>
 <script src="_javascript/pins.js"></script>
 <script src="_javascript/router.js"></script>
 
@@ -26,17 +27,14 @@
 		document.getElementById("content").addEventListener("mousedown", (e) => {
 			showCoordinates(e)
 		})
-	})
-</script>
 
-<script>
-	document.addEventListener("DOMContentLoaded", () => {
-        loadSystems();
+		// inicia a aplicação
+		loadSystemsCards();
 		loadMenu();		
 	})
 </script>
 
-<body show-data="home">
+<body>
 	<header>
 		<div class="navbar">
 			<a href="https://www2.ufjf.br/ufjf/">
