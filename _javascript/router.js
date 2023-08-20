@@ -13,6 +13,9 @@ let routes = {
     "#sobre": {
         atribute: "about",
     },
+    "#error": {
+        atribute: "error"
+    }
 }
 
 // adiciona às rotas padrões as navegações dos sistemas 
@@ -29,14 +32,15 @@ const createSystemRoutes = async () => {
 createSystemRoutes()
 
 const navigate = (path, systemID) => {
-
-    window.history.pushState(
-        {},
-        path,
-        window.location.origin + path
-    )
-
     handler(path, systemID);
+
+    if(path != "#error") {
+        window.history.pushState(
+            {},
+            path,
+            window.location.origin + path
+        )
+    }
 }
 
 window.onpopstate = () => {
@@ -50,15 +54,23 @@ const handler = async (location, systemID) => {
     // caso nao tenha recebido por parâmetro
     if(!location) {
         location = window.location.hash
-        systemID = routes[location].id || 0;
+        systemID = routes[location] ? routes[location].id : 0;
     }
-        
-    const body = document.getElementsByTagName("body")[0];
-    body.dataset.show = routes[location].atribute;
 
-    //carrega as infomações do sistema apenas se estiver na seção do atlas
-    if(routes[location].atribute == "atlas")
-        loadSystemContent(systemID)
+    const body = document.getElementsByTagName("body")[0];
+
+    //caso seja uma rota inválida, carrega a pág de erro 403
+    if(!routes[location]) {
+        body.dataset.show = "error";
+    } else {
+        
+        body.dataset.show = routes[location].atribute;
+
+        //carrega as infomações do sistema apenas se estiver na seção do atlas
+        if(routes[location].atribute == "atlas") {
+            loadSystemContent(systemID)
+        }
+    } 
 }
 
 

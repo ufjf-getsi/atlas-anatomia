@@ -12,7 +12,7 @@ const loadSystemsCards = async () => {
         html += `
         <div class="system-card">
             <a onclick="navigate('${data.path}', '${data.id}')">
-                <img src='${data.image}'>
+                <img src='${data.image}' class="${isSystemReady(data.url)}">
             </a>
             <p class="system-name">${data.systemName}</p>
         </div>
@@ -21,4 +21,10 @@ const loadSystemsCards = async () => {
 
     container.innerHTML = html;
 
+}
+
+const isSystemReady = (url) => {
+    if(!url)
+        return "blocked"
+    else return "";
 }

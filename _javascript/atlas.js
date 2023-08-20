@@ -10,6 +10,12 @@ const loadSystemContent = async (system) => {
     const data = await getAllSystemsData()
     const systemURL = data[system].url;
 
+     //se o sistema ainda nao tiver uma URL, navega para a página de erro
+    if(!systemURL) {
+        navigate("#error")
+        return;
+    }
+
     // dados do sistema
     const systemData = await fetchData(systemURL)
     const { systemName } = systemData;
