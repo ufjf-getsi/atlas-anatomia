@@ -10,7 +10,8 @@ body {
     font-family: 'Cinzel', sans-serif;
     position: relative;
     min-height: 100vh;
-    font-size: clamp(16px, 1.5em, 22px);
+    font-size: clamp(18px, 2vw, 20px);
+    scroll-behavior: smooth;
 }
 
 header {
@@ -51,7 +52,7 @@ footer {
     height: 50px;
     text-align: center;
     background-color: #18181854;
-    font-size: 0.75em;
+    font-size: 0.85em;
 }
 
 .opcoes{

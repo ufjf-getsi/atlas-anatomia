@@ -96,7 +96,9 @@ const toggleMenu = () => {
     
     const menu = document.getElementById("menu-container");
     const sidebar = document.getElementById("menu-sidebar-container");
-    
+    const sidebarWrapper = document.getElementById("sidebar-wrapper");
+
+    sidebarWrapper.classList.toggle("active")
     menu.classList.toggle("active");
     sidebar.classList.toggle("active");
 }

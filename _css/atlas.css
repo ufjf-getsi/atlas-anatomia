@@ -2,8 +2,7 @@
 
 .image-card {
     width: 90%;
-    margin: auto;
-    padding: 0px 10px 100px 10px;
+    margin: 25px auto;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -14,19 +13,21 @@
 #main-title {
     font-family: 'Cinzel', sans-serif;
     font-weight: 700;
-    font-size: 2em;
     color: #313131;
+    padding-top: 15px;
+    margin: 0;
 }
 
 #image-title {
     text-align: center;
-    font-size: 1.5em;
     color: #303030;
     font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    margin: 0;
 }
 
 .pin {
-    width: max(60px, 5vw);
+    width: clamp(30px, 10vw, 50px);
     background: none;
     border: none;
 }
@@ -37,7 +38,6 @@
     border-radius: 5px;
     color: #303030;
     font-family: 'Poppins', sans-serif;
-    font-size: clamp(25px, 5vw, 30px);
     padding: 5px;
     display: none;
     box-shadow: 1px 3px 2rem rgba(42, 42, 43, 0.699);
@@ -74,11 +74,10 @@
     background-color: #111111;
     display: flex;
     position: relative;
-    border: 2px solid #111111;
+    border: 1px solid #333333;
     border-radius: 10px;
     box-shadow: 1px 3px 2rem rgba(42, 42, 43, 0.699);
-
-    width: clamp(300px, 80vw, 1000px);
+    width: clamp(300px, 80vw, 600px);
 }
 
 #content {
@@ -96,8 +95,8 @@
 }
 
 .selectors {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin: 5px;
     background-color: #5757579c;
     border-radius: 50%;
@@ -109,15 +108,17 @@
 }
 
 .slide-button {
-    width: 60px;
-    height: 60px;
+    width: 8%;
+    height: 8%;
     background-color: #ffffffc4;
     color: #303030;
     border: none;
     cursor: pointer;
     border-radius: 25%;
     display: flex;
-    box-shadow: 4px 4px rgb(65, 65, 65);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2rem rgb(65, 65, 65);
     position: absolute;
     top: 50%;
 }
