@@ -1,34 +1,33 @@
 #systems-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-	width: 85vw;
-	margin: auto;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	
+	gap: 10px;
+}
+
+@media screen and (width > 768px) {
+	#systems-grid {
+		max-width: 1000px;
+		margin: auto;
+	}
 }
 
 #systems-grid .system-card {
-	order: inherit;
-	display: grid;
-	grid-template-rows: 5fr 1fr;
-	align-items: center;
-	justify-content: center;
-	width: clamp(150px, 20%, 180px);
-	aspect-ratio: 1;
+	width: 100%;
+	margin: auto;
 }
 
 #systems-grid .system-card a{
 	display: flex;
-	flex-direction: column;
-	align-items: center;
 	justify-content: center;
-	width: 100%;
-	height: 100%;
+	align-items: center;
 }
 
 #systems-grid .system-card a img{
-	width: 100%;
+	max-width: 165px;
 	aspect-ratio: 1;
 	border-radius: 8%;
-	box-shadow: -10px 10px 10px rgba(0,0,0,0.8);
+	box-shadow: -10px 10px 2rem rgba(0, 0, 0, 0.562);
 	filter: grayscale(0.8);
 }
 
@@ -36,13 +35,11 @@
 	filter: grayscale(0);
 }
 
-#systems-grid .system-name, #systems-grid .system-name a {
+#systems-grid .system-name {
 	color: #ffffff;
 	text-shadow: 2px 2px 2px rgba(0,0,0,1);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-decoration: none;
+	text-align: center;
+	
 }
 
 .selecione{

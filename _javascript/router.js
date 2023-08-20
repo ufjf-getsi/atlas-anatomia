@@ -36,14 +36,11 @@ const navigate = (path, systemID) => {
         window.location.origin + path
     )
 
+    toggleMenu();
     handler(path, systemID);
 }
 
 window.onpopstate = () => {
-    handler()
-}
-
-window.onhashchange = () => {
     handler()
 }
 
@@ -58,7 +55,9 @@ const handler = async (location, systemID) => {
     }
         
     const body = document.getElementsByTagName("body")[0];
-    body.setAttribute("show-data", routes[location].atribute)
+    //body.setAttribute("show-data", routes[location].atribute)
+
+    body.dataset.show = routes[location].atribute;
 
     //carrega as infomações do sistema apenas se estiver na seção do atlas
     if(routes[location].atribute == "atlas")

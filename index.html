@@ -5,6 +5,7 @@
 	<title>Atlas Interativo de Anatomia</title>
 	<link rel="icon" type="image/x-icon" href="_imagens/LogoUfjf.png">
 	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="_css/layout.css">
 	<link rel="stylesheet" href="_css/home.css">
 	<link rel="stylesheet" href="_css/informativos.css">
@@ -35,18 +36,21 @@
 </script>
 
 <body>
+
+	<div class="sidebar-wrapper">
+		<div id="menu-sidebar-container"></div>
+	</div>
+
 	<header>
 		<div class="navbar">
 			<a href="https://www2.ufjf.br/ufjf/">
 				<img src="_imagens/ufjf.png">
 			</a>
-			<div id="menu">
-				<button id="menu-container" onclick="toggleMenu()">
-					<div></div>
-					<div></div>
-					<div></div>
-				</button>
-			</div>
+			<button id="menu-container" onclick="toggleMenu()">
+				<div></div>
+				<div></div>
+				<div></div>
+			</button>
 		</div>
 		<div class="logoPrincipal">
 			<img class="logo" src="_imagens/Logo.png">
@@ -61,8 +65,7 @@
 			<div id="systems-grid"></div>
 		</section>
 	
-		<div id="menu-sidebar-container"></div>
-
+		
 		<section id="about">
 			<div class="card">
 				<h1 class="title">SOBRE</h1>
@@ -158,7 +161,7 @@
 	</main>
 
 	<footer>
-		<p class="departamento">Departamento de Anatomia - UFJF</p>
+		<p>Departamento de Anatomia - UFJF</p>
 	</footer>
 </body>
 </html>

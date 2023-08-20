@@ -14,7 +14,7 @@ const loadSystemsCards = async () => {
             <a onclick="navigate('${data.path}', '${data.id}')">
                 <img src='${data.image}'>
             </a>
-            <div class="system-name"><a>${data.systemName}</a></div>
+            <p class="system-name">${data.systemName}</p>
         </div>
         `
     });

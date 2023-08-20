@@ -10,7 +10,6 @@ body {
     font-family: 'Cinzel', sans-serif;
     position: relative;
     min-height: 100vh;
-
     font-size: clamp(16px, 1.5em, 22px);
 }
 
@@ -19,13 +18,15 @@ header {
 }
 
 header .logoPrincipal {
-    height: 65%;
+    height: 60%;
 }
 
 header .navbar {
 	background: #F1F1F1;
-    height: 35%;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
 }
 
 .logo {
@@ -34,28 +35,23 @@ header .navbar {
     object-fit: contain;
 }
 
-header .navbar a img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    object-position: 20px;
+header .navbar a {
+    display: flex;
+    background-color: red;
 }
 
 main {
-    min-height: 85vh;
-    padding: 3rem 0 100px 0;
+    padding-bottom: 100px;
 }
 
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    min-height: 50px;
+    height: 50px;
+    text-align: center;
     background-color: #18181854;
-}
-
-.departamento {
-	text-align: center;
+    font-size: 0.75em;
 }
 
 .opcoes{
