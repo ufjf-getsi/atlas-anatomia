@@ -5,7 +5,7 @@
 
 body {
 	margin: 0;
-    background-image: url("../_imagens/fundo.png");
+    background-image: url("../imagens/fundo.png");
     color: #F1F1F1;
     font-family: 'Cinzel', sans-serif;
     position: relative;

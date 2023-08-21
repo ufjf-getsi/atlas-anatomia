@@ -62,10 +62,10 @@ const resolvePinColor = (color) => {
 
     if(color == 'red') {
         tooltipTitle.setAttribute('color','red');
-        return `<img src="../_imagens/alfinete_vermelho.png" style="width: 100%" />`
+        return `<img src="../imagens/alfinete_vermelho.png" style="width: 100%" />`
     } else {
         tooltipTitle.setAttribute('color','blue');
-        return `<img src="../_imagens/alfinete_azul.png" style="width: 100%" />`
+        return `<img src="../imagens/alfinete_azul.png" style="width: 100%" />`
     }
 }
 

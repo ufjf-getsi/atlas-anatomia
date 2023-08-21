@@ -10,7 +10,7 @@ const fetchData = async (url) => {
 
 // carrega o JSON com as informações de todos os sistemas
 const getAllSystemsData = async () => {
-    const url = "../_utils/sistemas.json";
+    const url = "../utils/sistemas.json";
     const { systems } = await fetchData(url);
     return systems;
 }
