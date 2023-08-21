@@ -1,3 +1,6 @@
+// ARQUIVO RESPONSÁVEL POR GERENCIAR AS NAVEGAÇÕES ENTRE IMAGENS 
+// E CARREGAR OS ALFINETES DE ACORDO COM A IMAGEM NA TELA
+
 // carrega as navegações para navegar pelas imagens
 const loadNavigations = (piecesNumber) => {
 

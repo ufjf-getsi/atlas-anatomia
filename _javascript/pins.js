@@ -1,3 +1,5 @@
+// RESPONSÁVEL PELA MANIPULAÇÃO DO ALFINETE 
+
 const loadPins = async (pinsData) => {
 
     const pinsArea = document.getElementById("pins-area");

@@ -1,0 +1,54 @@
+#systems-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	gap: 15px;
+}
+
+@media screen and (width > 768px) {
+	#systems-grid {
+		max-width: 1000px;
+		margin: auto;
+	}
+}
+
+#systems-grid .system-card {
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+#systems-grid .system-card a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#systems-grid .system-card a img{
+	max-width: 165px;
+	aspect-ratio: 1;
+	border-radius: 8%;
+	box-shadow: -10px 10px 2rem rgba(0, 0, 0, 0.562);
+	filter: grayscale(0.8);
+}
+
+#systems-grid .system-card a img:hover{
+	filter: grayscale(0);
+}
+
+#systems-grid .system-name {
+	color: #ffffff;
+	text-shadow: 2px 2px 2px rgba(0,0,0,1);
+	text-align: center;
+}
+
+.selecione{
+	text-align: center;
+}
+
+.blocked {
+	
+}
+
+
+
+
