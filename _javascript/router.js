@@ -40,6 +40,7 @@ const navigate = (path, systemID) => {
             path,
             window.location.origin + path
         )
+        closeMenu();
     }
 }
 

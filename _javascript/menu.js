@@ -103,3 +103,14 @@ const toggleMenu = () => {
     sidebar.classList.toggle("active");
 }
 
+const closeMenu = () => {
+    
+    const menu = document.getElementById("menu-container");
+    const sidebar = document.getElementById("menu-sidebar-container");
+    const sidebarWrapper = document.getElementById("sidebar-wrapper");
+
+    sidebarWrapper.classList.remove("active")
+    menu.classList.remove("active");
+    sidebar.classList.remove("active");
+}
+
