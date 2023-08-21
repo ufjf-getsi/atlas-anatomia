@@ -1,131 +1,174 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 	<title>Atlas Interativo de Anatomia</title>
 	<link rel="icon" type="image/x-icon" href="_imagens/LogoUfjf.png">
-	<meta charset="UTF-8"/>
-	<link rel="stylesheet" href="_css/estilo.css">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="_css/layout.css">
+	<link rel="stylesheet" href="_css/home.css">
+	<link rel="stylesheet" href="_css/informativos.css">
+	<link rel="stylesheet" href="_css/novoMenu.css">
+	<link rel="stylesheet" href="_css/atlas.css">
 </head>
-<script language="javascript" src="_javascript/funcoes.js"></script>
+
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="_javascript/menu.js"></script>
+<script src="_javascript/utils.js"></script>
+<script src="_javascript/home.js"></script>
+<script src="_javascript/atlas.js"></script>
+<script src="_javascript/navigations.js"></script>
+<script src="_javascript/pins.js"></script>
+<script src="_javascript/router.js"></script>
+
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		window.location = "#home";
+		document.getElementById("content").addEventListener("mousedown", (e) => {
+			showCoordinates(e)
+		})
+
+		// inicia a aplicação
+		loadSystemsCards();
+		loadMenu();		
+	})
+</script>
+
 <body>
-	<div class="navbar">
-		<a href="https://www2.ufjf.br/ufjf/"><img src="_imagens/ufjf.png" style="margin-left: 25px;"></a>
-	</div>
-	<div class="content">
-		<div id="LogoPrincipal">
-				<img id="logo" src="_imagens/Logo.png">
-				<hr>
+
+	<header>
+		<div class="navbar">
+			<a href="https://www2.ufjf.br/ufjf/">
+				<img src="_imagens/ufjf.png">
+			</a>
+			<button id="menu-container" onclick="toggleMenu()">
+				<div></div>
+				<div></div>
+				<div></div>
+			</button>
 		</div>
-		<div id="selecione">
-			Selecione um Sistema:
+		<div class="logoPrincipal" onclick="navigate('#home')">
+			<img class="logo" src="_imagens/Logo.png">
 		</div>
-	 
-		<div id="menu">
-			<center>
-			<table id="mainMenu">
-				<tr>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/esqueletico.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/articular.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/muscular.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/nervoso.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/circulatorio.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-				</tr>
-				<tr class="nomes">
-					<td>Esquelético</td><td>Articular</td><td>Muscular</td><td>Nervoso</td><td>Circulatório</td>
-				</tr>
-				<tr id="espacamento">
-				</tr>
-				<tr>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/respiratorio.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/digestorio.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/urinario.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/genfem.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-					<td>
-						<a href="esqueletico.html">
-							<div class="view view-second">
-								<img id='imgSistema' src= '_imagens/botoes/genmasc.jpg'>
-							<div class="mask"></div>
-							</div>
-						</a>
-					</td>
-				</tr>
-				<tr class="nomes">
-					<td>Respiratório</td><td>Digestório</td><td>Urinário</td><td>Genital Feminino</td><td>Genital Masculino</td>
-				</tr>
-			</table>
-			</center>
-		</div>
-			<footer>
-				<div id="opcoes">
-					<a href="instrucoes.html">Instruções</a>
-					<a href="sobre.html">Sobre</a>
-					<a href="equipe.html">Equipe</a>
+		<hr>
+	</header>
+
+	<main>
+	
+		<section id="home">
+			<p class="selecione"> Selecione um Sistema:</p>
+			<div id="systems-grid"></div>
+		</section>
+	
+		
+		<section id="about">
+			<div class="card">
+				<h1 class="title">SOBRE</h1>
+				<p>
+					As figuras dos atlas convencionais nem sempre refletem a realidade das estruturas observadas no laboratório de anatomia.
+					Diante da necessidade de um maior contato dos alunos com as peças anatômicas, os professores e alunos do Departamento de Anatomia
+					e da Faculdade de Ciência da Computação da Universidade Federal de Juiz de Fora, criaram um <b>Atlas Interativo de Anatomia</b>. 
+				</p>
+				<p>
+					O Atlas é uma forma do aluno rever as peças estudadas no anatômico e ao mesmo tempo consolidar, mesmo longe do laboratório, o
+					conteúdo ministrado durante as aulas práticas.
+				</p>
+			</div>		
+		</section>
+	
+		<section id="atlas">
+			<div class="image-card">
+				<h1 id="main-title"></h1>
+				<p id="image-title"></p>
+	
+				<div id="container">
+					<img id="content" />
+					<div id="pins-area"></div>
+					<div id="tooltip">
+						<p id="tooltip-title"></p>
+						<p id="tooltip-content"></p>
+					</div>
+	
+					<button class="slide-button slide-left" onclick="slideLeft();">
+						<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-caret-left-fill"
+							viewBox="0 0 16 16">
+							<path
+								d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+						</svg>
+					</button>
+					<button class="slide-button slide-right" onclick="slideRight();">
+						<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+							class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+							<path
+								d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+						</svg>
+					</button>
+	
 				</div>
-				<div id="departamento">Departamento de Anatomia - UFJF</div>
-			</footer>
+			
+				<div class="navigation-bar">
+					<div id="navigations"></div>
+				</div>
+			</div>
+		</section>
+
+		<section id="guide">
+			<div class="card">
+				<h1 class="title">INSTRUÇÕES DO ATLAS</h1>
+				<p class="subtitle">Passo a Passo</p>
+				<ul>
+					<li>Inicialmente você deve escolher o sistema que deseja estudar</li>
+					<li>Dentro do sistema, escolha uma subdivisão na barra de menus</li>
+					<li>Para navegar entre as figuras, clique nos botões à esquerda e à direita</li>
+					<li>Nas figuras, serão visualizados alfinetes nas cores vermelha e azul</li>
+					<li>Passe o mouse sobre os alfinetes para identificar a estrutura marcada</li>
+					<li>Os alfinetes vermelhos, quando clicados, apresentam informações adicionais sobre a estrutura.</li>
+				</ul>
+			</div>		
+		</section>
+	
+		<section id="team">
+			<div class="card">
+				<div class="flex">
+					<div>
+						<h2 class="title">Coordenadores do Projeto</h2>
+						<ul>
+							<li>Prof. Dra. Alice Beleigolli Rezende</li>
+							<li>Prof. Dr André Gustavo Fernandes de Oliveira</li>
+							<li>Prof. Dr. Igor de Oliveira Knop </li>
+						</ul>
+					</div>
+					
+					<div>
+						<h2 class="title">Membros de Extensão</h2>
+						<ul>
+							<li>Beatriz Oliveira Rodrigues</li>
+							<li>Clareliz Diógenes Santos</li>
+							<li>João Pedro Martins Cruz</li>
+							<li>Nina Aguiar Ferreira</li>
+							<li>Rafael Machado Malatesta</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="error">
+			<div class="card">
+				<p class="erro">ERRO</p>
+				<p>Essa página não pôde ser encontrada!</p>
+			</div>
+		</section>
+
+	</main>
+
+	<div id="sidebar-wrapper">
+		<div id="menu-sidebar-container"></div>
 	</div>
+
+	<footer>
+		<p>Departamento de Anatomia - UFJF</p>
+	</footer>
 </body>
 </html>

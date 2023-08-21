@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Poppins&display=swap');
+
+.image-card {
+    width: 90%;
+    margin: 25px auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffffc4;
+}
+
+#main-title {
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 700;
+    color: #313131;
+    padding-top: 15px;
+    margin: 0;
+}
+
+#image-title {
+    text-align: center;
+    color: #303030;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    margin: 0;
+}
+
+.pin {
+    width: clamp(30px, 10vw, 50px);
+    background: none;
+    border: none;
+}
+
+#tooltip {
+    max-width: 70%;
+    background-color: #ffffffe7;
+    border-radius: 5px;
+    color: #303030;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    display: none;
+    box-shadow: 1px 3px 2rem rgba(42, 42, 43, 0.699);
+}
+
+#tooltip[show-data] {
+    display: block;
+}
+
+#tooltip p {
+    margin: 0;
+}
+
+#tooltip-title {
+    padding: 5px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #c4c4c4b7;
+}
+
+#tooltip-title[color = "red"] {
+    color: rgb(184, 52, 52);
+}
+
+#tooltip-title[color = "blue"] {
+    color: rgb(49, 49, 197);
+}
+
+#tooltip-content {  
+    font-size: 0.75em;
+}
+
+#container {
+    background-color: #111111;
+    display: flex;
+    position: relative;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    box-shadow: 1px 3px 2rem rgba(42, 42, 43, 0.699);
+    width: clamp(300px, 80vw, 600px);
+}
+
+#content {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1; 
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.navigation-bar {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.selectors {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    background-color: #5757579c;
+    border-radius: 50%;
+    border: none;
+}
+
+.selected {
+    background-color: #1f1f1fd8;
+}
+
+.slide-button {
+    width: 8%;
+    height: 8%;
+    background-color: #ffffffc4;
+    color: #303030;
+    border: none;
+    cursor: pointer;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2rem rgb(65, 65, 65);
+    position: absolute;
+    top: 50%;
+}
+
+.slide-button:active {
+    box-shadow: 2px 2px #222;
+    transform: translate(2px, 2px);
+}
+
+.slide-left {
+    left: 2%;
+}
+
+.slide-right {
+    right: 2%;
+}
