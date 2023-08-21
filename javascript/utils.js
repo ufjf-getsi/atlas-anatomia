@@ -4,7 +4,6 @@
 const fetchData = async (url) => {
     const data = await fetch(url);
     const json = await data.json();
-
     return json;
 }
 
@@ -14,3 +13,5 @@ const getAllSystemsData = async () => {
     const { systems } = await fetchData(url);
     return systems;
 }
+
+export { fetchData, getAllSystemsData }

@@ -69,3 +69,4 @@ const resolvePinColor = (color) => {
     }
 }
 
+export { loadPins, loadPinContent, showContent, hideContent }

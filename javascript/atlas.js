@@ -1,6 +1,9 @@
 // ARQUIVO RESPONSÁVEL POR MONTAR A SEÇÃO DAS IMAGENS E INFORMAÇÕES 
 // A PARTIR DO JSON ESPECÍFICO DE CADA SISTEMA
 
+import { loadNavigations, navigateToImage } from "./navigations.js";
+import { fetchData, getAllSystemsData } from "./utils.js";
+
 let pieceIndex = 0;
 let pieces, piecesNumber;
 
@@ -24,7 +27,7 @@ const loadSystemContent = async (system) => {
 
     // inicar navegando para a primeira imagem 
     loadNavigations(piecesNumber)
-    navigateToImage(pieceIndex)
+    navigateToImage(pieceIndex, pieces)
 
     // define o título do sistema
     const mainTitle = document.getElementById("main-title");
@@ -44,3 +47,4 @@ const showCoordinates = (e) => {
     
 }
 
+export { loadSystemContent, showCoordinates}
