@@ -5,7 +5,7 @@
             "id": 0,
             "title": "Cranio Frontal",
             "description": "ddddddddd",
-            "image": "../utils/sistemas/esqueletico/frontal.png",
+            "image": "utils/sistemas/esqueletico/frontal.png",
             "width": 800,
             "height": 800,
             "pins": [
@@ -25,7 +25,7 @@
             "id": 1,
             "title": "Cranio Lateral",
             "description": "ddddddddd",
-            "image": "../utils/sistemas/esqueletico/lateral.png",
+            "image": "utils/sistemas/esqueletico/lateral.png",
             "width": 612,
             "height": 612,
             "pins": [
