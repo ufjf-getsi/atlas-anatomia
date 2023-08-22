@@ -14,26 +14,7 @@
 </head>
 
 <script src="https://unpkg.com/@popperjs/core@2"></script>
-<script src="javascript/menu.js"></script>
-<script src="javascript/utils.js"></script>
-<script src="javascript/home.js"></script>
-<script src="javascript/atlas.js"></script>
-<script src="javascript/navigations.js"></script>
-<script src="javascript/pins.js"></script>
-<script src="javascript/router.js"></script>
-
-<script>
-	document.addEventListener("DOMContentLoaded", () => {
-		window.location = "#home";
-		document.getElementById("content").addEventListener("mousedown", (e) => {
-			showCoordinates(e)
-		})
-
-		// inicia a aplicação
-		loadSystemsCards();
-		loadMenu();		
-	})
-</script>
+<script src="javascript/main.js" type="module"></script>
 
 <body>
 
@@ -42,7 +23,7 @@
 			<a href="https://www2.ufjf.br/ufjf/">
 				<img src="imagens/ufjf.png">
 			</a>
-			<button id="menu-container" onclick="toggleMenu()">
+			<button id="menu-container">
 				<div></div>
 				<div></div>
 				<div></div>
@@ -90,14 +71,14 @@
 						<p id="tooltip-content"></p>
 					</div>
 	
-					<button class="slide-button slide-left" onclick="slideLeft();">
+					<button class="slide-button slide-left">
 						<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-caret-left-fill"
 							viewBox="0 0 16 16">
 							<path
 								d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
 						</svg>
 					</button>
-					<button class="slide-button slide-right" onclick="slideRight();">
+					<button class="slide-button slide-right">
 						<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
 							class="bi bi-caret-right-fill" viewBox="0 0 16 16">
 							<path
