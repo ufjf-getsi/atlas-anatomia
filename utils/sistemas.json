@@ -4,8 +4,8 @@
             "systemName": "Esquelético",
             "id": 0,
             "path": "#esqueletico",
-            "url": "utils/sistemas/esqueletico/esqueletico.json",
-            "image": "utils/imagens/esqueletico.jpg",
+            "url": "./utils/sistemas/esqueletico/esqueletico.json",
+            "image": "./utils/imagens/esqueletico.jpg",
             "subsystems": []
         },
         {
@@ -13,63 +13,63 @@
             "id": 1,
             "path": "#articular",
             "url": "",
-            "image": "utils/imagens/articular.jpg"
+            "image": "./utils/imagens/articular.jpg"
         },
         {
             "systemName": "Muscular",
             "id": 2,
             "path": "#muscular",
             "url": "",
-            "image": "utils/imagens/muscular.jpg"
+            "image": "./utils/imagens/muscular.jpg"
         },
         {
             "systemName": "Nervoso",
             "id": 3,
             "path": "#nervoso",
             "url": "",
-            "image": "utils/imagens/nervoso.jpg"
+            "image": "./utils/imagens/nervoso.jpg"
         },
         {
             "systemName": "Circulatório",
             "id": 4,
             "path": "#circulatorio",
             "url": "",
-            "image": "utils/imagens/circulatorio.jpg"
+            "image": "./utils/imagens/circulatorio.jpg"
         },
         {
             "systemName": "Respiratório",
             "id": 5,
             "path": "#respiratorio",
             "url": "",
-            "image": "utils/imagens/respiratorio.jpg"
+            "image": "./utils/imagens/respiratorio.jpg"
         },
         {
             "systemName": "Digestório",
             "id": 6,
             "path": "#digestorio",
             "url": "",
-            "image": "utils/imagens/digestorio.jpg"
+            "image": "./utils/imagens/digestorio.jpg"
         },
         {
             "systemName": "Urinário",
             "id": 7,
             "path": "#urinario",
             "url": "",
-            "image": "utils/imagens/urinario.jpg"
+            "image": "./utils/imagens/urinario.jpg"
         },
         {
             "systemName": "Genital Feminino",
             "id": 8,
             "path": "#genital-feminino",
             "url": "",
-            "image": "utils/imagens/genfem.jpg"
+            "image": "./utils/imagens/genfem.jpg"
         },
         {
             "systemName": "Genital Masculino",
             "id": 9,
             "path": "#genital-masculino",
             "url": "",
-            "image": "utils/imagens/genmasc.jpg"
+            "image": "./utils/imagens/genmasc.jpg"
         }
     ]
 }

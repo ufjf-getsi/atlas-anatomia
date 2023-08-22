@@ -9,7 +9,7 @@ const fetchData = async (url) => {
 
 // carrega o JSON com as informações de todos os sistemas
 const getAllSystemsData = async () => {
-    const url = "utils/sistemas.json"; // URL remota, não local.
+    const url = "./utils/sistemas.json"; // URL remota, não local.
     const { systems } = await fetchData(url);
     return systems;
 }
