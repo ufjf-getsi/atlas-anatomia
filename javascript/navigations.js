@@ -1,6 +1,7 @@
 // ARQUIVO RESPONSÁVEL POR GERENCIAR AS NAVEGAÇÕES ENTRE IMAGENS
 // E CARREGAR OS ALFINETES DE ACORDO COM A IMAGEM NA TELA
 
+import { decPieceIndex, getPieces, incPieceIndex } from "./atlas.js";
 import { loadPins } from "./pins.js";
 
 // carrega as navegações para navegar pelas imagens
@@ -26,9 +27,9 @@ const resolve = (i) => {
 };
 
 // navega para a imagem de acordo com o index
-const navigateToImage = (index, pieces) => {
+const navigateToImage = (index) => {
   // carrega os alfinetes da imagem
-  loadPins(pieces[index].pins);
+  loadPins(getPieces()[index].pins);
 
   const backgroundImage = document.getElementById("content");
   const imageTitle = document.getElementById("image-title");
@@ -41,28 +42,16 @@ const navigateToImage = (index, pieces) => {
   selected[0] ? selected[0].classList.remove("selected") : {};
   willBeSelected.classList.add("selected");
 
-  backgroundImage.src = pieces[index].image;
-  imageTitle.innerText = pieces[index].title;
+  backgroundImage.src = getPieces()[index].image;
+  imageTitle.innerText = getPieces()[index].title;
 };
 
-const slideRight = (pieceIndex, piecesNumber) => {
-  pieceIndex++;
-
-  if (pieceIndex >= piecesNumber) {
-    pieceIndex = 0;
-  }
-
-  navigateToImage(pieceIndex);
+const slideRight = () => {
+  navigateToImage(incPieceIndex());
 };
 
-const slideLeft = (pieceIndex, piecesNumber) => {
-  pieceIndex--;
-
-  if (pieceIndex < 0) {
-    pieceIndex = piecesNumber - 1;
-  }
-
-  navigateToImage(pieceIndex);
+const slideLeft = () => {
+    navigateToImage(decPieceIndex());
 };
 
 export { loadNavigations, navigateToImage, slideRight, slideLeft };
