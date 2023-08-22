@@ -2,6 +2,7 @@
 // A PARTIR DO JSON ESPECÍFICO DE CADA SISTEMA
 
 import { loadNavigations, navigateToImage } from "./navigations.js";
+import { navigate } from "./router.js";
 import { fetchData, getAllSystemsData } from "./utils.js";
 
 let pieceIndex = 0;
