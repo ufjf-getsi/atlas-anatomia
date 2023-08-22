@@ -1,25 +1,28 @@
 // RESPONSÁVEL PELA MANIPULAÇÃO DO ALFINETE 
 
+import { getPieceIndex , getPieces } from "./atlas.js   ";
+
 const loadPins = async (pinsData) => {
 
     const pinsArea = document.getElementById("pins-area");
     pinsArea.innerHTML= "";
-
-    let pinsHTML = "";
-
     pinsData.forEach((pin, i) => {
-        pinsHTML += `<button id="pin_${i}" class="pin" onmouseover="loadPinContent(${i}) " onmouseout="hideContent(${i})" style="position: absolute; left: ${pin.x * 100}%;top: ${pin.y * 100}%;">
-            ${resolvePinColor(pin.color)}            
-        </button>`
+        const b = document.createElement("button");
+        b.classList.add("pin");
+        b.id = `pin_${i}`;
+        b.addEventListener("mouseover", () => loadPinContent(i));
+        b.addEventListener("mouseout", () => hideContent(i));
+        b.style = `position: absolute; left: ${pin.x * 100}%;top: ${pin.y * 100}%;`;
+        b.innerHTML = resolvePinColor(pin.color);
+        pinsArea.appendChild(b);
     });
 
-    pinsArea.innerHTML += pinsHTML;
 }
 
 // carrega as informações do alfinete
 const loadPinContent = async (index) => {
     
-    const pinData = pieces[pieceIndex].pins[index];
+    const pinData = getPieces()[getPieceIndex()].pins[index];
     const { title, description, placement } = pinData;
 
     const pin = document.getElementById(`pin_${index}`);
@@ -69,3 +72,4 @@ const resolvePinColor = (color) => {
     }
 }
 
+export { loadPins, loadPinContent, showContent, hideContent }

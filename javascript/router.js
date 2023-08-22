@@ -1,5 +1,9 @@
 // RESPONSÁVEL PELO ROTEAMENTO ATRAVÉS DA URL
 
+import { loadSystemContent } from "./atlas.js";
+import { closeMenu } from "./menu.js";
+import { getAllSystemsData } from "./utils.js";
+
 let routes = {
     "#home": {
         atribute: "home",
@@ -77,3 +81,4 @@ const handler = async (location, systemID) => {
 
 
 
+export { navigate, handler }
