@@ -114,6 +114,5 @@ const closeMenu = () => {
   sidebar.classList.remove("active");
 };
 
-document.querySelector("#menu-container").addEventListener("click", toggleMenu);
 
 export { loadMenu, toggleMenu, closeMenu, toggleDropdown };
