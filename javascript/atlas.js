@@ -19,8 +19,11 @@ const loadSystemContent = async (system) => {
     return;
   }
 
+  // request pra buscar os dados
+  const request = new Request(systemURL); 
+
   // dados do sistema
-  const systemData = await fetchData(systemURL);
+  const systemData = await fetchData(request.url);
   const { systemName } = systemData;
   pieces = systemData.pieces;
   piecesNumber = pieces.length;

@@ -10,13 +10,11 @@ const fetchData = async (url) => {
 // carrega o JSON com as informações de todos os sistemas
 const getAllSystemsData = async () => {
     const url = "utils/sistemas.json"; // URL remota, não local.
-    //const { systems } = await fetchData(url);
-
     const request = new Request(url)
-    
-    const {systems} = await fetchData(request.url)
+
+    const { systems } = await fetchData(request.url)
+
     console.log(systems)
-    console.log(request.url)
 
     return systems;
 }

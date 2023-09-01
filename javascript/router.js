@@ -42,7 +42,7 @@ const navigate = (path, systemID) => {
         window.history.pushState(
             {},
             path,
-            window.location.origin + path
+            window.location.pathname + path
         )
         closeMenu();
     }
