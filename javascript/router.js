@@ -38,13 +38,11 @@ createSystemRoutes()
 const navigate = (path, systemID) => {
     handler(path, systemID);
 
-    console.log(window.location)
-
     if(path != "#error") {
         window.history.pushState(
             {},
             path,
-            window.location + path
+            window.location.href + path
         )
         closeMenu();
     }
@@ -79,8 +77,5 @@ const handler = async (location, systemID) => {
         }
     } 
 }
-
-
-
 
 export { navigate, handler }
