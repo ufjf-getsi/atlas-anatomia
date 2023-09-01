@@ -38,11 +38,13 @@ createSystemRoutes()
 const navigate = (path, systemID) => {
     handler(path, systemID);
 
+    console.log(window.location)
+
     if(path != "#error") {
         window.history.pushState(
             {},
             path,
-            window.location.pathname + path
+            window.location + path
         )
         closeMenu();
     }

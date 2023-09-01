@@ -14,8 +14,6 @@ const getAllSystemsData = async () => {
 
     const { systems } = await fetchData(request.url)
 
-    console.log(systems)
-
     return systems;
 }
 
