@@ -2,7 +2,7 @@
 // A PARTIR DO JSON GERAL DE SISTEMAS
 
 import { navigate } from "./router.js";
-import { getAllSystemsData } from "./utils.js";
+import { getAllSystemsData } from "./services.js";
 
 const loadSystemsCards = async () => {
   const systems = await getAllSystemsData();

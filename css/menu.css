@@ -1,108 +1,170 @@
-ul.principal {
-	margin: 0;
-	list-style: none;
-	width: 200px; 
-	vertical-align: text-bottom;
-} 
 
-ul.secundario{ 
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	width: 200px;  
-} 
-
-.faixa{  
-	height: 50px;
-	background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+/* MENU HAMBURGUER */
+#menu-container {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    position: relative;
+    z-index: 999;
 }
 
-.tituloSistema{
-	font-size: 15pt;
-	padding-left: 5%;
-	color: white;
-	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+#menu-container div {
+    background-color: rgb(37, 37, 37);
+    height: 6px;
+    width: 100%;
+    transition: 0.3s all ease;
+    position: absolute;
+    border-radius: 5px;
 }
 
-.menu {
-	display: flex;
+#menu-container :nth-child(1) {
+    top: 4px;
 }
 
-ul.menu {
-	margin: 0;
-	padding: 0;
-	left: 200px;
-	top: 0px;
-	list-style: none;
-	width: 200px; 
-} 
-
-ul.menu2 {
-	margin: 0;
-	padding: 0;
-	left: 200px;
-	top: 0px;
-	list-style: none;
-	width: 200px; 
-} 
-
-
-ul.principal li{ 
-	position: relative;     
-}
-ul.secundario li{ 
-	position: relative;    
-} 
-   
-li ul{
-	position: absolute; 
-	display: none;
-}
- 
-ul.principal li a{
-	display: block;
-	text-decoration: none;
-	color: white;  
-    background: linear-gradient(90deg,rgba(255,255,255, 0),rgba(255,255,255, 0.3),rgba(255,255,255, 0)); 
-	padding: 5px;
-	border:0;
-	height: 40px;
-	text-align: center;  
-} 
-
-ul.principal li button{
-	cursor: pointer;
-	font-family: 'Cinzel', sans-serif;
-	font-size: 17px;
-	display: block;
-	text-decoration: none;
-	color: white;  
-    background: linear-gradient(90deg,rgba(255,255,255, 0.02),rgba(255,255,255, 0.3),rgba(255,255,255, 0.02)); 
-	padding: 5px;
-	border:0;
-	height: 50px;
-	width: 200px;
-	text-align: center; 
-} 
-
-li:hover ul.secundario{
-	display: block;
-} 
-
-li.terciario:hover ul.menu{
-	display: block;
+#menu-container :nth-child(2) {
+    top: 12px;
 }
 
-li.quaternario:hover ul.menu2{
-	display: block;
+#menu-container :nth-child(3) {
+    top: 20px;
 }
 
-ul.principal li:hover{
-	background: linear-gradient(90deg,rgba(255,255,255, 0),rgba(255,255,255, 0.1),rgba(255,255,255, 0)); 
+#menu-container.active div {
+    background-color: rgb(255, 72, 72);
 }
- 
-ul.secundario li:hover { 
-	position: relative;    
-	background: linear-gradient(90deg,rgba(255,255,255, 0),rgba(255,255,255, 0.25),rgba(255,255,255, 0));	
+
+#menu-container.active :nth-child(1) {
+    transform: rotate(45deg);
+    top: 12px;
 }
- 
+
+#menu-container.active :nth-child(2) {
+    opacity: 0;
+}
+
+#menu-container.active :nth-child(3) {
+    transform: rotate(-45deg);
+    top: 12px;
+}
+
+
+/* MENU SIDEBAR CONTAINER & WRAPPER */
+#sidebar-wrapper {   
+    background: #1f1f1fef;
+    backdrop-filter: blur(7px);
+    transition: 0.25s all ease;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 99;
+    width: 0;
+    height: 100%;
+    padding: 50px 0 5px 0;
+}
+
+#sidebar-wrapper.active {
+    width: clamp(400px, 50vw, 500px); 
+}
+
+@media screen and (width < 768px) {
+    #sidebar-wrapper.active {
+        width: 100vw;
+    }  
+}
+
+#menu-sidebar-container {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    scroll-behavior: smooth;  
+    transition: 0.25s all ease;
+    transform: translateX(100%);
+}
+
+#menu-sidebar-container.active {
+    transform: translateX(0);
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+
+/* MENU SIDEBAR ITEMS */
+#menu-sidebar-container a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 15px;
+}
+
+#menu-sidebar-container a:hover {
+    background-color: rgba(111, 116, 121, 0.363);
+}
+
+#menu-sidebar-container a.active{
+   background-color: rgba(44, 48, 50, 0.351);
+}
+
+.dropdown {
+    position: relative;
+    transition: 0.25s all ease;
+}
+
+.dropdown.active {
+    background-color: #6f6f6f17;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.dropdown::after {
+    display: block;
+    content:"";
+    width: 14px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: currentColor;
+    position: absolute;
+    right: 10%;
+    top: 28px;
+    transform: rotate(90deg);
+    transition: 0.25s all ease;
+}
+
+.dropdown::before {
+    display: block;
+    content:"";
+    width: 14px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: currentColor;
+    position: absolute;
+    right: 10%;
+    top: 28px;
+    transition: 0.25s all ease;
+}
+
+.dropdown.active::after {
+    top: 38px;
+    transform: rotate(0deg);
+}
+
+.dropdown.active::before {
+    top: 38px;
+    opacity: 0;
+}
+
+.dropdown .dropdown-content {   
+    display: none;
+}
+
+.dropdown.active .dropdown-content.active {
+    display: block;
+}
+
+

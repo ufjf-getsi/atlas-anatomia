@@ -3,7 +3,7 @@
 
 import { loadNavigations, navigateToImage } from "./navigations.js";
 import { navigate } from "./router.js";
-import { fetchData, getAllSystemsData } from "./utils.js";
+import { fetchData, getAllSystemsData } from "./services.js";
 
 let pieceIndex = 0;
 let pieces, piecesNumber;
