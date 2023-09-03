@@ -6,7 +6,22 @@
             "path": "#esqueletico",
             "url": "./utils/sistemas/esqueletico/esqueletico.json",
             "image": "./utils/imagens/esqueletico.jpg",
-            "subsystems": []
+            "subsystems": [
+                {
+                    "systemName": "Crânio Lateral",
+                    "id": 0,
+                    "path": "#esqueletico",
+                    "url": "./utils/sistemas/esqueletico/esqueletico.json",
+                    "image": "./utils/imagens/esqueletico.jpg"
+                }, 
+                {
+                    "systemName": "Crânio Frontal",
+                    "id": 0,
+                    "path": "#esqueletico",
+                    "url": "./utils/sistemas/esqueletico/esqueletico.json",
+                    "image": "./utils/imagens/esqueletico.jpg"
+                }
+            ]
         },
         {
             "systemName": "Articular",

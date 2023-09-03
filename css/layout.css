@@ -69,3 +69,44 @@ footer {
 	color: #888888;
     border-bottom: 3px solid rgb(88, 88, 88);
 }
+
+
+/* CONTEÚDO BODY */
+body section {
+    display: none;
+}
+
+body[data-show = home] #home {
+    display: block;
+}
+
+body[data-show = atlas] #atlas {
+    display: block;
+}
+
+body[data-show = guide] #guide {
+    display: block;
+}
+
+body[data-show = team] #team {
+    display: block;
+}
+
+body[data-show = about] #about {
+    display: block;
+}
+
+body[data-show = error] #error {
+    display: block;
+}
+
+#error {
+    text-align: center;
+}
+
+#error .erro{
+    font-size: 4em;
+    font-weight: bold;
+    color: rgb(32, 57, 80);
+    text-indent: 0;
+}

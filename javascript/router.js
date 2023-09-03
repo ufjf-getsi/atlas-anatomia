@@ -2,7 +2,7 @@
 
 import { loadSystemContent } from "./atlas.js";
 import { closeMenu } from "./menu.js";
-import { getAllSystemsData } from "./utils.js";
+import { getAllSystemsData } from "./services.js";
 
 let routes = {
     "#home": {
