@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Poppins&display=swap');
 
 .image-card {
+    max-width: 700px;
     width: 90%;
     margin: 25px auto;
     border-radius: 15px;
