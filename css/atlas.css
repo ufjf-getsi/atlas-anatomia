@@ -29,8 +29,19 @@
 
 .pin {
     width: clamp(30px, 10vw, 50px);
-    background: none;
+    aspect-ratio: 1;
     border: none;
+    background-color: transparent;
+}
+
+.pin[color = red] {
+    background-size: 100%;
+    background-image: url("../imagens/alfinete_vermelho.png");
+}
+
+.pin[color = blue] {
+    background-size: 100%;
+    background-image: url("../imagens/alfinete_azul.png");
 }
 
 #tooltip {

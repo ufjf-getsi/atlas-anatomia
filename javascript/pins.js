@@ -5,7 +5,7 @@ import { getPieceIndex , getPieces } from "./atlas.js   ";
 const loadPins = async (pinsData) => {
 
     const pinsArea = document.getElementById("pins-area");
-    pinsArea.innerHTML= "";
+    pinsArea.innerHTML =  "";
     pinsData.forEach((pin, i) => {
         const b = document.createElement("button");
         b.classList.add("pin");
@@ -13,8 +13,8 @@ const loadPins = async (pinsData) => {
         b.addEventListener("mouseover", () => loadPinContent(i));
         b.addEventListener("mouseout", () => hideContent(i));
         b.style = `position: absolute; left: ${pin.x * 100}%;top: ${pin.y * 100}%;`;
-        b.innerHTML = resolvePinColor(pin.color);
         pinsArea.appendChild(b);
+        resolvePinColor(pin.color, b.id);
     });
 
 }
@@ -58,18 +58,19 @@ const hideContent = () => {
     tooltip.removeAttribute('show-data');
 }   
 
-// retorna a imagem de acordo com tipo
-const resolvePinColor = (color) => {
-
-    const tooltipTitle = document.getElementById("tooltip-title");
+// personaliza as cores do alfinete 
+const resolvePinColor = (color, id) => {
+    
+    const pin = document.querySelector("#"+id);
+    const tooltipTitle = document.querySelector("#tooltip-title");
 
     if(color == 'red') {
+        pin.setAttribute('color','red');
         tooltipTitle.setAttribute('color','red');
-        return `<img src="./imagens/alfinete_vermelho.png" style="width: 100%" />`
-    } else {
+    } else {  
+        pin.setAttribute('color','blue');
         tooltipTitle.setAttribute('color','blue');
-        return `<img src="./imagens/alfinete_azul.png" style="width: 100%" />`
-    }
+    } 
 }
 
 export { loadPins, loadPinContent, showContent, hideContent }
