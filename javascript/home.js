@@ -12,16 +12,24 @@ const loadSystemsCards = async () => {
 
   systems.forEach((data) => {
     const div = document.createElement("div");
-    div.classList.add("system-card");
+      div.classList.add("system-card");
     const a = document.createElement("a");
-    a.addEventListener("click", () => navigate(data.path, data.id));
     const img = document.createElement("img");
-    img.src = data.image;
-    img.classList.add(isSystemReady(data.url));
+      img.src = data.image;
+
+    if(isSystemReady(data.url)) {
+      a.addEventListener("click", () => navigate(data.path, data.id));
+      a.appendChild(img);
+    } else {
+      const box = document.createElement("div");
+      box.classList.add("block");
+      box.appendChild(img);
+      a.appendChild(box);
+    }
     const p = document.createElement("p");
-    p.classList.add("system-name");
-    p.innerText = data.systemName;
-    a.appendChild(img);
+      p.classList.add("system-name");
+      p.innerText = data.systemName;
+    
     div.appendChild(a);
     div.appendChild(p);
     container.appendChild(div);
@@ -29,8 +37,7 @@ const loadSystemsCards = async () => {
 };
 
 const isSystemReady = (url) => {
-  if (!url) return "blocked";
-  else return "available";
+  return !!url;
 };
 
 export { loadSystemsCards };

@@ -6,7 +6,9 @@ import { loadPins } from "./pins.js";
 
 // carrega as navegações para navegar pelas imagens
 const loadNavigations = (piecesNumber) => {
-  let links = "";
+  
+  const navigations = document.querySelector("#navigations");
+  navigations.innerHTML = "";
 
   for (let i = 0; i < piecesNumber; i++) {
     const b = document.createElement("button");
@@ -14,11 +16,9 @@ const loadNavigations = (piecesNumber) => {
     b.classList.add(resolve(i));
     b.id = `item_${i}`;
     b.onclick = () => navigateToImage(i);
-    links += b.outerHTML;
+    navigations.appendChild(b);
   }
 
-  const navigations = document.getElementById("navigations");
-  navigations.innerHTML = links;
 };
 
 // marca o primeiro item (i == 0) como selecionado assim que carrega as imagens
@@ -31,15 +31,15 @@ const navigateToImage = (index) => {
   // carrega os alfinetes da imagem
   loadPins(getPieces()[index].pins);
 
-  const backgroundImage = document.getElementById("content");
-  const imageTitle = document.getElementById("image-title");
+  const backgroundImage = document.querySelector("#content");
+  const imageTitle = document.querySelector("#image-title");
 
   // seletores
-  const willBeSelected = document.getElementById(`item_${index}`);
-  const selected = document.getElementsByClassName("selected");
+  const willBeSelected = document.querySelector(`#item_${index}`);
+  const selected = document.querySelector(".selected");
 
   // atualiza os seletores indicando qual imagem está sendo carregada
-  selected[0] ? selected[0].classList.remove("selected") : {};
+  selected.classList.remove("selected");
   willBeSelected.classList.add("selected");
 
   backgroundImage.src = getPieces()[index].image;
