@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Poppins&display=swap');
 
+/* ATLAS */
 .image-card {
+    max-width: 700px;
     width: 90%;
     margin: 25px auto;
     border-radius: 15px;
@@ -8,66 +10,6 @@
     flex-direction: column;
     align-items: center;
     background: #ffffffc4;
-}
-
-#main-title {
-    font-family: 'Cinzel', sans-serif;
-    font-weight: 700;
-    color: #313131;
-    padding-top: 15px;
-    margin: 0;
-}
-
-#image-title {
-    text-align: center;
-    color: #303030;
-    font-family: 'Poppins', sans-serif;
-    padding: 5px;
-    margin: 0;
-}
-
-.pin {
-    width: clamp(30px, 10vw, 50px);
-    background: none;
-    border: none;
-}
-
-#tooltip {
-    max-width: 70%;
-    background-color: #ffffffe7;
-    border-radius: 5px;
-    color: #303030;
-    font-family: 'Poppins', sans-serif;
-    padding: 5px;
-    display: none;
-    box-shadow: 1px 3px 2rem rgba(42, 42, 43, 0.699);
-}
-
-#tooltip[show-data] {
-    display: block;
-}
-
-#tooltip p {
-    margin: 0;
-}
-
-#tooltip-title {
-    padding: 5px;
-    font-weight: 700;
-    border-radius: 5px;
-    background-color: #c4c4c4b7;
-}
-
-#tooltip-title[color = "red"] {
-    color: rgb(184, 52, 52);
-}
-
-#tooltip-title[color = "blue"] {
-    color: rgb(49, 49, 197);
-}
-
-#tooltip-content {  
-    font-size: 0.75em;
 }
 
 #container {
@@ -88,6 +30,24 @@
     border-radius: 10px;
 }
 
+#main-title {
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 700;
+    color: #313131;
+    padding-top: 15px;
+    margin: 0;
+}
+
+#image-title {
+    text-align: center;
+    color: #303030;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    margin: 0;
+}
+
+
+/* ITEMS & FUNCIONALIDADES */
 .navigation-bar {
     margin-top: 25px;
     display: flex;
@@ -134,4 +94,61 @@
 
 .slide-right {
     right: 2%;
+}
+
+
+/* ALFINETES & TOOLTIPS */
+.pin {
+    width: clamp(30px, 10vw, 50px);
+    aspect-ratio: 1;
+    border: none;
+    background-color: transparent;
+}
+
+.pin[color = red] {
+    background-size: 100%;
+    background-image: url("../imagens/alfinete_vermelho.png");
+}
+
+.pin[color = blue] {
+    background-size: 100%;
+    background-image: url("../imagens/alfinete_azul.png");
+}
+
+#tooltip {
+    max-width: 70%;
+    background-color: #ffffffe7;
+    border-radius: 5px;
+    color: #303030;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    display: none;
+    box-shadow: 1px 3px 2rem rgba(42, 42, 43, 0.699);
+}
+
+#tooltip[data-show] {
+    display: block;
+}
+
+#tooltip p {
+    margin: 0;
+}
+
+#tooltip-title {
+    padding: 5px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #c4c4c4b7;
+}
+
+#tooltip-title[color = "red"] {
+    color: rgb(184, 52, 52);
+}
+
+#tooltip-title[color = "blue"] {
+    color: rgb(49, 49, 197);
+}
+
+#tooltip-content {  
+    font-size: 0.75em;
 }

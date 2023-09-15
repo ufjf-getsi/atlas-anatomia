@@ -23,6 +23,19 @@
 	align-items: center;
 }
 
+#systems-grid .system-card a.blocked:hover::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	backdrop-filter: blur(3px);
+	background-color: #2827275f;
+	aspect-ratio: 1;
+	background-size: 80%;
+	background-image: url("../imagens/cadeado.png");
+}
+
 #systems-grid .system-card a img{
 	max-width: 165px;
 	aspect-ratio: 1;
@@ -45,8 +58,17 @@
 	text-align: center;
 }
 
-.blocked {
-	
+.block:hover {
+	background-color: #d4d4d474;
+	background-image: url("../imagens/cadeado.png");
+	background-size: 80%;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	border-radius: 8%;	
+}
+
+.block:hover img {
+	opacity: 0;
 }
 
 

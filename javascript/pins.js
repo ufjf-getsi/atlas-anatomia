@@ -4,8 +4,8 @@ import { getPieceIndex , getPieces } from "./atlas.js   ";
 
 const loadPins = async (pinsData) => {
 
-    const pinsArea = document.getElementById("pins-area");
-    pinsArea.innerHTML= "";
+    const pinsArea = document.querySelector("#pins-area");
+    pinsArea.innerHTML =  "";
     pinsData.forEach((pin, i) => {
         const b = document.createElement("button");
         b.classList.add("pin");
@@ -13,8 +13,8 @@ const loadPins = async (pinsData) => {
         b.addEventListener("mouseover", () => loadPinContent(i));
         b.addEventListener("mouseout", () => hideContent(i));
         b.style = `position: absolute; left: ${pin.x * 100}%;top: ${pin.y * 100}%;`;
-        b.innerHTML = resolvePinColor(pin.color);
         pinsArea.appendChild(b);
+        resolvePinColor(pin.color, b.id);
     });
 
 }
@@ -23,53 +23,52 @@ const loadPins = async (pinsData) => {
 const loadPinContent = async (index) => {
     
     const pinData = getPieces()[getPieceIndex()].pins[index];
-    const { title, description, placement } = pinData;
+    const { title, description, placement, color} = pinData;
 
-    const pin = document.getElementById(`pin_${index}`);
-    const tooltipTitle = document.getElementById("tooltip-title");
-    const tooltipContent = document.getElementById("tooltip-content");
+    const pin = document.querySelector(`#pin_${index}`);
+    const tooltipTitle = document.querySelector("#tooltip-title");
+    const tooltipContent = document.querySelector("#tooltip-content");
 
     // atualiza informações do alfinete
     tooltipTitle.innerText = title;
     tooltipContent.innerText =  description;
 
     // carrega o alfinete na tela
-    showContent(pin, placement)
+    showContent(pin, placement, color)
 
 }
 
 // mostra o conteudo do alfinete na tela
-const showContent = (pin, placement = "bottom") => {
+const showContent = (pin, placement = "bottom", pinColor) => {
 
-    const tooltip = document.getElementById("tooltip");
+    const tooltip = document.querySelector("#tooltip");
+    const tooltipTitle = document.querySelector("#tooltip-title");
 
     Popper.createPopper(pin, tooltip, {
         placement
     });
 
-    tooltip.setAttribute('show-data','true');
-
+    tooltipTitle.setAttribute('color', pinColor);
+    tooltip.setAttribute('data-show','true');
 }
 
 // esconde o conteudo do alfinete
 const hideContent = () => {
 
-    const tooltip = document.getElementById("tooltip");
-    tooltip.removeAttribute('show-data');
+    const tooltip = document.querySelector("#tooltip");
+    tooltip.removeAttribute('data-show');
 }   
 
-// retorna a imagem de acordo com tipo
-const resolvePinColor = (color) => {
-
-    const tooltipTitle = document.getElementById("tooltip-title");
-
+// personaliza as cores do alfinete 
+const resolvePinColor = (color, id) => {
+    
+    const pin = document.querySelector("#"+id);
+    
     if(color == 'red') {
-        tooltipTitle.setAttribute('color','red');
-        return `<img src="./imagens/alfinete_vermelho.png" style="width: 100%" />`
-    } else {
-        tooltipTitle.setAttribute('color','blue');
-        return `<img src="./imagens/alfinete_azul.png" style="width: 100%" />`
-    }
+        pin.setAttribute('color','red');
+    } else {  
+        pin.setAttribute('color','blue');
+    } 
 }
 
 export { loadPins, loadPinContent, showContent, hideContent }
