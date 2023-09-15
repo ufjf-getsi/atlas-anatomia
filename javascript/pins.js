@@ -4,7 +4,7 @@ import { getPieceIndex , getPieces } from "./atlas.js   ";
 
 const loadPins = async (pinsData) => {
 
-    const pinsArea = document.getElementById("pins-area");
+    const pinsArea = document.querySelector("#pins-area");
     pinsArea.innerHTML =  "";
     pinsData.forEach((pin, i) => {
         const b = document.createElement("button");
