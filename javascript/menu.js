@@ -64,7 +64,7 @@ const loadDropdown = (dropdownName, id, data, parent) => {
 
       } else {
         const a = document.createElement("a");
-        a.addEventListener("click", () => navigate(link.path, link.id));
+        a.addEventListener("click", () => navigate(link.path, link.url));
         a.innerText = link.systemName;
         content.appendChild(a);
       }

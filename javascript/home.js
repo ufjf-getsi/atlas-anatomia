@@ -18,7 +18,7 @@ const loadSystemsCards = async () => {
       img.src = data.image;
 
     if(isSystemReady(data.url)) {
-      a.addEventListener("click", () => navigate(data.path, data.id));
+      a.addEventListener("click", () => navigate(data.path, data.url));
       a.appendChild(img);
     } else {
       const box = document.createElement("div");

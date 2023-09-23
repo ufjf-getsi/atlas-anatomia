@@ -24,19 +24,28 @@ let routes = {
 
 // adiciona às rotas padrões as navegações dos sistemas 
 // a partir do json geral
-const createSystemRoutes = async () => {
-    
-    const data = await getAllSystemsData();
+const createSystemRoutes = async ( data ) => {
 
+    // CRIAR LINK PROS SUBSISTEMAS
     data.forEach(link => {
-        routes[link.path] = {"atribute": "atlas", "id": link.id};
+        if(!!link.subsystems) {
+            createSystemRoutes(link.subsystems);
+        } else routes[link.path] = {"atribute": "atlas", "id": link.id};
     });
+
+    console.log(routes);
 }
 
-createSystemRoutes()
+const createRoutes = async ( ) => {
 
-const navigate = (path, systemID) => {
-    handler(path, systemID);
+    const data = await getAllSystemsData();
+    createSystemRoutes(data);
+
+}
+
+const navigate = (path, systemURL) => {
+
+    handler(path, systemURL);
 
     if(path != "#error") {
         window.history.pushState(
@@ -54,12 +63,12 @@ window.onpopstate = () => {
 
 // gerencia qual seção da página será exibida 
 // a navegação pelo menu, url ou pelos cards com links 
-const handler = async (location, systemID) => {
+const handler = async (location, systemURL) => {
 
     // caso nao tenha recebido por parâmetro
     if(!location) {
         location = window.location.hash
-        systemID = routes[location] ? routes[location].id : 0;
+        systemURL = routes[location] ? routes[location].url : 0;
     }
 
     const body = document.getElementsByTagName("body")[0];
@@ -73,9 +82,10 @@ const handler = async (location, systemID) => {
 
         //carrega as infomações do sistema apenas se estiver na seção do atlas
         if(routes[location].atribute == "atlas") {
-            loadSystemContent(systemID)
+            console.log("ID TESTE", systemURL);
+            loadSystemContent(systemURL)
         }
     } 
 }
 
-export { navigate, handler }
+export { navigate, handler, createRoutes }

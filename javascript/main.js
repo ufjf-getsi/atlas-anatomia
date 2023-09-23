@@ -3,6 +3,7 @@ import { loadSystemsCards } from "./home.js";
 import { loadMenu, toggleMenu } from "./menu.js";
 import { slideLeft, slideRight } from "./navigations.js";
 import { navigate } from "./router.js";
+import { createRoutes } from './router.js';
 
 document.addEventListener("DOMContentLoaded", () => {
   window.location = "#home";
@@ -15,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector(".logoPrincipal").addEventListener("click", ()=>navigate("#home"));
 
   // inicia a aplicação
+  createRoutes();
   loadSystemsCards();
   loadMenu();
 });

@@ -2,21 +2,32 @@
     "systems": [
         {
             "systemName": "Esquelético",
-            "id": 0,
-            "path": "#esqueletico",
-            "url": "./utils/sistemas/esqueletico/esqueletico.json",
             "image": "./utils/imagens/esqueletico.jpg",
             "subsystems": [
                 {
-                    "systemName": "Crânio Lateral",
-                    "id": 0,
-                    "path": "#esqueletico",
-                    "url": "./utils/sistemas/esqueletico/esqueletico.json",
-                    "image": "./utils/imagens/esqueletico.jpg"
+                    "systemName": "Crânio",
+                    "path": "#cranio",
+                    "image": "./utils/imagens/esqueletico.jpg",
+                    "subsystems": [
+                        {
+                            "systemName": "Base do Crânio",
+                            "id": 0,
+                            "path": "#base",
+                            "url": "./utils/sistemas/esqueletico/cranio/base/base.json",
+                            "image": "./utils/imagens/articular.jpg"
+                        }, 
+                        {
+                            "systemName": "Crânios Infantis",
+                            "id": 1,
+                            "path": "#cranios-infantis",
+                            "url": "./utils/sistemas/esqueletico/cranio/base/base.json",
+                            "image": "./utils/imagens/articular.jpg"
+                        }
+                    ]
                 }, 
                 {
-                    "systemName": "Crânio Frontal",
-                    "id": 0,
+                    "systemName": "Membro Superior",
+                    "id": 3,
                     "path": "#esqueletico",
                     "url": "./utils/sistemas/esqueletico/esqueletico.json",
                     "image": "./utils/imagens/esqueletico.jpg"

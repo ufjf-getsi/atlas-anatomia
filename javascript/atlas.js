@@ -9,10 +9,8 @@ let pieceIndex = 0;
 let pieces, piecesNumber;
 
 // carrega os dados quando a tela for chamada
-const loadSystemContent = async (system) => {
-  const data = await getAllSystemsData();
-  const systemURL = data[system].url;
-
+const loadSystemContent = async ( systemURL ) => {
+  
   //se o sistema ainda nao tiver uma URL, navega para a página de erro
   if (!systemURL) {
     navigate("#error");
