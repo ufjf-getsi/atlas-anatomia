@@ -45,6 +45,10 @@ const showCoordinates = (e) => {
   console.log("PosX: ", px.toFixed(2), "PosY: ", py.toFixed(2));
 };
 
+const setPieceIndex = (index) => {
+  pieceIndex = index;
+};
+
 const getPieceIndex = () => {
   return pieceIndex;
 };
@@ -73,6 +77,7 @@ export {
   loadSystemContent,
   showCoordinates,
   getPieceIndex,
+  setPieceIndex,
   getPiecesNumber,
   incPieceIndex,
   decPieceIndex,
