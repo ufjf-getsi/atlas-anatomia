@@ -96,6 +96,10 @@ body[data-show = about] #about {
     display: block;
 }
 
+body[data-show = subsystems] #home {
+    display: block;
+}
+
 body[data-show = error] #error {
     display: block;
 }

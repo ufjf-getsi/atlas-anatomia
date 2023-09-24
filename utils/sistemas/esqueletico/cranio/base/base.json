@@ -1,0 +1,25 @@
+{
+    "systemName": "Base do Crânio",
+    "pieces": [
+        {
+            "id": 1,
+            "title": "Cranio Lateral",
+            "description": "ddddddddd",
+            "image": "./utils/sistemas/esqueletico/lateral.png",
+            "width": 612,
+            "height": 612,
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Nariz",
+                    "description": "Alfinete 1",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.8153,
+                    "y": 0.4390,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}
