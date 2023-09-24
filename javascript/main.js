@@ -1,5 +1,5 @@
 import { showCoordinates } from "./atlas.js";
-import { loadSystemsCards } from "./home.js";
+import { loadHomeCards } from "./home.js";
 import { loadMenu, toggleMenu } from "./menu.js";
 import { slideLeft, slideRight } from "./navigations.js";
 import { navigate } from "./router.js";
@@ -17,6 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // inicia a aplicação
   createRoutes();
-  loadSystemsCards();
+  loadHomeCards();
   loadMenu();
 });

@@ -4,21 +4,27 @@
 import { navigate } from "./router.js";
 import { getAllSystemsData } from "./services.js";
 
-const loadSystemsCards = async () => {
+const loadHomeCards = async () => {
+  
   const systems = await getAllSystemsData();
+  loadSystemsCards(systems);
+}
 
+const loadSystemsCards = async ( systems ) => {
+  
   const container = document.getElementById("systems-grid");
-  let html = "";
+  container.innerHTML = "";
 
   systems.forEach((data) => {
     const div = document.createElement("div");
-      div.classList.add("system-card");
+    div.classList.add("system-card");
     const a = document.createElement("a");
     const img = document.createElement("img");
-      img.src = data.image;
+    img.src = data.image;
 
-    if(isSystemReady(data.url)) {
-      a.addEventListener("click", () => navigate(data.path, data.url));
+    //caso nao tenha url e nem subsistemas, bloqueia a navegação
+    if(!!data.url || !!data.subsystems) {
+      a.addEventListener("click", () => navigate(data.path));
       a.appendChild(img);
     } else {
       const box = document.createElement("div");
@@ -27,8 +33,8 @@ const loadSystemsCards = async () => {
       a.appendChild(box);
     }
     const p = document.createElement("p");
-      p.classList.add("system-name");
-      p.innerText = data.systemName;
+    p.classList.add("system-name");
+    p.innerText = data.systemName;
     
     div.appendChild(a);
     div.appendChild(p);
@@ -36,8 +42,4 @@ const loadSystemsCards = async () => {
   });
 };
 
-const isSystemReady = (url) => {
-  return !!url;
-};
-
-export { loadSystemsCards };
+export { loadSystemsCards, loadHomeCards };

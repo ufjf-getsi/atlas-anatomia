@@ -2,17 +2,22 @@
     "systems": [
         {
             "systemName": "Esquelético",
+            "id": 0,
+            "path": "#esqueletico",
+            "section": "subsystems",
             "image": "./utils/imagens/esqueletico.jpg",
             "subsystems": [
                 {
                     "systemName": "Crânio",
                     "path": "#cranio",
+                    "section": "subsystems",
                     "image": "./utils/imagens/esqueletico.jpg",
                     "subsystems": [
                         {
                             "systemName": "Base do Crânio",
                             "id": 0,
                             "path": "#base",
+                            "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/cranio/base/base.json",
                             "image": "./utils/imagens/articular.jpg"
                         }, 
@@ -20,6 +25,7 @@
                             "systemName": "Crânios Infantis",
                             "id": 1,
                             "path": "#cranios-infantis",
+                            "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/cranio/base/base.json",
                             "image": "./utils/imagens/articular.jpg"
                         }
@@ -28,8 +34,9 @@
                 {
                     "systemName": "Membro Superior",
                     "id": 3,
-                    "path": "#esqueletico",
-                    "url": "./utils/sistemas/esqueletico/esqueletico.json",
+                    "path": "#membro-superior",
+                    "section": "atlas",
+                    "url": "./utils/sistemas/esqueletico/cranio/base/base.json",
                     "image": "./utils/imagens/esqueletico.jpg"
                 }
             ]
@@ -38,6 +45,7 @@
             "systemName": "Articular",
             "id": 1,
             "path": "#articular",
+            "section": "subsystems",
             "url": "",
             "image": "./utils/imagens/articular.jpg"
         },
@@ -45,6 +53,7 @@
             "systemName": "Muscular",
             "id": 2,
             "path": "#muscular",
+            "section": "subsystems",
             "url": "",
             "image": "./utils/imagens/muscular.jpg"
         },
@@ -52,6 +61,7 @@
             "systemName": "Nervoso",
             "id": 3,
             "path": "#nervoso",
+            "section": "subsystems",
             "url": "",
             "image": "./utils/imagens/nervoso.jpg"
         },
@@ -59,6 +69,7 @@
             "systemName": "Circulatório",
             "id": 4,
             "path": "#circulatorio",
+            "section": "subsystems",
             "url": "",
             "image": "./utils/imagens/circulatorio.jpg"
         },
@@ -66,6 +77,7 @@
             "systemName": "Respiratório",
             "id": 5,
             "path": "#respiratorio",
+            "section": "subsystems",
             "url": "",
             "image": "./utils/imagens/respiratorio.jpg"
         },
@@ -73,6 +85,7 @@
             "systemName": "Digestório",
             "id": 6,
             "path": "#digestorio",
+            "section": "subsystems",
             "url": "",
             "image": "./utils/imagens/digestorio.jpg"
         },
@@ -80,6 +93,7 @@
             "systemName": "Urinário",
             "id": 7,
             "path": "#urinario",
+            "section": "subsystems",
             "url": "",
             "image": "./utils/imagens/urinario.jpg"
         },
@@ -87,6 +101,7 @@
             "systemName": "Genital Feminino",
             "id": 8,
             "path": "#genital-feminino",
+            "section": "subsystems",
             "url": "",
             "image": "./utils/imagens/genfem.jpg"
         },
@@ -94,6 +109,7 @@
             "systemName": "Genital Masculino",
             "id": 9,
             "path": "#genital-masculino",
+            "section": "subsystems",
             "url": "",
             "image": "./utils/imagens/genmasc.jpg"
         }

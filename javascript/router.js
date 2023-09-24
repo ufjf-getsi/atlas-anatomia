@@ -1,51 +1,53 @@
 // RESPONSÁVEL PELO ROTEAMENTO ATRAVÉS DA URL
 
 import { loadSystemContent } from "./atlas.js";
+import { loadHomeCards, loadSystemsCards } from "./home.js";
 import { closeMenu } from "./menu.js";
 import { getAllSystemsData } from "./services.js";
 
 let routes = {
     "#home": {
-        atribute: "home",
+        section: "home",
     },
     "#instrucoes": {
-        atribute: "guide",
+        section: "guide",
     },
     "#equipe": {
-        atribute: "team",
+        section: "team",
     },
     "#sobre": {
-        atribute: "about",
+        section: "about",
     },
     "#error": {
-        atribute: "error"
+        section: "error"
     }
 }
 
-// adiciona às rotas padrões as navegações dos sistemas 
-// a partir do json geral
-const createSystemRoutes = async ( data ) => {
+// adiciona às rotas padrões as rotas dos sistemas 
+const createSystemRoutes = ( data ) => {
 
-    // CRIAR LINK PROS SUBSISTEMAS
-    data.forEach(link => {
-        if(!!link.subsystems) {
-            createSystemRoutes(link.subsystems);
-        } else routes[link.path] = {"atribute": "atlas", "id": link.id};
+    data.forEach(route => {
+        routes[route.path] = {
+            "section": route.section, 
+            "id": route.id, 
+            "subsystems": route.subsystems ? route.subsystems : [], 
+            "url": route.url
+        };
+
+        // caso possua um objeto de subsistemas crie as rotas também 
+        if(!!route.subsystems)
+            createSystemRoutes(route.subsystems);
     });
-
-    console.log(routes);
 }
 
-const createRoutes = async ( ) => {
+const createRoutes = async () => {
 
     const data = await getAllSystemsData();
     createSystemRoutes(data);
-
 }
 
-const navigate = (path, systemURL) => {
-
-    handler(path, systemURL);
+const navigate = ( path ) => {
+    handler(path);
 
     if(path != "#error") {
         window.history.pushState(
@@ -62,28 +64,35 @@ window.onpopstate = () => {
 }
 
 // gerencia qual seção da página será exibida 
-// a navegação pelo menu, url ou pelos cards com links 
-const handler = async (location, systemURL) => {
+const handler = async ( location ) => {
 
     // caso nao tenha recebido por parâmetro
     if(!location) {
-        location = window.location.hash
-        systemURL = routes[location] ? routes[location].url : 0;
+        location = window.location.hash;
     }
 
     const body = document.getElementsByTagName("body")[0];
 
-    //caso seja uma rota inválida, carrega a pág de erro 403
+    //caso seja uma rota inválida, carrega a pág de erro
     if(!routes[location]) {
         body.dataset.show = "error";
     } else {
         
-        body.dataset.show = routes[location].atribute;
+        body.dataset.show = routes[location].section;
 
-        //carrega as infomações do sistema apenas se estiver na seção do atlas
-        if(routes[location].atribute == "atlas") {
-            console.log("ID TESTE", systemURL);
-            loadSystemContent(systemURL)
+        //carrega as infomações de acordo com a seção atual
+        switch(routes[location].section) {
+            case "atlas":
+                loadSystemContent(routes[location].url);
+            break;
+
+            case "subsystems":
+                loadSystemsCards(routes[location].subsystems);
+            break;
+                
+            case "home": 
+                loadHomeCards();
+            break;
         }
     } 
 }
