@@ -97,9 +97,10 @@
 }
 
 
+
 /* ALFINETES & TOOLTIPS */
 .pin {
-    width: 6%;
+    width: 1.5rem;
     aspect-ratio: 1;
     border: none;
     background-color: transparent;
@@ -117,12 +118,14 @@
 
 #tooltip {
     max-width: 70%;
-    background-color: #ffffffe7;
-    border-radius: 5px;
+    background-color: #ffffff97;
+    border-radius: 5%;
     color: #303030;
     font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
     padding: 5px;
     display: none;
+    word-wrap: break-word;
     box-shadow: 1px 3px 2rem rgba(42, 42, 43, 0.699);
 }
 
@@ -135,10 +138,7 @@
 }
 
 #tooltip-title {
-    padding: 5px;
     font-weight: 700;
-    border-radius: 5px;
-    background-color: #c4c4c4b7;
 }
 
 #tooltip-title[color = "red"] {
@@ -150,5 +150,5 @@
 }
 
 #tooltip-content {  
-    font-size: 0.75em;
+    font-size: 0.85em;
 }
