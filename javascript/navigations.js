@@ -13,17 +13,13 @@ const loadNavigations = (piecesNumber) => {
   for (let i = 0; i < piecesNumber; i++) {
     const b = document.createElement("button");
     b.classList.add("selectors");
-    b.classList.add(resolve(i));
+    if(!i)
+      b.classList.add("selected");
     b.id = `item_${i}`;
     b.onclick = () => navigateToImage(i);
     navigations.appendChild(b);
   }
 
-};
-
-// marca o primeiro item (i == 0) como selecionado assim que carrega as imagens
-const resolve = (i) => {
-  if (!i) return "selected";
 };
 
 // navega para a imagem de acordo com o index

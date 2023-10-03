@@ -2,8 +2,26 @@
 
 import { getPieceIndex , getPieces } from "./atlas.js   ";
 
+
+let pinsData = [];
+
+const setPinsData = (data) => {
+    pinsData = data;
+}
+
+window.addEventListener("resize", () => {
+    loadPins(pinsData);
+})
+
 const loadPins = async (pinsData) => {
 
+    setPinsData(pinsData);
+
+    //valor em porcentagem
+    let PINS_SIZE = 0.05;
+    let dimensions = document.getElementById("content").width;
+    let pinDimension = dimensions*PINS_SIZE;
+    
     const pinsArea = document.querySelector("#pins-area");
     pinsArea.innerHTML =  "";
     pinsData.forEach((pin, i) => {
@@ -12,11 +30,16 @@ const loadPins = async (pinsData) => {
         b.id = `pin_${i}`;
         b.addEventListener("mouseover", () => loadPinContent(i));
         b.addEventListener("mouseout", () => hideContent(i));
-        b.style = `position: absolute; left: ${pin.x * 100}%;top: ${pin.y * 100}%;`;
+    
         pinsArea.appendChild(b);
         resolvePinColor(pin.color, b.id);
-    });
 
+        // desconta uma porcentagem no x por conta da imagem
+        // desconta no y pro alfinete ficar posicionado em cima do ponto
+        let px = ((pin.x*dimensions -(0.15*pinDimension))/dimensions) * 100;
+        let py = ((pin.y*dimensions -(0.95*pinDimension))/dimensions) * 100;
+        b.style = `width:${PINS_SIZE*100}%; position: absolute; margin: 0; padding: 0; left: ${px}%;top: ${py}%;`;
+    });
 }
 
 // carrega as informações do alfinete

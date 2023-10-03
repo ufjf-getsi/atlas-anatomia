@@ -5,13 +5,11 @@
             "id": 0,
             "path": "#esqueletico",
             "section": "subsystems",
-            "image": "./utils/imagens/esqueletico.jpg",
             "subsystems": [
                 {
                     "systemName": "Crânio",
                     "path": "#cranio",
                     "section": "subsystems",
-                    "image": "./utils/imagens/esqueletico.jpg",
                     "subsystems": [
                         {
                             "systemName": "Base do Crânio",
@@ -23,23 +21,98 @@
                         }, 
                         {
                             "systemName": "Crânios Infantis",
-                            "id": 1,
+                            "id": 0,
                             "path": "#cranios-infantis",
                             "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/cranio/base/base.json",
+                            "url": "./utils/sistemas/esqueletico/cranio/cranios_infantis/cranios_infantis.json",
+                            "image": "./utils/imagens/articular.jpg"
+                        },
+                        {
+                            "systemName": "Mandíbula",
+                            "id": 0,
+                            "path": "#mandibula",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/esqueletico/cranio/mandibula/mandibula.json",
+                            "image": "./utils/imagens/articular.jpg"
+                        },
+                        {
+                            "systemName": "Pontos Craniométricos",
+                            "id": 0,
+                            "path": "#pontos",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/esqueletico/cranio/pontos_craniometricos/pontos_craniometricos.json",
+                            "image": "./utils/imagens/articular.jpg"
+                        },
+                        {
+                            "systemName": "Vistas do Crânio",
+                            "id": 0,
+                            "path": "#vistas",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/esqueletico/cranio/vistas/vistas.json",
                             "image": "./utils/imagens/articular.jpg"
                         }
-                    ]
+                    ],
+                    "image": "./utils/imagens/cranio.png"
+                },
+                {
+                    "systemName": "Membro Inferior",
+                    "path": "#membro-inferior",
+                    "section": "subsystems",
+                    "subsystems": [
+                        {
+                            "systemName": "Cíngulo",
+                            "path": "#cingulo",
+                            "section": "atlas",
+                            "url": "",
+                            "image": "./utils/imagens/esqueletico.jpg"
+                        },
+                        {
+                            "systemName": "Coxa",
+                            "path": "#coxa",
+                            "section": "subsystems",
+                            "url": "",
+                            "image": "./utils/imagens/esqueletico.jpg"
+                        },
+                        {
+                            "systemName": "Patela",
+                            "path": "#patela",
+                            "section": "atlas",
+                            "url": "",
+                            "image": "./utils/imagens/esqueletico.jpg"
+                        },
+                        {
+                            "systemName": "Pé",
+                            "path": "#pe",
+                            "section": "atlas",
+                            "url": "",
+                            "image": "./utils/imagens/esqueletico.jpg"
+                        },  
+                        {
+                            "systemName": "Perna",
+                            "path": "#perna",
+                            "section": "atlas",
+                            "url": "",
+                            "image": "./utils/imagens/esqueletico.jpg"
+                        }
+                    ],
+                    "image": "./utils/imagens/esqueletico.jpg"
                 }, 
                 {
                     "systemName": "Membro Superior",
-                    "id": 3,
                     "path": "#membro-superior",
                     "section": "atlas",
-                    "url": "./utils/sistemas/esqueletico/cranio/base/base.json",
+                    "subsystems": [],
+                    "image": "./utils/imagens/esqueletico.jpg"
+                },
+                {
+                    "systemName": "Tronco",
+                    "path": "#tronco",
+                    "section": "atlas",
+                    "subsystems": [],
                     "image": "./utils/imagens/esqueletico.jpg"
                 }
-            ]
+            ],
+            "image": "./utils/imagens/esqueletico.jpg"
         },
         {
             "systemName": "Articular",
