@@ -39,8 +39,8 @@ const showCoordinates = (e) => {
   const backgroundImage = document.getElementById("content");
   const dimensions = backgroundImage.width;
 
-  let px = ((e.offsetX - 10) / dimensions) * 100;
-  let py = ((e.offsetY - 50) / dimensions) * 100;
+  let px = (e.offsetX / dimensions) * 100;
+  let py = (e.offsetY / dimensions) * 100;
 
   console.log("PosX: ", px.toFixed(2), "PosY: ", py.toFixed(2));
 };
