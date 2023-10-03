@@ -2,21 +2,705 @@
     "systemName": "Base do Crânio",
     "pieces": [
         {
-            "id": 1,
-            "title": "Cranio Lateral",
-            "description": "ddddddddd",
-            "image": "./utils/sistemas/esqueletico/lateral.png",
-            "width": 612,
-            "height": 612,
+            "id": 0, 
+            "title": "Vista Basal Externa",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/base/VistaBasalExterna1.png",
             "pins": [
                 {
                     "id": 0,
-                    "title": "Nariz",
-                    "description": "Alfinete 1",
+                    "title": "Osso Temporal (Processo Mastoide)",
+                    "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.8367,
-                    "y": 0.5083,
+                    "x": 0.78,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Osso Occipital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.8,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Osso Vômer",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.35,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Osso Esfenoide (Processo Pterigoide)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.63,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Osso Zigomático",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.25,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Osso Palatino (Lâmina Horizontal)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.45,
+                    "y": 0.28,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Osso Maxilar (Processo Palatino)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.55,
+                    "y": 0.15,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Basal Externa",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/base/VistaBasalExterna2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Processos Alveolares",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.4,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Espinha Nasal Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Pterigoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.65,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Processo Estilo-hioideo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.73,
+                    "y": 0.4390,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Parte Basilar do Osso Occiptal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.4690,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Cóanos",
+                    "description": "Comunica a cavidade nasal a nasofaringe.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Fossa Mandibular",
+                    "description": "Recebe a cabeça da mandíbula na articulação temporomandibular. É limitada anteriormente pelo tubérculo articular.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.25,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Fossa Condilar",
+                    "description": "Depressão posterior ao côndilo onde se abre o canal condilar.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.6,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Côndilo Occiptal",
+                    "description": "Articula com a massa lateral do atlas.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.4,
+                    "y": 0.58,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2, 
+            "title": "Vista Basal Externa",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/base/VistaBasalExterna3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Lâmina Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.8,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Lâmina Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.6,
+                    "y": 0.4,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Fossa Pterigóidea",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.7,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Hâmulo Pterigoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.7,
+                    "y": 0.3,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3, 
+            "title": "Vista Basal Externa",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/base/VistaBasalExterna4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Forame Magno",
+                    "description": "Comunica o canal vertebral com a fossa posterior do crânio.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.53,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Canal do Nervo Hipoglosso",
+                    "description": "Local onde o nervo hipoglosso (XII par craniano) emerge do crânio.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.8,
+                    "y": 0.8,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Canal Carótico",
+                    "description": "Permite a passagem da artéria carótida interna, dos plexos venosos e simpáticos.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.9,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Forame Lacerado",
+                    "description": "Permite a passagem do nervo petroso maior.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.8,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Forames Palatinos (Maiores e Menores)",
+                    "description": "Permite a passagem dos nervos palatinos maiores e menores respectivamente.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.9,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Fossa e Canal Incisivo",
+                    "description": "Permite a passagem do nervo nasopalatino e artéria esfenopalatina.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Forame Oval",
+                    "description": "Permite a passagem do nervo mandibular.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.2,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Forame Espinhoso",
+                    "description": "Permite a passagem da artéria e veia meníngeas médias e ramo meníngeo do nervo mandibular (V par craniano).",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.2,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Forame Jugular",
+                    "description": "É o local de formação da veia jugular interna pela continuação do seio sigmoide. Os nervos glossofaríngeo, vago e acessório (respectivamente IX, X e XI par craniano) emergem do crânio por esse forame.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.2,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Forame Estilomastoide",
+                    "description": "Permite a passagem do nervo facial (VII par craniano).",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.2,
+                    "y": 0.8,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Forame Mastoideo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.2,
+                    "y": 0.9,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 4, 
+            "title": "Vista Basal Interna",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/base/VistaBasalInterna1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Osso Occipital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.8,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Osso Frontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.3,
+                    "y": 0.2,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Osso Etmoide (Crista Etmoidal)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Osso Temporal (Parte Petrosa)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.2,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Osso Esfenoide (Corpo)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.4,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 5, 
+            "title": "Vista Basal Interna",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/base/VistaBasalInterna2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Osso Frontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Asa Menor do Esfenoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.4,
+                    "y": 0.35,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Asa Maior do Esfenoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.35,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Crista Occiptal Interna",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Crista Etmoidal",
+                    "description": "É onde se insere uma prega de dura-máter, a foice do cérebro.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Lâmina Cribiforme",
+                    "description": "É uma lâmina óssea fina e muito perfurada. Dá passagem aos filamentos dos nervos olfatórios da mucosa nasal até o bulbo olfatório.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Corpo do Esfenoide (Sela Túrcica)",
+                    "description": "Local que abriga a glândula hipófise.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Sulco do Seio Sigmoide",
+                    "description": "Sulco que aloja o seio sigmoide da dura-máter.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Fossa Cerebelar",
+                    "description": "Depressão óssea que aloja o cerebelo.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.7,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Sulco do Seio Transverso",
+                    "description": "Sulco que aloja o seio transverso da dura-máter.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.3,
+                    "y": 0.7,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 6, 
+            "title": "Vista Basal Interna",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/base/VistaBasalInterna3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Forame Espinhoso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.4,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Forame Oval",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.3,
+                    "y": 0.5,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Canal Carótico",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.35,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Forame Jugular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.65,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Forame Lacerado",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.6,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Forame Magno",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Forame Cego",
+                    "description": "Tem fundo cego. Pode dar passagem a uma pequena veia da mucosa nasal ao seio sagital superior.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.1,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 7, 
+            "title": "Vista Basal Interna",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/base/VistaBasalInterna4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Canal Óptico",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Processo Clinoide Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.3,
+                    "y": 0.25,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Forame Redondo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.3,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Forame Oval",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.4,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Fossa Hipofisial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Canal do Nervo Hipoglosso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.8,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Tubérculo da Sela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.9,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Forame Lacerado",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.6,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Canal Carótico",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.6,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Dorso da Sela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.8,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Forame Jugular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.54,
                     "placement": "left"
                 }
             ]

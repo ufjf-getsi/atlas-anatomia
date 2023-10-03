@@ -1,0 +1,61 @@
+{
+    "systemName": "Pontos Craniométricos",
+    "pieces": [
+        {
+            "id": 0, 
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/pontos_craniometricos/.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.78,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.55,
+                    "y": 0.15,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1, 
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/pontos_craniometricos/.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.78,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.55,
+                    "y": 0.15,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}
