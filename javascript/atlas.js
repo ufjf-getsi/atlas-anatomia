@@ -4,9 +4,11 @@
 import { loadNavigations, navigateToImage } from "./navigations.js";
 import { navigate } from "./router.js";
 import { fetchData, getAllSystemsData } from "./services.js";
+import { setPin, createAddPinButton } from "./pins.js";
 
 let pieceIndex = 0;
 let pieces, piecesNumber;
+let isSettingPins = true;
 
 // carrega os dados quando a tela for chamada
 const loadSystemContent = async ( systemURL ) => {
@@ -33,16 +35,22 @@ const loadSystemContent = async ( systemURL ) => {
   // define o título do sistema
   const mainTitle = document.getElementById("main-title");
   mainTitle.innerHTML = systemName;
+
+  if(isSettingPins)
+    createAddPinButton();
 };
 
 const showCoordinates = (e) => {
   const backgroundImage = document.getElementById("content");
   const dimensions = backgroundImage.width;
 
-  let px = (e.offsetX / dimensions) * 100;
-  let py = (e.offsetY / dimensions) * 100;
+  let px = (e.offsetX / dimensions);
+  let py = (e.offsetY / dimensions);
 
-  console.log("PosX: ", px.toFixed(2), "PosY: ", py.toFixed(2));
+  if(isSettingPins)
+    setPin(isSettingPins, px, py);
+  else alert(`PosX: ", ${px.toFixed(2)}, "PosY: ", ${py.toFixed(2)}`);
+
 };
 
 const setPieceIndex = (index) => {
@@ -81,5 +89,5 @@ export {
   getPiecesNumber,
   incPieceIndex,
   decPieceIndex,
-    getPieces
+  getPieces
 };

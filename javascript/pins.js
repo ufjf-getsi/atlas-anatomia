@@ -13,39 +13,113 @@ window.addEventListener("resize", () => {
     loadPins(pinsData);
 })
 
-const loadPins = async (pinsData) => {
+const loadPins = async ( pinsData ) => {
 
     setPinsData(pinsData);
+
+    const pinsArea = document.querySelector("#pins-area");
+    pinsArea.innerHTML =  "";
+    pinsData.forEach((pin, i) => {
+        createPin(pin, i, pinsArea);
+    });
+}
+
+// define temporariamente alfinetes para montagem do JSON
+
+let pinsJSON = [];
+let pin = {};
+
+let pinTitle = "";
+
+const setPinTitle = (title) => {
+    pinTitle = title;
+}
+
+const setPinData = (data) => {
+    pin = data;
+}
+
+const setPin = (isSettingPins, px, py) => {
+
+    console.log(pinsData.length)
+    let pin = {};
+    if(isSettingPins) {
+        pin.id = pinsData.length;
+        pin.title = pinTitle;
+        pin.description = "";
+        pin.placement = "left";
+        pin.color = "black";
+        pin.x = px;
+        pin.y = py;
+    }
+
+    setPinData(pin);
+    const pinsArea = document.querySelector("#pins-area");
+    loadPins(pinsData);
+    createPin(pin, pin.id, pinsArea)
+}
+
+const createPin = ( pinData, i, pinsArea ) => {
 
     //valor em porcentagem
     let PINS_SIZE = 0.05;
     let dimensions = document.getElementById("content").width;
     let pinDimension = dimensions*PINS_SIZE;
     
-    const pinsArea = document.querySelector("#pins-area");
-    pinsArea.innerHTML =  "";
-    pinsData.forEach((pin, i) => {
-        const b = document.createElement("button");
-        b.classList.add("pin");
-        b.id = `pin_${i}`;
-        b.addEventListener("mouseover", () => loadPinContent(i));
-        b.addEventListener("mouseout", () => hideContent(i));
-    
-        pinsArea.appendChild(b);
-        resolvePinColor(pin.color, b.id);
+    const pin = document.createElement("button");
+    pin.classList.add("pin");
+    pin.id = `pin_${i}`;
+    pin.addEventListener("mouseover", () => loadPinContent(i));
+    pin.addEventListener("mouseout", () => hideContent(i));
 
-        // desconta uma porcentagem no x por conta da imagem
-        // desconta no y pro alfinete ficar posicionado em cima do ponto
-        let px = ((pin.x*dimensions -(0.15*pinDimension))/dimensions) * 100;
-        let py = ((pin.y*dimensions -(0.95*pinDimension))/dimensions) * 100;
-        b.style = `width:${PINS_SIZE*100}%; position: absolute; margin: 0; padding: 0; left: ${px}%;top: ${py}%;`;
-    });
+    pinsArea.appendChild(pin);
+    resolvePinColor(pinData.color, pin.id);
+
+    // desconta uma porcentagem no x por conta da imagem
+    // desconta no y pro alfinete ficar posicionado em cima do ponto
+    let px = ((pinData.x*dimensions -(0.15*pinDimension))/dimensions) * 100;
+    let py = ((pinData.y*dimensions -(0.95*pinDimension))/dimensions) * 100;
+    pin.style = `width:${PINS_SIZE*100}%; position: absolute; margin: 0; padding: 0; left: ${px}%;top: ${py}%;`;
 }
+
+const createAddPinButton = () => {
+
+   // createEditionMenu();
+
+    const container = document.querySelector("#container");
+    const addPinButton = document.createElement("button");
+    addPinButton.classList.add("add-button");
+    addPinButton.addEventListener("click", () => addPinToPinsData())
+    container.appendChild(addPinButton);
+
+    const input = document.createElement("input")
+    input.type = "text";
+    input.id = "pin-title";
+    input.addEventListener("change", (e) => setPinTitle(e.target.value))
+    container.appendChild(input)
+}
+
+const createEditionMenu = () => {
+    const card = document.querySelector("#atlas");
+    const container = document.createElement("div");
+    container.id = "edition-menu";
+
+    card.appendChild(container);
+}
+
+const addPinToPinsData = () => {
+    pinsJSON.push(pin);
+    console.log(pinsJSON)
+    loadPins([...pinsData, pin])
+}
+
 
 // carrega as informações do alfinete
 const loadPinContent = async (index) => {
     
     const pinData = getPieces()[getPieceIndex()].pins[index];
+    if(!pinData)
+        return;
     const { title, description, placement, color} = pinData;
 
     const pin = document.querySelector(`#pin_${index}`);
@@ -89,9 +163,11 @@ const resolvePinColor = (color, id) => {
     
     if(color == 'red') {
         pin.setAttribute('color','red');
-    } else {  
+    } else if(color == 'blue') {  
         pin.setAttribute('color','blue');
+    } else {  
+        pin.setAttribute('color','black');
     } 
 }
 
-export { loadPins, loadPinContent, showContent, hideContent }
+export { loadPins, loadPinContent, showContent, hideContent, setPin, createAddPinButton }

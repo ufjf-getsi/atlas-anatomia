@@ -46,6 +46,29 @@
     margin: 0;
 }
 
+.add-button {
+    position: absolute;
+    width: 35px;
+    aspect-ratio: 1;
+    background-color: red;
+    top: 0;
+    right: 0;
+}
+
+input {
+    position: absolute;
+    width: 45%;
+    height: 25px;
+    background-color: rgb(74, 55, 55);
+    top: 0;
+    left: 0;
+}
+
+#edition-menu {
+    background-color: red;
+    height: 30px;
+    width: 70%;
+}
 
 /* ITEMS & FUNCIONALIDADES */
 .navigation-bar {
@@ -111,6 +134,12 @@
 .pin[color = red] {
     background-size: 100%;
     background-image: url("../imagens/alfinete_vermelho.png");
+}
+
+.pin[color = black] {
+    background-size: 100%;
+    background-image: url("../imagens/alfinete_vermelho.png");
+    filter: grayscale(1) contrast(1.5);
 }
 
 .pin[color = blue] {

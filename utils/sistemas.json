@@ -31,7 +31,7 @@
                             "systemName": "Mandíbula",
                             "id": 0,
                             "path": "#mandibula",
-                            "section": "atlas",
+                            "section": "subsystems",
                             "url": "./utils/sistemas/esqueletico/cranio/mandibula/mandibula.json",
                             "image": "./utils/imagens/articular.jpg"
                         },
