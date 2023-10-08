@@ -1,7 +1,5 @@
 import { getPinsData, loadPins, createPin } from "./pins.js";
 
-
- 
 // define temporariamente alfinetes para montagem do JSON
 let pinsJSON = [];
 let pin = {};
@@ -33,10 +31,11 @@ const setPin = (isSettingPins, px, py) => {
         pin.id = pinsData.length;
         pin.title = pinTitle;
         pin.description = "";
-        pin.placement = "left";
         pin.color = "black";
+        pin.url = "";
         pin.x = Number(px.toFixed(2));
         pin.y = Number(py.toFixed(2));
+        pin.placement = "left";
     }
 
     updatePin(pin);
