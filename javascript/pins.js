@@ -1,7 +1,10 @@
 // RESPONSÁVEL PELA MANIPULAÇÃO DO ALFINETE 
 
-import { getPieceIndex , getPieces } from "./atlas.js   ";
+import { getPieceIndex , getPieces } from "./atlas.js";
 
+window.addEventListener("resize", () => {
+    loadPins(pinsData);
+})
 
 let pinsData = [];
 
@@ -9,14 +12,15 @@ const setPinsData = (data) => {
     pinsData = data;
 }
 
-window.addEventListener("resize", () => {
-    loadPins(pinsData);
-})
+const getPinsData = () => {
+    return pinsData;
+}
 
+// renderiza os alfinetes de acordo com um array recebido
 const loadPins = async ( pinsData ) => {
 
     setPinsData(pinsData);
-
+    
     const pinsArea = document.querySelector("#pins-area");
     pinsArea.innerHTML =  "";
     pinsData.forEach((pin, i) => {
@@ -24,41 +28,7 @@ const loadPins = async ( pinsData ) => {
     });
 }
 
-// define temporariamente alfinetes para montagem do JSON
-
-let pinsJSON = [];
-let pin = {};
-
-let pinTitle = "";
-
-const setPinTitle = (title) => {
-    pinTitle = title;
-}
-
-const setPinData = (data) => {
-    pin = data;
-}
-
-const setPin = (isSettingPins, px, py) => {
-
-    console.log(pinsData.length)
-    let pin = {};
-    if(isSettingPins) {
-        pin.id = pinsData.length;
-        pin.title = pinTitle;
-        pin.description = "";
-        pin.placement = "left";
-        pin.color = "black";
-        pin.x = px;
-        pin.y = py;
-    }
-
-    setPinData(pin);
-    const pinsArea = document.querySelector("#pins-area");
-    loadPins(pinsData);
-    createPin(pin, pin.id, pinsArea)
-}
-
+// gera os alfinetes de acordo com as informações
 const createPin = ( pinData, i, pinsArea ) => {
 
     //valor em porcentagem
@@ -81,38 +51,6 @@ const createPin = ( pinData, i, pinsArea ) => {
     let py = ((pinData.y*dimensions -(0.95*pinDimension))/dimensions) * 100;
     pin.style = `width:${PINS_SIZE*100}%; position: absolute; margin: 0; padding: 0; left: ${px}%;top: ${py}%;`;
 }
-
-const createAddPinButton = () => {
-
-   // createEditionMenu();
-
-    const container = document.querySelector("#container");
-    const addPinButton = document.createElement("button");
-    addPinButton.classList.add("add-button");
-    addPinButton.addEventListener("click", () => addPinToPinsData())
-    container.appendChild(addPinButton);
-
-    const input = document.createElement("input")
-    input.type = "text";
-    input.id = "pin-title";
-    input.addEventListener("change", (e) => setPinTitle(e.target.value))
-    container.appendChild(input)
-}
-
-const createEditionMenu = () => {
-    const card = document.querySelector("#atlas");
-    const container = document.createElement("div");
-    container.id = "edition-menu";
-
-    card.appendChild(container);
-}
-
-const addPinToPinsData = () => {
-    pinsJSON.push(pin);
-    console.log(pinsJSON)
-    loadPins([...pinsData, pin])
-}
-
 
 // carrega as informações do alfinete
 const loadPinContent = async (index) => {
@@ -170,4 +108,4 @@ const resolvePinColor = (color, id) => {
     } 
 }
 
-export { loadPins, loadPinContent, showContent, hideContent, setPin, createAddPinButton }
+export { loadPins, loadPinContent, showContent, hideContent, getPinsData, createPin }

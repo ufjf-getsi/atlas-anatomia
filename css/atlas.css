@@ -46,29 +46,44 @@
     margin: 0;
 }
 
+/* EDIÇÃO */
+#edition-menu {
+    background-color: rgba(146, 146, 146, 0.836);
+    min-height: 150px;
+    width: 300px;
+    margin: 25px 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .add-button {
-    position: absolute;
-    width: 35px;
-    aspect-ratio: 1;
-    background-color: red;
-    top: 0;
-    right: 0;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #338a4a;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #222222;
+}
+
+.add-button:hover {
+    background: linear-gradient(#43b85cfd, #068621fd);
 }
 
 input {
-    position: absolute;
-    width: 45%;
-    height: 25px;
-    background-color: rgb(74, 55, 55);
-    top: 0;
-    left: 0;
+    width: 90%;
+    height: 35px;
+    border: solid 1px #7c7c7c;
+    border-radius: 5px;
+    outline: 0;
+    font-size: 12px;
+    background-color: rgb(201, 200, 200);
 }
 
-#edition-menu {
-    background-color: red;
-    height: 30px;
-    width: 70%;
-}
 
 /* ITEMS & FUNCIONALIDADES */
 .navigation-bar {

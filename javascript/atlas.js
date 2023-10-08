@@ -4,7 +4,7 @@
 import { loadNavigations, navigateToImage } from "./navigations.js";
 import { navigate } from "./router.js";
 import { fetchData, getAllSystemsData } from "./services.js";
-import { setPin, createAddPinButton } from "./pins.js";
+import { createEditionMenu, setPin } from  './editor.js'
 
 let pieceIndex = 0;
 let pieces, piecesNumber;
@@ -37,7 +37,7 @@ const loadSystemContent = async ( systemURL ) => {
   mainTitle.innerHTML = systemName;
 
   if(isSettingPins)
-    createAddPinButton();
+    createEditionMenu();
 };
 
 const showCoordinates = (e) => {
@@ -47,6 +47,7 @@ const showCoordinates = (e) => {
   let px = (e.offsetX / dimensions);
   let py = (e.offsetY / dimensions);
 
+  // função de edição 
   if(isSettingPins)
     setPin(isSettingPins, px, py);
   else alert(`PosX: ", ${px.toFixed(2)}, "PosY: ", ${py.toFixed(2)}`);
