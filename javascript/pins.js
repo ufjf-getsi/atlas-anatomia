@@ -66,6 +66,7 @@ const showContent = (pin, placement = "bottom", pinColor) => {
 
     const tooltip = document.querySelector("#tooltip");
     const tooltipTitle = document.querySelector("#tooltip-title");
+    const tooltipDescription = document.querySelector("#tooltip-description");
 
     Popper.createPopper(pin, tooltip, {
         placement
@@ -73,13 +74,18 @@ const showContent = (pin, placement = "bottom", pinColor) => {
 
     tooltipTitle.setAttribute('color', pinColor);
     tooltip.setAttribute('data-show','true');
+    
+    if(pinColor == 'red')
+        tooltipDescription.setAttribute('data-show','true');
 }
 
 // esconde o conteudo do alfinete
 const hideContent = () => {
 
     const tooltip = document.querySelector("#tooltip");
+    const tooltipDescription = document.querySelector("#tooltip-description");
     tooltip.removeAttribute('data-show');
+    tooltipDescription.removeAttribute('data-show');
 }   
 
 // personaliza as cores do alfinete 

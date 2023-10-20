@@ -23,7 +23,7 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.5,
+                    "x": 0.52,
                     "y": 0.8,
                     "placement": "right"
                 },
@@ -34,7 +34,7 @@
                     "color": "blue",
                     "url": "...",
                     "x": 0.5,
-                    "y": 0.35,
+                    "y": 0.4,
                     "placement": "left"
                 },
                 {
@@ -43,8 +43,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.63,
-                    "y": 0.32,
+                    "x": 0.64,
+                    "y": 0.37,
                     "placement": "left"
                 },
                 {
@@ -64,7 +64,7 @@
                     "color": "blue",
                     "url": "...",
                     "x": 0.45,
-                    "y": 0.28,
+                    "y": 0.32,
                     "placement": "left"
                 },
                 {
@@ -73,7 +73,7 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.55,
+                    "x": 0.52,
                     "y": 0.15,
                     "placement": "left"
                 }
@@ -102,7 +102,7 @@
                     "color": "blue",
                     "url": "...",
                     "x": 0.5,
-                    "y": 0.2,
+                    "y": 0.35,
                     "placement": "left"
                 },
                 {
@@ -111,8 +111,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.65,
-                    "y": 0.3,
+                    "x": 0.64,
+                    "y": 0.37,
                     "placement": "left"
                 },
                 {
@@ -121,8 +121,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.73,
-                    "y": 0.4390,
+                    "x": 0.68,
+                    "y": 0.48,
                     "placement": "left"
                 },
                 {
@@ -132,7 +132,7 @@
                     "color": "blue",
                     "url": "...",
                     "x": 0.5,
-                    "y": 0.4690,
+                    "y": 0.5,
                     "placement": "left"
                 },
                 {
@@ -152,8 +152,8 @@
                     "color": "red",
                     "url": "...",
                     "x": 0.25,
-                    "y": 0.5,
-                    "placement": "left"
+                    "y": 0.53,
+                    "placement": "right"
                 },
                 {
                     "id": 7,
@@ -161,8 +161,8 @@
                     "description": "Depressão posterior ao côndilo onde se abre o canal condilar.",
                     "color": "red",
                     "url": "...",
-                    "x": 0.6,
-                    "y": 0.63,
+                    "x": 0.62,
+                    "y": 0.67,
                     "placement": "left"
                 },
                 {
@@ -173,7 +173,7 @@
                     "url": "...",
                     "x": 0.4,
                     "y": 0.58,
-                    "placement": "left"
+                    "placement": "right"
                 }
             ]
         },
@@ -190,7 +190,7 @@
                     "color": "blue",
                     "url": "...",
                     "x": 0.8,
-                    "y": 0.4,
+                    "y": 0.45,
                     "placement": "left"
                 },
                 {
@@ -199,8 +199,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.6,
-                    "y": 0.4,
+                    "x": 0.65,
+                    "y": 0.49,
                     "placement": "right"
                 },
                 {
@@ -209,8 +209,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.7,
-                    "y": 0.4,
+                    "x": 0.72,
+                    "y": 0.45,
                     "placement": "left"
                 },
                 {
@@ -219,8 +219,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.7,
-                    "y": 0.3,
+                    "x": 0.75,
+                    "y": 0.35,
                     "placement": "left"
                 }
             ]
@@ -238,7 +238,7 @@
                     "color": "red",
                     "url": "...",
                     "x": 0.53,
-                    "y": 0.7,
+                    "y": 0.74,
                     "placement": "left"
                 },
                 {
@@ -248,7 +248,7 @@
                     "color": "red",
                     "url": "...",
                     "x": 0.8,
-                    "y": 0.8,
+                    "y": 0.83,
                     "placement": "right"
                 },
                 {
@@ -257,8 +257,8 @@
                     "description": "Permite a passagem da artéria carótida interna, dos plexos venosos e simpáticos.",
                     "color": "red",
                     "url": "...",
-                    "x": 0.9,
-                    "y": 0.7,
+                    "x": 0.878,
+                    "y": 0.68,
                     "placement": "left"
                 },
                 {
@@ -267,8 +267,8 @@
                     "description": "Permite a passagem do nervo petroso maior.",
                     "color": "red",
                     "url": "...",
-                    "x": 0.8,
-                    "y": 0.5,
+                    "x": 0.85,
+                    "y": 0.51,
                     "placement": "left"
                 },
                 {
@@ -277,8 +277,8 @@
                     "description": "Permite a passagem dos nervos palatinos maiores e menores respectivamente.",
                     "color": "red",
                     "url": "...",
-                    "x": 0.9,
-                    "y": 0.3,
+                    "x": 0.949,
+                    "y": 0.312,
                     "placement": "left"
                 },
                 {
@@ -287,8 +287,8 @@
                     "description": "Permite a passagem do nervo nasopalatino e artéria esfenopalatina.",
                     "color": "red",
                     "url": "...",
-                    "x": 0.5,
-                    "y": 0.2,
+                    "x": 0.53,
+                    "y": 0.18,
                     "placement": "left"
                 },
                 {
@@ -297,8 +297,8 @@
                     "description": "Permite a passagem do nervo mandibular.",
                     "color": "red",
                     "url": "...",
-                    "x": 0.2,
-                    "y": 0.3,
+                    "x": 0.194,
+                    "y": 0.365,
                     "placement": "left"
                 },
                 {
@@ -308,7 +308,7 @@
                     "color": "red",
                     "url": "...",
                     "x": 0.2,
-                    "y": 0.5,
+                    "y": 0.57,
                     "placement": "left"
                 },
                 {
@@ -317,8 +317,8 @@
                     "description": "É o local de formação da veia jugular interna pela continuação do seio sigmoide. Os nervos glossofaríngeo, vago e acessório (respectivamente IX, X e XI par craniano) emergem do crânio por esse forame.",
                     "color": "red",
                     "url": "...",
-                    "x": 0.2,
-                    "y": 0.6,
+                    "x": 0.019,
+                    "y": 0.7,
                     "placement": "left"
                 },
                 {
@@ -327,8 +327,8 @@
                     "description": "Permite a passagem do nervo facial (VII par craniano).",
                     "color": "red",
                     "url": "...",
-                    "x": 0.2,
-                    "y": 0.8,
+                    "x": 0.119,
+                    "y": 0.81,
                     "placement": "left"
                 },
                 {
@@ -337,8 +337,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.2,
-                    "y": 0.9,
+                    "x": 0.16,
+                    "y": 0.86,
                     "placement": "left"
                 }
             ]
@@ -355,8 +355,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.5,
-                    "y": 0.8,
+                    "x": 0.6,
+                    "y": 0.75,
                     "placement": "left"
                 },
                 {
@@ -365,8 +365,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.3,
-                    "y": 0.2,
+                    "x": 0.39,
+                    "y": 0.08,
                     "placement": "right"
                 },
                 {
@@ -375,8 +375,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.5,
-                    "y": 0.2,
+                    "x": 0.46,
+                    "y": 0.13,
                     "placement": "left"
                 },
                 {
@@ -385,8 +385,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.2,
-                    "y": 0.5,
+                    "x": 0.29,
+                    "y": 0.53,
                     "placement": "left"
                 },
                 {
@@ -395,7 +395,7 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.5,
+                    "x": 0.48,
                     "y": 0.4,
                     "placement": "left"
                 }
@@ -413,8 +413,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.5,
-                    "y": 0.2,
+                    "x": 0.39,
+                    "y": 0.08,
                     "placement": "left"
                 },
                 {
@@ -424,7 +424,7 @@
                     "color": "blue",
                     "url": "...",
                     "x": 0.4,
-                    "y": 0.35,
+                    "y": 0.29,
                     "placement": "right"
                 },
                 {
@@ -433,17 +433,17 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.35,
-                    "y": 0.45,
+                    "x": 0.3,
+                    "y": 0.33,
                     "placement": "left"
                 },
                 {
                     "id": 3,
-                    "title": "Crista Occiptal Interna",
+                    "title": "Crista Occipital Interna",
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.5,
+                    "x": 0.49,
                     "y": 0.7,
                     "placement": "left"
                 },
@@ -453,8 +453,8 @@
                     "description": "É onde se insere uma prega de dura-máter, a foice do cérebro.",
                     "color": "red",
                     "url": "...",
-                    "x": 0.5,
-                    "y": 0.2,
+                    "x": 0.46,
+                    "y": 0.13,
                     "placement": "left"
                 },
                 {
@@ -463,8 +463,8 @@
                     "description": "É uma lâmina óssea fina e muito perfurada. Dá passagem aos filamentos dos nervos olfatórios da mucosa nasal até o bulbo olfatório.",
                     "color": "red",
                     "url": "...",
-                    "x": 0.5,
-                    "y": 0.3,
+                    "x": 0.469,
+                    "y": 0.2,
                     "placement": "left"
                 },
                 {
@@ -473,8 +473,8 @@
                     "description": "Local que abriga a glândula hipófise.",
                     "color": "red",
                     "url": "...",
-                    "x": 0.5,
-                    "y": 0.5,
+                    "x": 0.47,
+                    "y": 0.38,
                     "placement": "left"
                 },
                 {
@@ -483,8 +483,8 @@
                     "description": "Sulco que aloja o seio sigmoide da dura-máter.",
                     "color": "red",
                     "url": "...",
-                    "x": 0.5,
-                    "y": 0.7,
+                    "x": 0.68,
+                    "y": 0.58,
                     "placement": "left"
                 },
                 {
@@ -493,8 +493,8 @@
                     "description": "Depressão óssea que aloja o cerebelo.",
                     "color": "red",
                     "url": "...",
-                    "x": 0.7,
-                    "y": 0.7,
+                    "x": 0.832,
+                    "y": 0.792,
                     "placement": "left"
                 },
                 {
@@ -503,8 +503,8 @@
                     "description": "Sulco que aloja o seio transverso da dura-máter.",
                     "color": "red",
                     "url": "...",
-                    "x": 0.3,
-                    "y": 0.7,
+                    "x": 0.29,
+                    "y": 0.76,
                     "placement": "left"
                 }
             ]
@@ -521,8 +521,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.4,
-                    "y": 0.5,
+                    "x": 0.31,
+                    "y": 0.42,
                     "placement": "left"
                 },
                 {
@@ -531,8 +531,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.3,
-                    "y": 0.5,
+                    "x": 0.35,
+                    "y": 0.39,
                     "placement": "right"
                 },
                 {
@@ -541,9 +541,9 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.35,
-                    "y": 0.5,
-                    "placement": "left"
+                    "x": 0.37,
+                    "y": 0.43,
+                    "placement": "right"
                 },
                 {
                     "id": 3,
@@ -551,8 +551,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.65,
-                    "y": 0.54,
+                    "x": 0.6,
+                    "y": 0.51,
                     "placement": "left"
                 },
                 {
@@ -561,8 +561,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.6,
-                    "y": 0.54,
+                    "x": 0.54,
+                    "y": 0.41,
                     "placement": "left"
                 },
                 {
@@ -571,8 +571,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.5,
-                    "y": 0.54,
+                    "x": 0.48,
+                    "y": 0.56,
                     "placement": "left"
                 },
                 {
@@ -581,8 +581,8 @@
                     "description": "Tem fundo cego. Pode dar passagem a uma pequena veia da mucosa nasal ao seio sagital superior.",
                     "color": "red",
                     "url": "...",
-                    "x": 0.5,
-                    "y": 0.1,
+                    "x": 0.46,
+                    "y": 0.08,
                     "placement": "left"
                 }
             ]
@@ -599,8 +599,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.5,
-                    "y": 0.2,
+                    "x": 0.46,
+                    "y": 0.29,
                     "placement": "left"
                 },
                 {
@@ -609,8 +609,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.3,
-                    "y": 0.25,
+                    "x": 0.43,
+                    "y": 0.34,
                     "placement": "right"
                 },
                 {
@@ -619,8 +619,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.3,
-                    "y": 0.3,
+                    "x": 0.39,
+                    "y": 0.35,
                     "placement": "left"
                 },
                 {
@@ -629,8 +629,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.4,
-                    "y": 0.4,
+                    "x": 0.33,
+                    "y": 0.5,
                     "placement": "left"
                 },
                 {
@@ -639,8 +639,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.5,
-                    "y": 0.54,
+                    "x": 0.55,
+                    "y": 0.39,
                     "placement": "left"
                 },
                 {
@@ -649,8 +649,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.5,
-                    "y": 0.8,
+                    "x": 0.521,
+                    "y": 0.75,
                     "placement": "left"
                 },
                 {
@@ -659,8 +659,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.9,
-                    "y": 0.2,
+                    "x": 0.86,
+                    "y": 0.27,
                     "placement": "left"
                 },
                 {
@@ -669,8 +669,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.6,
-                    "y": 0.6,
+                    "x": 0.67,
+                    "y": 0.51,
                     "placement": "left"
                 },
                 {
@@ -679,7 +679,7 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.6,
+                    "x": 0.72,
                     "y": 0.54,
                     "placement": "left"
                 },
@@ -689,8 +689,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.8,
-                    "y": 0.6,
+                    "x": 0.86,
+                    "y": 0.61,
                     "placement": "left"
                 },
                 {
@@ -699,8 +699,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.5,
-                    "y": 0.54,
+                    "x": 0.76,
+                    "y": 0.7,
                     "placement": "left"
                 }
             ]
