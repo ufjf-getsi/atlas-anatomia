@@ -36,7 +36,7 @@ const loadSystemContent = async ( systemURL ) => {
 };
 
 const showCoordinates = (e) => {
-  const backgroundImage = document.getElementById("content");
+  const backgroundImage = document.getElementById("container");
   const dimensions = backgroundImage.width;
 
   let px = (e.offsetX / dimensions) * 100;

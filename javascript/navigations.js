@@ -31,6 +31,7 @@ const navigateToImage = (index) => {
   // carrega os alfinetes da imagem
   loadPins(getPieces()[index].pins);
 
+  const pinsArea = document.querySelector("#pins-area");
   const backgroundImage = document.querySelector("#content");
   const imageTitle = document.querySelector("#image-title");
 
@@ -42,7 +43,11 @@ const navigateToImage = (index) => {
   selected.classList.remove("selected");
   willBeSelected.classList.add("selected");
 
+  console.log(backgroundImage)
+
   backgroundImage.src = getPieces()[index].image;
+  backgroundImage.style.width = getPieces()[index].width;
+  backgroundImage.style.height = getPieces()[index].height;
   imageTitle.innerText = getPieces()[index].title;
 };
 

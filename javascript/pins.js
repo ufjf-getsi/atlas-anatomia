@@ -19,10 +19,12 @@ const loadPins = async (pinsData) => {
 
     //valor em porcentagem
     let PINS_SIZE = 0.05;
-    let dimensions = document.getElementById("content").width;
+    let dimensions = document.querySelector("#container").clientWidth;
     let pinDimension = dimensions*PINS_SIZE;
     
-    const pinsArea = document.querySelector("#pins-area");
+    console.log(dimensions)
+
+    const pinsArea = document.querySelector("#pinsTeste");
     pinsArea.innerHTML =  "";
     pinsData.forEach((pin, i) => {
         const b = document.createElement("button");

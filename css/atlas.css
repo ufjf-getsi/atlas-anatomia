@@ -15,19 +15,17 @@
 #container {
     background-color: #ffffff56;
     display: flex;
-    position: relative;
     border: 1px solid #333333;
     border-radius: 10px;
     box-shadow: 1px 3px 2rem rgba(42, 42, 43, 0.699);
+
     width: clamp(300px, 80vw, 600px);
+    aspect-ratio: 1;
+    overflow-x: scroll;
 }
 
-#content {
-    width: 100%;
-    object-fit: cover;
-    aspect-ratio: 1; 
-    cursor: pointer;
-    border-radius: 10px;
+#pins-area {
+    position: relative;
 }
 
 #main-title {

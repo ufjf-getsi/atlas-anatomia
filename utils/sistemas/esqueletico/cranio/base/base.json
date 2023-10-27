@@ -5,7 +5,9 @@
             "id": 0, 
             "title": "Vista Basal Externa",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/cranio/base/VistaBasalExterna1.png",
+            "image": "./utils/sistemas/esqueletico/cranio/base/teste.jpg",
+            "width": 3840,
+            "height": 1600,
             "pins": [
                 {
                     "id": 0,

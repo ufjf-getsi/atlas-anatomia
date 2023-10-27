@@ -7,9 +7,9 @@ import { createRoutes } from './router.js';
 
 document.addEventListener("DOMContentLoaded", () => {
   window.location = "#home";
-  document.getElementById("content").addEventListener("mousedown", (e) => {
-    showCoordinates(e);
-  });
+  //document.getElementById("content").addEventListener("mousedown", (e) => {
+   // showCoordinates(e);
+  //});
   document.querySelector("#menu-container").addEventListener("click", ()=>toggleMenu());
   document.querySelector(".slide-left").addEventListener("click", ()=>slideLeft());
   document.querySelector(".slide-right").addEventListener("click", ()=>slideRight());
