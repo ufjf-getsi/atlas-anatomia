@@ -40,6 +40,10 @@ const createSystemRoutes = ( data ) => {
     });
 }
 
+const getRoutes = () => {
+    return routes;
+}
+
 const createRoutes = async () => {
 
     const data = await getAllSystemsData();
@@ -97,4 +101,4 @@ const handler = async ( location ) => {
     } 
 }
 
-export { navigate, handler, createRoutes }
+export { navigate, handler, createRoutes, getRoutes }
