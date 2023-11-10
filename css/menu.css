@@ -1,6 +1,6 @@
 
 /* MENU HAMBURGUER */
-#menu-container {
+#sidebar-icon {
     width: 30px;
     height: 30px;
     padding: 0;
@@ -10,7 +10,13 @@
     z-index: 2;
 }
 
-#menu-container div {
+#sidebar-icon.active {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+#sidebar-icon div {
     background-color: rgb(37, 37, 37);
     height: 6px;
     width: 100%;
@@ -19,32 +25,32 @@
     border-radius: 5px;
 }
 
-#menu-container :nth-child(1) {
+#sidebar-icon :nth-child(1) {
     top: 4px;
 }
 
-#menu-container :nth-child(2) {
+#sidebar-icon :nth-child(2) {
     top: 12px;
 }
 
-#menu-container :nth-child(3) {
+#sidebar-icon :nth-child(3) {
     top: 20px;
 }
 
-#menu-container.active div {
-    background-color: rgb(255, 72, 72);
+#sidebar-icon.active div {
+    background-color: rgb(198, 56, 56);
 }
 
-#menu-container.active :nth-child(1) {
+#sidebar-icon.active :nth-child(1) {
     transform: rotate(45deg);
     top: 12px;
 }
 
-#menu-container.active :nth-child(2) {
+#sidebar-icon.active :nth-child(2) {
     opacity: 0;
 }
 
-#menu-container.active :nth-child(3) {
+#sidebar-icon.active :nth-child(3) {
     transform: rotate(-45deg);
     top: 12px;
 }
@@ -77,7 +83,7 @@
 #menu-sidebar-container {
     width: 100%;
     height: 95%;
-    margin-top: 50px;
+    margin-top: 60px;
     overflow: scroll;
     scroll-behavior: smooth;  
     transition: 0.25s all ease;
@@ -168,3 +174,58 @@
 }
 
 
+/* MENU DE PESQUISA */
+
+#search {
+    background: none;
+    border: none;
+}
+
+#search img {
+    margin-right: 10px;
+    width: 25px;
+}
+
+#search-container {
+    width: 80%;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(120%);
+    transition: 0.25s all;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: #c4c4c45d; 
+    border-radius: 45px; 
+    margin: 10px;
+    padding: 10px;
+}
+
+#search-container.active {
+    transform: translateX(0);
+}
+
+#search-input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.669)
+}
+
+#search-button {  
+    width: 50px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#search-button img {
+    width: 20px;
+    filter: invert();
+    opacity: 0.6;
+}
