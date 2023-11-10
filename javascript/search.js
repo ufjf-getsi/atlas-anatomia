@@ -38,7 +38,7 @@ const search = () => {
                 : 
             String(route.systemName).toLowerCase().includes(searchContent)
     )
-    
+
     showResults(results);
 }
 
@@ -50,18 +50,12 @@ const showResults = ( results ) => {
     results.forEach(data => {
         const item = document.createElement("div");
         item.classList.add("result-item");
-        item.addEventListener("click", () => searchNavigate(data))
+        item.addEventListener("click", () => navigate(data.path))
         const itemTitle = document.createElement("p");
         itemTitle.innerText = data.systemName;
         item.appendChild(itemTitle);
         resultsContainer.appendChild(item)
     });
 }
-
-const searchNavigate = (data) => {
-    if(!!data.url)
-        navigate(data.path)
-} 
-
 
 export { toggleSearchMenu, setSearchContent, toggleSidebar, search }

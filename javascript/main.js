@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector(".logoPrincipal").addEventListener("click", ()=>navigate("#home"));
   document.querySelector("#search").addEventListener("click", ()=>toggleSearchMenu())
   document.querySelector("#search-button").addEventListener("click", ()=>search())
-  document.querySelector("#search-input").addEventListener("change", (e)=>setSearchContent(e.target.value))
+  document.querySelector("#search-input").addEventListener("input", (e)=>setSearchContent(e.target.value))
 
   // inicia a aplicação
   createRoutes();
