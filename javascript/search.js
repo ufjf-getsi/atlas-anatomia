@@ -20,7 +20,10 @@ const setSearchContent = (value) => {
         search();
     
     // limpar os resultados
-    else showResults();
+    else {
+        const resultsContainer = document.querySelector("#search-results-container");
+        resultsContainer.innerHTML = "";
+    }
 }
 
 const search = () => {
@@ -28,15 +31,15 @@ const search = () => {
     if(!searchContent)
         return;
 
-    let date = Object.values(routes)
+    let results = routes
         .filter(route => !!route.systemName)
         .filter(route => searchContent.length < 3 ? 
             String(route.systemName).toLowerCase().startsWith(searchContent)
                 : 
             String(route.systemName).toLowerCase().includes(searchContent)
     )
-
-    showResults(date);
+    
+    showResults(results);
 }
 
 
@@ -44,18 +47,21 @@ const showResults = ( results ) => {
     const resultsContainer = document.querySelector("#search-results-container");
     resultsContainer.innerHTML = "";
 
-    results.forEach(date => {
-
+    results.forEach(data => {
         const item = document.createElement("div");
         item.classList.add("result-item");
-        console.log(date)
-        item.addEventListener("click", () => navigate(date.path))
+        item.addEventListener("click", () => searchNavigate(data))
         const itemTitle = document.createElement("p");
-        itemTitle.innerText = date.systemName;
+        itemTitle.innerText = data.systemName;
         item.appendChild(itemTitle);
         resultsContainer.appendChild(item)
     });
 }
+
+const searchNavigate = (data) => {
+    if(!!data.url)
+        navigate(data.path)
+} 
 
 
 export { toggleSearchMenu, setSearchContent, toggleSidebar, search }

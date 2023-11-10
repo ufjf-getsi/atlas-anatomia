@@ -92,14 +92,16 @@ const toggleMenu = () => {
   toggleSidebar();
 };
 
-const closeMenu = () => {
+const closeSidebar = () => {
   const sidebarWrapper = document.querySelector("#sidebar-wrapper");
   const sidebarIcon = document.querySelector("#sidebar-icon");
   const menuContainer = document.querySelector("#menu-sidebar-container");
+  const searchContainer = document.querySelector("#search-menu-container");
 
-  sidebarWrapper.classList.remove("active")
-  sidebarIcon.classList.remove("active")
-  menuContainer.classList.remove("active")
+  sidebarWrapper.classList.remove("active");
+  sidebarIcon.classList.remove("active");
+  menuContainer.classList.remove("active");
+  searchContainer.classList.remove("active");
 }
 
 const toggleSidebar = () => {
@@ -113,15 +115,15 @@ const toggleSidebar = () => {
   if(sidebarIcon.classList.contains("active")) {
       
     if(menuContainer.classList.contains("active"))
-      menuContainer.classList.remove("active")
+      menuContainer.classList.remove("active");
 
     if(searchContainer.classList.contains("active"))
-    searchContainer.classList.remove("active")
+    searchContainer.classList.remove("active");
   }
   
-  sidebarWrapper.classList.toggle("active")
-  sidebarIcon.classList.toggle("active")
+  sidebarWrapper.classList.toggle("active");
+  sidebarIcon.classList.toggle("active");
 
 }
 
-export { loadMenu, toggleMenu, toggleDropdown, toggleSidebar, closeMenu };
+export { loadMenu, toggleMenu, toggleDropdown, toggleSidebar, closeSidebar };

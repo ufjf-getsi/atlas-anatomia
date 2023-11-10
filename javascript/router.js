@@ -2,38 +2,43 @@
 
 import { loadSystemContent } from "./atlas.js";
 import { loadHomeCards, loadSystemsCards } from "./home.js";
-import { closeMenu } from "./menu.js";
+import { closeSidebar } from "./menu.js";
 import { getAllSystemsData } from "./services.js";
 
-let routes = {
-    "#home": {
+let routes = [
+    {
+        path: "#home",
         section: "home",
     },
-    "#instrucoes": {
+    {
+        path: "#instrucoes",
         section: "guide",
     },
-    "#equipe": {
+    {
+        path: "#equipe",
         section: "team",
     },
-    "#sobre": {
+    {
+        path: "#sobre",
         section: "about",
     },
-    "#error": {
+    {
+        path: "#error",
         section: "error"
     }
-}
+]
 
 // adiciona às rotas padrões as rotas dos sistemas 
 const createSystemRoutes = ( data ) => {
-
     data.forEach(route => {
-        routes[route.path] = {
+        routes.push({
+            "path": route.path,
             "systemName": route.systemName,
             "section": route.section, 
-            "id": route.id, 
+            "id": routes.length, 
             "subsystems": route.subsystems ? route.subsystems : [], 
             "url": route.url
-        };
+        });
 
         // caso possua um objeto de subsistemas crie as rotas também 
         if(!!route.subsystems)
@@ -60,7 +65,7 @@ const navigate = ( path ) => {
             path,
             window.location.origin + window.location.pathname + path
         )
-        closeMenu();
+        closeSidebar();
     }
 }
 
@@ -77,22 +82,23 @@ const handler = async ( location ) => {
     }
 
     const body = document.getElementsByTagName("body")[0];
+    let atualRoute = routes.find((route) => route.path == location)
 
     //caso seja uma rota inválida, carrega a pág de erro
-    if(!routes[location]) {
+    if(!atualRoute.path) {
         body.dataset.show = "error";
     } else {
         
-        body.dataset.show = routes[location].section;
+        body.dataset.show = atualRoute.section;
 
         //carrega as infomações de acordo com a seção atual
-        switch(routes[location].section) {
+        switch(atualRoute.section) {
             case "atlas":
-                loadSystemContent(routes[location].url);
+                loadSystemContent(atualRoute.url);
             break;
 
             case "subsystems":
-                loadSystemsCards(routes[location].subsystems);
+                loadSystemsCards(atualRoute.subsystems);
             break;
                 
             case "home": 
