@@ -107,7 +107,7 @@ const toggleSidebar = () => {
   const sidebarWrapper = document.querySelector("#sidebar-wrapper");
   const sidebarIcon = document.querySelector("#sidebar-icon");
   const menuContainer = document.querySelector("#menu-sidebar-container");
-  const searchContainer = document.querySelector("#search-container");
+  const searchContainer = document.querySelector("#search-menu-container");
 
   // caso algum dos menus estejam ativos -> fechar
   if(sidebarIcon.classList.contains("active")) {

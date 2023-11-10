@@ -28,6 +28,7 @@ const createSystemRoutes = ( data ) => {
 
     data.forEach(route => {
         routes[route.path] = {
+            "systemName": route.systemName,
             "section": route.section, 
             "id": route.id, 
             "subsystems": route.subsystems ? route.subsystems : [], 
