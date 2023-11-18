@@ -3,7 +3,7 @@ import { loadHomeCards } from "./home.js";
 import { loadMenu, toggleMenu } from "./menu.js";
 import { slideLeft, slideRight } from "./navigations.js";
 import { navigate, createRoutes } from "./router.js";
-import { setSearchContent, search, toggleSearchMenu} from './search.js'
+import { setSearchContent, search, toggleSearchMenu, loadSearchContents} from './search.js'
 
 document.addEventListener("DOMContentLoaded", () => {
   window.location = "#home";
@@ -22,4 +22,5 @@ document.addEventListener("DOMContentLoaded", () => {
   createRoutes();
   loadHomeCards();
   loadMenu();
+  loadSearchContents();
 });
