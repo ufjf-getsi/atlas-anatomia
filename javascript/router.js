@@ -93,7 +93,7 @@ const handler = async ( location ) => {
     let atualRoute = routes.find((route) => route.path == location)
 
     //caso seja uma rota inválida, carrega a pág de erro
-    if(isInvalidRoute(atualRoute)) {
+    if( !atualRoute || isInvalidRoute(atualRoute)) {
         body.dataset.show = "error";
     } else {
         
