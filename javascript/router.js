@@ -73,6 +73,14 @@ window.onpopstate = () => {
     handler()
 }
 
+const isInvalidRoute = ( route ) => {
+    
+    if(( route.section == "atlas" && ( !route.url || route.url == "" ))
+        || ( route.section == "subsystems" && ( !route.subsystems || !route.subsystems.length ))) 
+            return true;
+    else return false;
+}
+
 // gerencia qual seção da página será exibida 
 const handler = async ( location ) => {
 
@@ -85,7 +93,7 @@ const handler = async ( location ) => {
     let atualRoute = routes.find((route) => route.path == location)
 
     //caso seja uma rota inválida, carrega a pág de erro
-    if(!atualRoute.path) {
+    if(isInvalidRoute(atualRoute)) {
         body.dataset.show = "error";
     } else {
         
