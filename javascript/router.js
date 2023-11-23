@@ -43,8 +43,7 @@ const createSystemRoutes = ( data, parent = "") => {
 
         // caso possua um objeto de subsistemas crie as rotas também 
         if(!!route.subsystems) {
-            parent += route.systemName + " > ";
-            createSystemRoutes(route.subsystems, parent);
+            createSystemRoutes(route.subsystems, parent + " > " + route.systemName);
         }
     });
 }
