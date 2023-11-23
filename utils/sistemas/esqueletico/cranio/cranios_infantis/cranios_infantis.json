@@ -1,0 +1,253 @@
+{
+    "systemName": "Crânios Infantis",
+    "pieces": [
+        {
+            "id": 0, 
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/CranioInfantil1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Sutura Frontal",
+                    "description": "Une as duas metades do osso frontal do crânio e desaparece por volta dos oito anos de idade. A sutura metópica é a parte remanescente da sutura frontal que permanece em cerca de 8% da população.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.47,
+                    "y": 0.26,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Crânio de Recém-Nascido",
+                    "description": "A calota craniana de um recém-nascido é proporcionalmente muito grande quando comparada ao resto do corpo, mas os ossos da face são bastante pequenos. A ossificação de cada um dos ossos cranianos está incompleta ao nascimento e as suturas consistem em espaços cobertos com membranas, as fontanelas, que se fecham até o segundo ano de idade tornando-se suturas.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.02,
+                    "y": 0.34,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1, 
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/CranioInfantil2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Fontículo Anterior",
+                    "description": "É a principal e mais fácil de detectar. Está situada na junção das suturas coronária, sagital e frontal, na parte central e mais alta do crânio. Tem forma de losângulo e mede cerca de 2,5cm. Esta fontanela desaparece totalmente entre os dezoitos meses e o fim do segundo ano de vida.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.24,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sutura Coronal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.33,
+                    "y": 0.28,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sutura Sagital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.7,
+                    "y": 0.5,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1, 
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/CranioInfantil3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Fontículo Posterior",
+                    "description": "Encontra-se na junção da sutura lambidoidea com a sutura sagital. Tem forma triangular e mede cerca de 0,6cm de largura. Esta fontanela fecha-se por volta dos dois meses de vida. As fontanelas devem mostrar-se firmes e ligeiramente côncavas. Fontanelas tensas e proeminentes podem sugerir a existência de algum problema, como uma meningite ou qualquer outra complicação que provoque o aumento da tensão no interior do crânio (por exemplo, hidrocefalia). Por outro lado, se estiverem fundas pode ser um sintoma de desnutrição ou de desidratação.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.49,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sutura Lambidoidea",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.33,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sutura Sagital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.5,
+                    "y": 0.21,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1, 
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/CranioInfantil4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Fontículo Anterolateral (Astérica)",
+                    "description": "Situa-se entre os ossos frontal, parietal, asa maior do esfenoide e parte escamosa do temporal. Se fecha logo após o nascimento.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.62,
+                    "y": 0.68,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Fontículo Posterolateral (Ptérica)",
+                    "description": "Situa-se entre os ossos parietal, parte petrosa do temporal e occiptal. Se fecha logo após o nascimento.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.26,
+                    "y": 0.8,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sutura Escamosa",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.49,
+                    "y": 0.66,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sutura Coronal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.63,
+                    "y": 0.26,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sutura Lambidoidea",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.12,
+                    "y": 0.69,
+                    "placement": "right"
+                }
+            ]
+        },
+        {
+            "id": 1, 
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/CranioInfantil5.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Diâmetro Biparietal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.52,
+                    "y": 0.12,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Diâmetro Bitemporal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.85,
+                    "y": 0.22,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1, 
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/CranioInfantil6.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Diâmetro Subocciptofrontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.89,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Diâmetro Subocciptobregmático",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.67,
+                    "y": 0.15,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Diâmetro Submentobregmático",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.65,
+                    "y": 0.86,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Diâmetro Occiptomentoniano",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.03,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Diâmetro Occiptofrontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.04,
+                    "y": 0.62,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

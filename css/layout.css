@@ -28,6 +28,13 @@ header .navbar {
     align-items: center;
     justify-content: space-between;
     padding: 5px 10px;
+    position: relative;
+}
+
+header .navbar .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .logo {
@@ -38,7 +45,6 @@ header .navbar {
 
 header .navbar a {
     display: flex;
-    background-color: red;
 }
 
 main {

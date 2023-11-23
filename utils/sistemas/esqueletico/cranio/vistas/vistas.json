@@ -1,0 +1,651 @@
+{
+    "systemName": "Vistas do Crânio",
+    "pieces": [
+        {
+            "id": 0, 
+            "title": "Vista Frontal",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/vistas/frontal1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Osso Frontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.49,
+                    "y": 0.26,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Osso Temporal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Osso Zigomático",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Mandíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.91,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Osso Maxilar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Osso Nasal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.47,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1, 
+            "title": "Vista Frontal",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/vistas/frontal2.png",
+            "pins": [
+                {
+                    "id": 2,
+                    "title": "Arco Superciliar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Órbita",
+                    "description": "Cavidade óssea onde está situado o bulbo do olho.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.48,
+                    "placement": "left"
+                }, 
+                {
+                    "id": 2,
+                    "title": "Forame Infraorbital",
+                    "description": "Dá passagem a artéria e ao nervo infraorbitais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.61,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Abertura Piriforme",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.79,
+                    "y": 0.645,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1, 
+            "title": "Vista Frontal",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/vistas/frontal3.png",
+            "pins":     
+            [
+                {
+                    "id": 0,
+                    "title": "Canal Óptico",
+                    "description": "Dá passagem ao nervo óptico e a artéria oftálmica.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Fissura Orbital Superior",
+                    "description": "Dá passagem ao nervo craniano III, IV e VI, aos ramos do nervo oftálmico e as veias oftálmicas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Fissura Orbital Inferior",
+                    "description": "Comunica a órbita com as fossas infratemporal pterigopalatina. Dá passagem ao nervo maxilar, ao nervo zigomático e a artéria infraorbital.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Incisura Supraorbital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.2,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1, 
+            "title": "Vista Frontal",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/vistas/frontal4.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Septo Nasal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Concha Nasal Média",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Concha Nasal Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.74,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Espinha Nasal Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.84,
+                    "placement": "left"
+                }
+            ]   
+        },
+        {
+            "id": 1, 
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/vistas/lateral1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Osso Zigomático",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.65,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Osso Maxilar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.14,
+                    "y": 0.69,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Osso Nasal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.14,
+                    "y": 0.5,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Osso Frontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Osso Temporal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Osso Occiptal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.88,
+                    "y": 0.71,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Osso Parietal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Osso Esfenoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.54,
+                    "placement": "left"
+                }
+            ]    
+        },
+        {
+            "id": 1, 
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/vistas/lateral2.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Processo Mastoide",
+                    "description": "Porção do osso temporal que, no adulto, contem espaços aéreos chamados células mastóideas. Dá inserção à vários músculos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Meato Acústico Externo",
+                    "description": "Canal ósseo que condúz à orelha interna.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.73,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Estilo-hioideo",
+                    "description": "Fina projeção óssea que serve como ponto de inserção ao ligamento estilo-hioideo pelo qual o osso hioide está suspenso. Nele se inserem também o ligamento estilomandibular e três músculos (estiloglosso, estilofaríngico e estilo-hioideo).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.79,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Fossa Infratemporal",
+                    "description": "Contém a parte inferior do músculo temporal e os músculos pterigoideos medial e lateral. Contém ainda a artéria maxilar com seus ramos, plexo venoso pterigoide, o nervo mandibular, nervo maxilar e o nervo corda do tímpano.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.75,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Arco Zigomático",
+                    "description": "É um arco ósseo formado pela união do processo zigomático do osso temporal e do processo temporal do osso zigomático.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.71,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Fossa Temporal",
+                    "description": "É onde se localiza o músculo temporal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.17,
+                    "y": 0.29,
+                    "placement": "right"
+                },
+                {
+                    "id": 6,
+                    "title": "Forame Esfenopalatino",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.63,
+                    "placement": "left"
+                }
+            ]   
+        },
+        {
+            "id": 1, 
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/vistas/lateral3.png",
+            "pins":    
+            [
+                {
+                    "id": 0,
+                    "title": "Osso Frontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Osso Parietal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.77,
+                    "y": 0.28,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Osso Temporal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Osso Zigomático",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Mandíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.78,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Osso Occipital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.85,
+                    "y": 0.74,
+                    "placement": "left"
+                }
+            ]
+        }, 
+        {
+            "id": 1, 
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/vistas/posterior1.png",
+            "pins":    
+            [
+                {
+                    "id": 1,
+                    "title": "Osso Parietal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.7,
+                    "y": 0.14,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Osso Temporal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.91,
+                    "y": 0.68,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Osso Occipital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.69,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1, 
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/vistas/posterior2.png",
+            "pins":    
+            [
+                {
+                    "id": 0,
+                    "title": "Protuberância Occipital Externa",
+                    "description": "Elevação óssea à qual se fixa o ligamento nucal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.75,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Crista Occipital Externa",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.81,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Linha Nucal Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.66,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Linha Nucal Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.7,
+                    "y": 0.82,
+                    "placement": "left"
+                }
+            ]           
+        },
+        {
+            "id": 1, 
+            "title": "Vista Superior",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/vistas/superior1.png",
+            "pins":    
+            [
+                {
+                    "id": 0,
+                    "title": "Osso Occipital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.82,
+                    "y": 0.84,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Osso Parietal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.66,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Osso Frontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.08,
+                    "placement": "left"
+                }
+            ]
+            
+        }, {
+            "id": 1, 
+            "title": "Vista Superior",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/vistas/superior2.png",
+            "pins":    
+            [
+                {
+                    "id": 0,
+                    "title": "Forame Parietal",
+                    "description": "Dá passagem a veias emissárias.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.86,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sutura Sagital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.42,
+                    "placement": "left"
+                }
+            ]  
+        },
+        {
+            "id": 1, 
+            "title": "Vista Superior",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/vistas/superior3.png",
+            "pins":    
+            [
+                {
+                    "id": 0,
+                    "title": "Fovéolas Granulares",
+                    "description": "Alojam as granulações aracnóideas. São mais numerosas e evidentes no paciente idoso.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.85,
+                    "y": 0.435,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sulco do Seio Sagital Superior",
+                    "description": "Aloja o seio sagital superior da dura-máter.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.76,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Sulco para artéria meníngea e seus ramos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.43,
+                    "placement": "left"
+                }
+            ]            
+        }
+    ]
+}

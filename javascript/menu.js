@@ -85,23 +85,45 @@ const toggleDropdown = async (id) => {
 };
 
 const toggleMenu = () => {
-  const menu = document.getElementById("menu-container");
-  const sidebar = document.getElementById("menu-sidebar-container");
-  const sidebarWrapper = document.getElementById("sidebar-wrapper");
 
-  sidebarWrapper.classList.toggle("active");
-  menu.classList.toggle("active");
-  sidebar.classList.toggle("active");
+  const menuContainer = document.getElementById("menu-sidebar-container");
+  menuContainer.classList.toggle("active");
+  
+  toggleSidebar();
 };
 
-const closeMenu = () => {
-  const menu = document.getElementById("menu-container");
-  const sidebar = document.getElementById("menu-sidebar-container");
-  const sidebarWrapper = document.getElementById("sidebar-wrapper");
+const closeSidebar = () => {
+  const sidebarWrapper = document.querySelector("#sidebar-wrapper");
+  const sidebarIcon = document.querySelector("#sidebar-icon");
+  const menuContainer = document.querySelector("#menu-sidebar-container");
+  const searchContainer = document.querySelector("#search-menu-container");
 
   sidebarWrapper.classList.remove("active");
-  menu.classList.remove("active");
-  sidebar.classList.remove("active");
-};
+  sidebarIcon.classList.remove("active");
+  menuContainer.classList.remove("active");
+  searchContainer.classList.remove("active");
+}
 
-export { loadMenu, toggleMenu, closeMenu, toggleDropdown };
+const toggleSidebar = () => {
+
+  const sidebarWrapper = document.querySelector("#sidebar-wrapper");
+  const sidebarIcon = document.querySelector("#sidebar-icon");
+  const menuContainer = document.querySelector("#menu-sidebar-container");
+  const searchContainer = document.querySelector("#search-menu-container");
+
+  // caso algum dos menus estejam ativos -> fechar
+  if(sidebarIcon.classList.contains("active")) {
+      
+    if(menuContainer.classList.contains("active"))
+      menuContainer.classList.remove("active");
+
+    if(searchContainer.classList.contains("active"))
+    searchContainer.classList.remove("active");
+  }
+  
+  sidebarWrapper.classList.toggle("active");
+  sidebarIcon.classList.toggle("active");
+
+}
+
+export { loadMenu, toggleMenu, toggleDropdown, toggleSidebar, closeSidebar };
