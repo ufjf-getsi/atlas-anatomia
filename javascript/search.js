@@ -1,7 +1,6 @@
 
 import { getRoutes, navigate } from "./router.js";
 import { toggleSidebar } from './menu.js'
-//import { getAllSystemsData, fetchData } from "./services.js";
 
 const toggleSearchMenu = () => {
     const searchContainer = document.querySelector("#search-menu-container");
@@ -15,34 +14,8 @@ let routes = [];
 
 const loadSearchContents = async () => {
     routes = getRoutes();
-
-    // -> pesquisa por meio dos alfinetes e imagens...
-    //const systemsData = await getAllSystemsData();
-    //loadAllPiecesData(systemsData);
-    //let pieces = [];
-    //console.log("All pieces", pieces)
 }
 
-/* const loadPieceData = async (url, path) => {
-
-    let systemContent = await fetchData(url); 
-    let systemPieces = systemContent.pieces;
-
-    /////////
-    pieces.push({path, systemPieces})
-} */
-
-/* const loadAllPiecesData = ( data ) => {
-    
-    data.forEach((system) => {
-        if(!!system.subsystems)
-            loadAllPiecesData(system.subsystems)
-        else {
-            if(!!system.url)
-                loadPieceData(system.url, system.path)
-        }
-    })   
-} */
 
 const setSearchContent = (value) => {
 
@@ -81,11 +54,16 @@ const showResults = ( results ) => {
     results.forEach(data => {
         const item = document.createElement("div");
         item.classList.add("result-item");
-        item.addEventListener("click", () => navigate(data.path))
-        const itemTitle = document.createElement("p");
-        itemTitle.innerText = data.systemName || data.title;
+        item.addEventListener("click", () => navigate(data.path));
+            const itemTitle = document.createElement("p");
+            itemTitle.innerText = data.systemName || data.title;
         item.appendChild(itemTitle);
-        resultsContainer.appendChild(item)
+            const itemParents = document.createElement("p");
+            itemParents.classList.add("item-parents");
+            itemParents.innerText = data.parents || "";
+        item.appendChild(itemParents);
+
+        resultsContainer.appendChild(item);
     });
 }
 

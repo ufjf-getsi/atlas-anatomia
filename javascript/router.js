@@ -29,20 +29,23 @@ let routes = [
 ]
 
 // adiciona às rotas padrões as rotas dos sistemas 
-const createSystemRoutes = ( data ) => {
+const createSystemRoutes = ( data, parent = "") => {
     data.forEach(route => {
         routes.push({
             "path": route.path,
             "systemName": route.systemName,
             "section": route.section, 
             "id": routes.length, 
-            "subsystems": route.subsystems ? route.subsystems : [], 
+            "subsystems": route.subsystems || [],
+            "parents": parent, 
             "url": route.url
         });
 
         // caso possua um objeto de subsistemas crie as rotas também 
-        if(!!route.subsystems)
-            createSystemRoutes(route.subsystems);
+        if(!!route.subsystems) {
+            parent += route.systemName + " > ";
+            createSystemRoutes(route.subsystems, parent);
+        }
     });
 }
 
@@ -74,7 +77,7 @@ window.onpopstate = () => {
 }
 
 const isInvalidRoute = ( route ) => {
-    
+
     if(( route.section == "atlas" && ( !route.url || route.url == "" ))
         || ( route.section == "subsystems" && ( !route.subsystems || !route.subsystems.length ))) 
             return true;
