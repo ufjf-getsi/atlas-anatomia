@@ -267,4 +267,8 @@
 .result-item p.item-parents {
     font-size: 0.5em;
     opacity: 0.65;
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
