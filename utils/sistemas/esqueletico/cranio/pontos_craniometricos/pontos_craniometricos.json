@@ -5,57 +5,137 @@
             "id": 0, 
             "title": "",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/cranio/pontos_craniometricos/.png",
-            "pins": [
+            "image": "./utils/sistemas/esqueletico/cranio/pontos_craniometricos/pontoscraniometricos1.png",
+            "pins": 
+            [
                 {
                     "id": 0,
-                    "title": "",
-                    "description": "",
-                    "color": "blue",
-                    "url": "...",
-                    "x": 0.78,
-                    "y": 0.6,
+                    "title": "Glabela",
+                    "description": "Ponto localizado logo acima da sutura frontonasal, entre os arcos superciliares. Comumente é o ponto mais saliente do osso frontal no plano médio sagital.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.39,
                     "placement": "left"
                 },
                 {
                     "id": 1,
-                    "title": "",
-                    "description": "",
-                    "color": "blue",
-                    "url": "...",
-                    "x": 0.55,
-                    "y": 0.15,
+                    "title": "Násio",
+                    "description": "Ponto de encontro da sutura internasal e a sutura frontonasal. Corresponde a raíz do nariz.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.43,
                     "placement": "left"
                 }
-            ]
+            ] 
         },
         {
             "id": 1, 
             "title": "",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/cranio/pontos_craniometricos/.png",
-            "pins": [
+            "image": "./utils/sistemas/esqueletico/cranio/pontos_craniometricos/pontoscraniometricos2.png",
+            "pins": 
+            [
                 {
                     "id": 0,
-                    "title": "",
-                    "description": "",
-                    "color": "blue",
-                    "url": "...",
-                    "x": 0.78,
-                    "y": 0.6,
+                    "title": "Ínion",
+                    "description": "Ponto mais proeminente da protuberância occiptal externa.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.02,
+                    "y": 0.52,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Básion",
+                    "description": "Ponto mais anterior na borda anterior do forame magno.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.51,
+                    "placement": "left"
+                }
+            ]     
+        },
+        {
+            "id": 1, 
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/pontos_craniometricos/pontoscraniometricos3.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Ptérion",
+                    "description": "Corresponde ao ponto de união dos ossos frontal, esfenoide, temporal e parietal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.47,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Astérion",
+                    "description": "Corresponde ao ponto de união dos ossos temporal, parietal e occiptal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Gônion",
+                    "description": "Ponto mais inferior, posterior e mais para fora da mandíbula.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.87,
+                    "placement": "right"
+                }
+            ]         
+        },
+        {
+            "id": 1, 
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/pontos_craniometricos/pontoscraniometricos4.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Bregma",
+                    "description": "Corresponde ao ponto de união entre a sutura coronal e a sutura sagital.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.16,
                     "placement": "left"
                 },
                 {
                     "id": 1,
-                    "title": "",
-                    "description": "",
-                    "color": "blue",
-                    "url": "...",
-                    "x": 0.55,
-                    "y": 0.15,
+                    "title": "Vértex",
+                    "description": "Corresponde ao ponto mais alto do crânio (geralmente se localiza sobre a sutura sagital).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.71,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Lambda",
+                    "description": "Corresponde ao ponto de união entre a sutura sagital e a sutura lambdóidea.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.855,
+                    "y": 0.76,
                     "placement": "left"
                 }
-            ]
+            ]         
         }
     ]
 }

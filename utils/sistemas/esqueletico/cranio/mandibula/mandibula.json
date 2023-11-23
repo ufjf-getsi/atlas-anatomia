@@ -5,27 +5,67 @@
             "id": 0, 
             "title": "",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/cranio/mandibula/.png",
+            "image": "./utils/sistemas/esqueletico/cranio/mandibula/mandibula1.png",
             "pins": [
                 {
                     "id": 0,
-                    "title": "",
-                    "description": "",
-                    "color": "blue",
+                    "title": "Forame Mentual",
+                    "description": "Nervo e vasos mentuais emergem deste forame.",
+                    "color": "red",
                     "url": "...",
-                    "x": 0.78,
-                    "y": 0.6,
+                    "x": 0.68,
+                    "y": 0.69,
                     "placement": "left"
                 },
                 {
                     "id": 1,
-                    "title": "",
+                    "title": "Trígono Retromolar",
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.55,
-                    "y": 0.15,
+                    "x": 0.96,
+                    "y": 0.46,
                     "placement": "left"
+                }, 
+                {
+                    "id": 1,
+                    "title": "Mento",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.51,
+                    "y": 0.75,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Processos Alveolares",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.02,
+                    "y": 0.69,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Processo Coronoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.18,
+                    "y": 0.26,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Processo Condilar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.13,
+                    "y": 0.23,
+                    "placement": "right"
                 }
             ]
         },
@@ -33,26 +73,300 @@
             "id": 1, 
             "title": "",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/cranio/mandibula/.png",
+            "image": "./utils/sistemas/esqueletico/cranio/mandibula/mandibula2.png",
             "pins": [
                 {
                     "id": 0,
-                    "title": "",
+                    "title": "Processo Condilar",
+                    "description": "Processo arredondado que se encaixa no interior da fossa mandibular do osso temporal para formar a articulação temporomandibular.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.14,
+                    "y": 0.29,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Processo Coronoide",
+                    "description": "Eminência triangular achatada do osso mandibular, onde se insere o músculo temporal.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.44,
+                    "y": 0.26,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Tuberosidade Massetérica",
+                    "description": "Local de inserção do músculo masseter.",
+                    "color": "red",
+                    "url": "...",
+                    "x": 0.32,
+                    "y": 0.61,
+                    "placement": "right"
+                }, 
+                {
+                    "id": 1,
+                    "title": "Incisura Mandibular",
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.78,
-                    "y": 0.6,
+                    "x": 0.33,
+                    "y": 0.34,
+                    "placement": "left"
+                }, 
+                {
+                    "id": 1,
+                    "title": "Ramo da Mandíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.1,
+                    "y": 0.54,
+                    "placement": "right"
+                }, 
+                {
+                    "id": 1,
+                    "title": "Linha Oblíqua",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.6,
+                    "y": 0.57,
                     "placement": "left"
                 },
                 {
                     "id": 1,
-                    "title": "",
+                    "title": "Ângulo da Mandíbula",
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.55,
-                    "y": 0.15,
+                    "x": 0.34,
+                    "y": 0.73,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Corpo da Mandíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "...",
+                    "x": 0.62,
+                    "y": 0.82,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2, 
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/mandibula/mandibula3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Processo Coronoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.23,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Processo Condilar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.91,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Língula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Sulco Milo-Hióideo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Forame da Mandíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Fóvea Submandibular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Linha Milo-Hióidea",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.6,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0, 
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/mandibula/mandibula4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Processo Condilar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.94,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Incisura Mandibular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.87,
+                    "y": 0.71,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Coronoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.85,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Arco Alveolar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.78,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Espinha Geniana",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Mento",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.11,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0, 
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/cranio/mandibula/mandibula5.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Fóvea Sublingual",
+                    "description": "Aloja a glândula sublingual.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Fossa Submandibular",
+                    "description": "Aloja a glândula submandibular.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.58,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Espinha Geniana",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Fossa Digástrica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.59,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Linha Milo-hioidea",
+                    "description": "Fixa o músculo Milo-hioideo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Forame Mandibular",
+                    "description": "Continua-se como canal da mandíbula. Dá passagem aos nervos e vasos alveolares inferiores.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.18,
+                    "y": 0.51,
                     "placement": "left"
                 }
             ]
