@@ -28,9 +28,10 @@ const loadPins = async (pinsData) => {
         const b = document.createElement("button");
         b.classList.add("pin");
         b.id = `pin_${i}`;
+
         b.addEventListener("mouseover", () => loadPinContent(i));
         b.addEventListener("mouseout", () => hideContent(i));
-    
+        
         pinsArea.appendChild(b);
         resolvePinColor(pin.color, b.id);
 
@@ -46,9 +47,13 @@ const loadPins = async (pinsData) => {
 const loadPinContent = async (index) => {
     
     const pinData = getPieces()[getPieceIndex()].pins[index];
-    const { title, description, placement, color} = pinData;
+    let { title, description, placement, color} = pinData;
+
+    if(!placement)
+        placement = "bottom"
 
     const pin = document.querySelector(`#pin_${index}`);
+    const tooltip = document.querySelector("#tooltip");
     const tooltipTitle = document.querySelector("#tooltip-title");
     const tooltipContent = document.querySelector("#tooltip-content");
 
@@ -56,30 +61,31 @@ const loadPinContent = async (index) => {
     tooltipTitle.innerText = title;
     tooltipContent.innerText =  description;
 
-    // carrega o alfinete na tela
-    showContent(pin, placement, color)
-
-}
-
-// mostra o conteudo do alfinete na tela
-const showContent = (pin, placement = "bottom", pinColor) => {
-
-    const tooltip = document.querySelector("#tooltip");
-    const tooltipTitle = document.querySelector("#tooltip-title");
+    tooltipTitle.setAttribute('color', color);
+    tooltip.setAttribute('data-show','true');
 
     Popper.createPopper(pin, tooltip, {
         placement
     });
 
-    tooltipTitle.setAttribute('color', pinColor);
-    tooltip.setAttribute('data-show','true');
+    if(color == "red")
+        pin.addEventListener('click', () => showDescription());
+
+}
+
+// mostra a descrição do alfinete na tela
+const showDescription = () => {
+    const tooltipDescription = document.querySelector("#tooltip-description");
+    tooltipDescription.setAttribute('data-show','true');
 }
 
 // esconde o conteudo do alfinete
 const hideContent = () => {
 
     const tooltip = document.querySelector("#tooltip");
+    const tooltipDescription = document.querySelector("#tooltip-description");
     tooltip.removeAttribute('data-show');
+    tooltipDescription.removeAttribute('data-show');
 }   
 
 // personaliza as cores do alfinete 
@@ -94,4 +100,4 @@ const resolvePinColor = (color, id) => {
     } 
 }
 
-export { loadPins, loadPinContent, showContent, hideContent }
+export { loadPins, loadPinContent }
