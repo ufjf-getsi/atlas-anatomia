@@ -12,20 +12,20 @@
                     "section": "subsystems",
                     "subsystems": [
                         {
+                            "systemName": "Vistas do Crânio",
+                            "id": 0,
+                            "path": "#vistas",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/esqueletico/cranio/vistas/vistas.json",
+                            "image": "./utils/imagens/icone_vistasdocranio.png"
+                        },
+                        {
                             "systemName": "Base do Crânio",
                             "id": 0,
                             "path": "#base",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/cranio/base/base.json",
                             "image": "./utils/imagens/icone_basedocranio.png"
-                        }, 
-                        {
-                            "systemName": "Crânios Infantis",
-                            "id": 0,
-                            "path": "#cranios-infantis",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/cranio/cranios_infantis/cranios_infantis.json",
-                            "image": "./utils/imagens/icone_craniosinfantis.png"
                         },
                         {
                             "systemName": "Mandíbula",
@@ -44,12 +44,12 @@
                             "image": "./utils/imagens/icone_pontoscraniometricos.png"
                         },
                         {
-                            "systemName": "Vistas do Crânio",
+                            "systemName": "Crânios Infantis",
                             "id": 0,
-                            "path": "#vistas",
+                            "path": "#cranios-infantis",
                             "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/cranio/vistas/vistas.json",
-                            "image": "./utils/imagens/icone_vistasdocranio.png"
+                            "url": "./utils/sistemas/esqueletico/cranio/cranios_infantis/cranios_infantis.json",
+                            "image": "./utils/imagens/icone_craniosinfantis.png"
                         }
                     ],
                     "image": "./utils/imagens/icone_vistasdocranio.png"
@@ -113,7 +113,7 @@
                             "path": "#cingulodosmmss",
                             "section": "atlas",
                             "url": "",
-                            "image": "./utils/imagens/icone_cingulommss.png"
+                            "image": "./utils/imagens/icone_cingulodosmmss.png"
                         },
                         {
                             "systemName": "Braço",
@@ -140,7 +140,7 @@
                             "image": "./utils/imagens/icone_mao.png"
                         }
                     ],
-                    "image": "./utils/imagens/icone_cingulommss.png"
+                    "image": "./utils/imagens/icone_cingulodosmmss.png"
                 },
                 {
                     "systemName": "Tronco",

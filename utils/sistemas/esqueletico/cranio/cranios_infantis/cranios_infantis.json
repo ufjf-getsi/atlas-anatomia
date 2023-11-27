@@ -175,8 +175,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.52,
-                    "y": 0.12,
+                    "x": 0.57,
+                    "y": 0.17,
                     "placement": "left"
                 },
                 {
@@ -185,8 +185,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "...",
-                    "x": 0.85,
-                    "y": 0.22,
+                    "x": 0.3,
+                    "y": 0.24,
                     "placement": "left"
                 }
             ]
