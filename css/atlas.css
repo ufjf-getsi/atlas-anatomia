@@ -71,7 +71,6 @@
 }
 
 .slide-button {
-    
     width: 8%;
     height: 8%;
     background-color: #ffffffc4;
@@ -120,7 +119,7 @@
 }
 
 #tooltip {
-    z-index: 1;
+    z-index: 9999;
     max-width: 50%;
     background-color: #dfdddd;
     border-radius: 5px;
