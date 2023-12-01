@@ -29,15 +29,15 @@ let routes = [
 ]
 
 // adiciona às rotas padrões as rotas dos sistemas 
-const createSystemRoutes = ( data, parent = "") => {
+const createSystemRoutes = (data, parent = "") => {
     data.forEach(route => {
         routes.push({
             "path": route.path,
             "systemName": route.systemName,
-            "section": route.section, 
-            "id": routes.length, 
+            "section": route.section,
+            "id": routes.length,
             "subsystems": route.subsystems || [],
-            "parents": parent, 
+            "parents": parent,
             "url": route.url
         });
 
@@ -58,10 +58,10 @@ const createRoutes = async () => {
     createSystemRoutes(data);
 }
 
-const navigate = ( path ) => {
+const navigate = (path) => {
     handler(path);
 
-    if(path != "#error") {
+    if (path != "#error") {
         window.history.pushState(
             {},
             path,
@@ -75,19 +75,19 @@ window.onpopstate = () => {
     handler()
 }
 
-const isInvalidRoute = ( route ) => {
+const isInvalidRoute = (route) => {
 
-    if(( route.section == "atlas" && ( !route.url || route.url == "" ))
-        || ( route.section == "subsystems" && ( !route.subsystems || !route.subsystems.length ))) 
-            return true;
+    if ((route.section == "atlas" && (!route.url || route.url == ""))
+        || (route.section == "subsystems" && (!route.subsystems || !route.subsystems.length)))
+        return true;
     else return false;
 }
 
 // gerencia qual seção da página será exibida 
-const handler = async ( location ) => {
+const handler = async (location) => {
 
     // caso nao tenha recebido por parâmetro
-    if(!location) {
+    if (!location) {
         location = window.location.hash;
     }
 
@@ -95,27 +95,27 @@ const handler = async ( location ) => {
     let atualRoute = routes.find((route) => route.path == location)
 
     //caso seja uma rota inválida, carrega a pág de erro
-    if( !atualRoute || isInvalidRoute(atualRoute)) {
+    if (!atualRoute || isInvalidRoute(atualRoute)) {
         body.dataset.show = "error";
     } else {
-        
+
         body.dataset.show = atualRoute.section;
 
         //carrega as infomações de acordo com a seção atual
-        switch(atualRoute.section) {
+        switch (atualRoute.section) {
             case "atlas":
                 loadSystemContent(atualRoute.url);
-            break;
+                break;
 
             case "subsystems":
                 loadSystemsCards(atualRoute.subsystems);
-            break;
-                
-            case "home": 
+                break;
+
+            case "home":
                 loadHomeCards();
-            break;
+                break;
         }
-    } 
+    }
 }
 
 export { navigate, handler, createRoutes, getRoutes }

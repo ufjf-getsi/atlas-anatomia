@@ -6,7 +6,7 @@ import { loadPins } from "./pins.js";
 
 // carrega as navegações para navegar pelas imagens
 const loadNavigations = (piecesNumber) => {
-  
+
   const navigations = document.querySelector("#navigations");
   navigations.innerHTML = "";
 
@@ -51,7 +51,7 @@ const slideRight = () => {
 };
 
 const slideLeft = () => {
-    navigateToImage(decPieceIndex());
+  navigateToImage(decPieceIndex());
 };
 
 export { loadNavigations, navigateToImage, slideRight, slideLeft };

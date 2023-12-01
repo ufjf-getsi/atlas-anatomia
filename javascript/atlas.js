@@ -9,8 +9,8 @@ let pieceIndex = 0;
 let pieces, piecesNumber;
 
 // carrega os dados quando a tela for chamada
-const loadSystemContent = async ( systemURL ) => {
-  
+const loadSystemContent = async (systemURL) => {
+
   //se o sistema ainda nao tiver uma URL, navega para a página de erro
   if (!systemURL) {
     navigate("#error");
@@ -18,7 +18,7 @@ const loadSystemContent = async ( systemURL ) => {
   }
 
   // request pra buscar os dados
-  const request = new Request(systemURL); 
+  const request = new Request(systemURL);
 
   // dados do sistema
   const systemData = await fetchData(request.url);
@@ -70,7 +70,7 @@ const decPieceIndex = () => {
 
 
 const getPieces = () => {
-    return pieces;
+  return pieces;
 }
 
 export {
@@ -81,5 +81,5 @@ export {
   getPiecesNumber,
   incPieceIndex,
   decPieceIndex,
-    getPieces
+  getPieces
 };
