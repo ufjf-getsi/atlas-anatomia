@@ -30,9 +30,9 @@ const loadMenu = async () => {
 
   links.forEach((link) => {
     const a = document.createElement("a");
-      a.onclick = () => navigate(link.path);
-      a.innerText = link.title;
-      sidebar.appendChild(a);
+    a.onclick = () => navigate(link.path);
+    a.innerText = link.title;
+    sidebar.appendChild(a);
   });
 
   // carrega a dropdown com o array dos sistemas e a sidebar sendo o pai
@@ -41,45 +41,45 @@ const loadMenu = async () => {
 
 // recebe um objeto e gera um dropdown a partir desse
 const loadDropdown = (dropdownName, id, data, parent) => {
-  
+
   const container = document.createElement("div");
-    const title = document.createElement("a");
-    title.innerText = dropdownName;
-    title.onclick = () => toggleDropdown(container.id);
+  const title = document.createElement("a");
+  title.innerText = dropdownName;
+  title.onclick = () => toggleDropdown(container.id);
   container.appendChild(title);
   container.className = "dropdown";
   container.id = id;
-    
+
   const content = document.createElement("div");
-    content.className = "dropdown-content";
-  
-    data.forEach((link) => {
+  content.className = "dropdown-content";
 
-      if(!!link.subsystems) {
-        // nome da nova dropdown nesse caso dos subsistemas
-        let name = link.systemName.toLowerCase().replace(" ", "");
-        
-        //gera uma nova dropdown ao invés de um link
-        loadDropdown(link.systemName, "subsystem" + name, link.subsystems, content);
+  data.forEach((link) => {
 
-      } else {
-        const a = document.createElement("a");
+    if (!!link.subsystems) {
+      // nome da nova dropdown nesse caso dos subsistemas
+      let name = link.systemName.toLowerCase().replace(" ", "");
 
-        if(!!link.url)
-          a.addEventListener("click", () => navigate(link.path, link.url));
-        
-        a.innerText = link.systemName;
-        content.appendChild(a);
-      }
-    })
-  
+      //gera uma nova dropdown ao invés de um link
+      loadDropdown(link.systemName, "subsystem" + name, link.subsystems, content);
+
+    } else {
+      const a = document.createElement("a");
+
+      if (!!link.url)
+        a.addEventListener("click", () => navigate(link.path, link.url));
+
+      a.innerText = link.systemName;
+      content.appendChild(a);
+    }
+  })
+
   container.appendChild(content)
   parent.appendChild(container);
 }
 
 const toggleDropdown = async (id) => {
-  const dropdown = document.querySelector("#"+id);
-  
+  const dropdown = document.querySelector("#" + id);
+
   dropdown.classList.toggle("active");
   dropdown.children[1].classList.toggle("active")
 };
@@ -88,7 +88,7 @@ const toggleMenu = () => {
 
   const menuContainer = document.getElementById("menu-sidebar-container");
   menuContainer.classList.toggle("active");
-  
+
   toggleSidebar();
 };
 
@@ -112,15 +112,15 @@ const toggleSidebar = () => {
   const searchContainer = document.querySelector("#search-menu-container");
 
   // caso algum dos menus estejam ativos -> fechar
-  if(sidebarIcon.classList.contains("active")) {
-      
-    if(menuContainer.classList.contains("active"))
+  if (sidebarIcon.classList.contains("active")) {
+
+    if (menuContainer.classList.contains("active"))
       menuContainer.classList.remove("active");
 
-    if(searchContainer.classList.contains("active"))
-    searchContainer.classList.remove("active");
+    if (searchContainer.classList.contains("active"))
+      searchContainer.classList.remove("active");
   }
-  
+
   sidebarWrapper.classList.toggle("active");
   sidebarIcon.classList.toggle("active");
 
