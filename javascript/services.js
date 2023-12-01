@@ -9,7 +9,7 @@ const fetchData = async (url) => {
 
 // carrega o JSON com as informações de todos os sistemas
 const getAllSystemsData = async () => {
-    const url = "./utils/sistemas.json"; 
+    const url = "./utils/sistemas.json";
 
     // cria uma request de acordo com o endereço atual e com isso podemos
     // chamar o fetch usando a url gerada 
