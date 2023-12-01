@@ -119,7 +119,6 @@
 }
 
 #tooltip {
-    z-index: 9999;
     max-width: 50%;
     background-color: #dfdddd;
     border-radius: 5px;
