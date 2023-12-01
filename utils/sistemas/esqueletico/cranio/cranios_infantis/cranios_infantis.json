@@ -5,7 +5,7 @@
             "id": 0, 
             "title": "",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/CranioInfantil1.png",
+            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/cranioinfantil1.png",
             "pins": [
                 {
                     "id": 0,
@@ -33,7 +33,7 @@
             "id": 1, 
             "title": "",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/CranioInfantil2.png",
+            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/cranioinfantil2.png",
             "pins": [
                 {
                     "id": 0,
@@ -71,7 +71,7 @@
             "id": 1, 
             "title": "",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/CranioInfantil3.png",
+            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/cranioinfantil3.png",
             "pins": [
                 {
                     "id": 0,
@@ -109,7 +109,7 @@
             "id": 1, 
             "title": "",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/CranioInfantil4.png",
+            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/cranioinfantil4.png",
             "pins": [
                 {
                     "id": 0,
@@ -167,7 +167,7 @@
             "id": 1, 
             "title": "",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/CranioInfantil5.png",
+            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/cranioinfantil5.png",
             "pins": [
                 {
                     "id": 1,
@@ -195,7 +195,7 @@
             "id": 1, 
             "title": "",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/CranioInfantil6.png",
+            "image": "./utils/sistemas/esqueletico/cranio/cranios_infantis/cranioinfantil6.png",
             "pins": [
                 {
                     "id": 1,
