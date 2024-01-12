@@ -1,0 +1,710 @@
+{
+    "systemName": "Cíngulo",
+    "pieces": [
+        {
+            "id": 0, 
+            "title": "Cíngulo",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/acetabulo.png",
+            "pins":     [
+                {
+                    "id": 0,
+                    "title": "Acetábulo",
+                    "description": "Cavidade que se articula com a cabeça do fêmur.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Ílio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Ísquio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Púbis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.53,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Osso do quadril",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/ossodoquadril1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Face Sacropélvica",
+                    "description": "Onde o osso do quadril se articula com o sacro.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.17,
+                    "y": 0.07,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Sulco Obturatório",
+                    "description": "Passagem para o nervo e vasos obturatórios.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Espinha Ilíaca Posterossuperior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.19,
+                    "y": 0.2,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Espinha Ilíaca Posteroinferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.22,
+                    "y": 0.36,
+                    "placement": "right"
+                },
+                {
+                        "id": 4,
+                        "title": "Face Auricular",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.39,
+                        "y": 0.25,
+                        "placement": "left"
+                },
+                {
+                        "id": 5,
+                        "title": "Espinha Ilíaca Anterossuperior",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.8,
+                        "y": 0.29,
+                        "placement": "left"
+                },
+                {
+                        "id": 6,
+                        "title": "Espinha Ilíaca Ântero-Inferior",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.69,
+                        "y": 0.43,
+                        "placement": "left"
+                },
+                {
+                        "id": 7,
+                        "title": "Forame Obturado",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.44,
+                        "y": 0.74,
+                        "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2, 
+            "title": "Vista Basal Externa",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/ossodoquadril2.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Tuberosidade Ilíaca",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.22,
+                    "y": 0.2,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Fossa Ilíaca",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Espinha Ilíaca Anterossuperior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.82,
+                    "y": 0.28,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Espinha Ilíaca Ântero-inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.44,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Eminência Iliopúbica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Ísquio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.65,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Ramo Superior da Púbis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.61,
+                    "placement": "left"
+                }
+            ]    
+            
+        },
+        {
+            "id": 3, 
+            "title": "Vista Basal Externa",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/ossodoquadril3.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Incisura Isquiática Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.37,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Incisura Isquiática Menor",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.25,
+                    "y": 0.69,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Espinha Isquiática",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ramo do Ísquio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.82,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Face Sinfisial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.8,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Corpo do Ísquio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Ramo Superior da Púbis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Ramo Inferior da Púbis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.92,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Íleo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.28,
+                    "placement": "left"
+                }
+            ]
+            
+        },
+        {
+            "id": 4, 
+            "title": "Vista Basal Interna",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/ossodoquadril4.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Espinha Ilíaca Anterossuperior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.12,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Espinha Ilíaca Ântero-inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.31,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Túber Isquiático",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.87,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Limbo do Acetábulo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Fossa do Acetábulo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Face Semilunar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Incisura do Acetábulo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Corpo do Ísquio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.66,
+                    "y": 0.68,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Forame Obturado",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.18,
+                    "y": 0.51,
+                    "placement": "right"
+                },
+                {
+                    "id": 9,
+                    "title": "Corpo do Púbis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.72,
+                    "placement": "left"
+                }
+            ]    
+            
+        },
+        {
+            "id": 5, 
+            "title": "Vista Basal Interna",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/vistafrontaldapelve1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Ílio",
+                    "description": "Forma a maior parte do osso do quadril.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.17,
+                    "y": 0.4,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Ísquio",
+                    "description": "Forma a porção póstero-inferior do osso do quadril.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.37,
+                    "y": 0.56,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Púbis",
+                    "description": "Forma a parte ântero-medial do osso do qudril.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.67,
+                    "placement": "left"
+                }
+            ]    
+            
+        },
+        {
+            "id": 6, 
+            "title": "Vista Basal Interna",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/vistafrontaldapelve2.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Espinha Ilíaca Anterossuperior",
+                    "description": "Corresponde à extremidade anterior da crista ilíaca. Local de fixação do ligamento inguinal e do músculo sartório.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.04,
+                    "y": 0.34,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Sínfise Púbica",
+                    "description": "Onde se unem os dois ossos do quadril anteriormente.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Eminência Iliopúbica",
+                    "description": "Marca a fusão do ílio com o púbis.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.44,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Asa do Ílio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.2,
+                    "y": 0.35,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Crista Ilíaca",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.9,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Tubérculo Púbico",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Espinha Ilíaca Ântero-inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.17,
+                    "y": 0.5,
+                    "placement": "right"
+                },
+                {
+                    "id": 8,
+                    "title": "Túber Isquiático",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.71,
+                    "placement": "left"
+                }
+            ]    
+            
+        },
+        {
+            "id": 7, 
+            "title": "Vista Basal Interna",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/vistainferiordapelve1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Arco Púbico (Ângulo Subpúbico)",
+                    "description": "O grau de abertura deste arco ajuda a diferenciar a pelve masculina da pelve feminina. No homem, o ângulo do arco púbico é muito agudo (<90°) e na mulher é mais obtuso (>90°).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.7,
+                    "y": 0.31,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sínfise Púbica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.27,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Sacro",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tuberosidade Isquiática",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Acetábulo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.8,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Ílio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.06,
+                    "y": 0.34,
+                    "placement": "left"
+                }
+            ]    
+        },
+        {
+            "id": 7, 
+            "title": "Vista Basal Interna",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/vistasuperiordapelve1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Fossa Ilíaca",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.2,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Base do Sacro",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Crista Púbica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.8,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Asa do Sacro",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Articulação Sacroilíaca",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Espinha Ilíaca Ântero-inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.81,
+                    "y": 0.59,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Espinha Ilíaca Anterossuperior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.91,
+                    "y": 0.62,
+                    "placement": "left"
+                }
+            ]    
+            
+        }
+    ]
+}

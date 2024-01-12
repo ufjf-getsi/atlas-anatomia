@@ -1,0 +1,438 @@
+{
+    "systemName": "Coxa",
+    "pieces": [
+        {
+            "id": 0, 
+            "title": "Fêmur",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/coxa/femur1.png",
+            "pins":     
+            [
+                {
+                    "id": 0,
+                    "title": "Face Patelar",
+                    "description": "Articula-se com a face articular da patela.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.95,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Epicôndilo Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.93,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Epicôndilo Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.92,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Corpo do Fêmur (Diáfise)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Trocanter Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.1,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Trocanter Menor",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Cabeça do Femur",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.06,
+                    "placement": "left"
+                }
+            ]    
+        },
+        {
+            "id": 1,
+            "title": "Fêmur",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/coxa/femur2.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Linha Pectínia",
+                    "description": "Estende-se da parte central da linha áspera até a base do trocanter menor.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Linha Áspera",
+                    "description": "Possui lábios lateral e medial que continuam como linhas supracondilar lateral e medial, respectivamente.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Linha Supracondilar Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.85,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Linha Supracondilar Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.82,
+                    "placement": "left"
+                }
+            ]    
+        },
+        {
+            "id": 2, 
+            "title": "Fêmur",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/coxa/femur3.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Fóvea da Cabeça do Fêmur",
+                    "description": "Onde se fixa o ligamento da cabeça do fêmur.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Cabeça do Fêmur",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Trocanter Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.82,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Fossa Trocantérica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Colo do Fêmur",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Trocanter Menor",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.82,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3, 
+            "title": "Fêmur",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/coxa/femur4.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Tubérculo do Adutor",
+                    "description": "Pequena saliência na parte mais alta do côndilo medial.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.76,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Face Patelar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Epicôndilo Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.9,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Epicôndilo Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.07,
+                    "y": 0.67,
+                    "placement": "left"
+                }
+            ]      
+        },
+        {
+            "id": 4, 
+            "title": "Fêmur",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/coxa/femur5.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Fossa Intercondilar",
+                    "description": "Os côndilos são separados posterior e inferiormente pela fossa intercondilar, mas se fundem anteriormente, formando a face patelar.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Côndilo Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Côndilo Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.59,
+                    "placement": "left"
+                }
+            ]    
+        },
+        {
+            "id": 5, 
+            "title": "Fêmur",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/coxa/femur6.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Osso Esponjoso",
+                    "description": "Tem uma quantidade menor de material sólido, sendo formado por várias trabérculas que contém medula óssea. Todos os ossos longos contém uma camada de osso compacto.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.22,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Osso Compacto",
+                    "description": "É distinguido do osso esponjoso pela maior quantidade relativa de material sólido e ausência de espaços ou cavidades. Todos os ossos contém uma camada de osso campacto superficial ao redor de uma região central de osso esponjoso ou da cavidade medular. O osso compacto proporciona maior resistência para sustentação de peso e inserção de músculos e ligamentos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Cavidade Medular",
+                    "description": "Está no interior de ossos longos revestido por uma camada superficial de osso compacto e não possui resistência mecânica.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Epicôndilo Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.94,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Epicôndilo Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.95,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Corpo do Fêmur",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4999,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Cabeça do Fêmur",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.07,
+                    "placement": "right"
+                },
+                {
+                    "id": 7,
+                    "title": "Trocanter Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.08,
+                    "placement": "right"
+                }
+            ]      
+        },
+        {
+            "id": 6, 
+            "title": "Fêmur",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/coxa/femur7.png",
+            "pins":    
+            [
+                {
+                    "id": 0,
+                    "title": "Trabéculas Ósseas",
+                    "description": "Conferem ao osso esponjoso seu aspecto cavitário.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Osso Compacto",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.81,
+                    "y": 0.69,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Cavidade Medular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.87,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Trocanter Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.78,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Cabeça do Fêmur",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.11,
+                    "y": 0.23,
+                    "placement": "right"
+                }
+            ]
+        }
+    ]
+}

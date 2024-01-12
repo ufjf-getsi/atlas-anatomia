@@ -55,52 +55,36 @@
                     "image": "./utils/imagens/icone_vistasdocranio.png"
                 },
                 {
-                    "systemName": "Membro Inferior",
-                    "path": "#membro-inferior",
+                    "systemName": "Tronco",
+                    "path": "#tronco",
                     "section": "subsystems",
                     "subsystems": [
                         {
-                            "systemName": "Cíngulo",
+                            "systemName": "Coluna Vertebral",
                             "id": 0,
-                            "path": "#cingulo",
+                            "path": "#coluna",
                             "section": "atlas",
-                            "url": "",
-                            "image": "./utils/imagens/icone_cingulodosmmii.png"
+                            "url": "./utils/sistemas/esqueletico/tronco/coluna/coluna.json",
+                            "image": "./utils/imagens/icone_coluna.png"
                         },
                         {
-                            "systemName": "Coxa",
+                            "systemName": "Costelas",
                             "id": 0,
-                            "path": "#coxa",
+                            "path": "#costelas",
                             "section": "atlas",
-                            "url": "",
-                            "image": "./utils/imagens/icone_coxa.png"
+                            "url": "./utils/sistemas/esqueletico/tronco/costelas/costelas.json",
+                            "image": "./utils/imagens/icone_costelas.png"
                         },
                         {
-                            "systemName": "Patela",
+                            "systemName": "Esterno",
                             "id": 0,
-                            "path": "#patela",
+                            "path": "#esterno",
                             "section": "atlas",
-                            "url": "",
-                            "image": "./utils/imagens/icone_patela.png"
-                        },
-                        {
-                            "systemName": "Pé",
-                            "id": 0,
-                            "path": "#pe",
-                            "section": "atlas",
-                            "url": "",
-                            "image": "./utils/imagens/icone_pe.png"
-                        },  
-                        {
-                            "systemName": "Perna",
-                            "id": 0,
-                            "path": "#perna",
-                            "section": "atlas",
-                            "url": "",
-                            "image": "./utils/imagens/icone_perna.png"
+                            "url": "./utils/sistemas/esqueletico/tronco/esterno/esterno.json",
+                            "image": "./utils/imagens/icone_esterno.png"
                         }
                     ],
-                    "image": "./utils/imagens/icone_cingulodosmmii.png"
+                    "image": "./utils/imagens/icone_coluna.png"
                 }, 
                 {
                     "systemName": "Membro Superior",
@@ -143,36 +127,52 @@
                     "image": "./utils/imagens/icone_cingulodosmmss.png"
                 },
                 {
-                    "systemName": "Tronco",
-                    "path": "#tronco",
+                    "systemName": "Membro Inferior",
+                    "path": "#membro-inferior",
                     "section": "subsystems",
                     "subsystems": [
                         {
-                            "systemName": "Coluna Vertebral",
+                            "systemName": "Cíngulo",
                             "id": 0,
-                            "path": "#coluna",
+                            "path": "#cingulo",
                             "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/tronco/coluna/coluna.json",
-                            "image": "./utils/imagens/icone_coluna.png"
+                            "url": "./utils/sistemas/esqueletico/membro_inferior/cingulo/cingulo.json",
+                            "image": "./utils/imagens/icone_cingulodosmmii.png"
                         },
                         {
-                            "systemName": "Costelas",
+                            "systemName": "Coxa",
                             "id": 0,
-                            "path": "#costelas",
+                            "path": "#coxa",
                             "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/tronco/costelas/costelas.json",
-                            "image": "./utils/imagens/icone_costelas.png"
+                            "url": "./utils/sistemas/esqueletico/membro_inferior/coxa/coxa.json",
+                            "image": "./utils/imagens/icone_coxa.png"
                         },
                         {
-                            "systemName": "Esterno",
+                            "systemName": "Patela",
                             "id": 0,
-                            "path": "#esterno",
+                            "path": "#patela",
                             "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/tronco/esterno/esterno.json",
-                            "image": "./utils/imagens/icone_esterno.png"
+                            "url": "./utils/sistemas/esqueletico/membro_inferior/patela/patela.json",
+                            "image": "./utils/imagens/icone_patela.png"
+                        },
+                        {
+                            "systemName": "Perna",
+                            "id": 0,
+                            "path": "#perna",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/esqueletico/membro_inferior/perna/perna.json",
+                            "image": "./utils/imagens/icone_perna.png"
+                        },
+                        {
+                            "systemName": "Pé",
+                            "id": 0,
+                            "path": "#pe",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/esqueletico/membro_inferior/pe/pe.json",
+                            "image": "./utils/imagens/icone_pe.png"
                         }
                     ],
-                    "image": "./utils/imagens/icone_coluna.png"
+                    "image": "./utils/imagens/icone_cingulodosmmii.png"
                 }
             ],
             "image": "./utils/imagens/esqueletico.jpg"

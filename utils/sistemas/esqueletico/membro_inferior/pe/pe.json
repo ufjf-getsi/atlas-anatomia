@@ -1,0 +1,386 @@
+{
+    "systemName": "Pé",
+    "pieces": [
+        {
+            "id": 0, 
+            "title": "Vista Superior",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/pe/pe1.png",
+            "pins":     
+            [
+                {
+                    "id": 0,
+                    "title": "Cuneiformes",
+                    "description": "São três: medial, intermédio e lateral. O maior deles é o cuneiforme medial. Já o menor é o cuneiforme intermédio.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Navicular",
+                    "description": "Está situado entre a cabeça e o tálus posteriormente e os três cuneiformes anteriormente. Sua face medial projeta-se inferiormente para formar a tuberosidade do navicular, um local importante para fixação tendínea, pois a margem medial do pé não se apoia no solo, como faz a margem lateral.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Cuboide",
+                    "description": "É o osso mais lateral na fileira distal do tarso.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tálus",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.77,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Calcâneo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.89,
+                    "y": 0.5,
+                    "placement": "left"
+                }
+            ]
+            
+        },
+        {
+            "id": 0, 
+            "title": "Vista Superior",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/pe/pe2.png",
+            "pins":[
+                {
+                    "id": 0,
+                    "title": "Metatarsos",
+                    "description": "São cinco ossos numerados em algarismos romanos a partir da face medial do pé.Cada metatarso tem uma base próxima, um corpo e uma cabeça distal. Na face plantar da cebaça do metatarso I há ossos sesamoides proeminentes, que estão inseridos nos tendões que passam ao longo da planta do pé.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Tálus",
+                    "description": "Tem corpo, colo e cabeça. A face superior, ou tróclea do tálus, recebe o peso do corpo através da tíbia.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.77,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Falanges Distais",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.16,
+                    "y": 0.29,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Falanges Médias",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Falanges Proximais",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.37,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Cuboide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Navicular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Cuneiforme Intermédio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.58,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Cuneiforme Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Cuneiforme Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Calcâneo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.86,
+                    "y": 0.52,
+                    "placement": "left"
+                }
+            ]    
+            
+        },
+        {
+            "id": 0, 
+            "title": "Vista Medial",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/pe/pe3.png",
+            "pins":     
+            [
+                {
+                    "id": 0,
+                    "title": "Falanges",
+                    "description": "O hálux (primeiro dedo) têm duas falanges (proximal e distal); os outros quatro dedos têm três falanges cada: proximal, média e distal. Cada falange tem uma base (proximal), um corpo e uma cabeça (distal).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.08,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Calcâneo",
+                    "description": "Maior e mais forte osso do pé. Na posição de pé o calcâneo transmite a maior parte do peso corporal do tálus para o solo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.8,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Metatarsos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Cuneiforme Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Navicular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Tálus",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.35,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Sustentáculo do Tálus",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.76,
+                    "y": 0.49,
+                    "placement": "left"
+                }
+            ]
+            
+        },
+        {
+            "id": 0, 
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/pe/pe4.png",
+            "pins":     
+            [
+                {
+                    "id": 0,
+                    "title": "Cabeça do V Metatarso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.66,
+                    "y": 0.66,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Base do V Metatarso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tuberosidade do Calcâneo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.07,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tróclea Fibular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.58,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Cabeça do Tálus",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Colo do Tálus",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Face Maleolar Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.2,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Tálus",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.3,
+                    "placement": "left"
+                }
+            ]
+                
+            
+        },
+        {
+            "id": 0, 
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/pe/pe5.png",
+            "pins":     
+            [
+                {
+                    "id": 0,
+                    "title": "Tálus",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.23,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Calcâneo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.72,
+                    "placement": "left"
+                }
+            ]
+                
+            
+        }
+    ]
+}

@@ -1,0 +1,444 @@
+{
+    "systemName": "Perna",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Fíbula",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/perna/fibula1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Corpo da Fíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Maléolo Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.93,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Colo da Fíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.515,
+                    "y": 0.14,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ápice da Cabeça da Fíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.04,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Cabeça da Fíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.06,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Fíbula",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/perna/fibula2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Margem Interóssea",
+                    "description": "Fixa a membrana interóssea que está firmemente fixada à tíbia pela sindesmose tibiofibular.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Cabeça da Fíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.06,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Face Articular do Maléolo Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.94,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Fíbula",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/perna/fibula3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Ápice da Cabeça da Fíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.04,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Face Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.44,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Margem Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Margem Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Maléolo Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.93,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Tíbia",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/perna/tibia1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Tuberosidade da Tíbia",
+                    "description": "É o local de inserção do tendão do músculo quadríceps femoral.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.1,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Côndilo Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.06,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Côndilo Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.05,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Borda Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Maléolo Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.94,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Tíbia",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/perna/tibia2.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Face Articular Superior",
+                    "description": "Articula-se com o côndilo femoral correspondente.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.18,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Côndilo Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.23,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Côndilo Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Área Intercondilar Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.08,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Tuberosidade da Tíbia",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.48,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Tíbia",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/perna/tibia3.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Face Articular do Côndilo Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.2,
+                    "y": 0.33,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Tubérculo Intercondilar Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.28,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Côndilo Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Área Intercondilar Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.55,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Tubérculo Intercondilar Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Eminência Intercondilar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.38,
+                    "placement": "left"
+                }
+            ]
+            
+        },
+        {
+            "id": 0,
+            "title": "Tíbia",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/perna/tibia4.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Incisura Fibular",
+                    "description": "Local de articulação da tíbia com a extremidade distal da fíbula.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Face Articular do Maléolo Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.86,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Face Articular Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.73,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Tíbia",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/perna/tibia5.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Sulco Maleolar",
+                    "description": "Passam os tendões dos músculos tibial posterior e flexor longo dos dedos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Face Articular do Maléolo Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.85,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Tíbia",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/perna/tibia6.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Linha do Músculo Sóleo",
+                    "description": "Crista Diagonal áspera, segue sentido inferomedial até a margem medial da tíbia.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.19,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Face Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.54,
+                    "placement": "left"
+                }
+            ]       
+        }
+    ]
+}
