@@ -112,7 +112,7 @@
                             "id": 0,
                             "path": "#cingulodosmmss",
                             "section": "atlas",
-                            "url": "",
+                            "url": "./utils/sistemas/esqueletico/membro_superior/cingulo/cingulo.json",
                             "image": "./utils/imagens/icone_cingulodosmmss.png"
                         },
                         {
@@ -120,7 +120,7 @@
                             "id": 0,
                             "path": "#braco",
                             "section": "atlas",
-                            "url": "",
+                            "url": "./utils/sistemas/esqueletico/membro_superior/braco/braco.json",
                             "image": "./utils/imagens/icone_braco.png"
                         },
                         {
@@ -128,7 +128,7 @@
                             "id": 0,
                             "path": "#antebraco",
                             "section": "atlas",
-                            "url": "",
+                            "url": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco.json",
                             "image": "./utils/imagens/icone_antebraco.png"
                         },
                         {
@@ -136,7 +136,7 @@
                             "id": 0,
                             "path": "#mao",
                             "section": "atlas",
-                            "url": "",
+                            "url": "./utils/sistemas/esqueletico/membro_superior/mao/mao.json",
                             "image": "./utils/imagens/icone_mao.png"
                         }
                     ],
@@ -152,7 +152,7 @@
                             "id": 0,
                             "path": "#coluna",
                             "section": "atlas",
-                            "url": "",
+                            "url": "./utils/sistemas/esqueletico/tronco/coluna/coluna.json",
                             "image": "./utils/imagens/icone_coluna.png"
                         },
                         {
@@ -160,7 +160,7 @@
                             "id": 0,
                             "path": "#costelas",
                             "section": "atlas",
-                            "url": "",
+                            "url": "./utils/sistemas/esqueletico/tronco/costelas/costelas.json",
                             "image": "./utils/imagens/icone_costelas.png"
                         },
                         {
@@ -168,7 +168,7 @@
                             "id": 0,
                             "path": "#esterno",
                             "section": "atlas",
-                            "url": "",
+                            "url": "./utils/sistemas/esqueletico/tronco/esterno/esterno.json",
                             "image": "./utils/imagens/icone_esterno.png"
                         }
                     ],

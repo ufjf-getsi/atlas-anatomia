@@ -1,0 +1,396 @@
+{
+    "systemName": "Costelas",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Primeira Costela",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Cabeça da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.17,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Colo da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tubérculo da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.09,
+                    "y": 0.27,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Sulco da Artéria Subclávia",
+                    "description": "Acidente anatômico por onde passa a artéria subclávia.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Tubérculo do Músculo Escaleno Anterior",
+                    "description": "Recebe a inserção do músculo escaleno anterior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Sulco da Veia Subclávia",
+                    "description": "Acidente anatômico por onde passa a veia subclávia.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.72,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Primeira Costela",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Cabeça da Costela",
+                    "description": "Possui uma face articular que se articula com o corpo da primeira vértebra torácica.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.91,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Colo da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.85,
+                    "y": 0.5,
+                    "placement": "left"
+                },{
+                    "id": 2,
+                    "title": "Tubérculo da Costela",
+                    "description": "Não apresenta face articular para o processo transverso da primeira vértebra torácica.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.84,
+                    "y": 0.34,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Segunda Costela",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Cabeça da Costela",
+                    "description": "Apresenta duas faces articulares.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.11,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Colo da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.11,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tubérculo da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.72,
+                    "y": 0.11,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Corpo da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.83,
+                    "y": 0.68,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Segunda Costela",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Tuberosidade do Músculo Serrátil Anterior",
+                    "description": "Local onde se insere o músculo serrátil anterior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.88,
+                    "y": 0.58,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Borda Interna",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.66,
+                    "y": 0.76,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Borda Externa",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.77,
+                    "y": 0.79,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Costela Típica",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas5.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Cabeça da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.14,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Colo da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.16,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tubérculo da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.22,
+                    "y": 0.19,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Sulco da Costela",
+                    "description": "Acidente anatômico por onde passa o nervo intercostal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.1,
+                    "y": 0.39,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Costela Típica",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas6.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Cabeça da Costela",
+                    "description": "Apresenta duas faces articulares.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.8,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Colo da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.86,
+                    "y": 0.26,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tubérculo da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.93,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Corpo da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.74,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Costela Típica",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas7.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Cabeça da Costela",
+                    "description": "Apresenta duas faces articulares.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.22,
+                    "y": 0.23,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Colo da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.17,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tubérculo da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.12,
+                    "y": 0.27,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Sulco da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.06,
+                    "y": 0.46,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Costela Atípica Flutuante",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas8.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Cabeça da Costela",
+                    "description": "Apresenta apenas uma face articular.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.92,
+                    "y": 0.44,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Corpo da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.57,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Costela Atípica Flutuante",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas9.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Cabeça da Costela",
+                    "description": "Apresenta apenas uma face articular.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.89,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Corpo da Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.43,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

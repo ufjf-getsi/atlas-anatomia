@@ -1,0 +1,761 @@
+{
+    "systemName": "Coluna",
+    "pieces": [
+        {
+            "id": 1, 
+            "title": "Atlas (C1) - Vista Superior",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Tubérculo Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.74,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Arco Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Sulco da Artéria Vertebral",
+                    "description": "Impressão pela passagem da artéria vertebral e do primeiro nervo cervical",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Face Articular Superior",
+                    "description": "Localizada sobre as massas laterais da vértebra. É côncava e recebe os côndilos occiptais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Forame Transverso",
+                    "description": "Principal característica das vértebras cervicais, localizado no processo transverso. Dá passagem à artéria vertebral e a um plexo simpático.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.82,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Processo Transversário",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.92,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Tubérculo Anterior",
+                    "description": "Local de inserção do ligamento longitudinal anterior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Arco Posterior",
+                    "description": "Corresponde à lâmina de uma vértebra comum. Apresenta um sulco para a artéria vertebral em sua face superior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.7,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2, 
+            "title": "Atlas (C1) - Vista Inferior",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Face Articular Inferior",
+                    "description": "É plana e se articula com o Áxis (Segunda Vértebra Cervical).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Arco Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.71,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Arco Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Forame Transverso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.18,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Processo Transverso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.07,
+                    "y": 0.41,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3, 
+            "title": "Áxis (C2) - Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Face Articular Anterior do Dente do Áxis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Processo Articular Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.78,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Corpo Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.75,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 4, 
+            "title": "Áxis (C2) - Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Processo Odontoide (ou Dente do Áxis)",
+                    "description": "Funciona como eixo em torno do qual ocorre a rotação da cabeça. Articula-se e é mantido em posição contra a face posterior do arco anterior da primeira vértebra cervical pelo ligamento transverso do atlas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.19,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Face Articular Posterior do Dente do Áxis",
+                    "description": "Recebe o ligamento transverso do atlas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.31,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Transverso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.92,
+                    "y": 0.66,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Processo Espinhoso",
+                    "description": "É bífido e espesso. Pode ser palpado profundamente no sulco nucal, um sulco vertical no dorso do pescoço.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.74,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Face Articular Superior",
+                    "description": "Articula-se com a face articular inferior do atlas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Ápice do Dente",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.15,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 5, 
+            "title": "Áxis (C2) - Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral5.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Processo Espinhoso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.8,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Processo Articular Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.19,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Articular Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Forame Transverso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.2,
+                    "y": 0.7,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 6, 
+            "title": "Vértebra Cervical",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral6.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Processo Espinhoso",
+                    "description": "Os processos espinhosos são curtos (C3-C5) e bífidos (C3-C6). O processo de C7 é mais longo, por isso denominado vértebra proeminente.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.19,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Forame Vertebral",
+                    "description": "Responsável por acomodar a intumescência cervical da medula espinal. Possui formato triangular.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tubérculo Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.06,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tubérculo Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.15,
+                    "y": 0.8,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Processo Articular Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Processo Uncinado",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Corpo Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.75,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Forame Transverso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.79,
+                    "y": 0.71,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 7, 
+            "title": "Vértebra Cervical",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral7.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Processo Articular Superior",
+                    "description": "As faces articulares superiores são direcionadas superoposteriormente.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.82,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Tubérculo Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.07,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Corpo Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tubérculo Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.14,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Processo Uncinado",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.72,
+                    "y": 0.37,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 8, 
+            "title": "Vértebra Cervical",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral8.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Processo Articular Inferior",
+                    "description": "As faces articulares inferiores são direcionadas inferoanteriormente.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.84,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Processo Espinhoso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Corpo Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.75,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Forame Transverso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.68,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 9, 
+            "title": "Vértebra Cervical",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral9.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Processo Articular Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.87,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Processo Espinhoso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Articular Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.87,
+                    "y": 0.27,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 10, 
+            "title": "Vértebra Lombar - Vista Superior",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral10.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Corpo Vertebral",
+                    "description": "Tem formato aproximadamente reniforme e são maiores em relação aos corpos vertebrais dos outros segmentos, pois o peso que sustentam aumenta em direção a extremidade inferior da coluna vertebral.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Forame Vertebral",
+                    "description": "Tem formato triangular, maior que nas vértebras torácicas e menor que nas vértebras cervicais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Costal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.89,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Processo Acessório",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Processo Mamilar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.71,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Pedículo do Arco Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Lâmina do Arco Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Processo Espinhoso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.74,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Processo Articular Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.68,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 11, 
+            "title": "Vértebra Lombar - Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral11.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Processo Espinhoso",
+                    "description": "Curtos, fortes, espessos e largos (formato de machadinha).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.1,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Processo Costal",
+                    "description": "Correspondem ao processo transverso das outras vértebras.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.59,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Articular Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Processo Articular Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.73,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Corpo Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.59,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 12, 
+            "title": "Vértebra Lombar - Vista Posterolateral",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral12.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Processo Costal",
+                    "description": "É homólogo a uma costela.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.81,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Processo Mamilar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.1,
+                    "y": 0.31,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Espinhoso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.13,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Processo Articular Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Processo Articular Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.66,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Processo Acessório",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.46,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

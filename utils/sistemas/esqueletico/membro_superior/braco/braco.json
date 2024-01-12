@@ -1,0 +1,363 @@
+{
+    "systemName": "Braço",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Úmero",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/braco/braco1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Cabeça do Úmero",
+                    "description": "Articula-se com a cavidade glenoidal da escápula.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.06,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Corpo do Úmero",
+                    "description": "Apresenta bordas anterior, medial e lateral, que dividem-no em faces ântero-lateral, ântero-medial e posterior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Epicôndilo Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.9,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tróclea",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.95,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Capítulo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.93,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Epicôndilo Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.88,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Tuberosidade do Úmero",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.39,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Úmero",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/braco/braco2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Sulco do Nervo Medial",
+                    "description": "Sulco oblíquo localizado posteriormente no úmero e por onde passa o nervo radial e ramos da artéria braquial profunda. A lesão deste nervo manifesta-se como mão caída.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Fossa do Olécrano",
+                    "description": "Acomoda o olécrano da ulna durante a extensão completa do antebraço.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.89,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Epicôndilo Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.91,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Cabeça do Úmero",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.07,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Epicôndilo Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.92,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Úmero",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/braco/braco3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Sulco Intertubercular",
+                    "description": "Permite a passagem do tendão da cabeça longa do músculo bíceps braquial.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Colo Cirúrgico",
+                    "description": "Parte estreita distal à cabeça do úmero e aos tubérculos, ligando a extremidade proximal ao corpo do úmero. Relaciona-se com o nervo axilar e os vasos circunflexos anterior e posterior do úmero, estruturas que podem ser lesadas neste local comum de fraturas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.58,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Colo Anatômico",
+                    "description": "Formado pelo sulco que circunscreve a cabeça do úmero. Indica a linha de fixação da cápsula articular do ombro.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tubérculo Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Tubérculo Menor",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.33,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Úmero",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/braco/braco4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Colo Cirúrgico",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Colo Anatômico",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tubérculo Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.18,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Úmero",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/braco/braco5.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Capítulo",
+                    "description": "Articula-se com a cabeça do rádio.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Tróclea",
+                    "description": "Apresenta forma de carretel ou roldana e se articula com a incisura troclear da ulna. Constitui o côndilo do úmero juntamente com o capítulo e as fossas coronoides do olécrano e radial.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.84,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Epicôndilo Lateral",
+                    "description": "Local de fixação proximal dos músculos extensores do antebraço, além do supinador e anconeu.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.25,
+                    "y": 0.69,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Epicôndilo Medial",
+                    "description": "Local de fixação proximal dos músculos flexores do antebraço.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.69,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Fossa Coronoide",
+                    "description": "Recebe o processo coronoide da ulna durante a flexão completa do antebraço.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Fossa Radial",
+                    "description": "Acomoda a margem da cabeça do rádio durante a flexão completa do antebraço.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.65,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Úmero",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/braco/braco6.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Fossa do Olécrano",
+                    "description": "Acomoda o olécrano da ulna durante a extensão completa do antebraço.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.69,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sulco para o Nervo Ulnar",
+                    "description": "Depressão localizada inferiormente ao epicôndilo medial.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.82,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Epicôndilo Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.74,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Epicôndilo Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.74,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Tróclea",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.83,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

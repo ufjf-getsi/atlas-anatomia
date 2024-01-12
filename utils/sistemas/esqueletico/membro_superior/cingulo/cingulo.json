@@ -1,0 +1,346 @@
+{
+    "systemName": "Cíngulo",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Clavícula",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/cingulo/clavicula1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Extremidade Acromial",
+                    "description": "Apresenta face articular para articulação com o acrômio.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.14,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Extremidade Esternal",
+                    "description": "Apresenta face articular para articulação com o esterno.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.89,
+                    "y": 0.45,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Clavícula",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/cingulo/clavicula2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Impressão do Ligamento Costoclavicular",
+                    "description": "Permite a fixação do ligamento que une a 1º costela à clavícula, limitando a elevação do ombro.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.15,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sulco para o Músculo Subclávio",
+                    "description": "Local de fixação do músculo subclávio.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tubérculo Conoide",
+                    "description": "Permite a fixação do ligamento conoide (parte medial do ligamento coracoclavicular).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.76,
+                    "y": 0.42,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Linha Trapezoidea",
+                    "description": "Permite a fixação do ligamento trapezoide (parte lateral do ligamento coracoclavicular).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.83,
+                    "y": 0.46,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Escápula",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/cingulo/escapula1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Acrômio",
+                    "description": "Articula-se com a extremidade acromial da clavícula.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.06,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Processo Coracoide",
+                    "description": "O processo coracoide é uma estrutura semelhante a um gancho palpável. É posicionado sobre a parte ântero-superior da escápula.Esta parte do sistema esquelético proporciona estabilidade para a região do ombro.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.11,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Incisura da Escápula",
+                    "description": "Limitado superiormente pelo ligamento transverso superior da escápula. É atravessada pelo nervo supraescapular.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Fossa Subescapular",
+                    "description": "Compreende toda a face anterior da escápula e tem formato côncava. Aloja o músculo de mesmo nome.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Margem Medial",
+                    "description": "Sua superfície anterior fornece fixação ao músculo serrátil anterior. Sua superíficie posterior fornece fixação aos músculos levantador da escápula, romboide menor e romboide maior (em sequência craniocaudal).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.78,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Margem Lateral",
+                    "description": "Contornada pelos vasos circunflexos da escápula.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Margem Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.16,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Cavidade Glenoidal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Ângulo Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.15,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Ângulo Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.93,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Escápula",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/cingulo/escapula2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Espinha da Escápula",
+                    "description": "Contínua lateralmente com o acrômio e separa as fossas supra e infraespinal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Fossa Supraespinhal",
+                    "description": "Área de fixação do músculo supraespinhal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Fossa Infraespinhal",
+                    "description": "Área de fixação do músculo infraespinhal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.58,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Acrômio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.09,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Cavidade Glenoidal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.7,
+                    "y": 0.26,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Escápula",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/cingulo/escapula3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Cavidade Glenoidal",
+                    "description": "Articula-se com a cabeça do úmero (articulação do ombro).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Acrômio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.1,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Coracoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tubérculo Supraglenoidal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.26,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Incisura da Escápula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Lábio Glenoidal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.85,
+                    "y": 0.35,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Tubérculo Infraglenoidal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Face Dorsal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.69,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Face Costal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.72,
+                    "placement": "left"
+                }
+                
+            ]
+        }
+    ]
+}

@@ -11,6 +11,9 @@ let pieces, piecesNumber;
 // carrega os dados quando a tela for chamada
 const loadSystemContent = async (systemURL) => {
 
+  // começa da imagem 0 
+  setPieceIndex(0);
+
   //se o sistema ainda nao tiver uma URL, navega para a página de erro
   if (!systemURL) {
     navigate("#error");

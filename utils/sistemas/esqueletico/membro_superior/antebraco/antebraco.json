@@ -1,0 +1,435 @@
+{
+    "systemName": "Antebraço",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Rádio",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Tuberosidade Radial",
+                    "description": "Local de inserção do tendão do músculo bíceps braquial.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.15,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Corpo do Rádio",
+                    "description": "Apresenta bordas anterior, posterior e interóssea, que o separa em faces anterior, posterior e lateral. A borda interóssea do rádio, assim como a borda interóssea da ulna, dão inserção à membrana interóssea.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Estiloide",
+                    "description": "Constitui a terminação da face lateral do rádio. É palpável na tabaqueira anatômica. Localiza-se 1 cm distalmente do processo estiloide da ulna. Esta relação é de importância clínica quando a ulna e/ou o rádio são fraturados.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.79,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Cabeça do Rádio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.04,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Rádio",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Colo",
+                    "description": "Constrição distal à cabeça do rádio.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Circunferência Articular da Cabeça do Rádio",
+                    "description": "É coberta por cartilagem articular. Articula-se com a incisura radial da ulna (supinação e pronação do antebraço).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.23,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Fóvea da Cabeça do Rádio",
+                    "description": "É coberta por cartilagem articular. Sua superfície é lisa, discoide e côncava para articulação com o capítulo do úmero (flexão e extensão do antebraço.)",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.13,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tuberosidade Radial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.43,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Rádio",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Incisura Ulnar",
+                    "description": "Localizada distalmente e acomoda a cabeça da ulna.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.66,
+                    "y": 0.84,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Corpo do Rádio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Estiloide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.74,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Rádio",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Incisura Ulnar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.17,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sulcos e Cristas Ósseas para os Tendões dos Extensores",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.15,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tubérculo Dorsal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.68,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Processo Estiloide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.85,
+                    "y": 0.87,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Rádio",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco5.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Borda Interóssea",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Incisura Ulnar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.88,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Rádio",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco6.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Face Articular Cárpica",
+                    "description": "Apresenta uma faceta quadrilátera medial para articulação com o osso semilunar e uma faceta triangular lateral para articulação com o osso escafoide.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Incisura Ulnar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.83,
+                    "y": 0.55,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Ulna",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco7.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Processo Coronoide",
+                    "description": "Aloja-se na fossa coronoide do úmero quando o antebraço está completamente fletido. Apresenta uma área para a inserção do músculo braquial.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.09,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Incisura Radial",
+                    "description": "Articula-se com a cabeça do rádio.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.14,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Corpo da Ulna",
+                    "description": "Apresenta bordas anterior, posterior e interóssea, que o divide em faces anterior, posterior e medial.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Cabeça da Ulna",
+                    "description": "Alargamento pequeno e abrupto na extremidade distal da ulna. Um disco articular exclui a ulna da articulação do punho.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.85,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Borda Interóssea do Carpo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.61,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Ulna",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco8.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Olécrano",
+                    "description": "Parte palpável do cotovelo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.1,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Incisura Troclear",
+                    "description": "Articula-se com a tróclea do úmero.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.28,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Incisura Radial",
+                    "description": "Articula-se com a circunferência articular da cabeça do rádio.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Fossa do Músculo Supinador",
+                    "description": "Área de fixação da parte profunda do músculo supinador.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Crista do Músculo Supinador",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.56,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Ulna",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco9.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Forame Nutrício",
+                    "description": "Passagem para os vasos nutrícios da ulna.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Tuberosidade Ulnar",
+                    "description": "Área de fixação do tendão do músculo braquial.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Coronoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.12,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Cabeça da Ulna",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.81,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Ulna",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco10.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Processo Estiloide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.95,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Cabeça da Ulna",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.87,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}
