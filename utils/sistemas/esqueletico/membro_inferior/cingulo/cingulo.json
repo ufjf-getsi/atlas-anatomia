@@ -139,7 +139,7 @@
         },
         {
             "id": 2, 
-            "title": "Vista Basal Externa",
+            "title": "Osso do quadril",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/ossodoquadril2.png",
             "pins": 
@@ -219,7 +219,7 @@
         },
         {
             "id": 3, 
-            "title": "Vista Basal Externa",
+            "title": "Osso do quadril",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/ossodoquadril3.png",
             "pins": 
@@ -319,7 +319,7 @@
         },
         {
             "id": 4, 
-            "title": "Vista Basal Interna",
+            "title": "Osso do quadril",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/ossodoquadril4.png",
             "pins": 
@@ -429,7 +429,7 @@
         },
         {
             "id": 5, 
-            "title": "Vista Basal Interna",
+            "title": "Osso do quadril",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/vistafrontaldapelve1.png",
             "pins": 
@@ -469,7 +469,7 @@
         },
         {
             "id": 6, 
-            "title": "Vista Basal Interna",
+            "title": "Osso do quadril",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/vistafrontaldapelve2.png",
             "pins": 
@@ -559,7 +559,7 @@
         },
         {
             "id": 7, 
-            "title": "Vista Basal Interna",
+            "title": "Osso do quadril",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/vistainferiordapelve1.png",
             "pins": 
@@ -628,7 +628,7 @@
         },
         {
             "id": 7, 
-            "title": "Vista Basal Interna",
+            "title": "Osso do quadril",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/vistasuperiordapelve1.png",
             "pins": 

@@ -3,13 +3,15 @@
 /* ATLAS */
 .image-card {
     max-width: 700px;
-    width: 90%;
+    width: 95%;
     margin: 25px auto;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #ffffffc4;
+    display: flex;
+    justify-content: center;
 }
 
 #container {
@@ -19,7 +21,14 @@
     border: 1px solid #333333;
     border-radius: 10px;
     box-shadow: 1px 3px 2rem rgba(42, 42, 43, 0.699);
-    width: clamp(300px, 80vw, 600px);
+    width: clamp(300px, 80%, 600px);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
 }
 
 #content {
@@ -70,9 +79,16 @@
     background-color: #1f1f1fd8;
 }
 
+.slide-button svg {
+    aspect-ratio: 1;
+    height: 100%;
+    margin: 15%;
+}
+
 .slide-button {
+    padding: 0;
+    margin: 5px;
     width: 8%;
-    height: 8%;
     background-color: #ffffffc4;
     color: #303030;
     border: none;
@@ -82,24 +98,12 @@
     justify-content: center;
     align-items: center;
     box-shadow: 2px 2px 2rem rgb(65, 65, 65);
-    position: absolute;
-    top: 50%;
 }
 
 .slide-button:active {
     box-shadow: 2px 2px #222;
     transform: translate(2px, 2px);
 }
-
-.slide-left {
-    left: 2%;
-}
-
-.slide-right {
-    right: 2%;
-}
-
-
 
 /* ALFINETES & TOOLTIPS */
 .pin {
@@ -119,6 +123,7 @@
 }
 
 #tooltip {
+    z-index: 1;
     max-width: 50%;
     background-color: #dfdddd;
     border-radius: 5px;
