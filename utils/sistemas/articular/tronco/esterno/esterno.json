@@ -1,0 +1,209 @@
+{
+    "systemName": "Esterno e Gradil Costal",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Esterno",
+            "description": "",
+            "image": "./utils/sistemas/articular/tronco/esterno/esterno.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Incisura Clavicular",
+                    "description": "Articula-se com a extremidade esternal da clavícula, formando a articulação esternoclavicular (sinovial esferoide com o disco articular).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.27,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Articulação Costocondral",
+                    "description": "Entre a cartilagem costal e a costela. As articulações costocondrais são sincondroses.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Articulação Manubrioesternal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.19,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Articulação Xifoesternal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.82,
+                    "y": 0.9,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Sincondrose da Primeira Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.18,
+                    "y": 0.4,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Gradil Costal",
+            "description": "",
+            "image": "./utils/sistemas/articular/tronco/esterno/gradilcostal1.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Articulações Esternocostais",
+                    "description": "São as articulações entre o esterno e as cartilagens costais. O primeiro par de cartilagens costais se articula com o manúbrio, formando a sincondrose da primeira costela. Do segundo ao sétimo par de cartilagens costais a articulação é sinovial. As cápsulas articulares fracas dessas articulações apresentam um espessamento anterior e posterior, que formam os ligamentos esternocostais radiados.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.12,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Costelas",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.02,
+                    "y": 0.77,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Manúbrio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.13,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Corpo do Esterno",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Processo Xifoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.76,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Articulação Manubrioesternal",
+                    "description": "Sincondrose temporária, geralmente ossificada no adulto.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.2,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Articulação Xifoesternal",
+                    "description": "Sincondrose temporária, geralmente ossificada no adulto.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.53,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Gradil Costal",
+            "description": "",
+            "image": "./utils/sistemas/articular/tronco/esterno/gradilcostal2.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Costelas",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.05,
+                    "y": 0.17,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Manúbrio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.14,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Corpo do Esterno",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Processo Xifoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.76,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Articulações Esternocostais",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.11,
+                    "y": 0.82,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Incisura Clavicular",
+                    "description": "Articula-se com a clavícula, formando a articulação esternoclavicular, que é sinovial, esferoide e triaxial.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.02,
+                    "y": 0.69,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

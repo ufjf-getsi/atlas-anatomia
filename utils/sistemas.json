@@ -8,13 +8,13 @@
             "subsystems": [
                 {
                     "systemName": "Crânio",
-                    "path": "#cranio",
+                    "path": "#cranio-E",
                     "section": "subsystems",
                     "subsystems": [
                         {
                             "systemName": "Vistas do Crânio",
                             "id": 0,
-                            "path": "#vistas",
+                            "path": "#vistas-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/cranio/vistas/vistas.json",
                             "image": "./utils/imagens/icone_vistasdocranio.png"
@@ -22,7 +22,7 @@
                         {
                             "systemName": "Base do Crânio",
                             "id": 0,
-                            "path": "#base",
+                            "path": "#base-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/cranio/base/base.json",
                             "image": "./utils/imagens/icone_basedocranio.png"
@@ -30,7 +30,7 @@
                         {
                             "systemName": "Mandíbula",
                             "id": 0,
-                            "path": "#mandibula",
+                            "path": "#mandibula-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/cranio/mandibula/mandibula.json",
                             "image": "./utils/imagens/icone_mandibula.png"
@@ -38,7 +38,7 @@
                         {
                             "systemName": "Pontos Craniométricos",
                             "id": 0,
-                            "path": "#pontos",
+                            "path": "#pontos-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/cranio/pontos_craniometricos/pontos_craniometricos.json",
                             "image": "./utils/imagens/icone_pontoscraniometricos.png"
@@ -46,7 +46,7 @@
                         {
                             "systemName": "Crânios Infantis",
                             "id": 0,
-                            "path": "#cranios-infantis",
+                            "path": "#cranios-infantis-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/cranio/cranios_infantis/cranios_infantis.json",
                             "image": "./utils/imagens/icone_craniosinfantis.png"
@@ -56,13 +56,13 @@
                 },
                 {
                     "systemName": "Tronco",
-                    "path": "#tronco",
+                    "path": "#tronco-E",
                     "section": "subsystems",
                     "subsystems": [
                         {
                             "systemName": "Coluna Vertebral",
                             "id": 0,
-                            "path": "#coluna",
+                            "path": "#coluna-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/tronco/coluna/coluna.json",
                             "image": "./utils/imagens/icone_coluna.png"
@@ -70,7 +70,7 @@
                         {
                             "systemName": "Costelas",
                             "id": 0,
-                            "path": "#costelas",
+                            "path": "#costelas-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/tronco/costelas/costelas.json",
                             "image": "./utils/imagens/icone_costelas.png"
@@ -78,7 +78,7 @@
                         {
                             "systemName": "Esterno",
                             "id": 0,
-                            "path": "#esterno",
+                            "path": "#esterno-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/tronco/esterno/esterno.json",
                             "image": "./utils/imagens/icone_esterno.png"
@@ -88,13 +88,13 @@
                 }, 
                 {
                     "systemName": "Membro Superior",
-                    "path": "#membro-superior",
+                    "path": "#membro-superior-E",
                     "section": "subsystems",
                     "subsystems": [
                         {
                             "systemName": "Cíngulo dos Membros Superiores",
                             "id": 0,
-                            "path": "#cingulodosmmss",
+                            "path": "#cingulo-dos-mmss-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/membro_superior/cingulo/cingulo.json",
                             "image": "./utils/imagens/icone_cingulodosmmss.png"
@@ -102,7 +102,7 @@
                         {
                             "systemName": "Braço",
                             "id": 0,
-                            "path": "#braco",
+                            "path": "#braco-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/membro_superior/braco/braco.json",
                             "image": "./utils/imagens/icone_braco.png"
@@ -110,7 +110,7 @@
                         {
                             "systemName": "Antebraço",
                             "id": 0,
-                            "path": "#antebraco",
+                            "path": "#antebraco-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco.json",
                             "image": "./utils/imagens/icone_antebraco.png"
@@ -118,7 +118,7 @@
                         {
                             "systemName": "Mão",
                             "id": 0,
-                            "path": "#mao",
+                            "path": "#mao-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/membro_superior/mao/mao.json",
                             "image": "./utils/imagens/icone_mao.png"
@@ -128,13 +128,13 @@
                 },
                 {
                     "systemName": "Membro Inferior",
-                    "path": "#membro-inferior",
+                    "path": "#membro-inferior-E",
                     "section": "subsystems",
                     "subsystems": [
                         {
                             "systemName": "Cíngulo",
                             "id": 0,
-                            "path": "#cingulo",
+                            "path": "#cingulo-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/membro_inferior/cingulo/cingulo.json",
                             "image": "./utils/imagens/icone_cingulodosmmii.png"
@@ -142,7 +142,7 @@
                         {
                             "systemName": "Coxa",
                             "id": 0,
-                            "path": "#coxa",
+                            "path": "#coxa-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/membro_inferior/coxa/coxa.json",
                             "image": "./utils/imagens/icone_coxa.png"
@@ -150,7 +150,7 @@
                         {
                             "systemName": "Patela",
                             "id": 0,
-                            "path": "#patela",
+                            "path": "#patela-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/membro_inferior/patela/patela.json",
                             "image": "./utils/imagens/icone_patela.png"
@@ -158,7 +158,7 @@
                         {
                             "systemName": "Perna",
                             "id": 0,
-                            "path": "#perna",
+                            "path": "#perna-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/membro_inferior/perna/perna.json",
                             "image": "./utils/imagens/icone_perna.png"
@@ -166,7 +166,7 @@
                         {
                             "systemName": "Pé",
                             "id": 0,
-                            "path": "#pe",
+                            "path": "#pe-E",
                             "section": "atlas",
                             "url": "./utils/sistemas/esqueletico/membro_inferior/pe/pe.json",
                             "image": "./utils/imagens/icone_pe.png"
@@ -182,7 +182,118 @@
             "id": 1,
             "path": "#articular",
             "section": "subsystems",
-            "url": "",
+            "subsystems": [
+                {
+                    "systemName": "Cabeça",
+                    "path": "#cabeça-A",
+                    "id": 0,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/articular/cabeca/cabeca.json", 
+                    "image": "./utils/imagens/icone_basedocranio.png"
+                },
+                {
+                    "systemName": "Membro Inferior",
+                    "id": 1,
+                    "path": "#membro-inferior-A",
+                    "section": "subsystems",
+                    "subsystems": [
+                        {
+                            "systemName": "Quadril",
+                            "id": 3,
+                            "path": "#quadril-A",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/articular/membro_inferior/quadril/quadril.json",
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        },
+                        {
+                            "systemName": "Joelho",
+                            "id": 0,
+                            "path": "#joelho-A",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/articular/membro_inferior/joelho/joelho.json",
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        },
+                        {
+                            "systemName": "Pé",
+                            "id": 1,
+                            "path": "#pe-A",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/articular/membro_inferior/pe/pe.json",
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        },
+                        {
+                            "systemName": "Perna",
+                            "id": 2,
+                            "path": "#perna-A",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/articular/membro_inferior/perna/perna.json",
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        },
+                        {
+                            "systemName": "Tornozelo",
+                            "id": 4,
+                            "path": "#tornozelo-A",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/articular/membro_inferior/tornozelo/tornozelo.json",
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        }
+                    ]
+                },
+                {
+                    "systemName": "Membro Superior",
+                    "path": "#membro-superior-A",
+                    "section": "subsystems",
+                    "subsystems": [
+                        {
+                            "systemName": "Cotovelo",
+                            "id": 0,
+                            "path": "#cotovelo-A",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/articular/membro_superior/cotovelo/cotovelo.json",
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        },
+                        {
+                            "systemName": "Mão",
+                            "id": 0,
+                            "path": "#mao-A",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/articular/membro_superior/mao/mao.json",
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        },
+                        {
+                            "systemName": "Ombro",
+                            "id": 0,
+                            "path": "#ombro-A",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/articular/membro_superior/ombro/ombro.json",
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        }
+                    ]
+                },
+                {
+                    "systemName": "Tronco",
+                    "path": "#tronco-A",
+                    "section": "subsystems",
+                    "subsystems": [
+                        {
+                            "systemName": "Coluna Vertebral",
+                            "id": 0,
+                            "path": "#coluna-vertebral-A",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/articular/tronco/coluna/coluna.json",
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        },
+                        {
+                            "systemName": "Esterno e Gradil Costal",
+                            "id": 1,
+                            "path": "#esterno-A",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/articular/tronco/esterno/esterno.json",
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        }
+                    ]
+                }
+            ],
             "image": "./utils/imagens/articular.jpg"
         },
         {

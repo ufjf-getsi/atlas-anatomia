@@ -1,0 +1,383 @@
+{
+    "systemName": "Joelho",
+    "pieces": [
+        {
+            "id": 0, 
+            "title": "Vista Anteromedial",
+            "description": "",
+            "image": "./utils/sistemas/articular/membro_inferior/joelho/joelho1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Fêmur",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.06,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Ligamento Patelar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.22,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Ligamento Colateral Tibial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.72,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tíbia",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.93,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/articular/membro_inferior/joelho/joelho2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Fêmur",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.9,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Ligamento Colateral Fibular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tíbia",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.13,
+                    "y": 0.53,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Fíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.11,
+                    "y": 0.65,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Menisco Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Corpo Adiposo Infrapatelar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Ligamento Patelar",
+                    "description": "É uma faixa espessa que vai da patela até a tuberosidade da tíbia. É nele em que se percute a fim de achar o reflexo patelar.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.42,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2, 
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/articular/membro_inferior/joelho/joelho3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Côndilo Femoral Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Ligamento Colateral Fibular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.72,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Ligamento Colateral Tibial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.68,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tíbia",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.79,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Fíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.88,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Ligamento Patelar",
+                    "description": "Faixa espessa que vai da patela até a tuberosidade da tíbia. É nele que se percute, a fim de achar o reflexo patelar.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Menisco Medial",
+                    "description": "É um disco fibrocartilagíneo existente entre as faces articulares da tíbia e do fêmur. Ajuda a compor a articulação entre esses dois ossos. Está presente na porção lateral também.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.52,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3, 
+            "title": "Vista Medial",
+            "description": "",
+            "image": "./utils/sistemas/articular/membro_inferior/joelho/joelho4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Fêmur",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.1,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Patela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.35,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Ligamento Colateral Tibial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.65,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ligamento Patelar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Tíbia",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.78,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Menisco Medial",
+                    "description": "Consistem em discos articulares fibrocartilagíneos que compõem os ligamentos intrarticulares do joelho, juntamente com os ligamentos cruzados.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.55,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 4, 
+            "title": "Articulação aberta, joelho em suave flexão",
+            "description": "",
+            "image": "./utils/sistemas/articular/membro_inferior/joelho/joelho5.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Prega Sinovial Infrapatelar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Patela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.65,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Côndilo Femoral Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ligamento Cruzado Anterior",
+                    "description": "É originado na área intercondilar anterior da tíbia, imediatamente posterior à fixação do menisco medial. O mais fraco dos ligamentos cruzados, é responsável por impedir o descolamento posterior do fêmur sobre a tíbia e a hiperextensão da articulação do joelho.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.39,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 5, 
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/articular/membro_inferior/joelho/joelho6.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Menisco Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Ligamento Menisco-Femoral Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Côndilo Femoral Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ligamento Cruzado Posterior",
+                    "description": "É originado da área intercondilar posterior da tíbia e segue em sentido superior e anterior na face medial do LCA para fixar-se a frente. Impede o deslocamento anterior do fêmur sobre a tíbia ou o descolamento posterior da tíbia sobre o fêmur e ajuda a evitar a hiperflexão da articulação do joelho. Por isso, é considerado o principal fator estabilizador do fêmur.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                    {
+                        "id": 4,
+                        "title": "Cabeça da Fíbula",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.41,
+                        "y": 0.71,
+                        "placement": "left"
+                    }
+            ]
+        }
+    ]
+}

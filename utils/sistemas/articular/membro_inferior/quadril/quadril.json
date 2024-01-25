@@ -1,0 +1,219 @@
+{
+    "systemName": "Quadril",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Vista Anterior do Quadril",
+            "description": "",
+            "image": "./utils/sistemas/articular/membro_inferior/quadril/quadril2.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Ligamento Longitudinal Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Ligamento Púbico Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Sínfise Púbica",
+                    "description": "É uma articulação entre os corpos dos ossos púbis, cujo o tecido interposto é cartilagem fibrosa. Relaciona-se com a gravidez através do conjugado obstétrico, que é o diâmetro da menor distância pela a qual a cabeça do feto deve passsar, e que vai do promontório sacral até a margem inferior da sínfise púbica.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Ligamento Iliofemoral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.52,
+                    "placement": "blue"
+                },
+                {
+                    "id": 5,
+                    "title": "Ligamento Inguinal",
+                    "description": "Esse ligamento, assim como o trato iliopúbico, se estende da espinha ilíaca anterossuperior até o tubérculo púbico. Ambos combrem uma área de fraqureza inata da parede abdominal, onde, com frequência, surgem hérnias inguinais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.72,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Cápsula Articular do Quadril",
+                    "description": "Os ligamentos iliofemoral,isquifemoral e pubofemoral colaboram para sua formação.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.48,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Articulação Coxofemoral",
+            "description": "",
+            "image": "./utils/sistemas/articular/membro_inferior/quadril/quadril1.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Ílio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.22,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Acetábulo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.12,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ligamento da Cabeça do Fêmur",
+                    "description": "Prega sinovial relativamente fraca e de pouca importância para a articulação do quadril.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.81,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Ligamento Pubofemoral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Cabeça do Fêmur",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.55,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Articulação Coxofemoral",
+            "description": "",
+            "image": "./utils/sistemas/articular/membro_inferior/quadril/quadril3.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Fossa Ilíaca",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Trocânter Maior do Fêmur",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Corpo do Fêmur",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.93,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Ligamento Pubofemoral (Seccionado)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Cabeça do Fêmur",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Ísquio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.77,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Púbis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.81,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Articulação Coxofemoral",
+                    "description": "É uma articulação sinovial do tipo esferoide, triaxial, entre a cabeça do fêmur e a fossa do acetábulo no osso do quadril.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.72,
+                    "y": 0.49,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

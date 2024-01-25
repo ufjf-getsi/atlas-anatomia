@@ -1,5 +1,5 @@
 {
-    "systemName": "Coluna",
+    "systemName": "Coluna Vertebral",
     "pieces": [
         {
             "id": 1, 
@@ -534,6 +534,559 @@
             ]
         },
         {
+            "id": 0, 
+            "title": "Vértebra Torácica",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral13.png",
+            "pins":     [
+                {
+                    "id": 0,
+                    "title": "Processo Espinhoso",
+                    "description": "Longo e fino. Serve como local de fixação dos músculos profundo do dorso e como alavanca, facilitando a ação dos músculos que fixam ou mudam a posição das vértebras.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.13,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Processo Articular Superior",
+                    "description": "Articula-se com o processo articular inferior da vértebra acima. Também auxilia na manutenção do alinhamento das vértebras adjacentes, evitando o deslizamento anterior de uma vértebra sobre a outra.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Forame Vertebral",
+                    "description": "Circular e menor do que os forames das vértebras cervicais e lombares. Formado pelo corpo vertebral, os pedículos e as lâminas. A sobreposição de forames vertebrais forma o canal vertebral, que aloja a medula espinhal e as raízes dos nervos espinhais que dela emergem, juntamente com membranas (meninges), gordura e vasos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Corpo Vertebral",
+                    "description": "É a parte da vértebra responsável por sustentar o peso corporal. Consiste principalmente de osso esponjoso e possui medula óssea vermelha. Seu tamanho aumenta a medida que progredimos em direção caudal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.75,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Pedículo do Arco Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Lâmina do Arco Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.31,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Processo Transverso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.83,
+                    "y": 0.29,
+                    "placement": "left"
+                }
+            ]
+                
+        },
+        {
+            "id": 1,
+            "title": "Vértebra Torácica",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral14.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Processo Articular Inferior",
+                    "description": "Articula-se com o processo articular Superior da vértebra abaixo. Também auxilia na manutenção do alinhamento das vértebras adjacentes, evitando o deslizamento anterior de uma vértebra sobre a outra.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Corpo Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.72,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Forame Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Pedículo do Arco Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Lâmina do Arco Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Processo Transverso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.8,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Processo Espinhoso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.15,
+                    "placement": "left"
+                }
+            ]   
+        },
+        {
+            "id": 2, 
+            "title": "Vértebra Torácica",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral15.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Incisura Vertebral Superior",
+                    "description": "Com sobreposição das vértebras, as incisuras vertebrais superiores e inferiores delimitam os forames intervertebrais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.23,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Fóvea Costal Superior",
+                    "description": "Articula-se com a face articular inferior da cabeça da costela correspondente.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Fóvea Costal do Processo Transverso",
+                    "description": "Articula-se com a face articular do tubérculo da costela correspondente.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Incisura Vertebral Inferior",
+                    "description": "Com a sobreposição das vértebras, as incisuras vertebrais superiores e inferiores delimitam os forames intervertebrais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                    {
+                        "id": 6,
+                        "title": "Fóvea Costal Inferior",
+                        "description": "Articula-se com a face articular superior da cabeça da costela correspondente à vértebra inferior.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.4,
+                        "y": 0.52,
+                        "placement": "left"
+                    },
+                {
+                    "id": 4,
+                    "title": "Processo Articular Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.17,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Processo Articular Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.56,
+                    "placement": "left"
+                }
+            ]    
+        },
+        {
+            "id": 3, 
+            "title": "Vértebra Torácica",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral16.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Processo Articular Inferior",
+                    "description": "Articula-se com o processo articular superior da vértebra imediatamente inferior. As faces articulares inferiores se dirigem anteriormente e ligeiramente medial.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.58,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Processo Articular Superior",
+                    "description": "Articula-se com o processo articular inferior da vértebra suprajacente. As faces articulares superiores estão direcionadas posteriormente e ligeiramente lateral.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Transverso",
+                    "description": "Possui uma faceta para articulação com a faceta do tubérculo da costela.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.8,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Processo Espinhoso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.76,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Lâmina do Arco Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.45,
+                    "placement": "left"
+                }
+            ]            
+        },
+        {
+            "id": 4, 
+            "title": "Vértebra Lombar",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral17.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Processo Espinhoso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.12,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Lâmina do Arco Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Transverso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.27,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Processo Mamilar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.18,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Forame Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Corpo Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.76,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Pedículo do Arco Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Processo Articular Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.41,
+                    "placement": "left"
+                }
+            ]            
+        },
+        {
+            "id": 5, 
+            "title": "Vértebra Lombar",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral18.png",
+            "pins":                 
+            [
+                {
+                    "id": 0,
+                    "title": "Processo Espinhoso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.12,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Lâmina do Arco Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Transverso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Processo Acessório",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.79,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Forame Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Corpo Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.74,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Pedículo do Arco Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Processo Articular Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.33,
+                    "placement": "left"
+                }
+            ]
+            
+        },
+        {
+            "id": 6, 
+            "title": "Vértebra Lombar",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral19.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Processo Espinhoso",
+                    "description": "Curto e espesso, assemelhando-se aos processos espinhosos das vértebras lombares.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Processo Articular Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.27,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Mamilar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Processo Acessório",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Processo Transverso sem Fóvea Costal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Fóvea Costal Única do Corpo Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Corpo Vertebral Volumoso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.57,
+                    "placement": "left"
+                }
+            ]            
+        },
+        {
             "id": 10, 
             "title": "Vértebra Lombar - Vista Superior",
             "description": "",
@@ -756,6 +1309,283 @@
                     "placement": "left"
                 }
             ]
+        },
+        {
+            "id": 7, 
+            "title": "Sacro",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral20.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Promontório",
+                    "description": "Saliência formada pela articulação do sacro com a última vértebra lombar.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.08,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Linhas Transversas",
+                    "description": "Marcam a fusão das vértebras sacrais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Ápice Sacral",
+                    "description": "É a extremidade inferior, afilada do sacro. Tem uma face oval para a articulação com o cóccix.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.91,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Asa do Sacro",
+                    "description": "Possui uma face articular (face auricular) que se articula com o osso do quadril.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.83,
+                    "y": 0.18,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Forames Sacrais Anteriores Pélvicos",
+                    "description": "Dão passagem aos ramos ventrais dos primeiros nervos sacrais e seus vasos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.1,
+                    "y": 0.47,
+                    "placement": "left"
+                }
+            ] 
+        },
+        {
+            "id": 7, 
+            "title": "Sacro",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral21.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Corno Sacral",
+                    "description": "Projeção inferior da crista sacral intermédia. Corresponde ao processo articular inferior da última vértebra sacral.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.09,
+                    "y": 0.86,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Hiato Sacral",
+                    "description": "É uma fenda em  V invertido resultante da ausência das lâminas e do processo espinhoso de S5, às vezes, de S4. É revestida apenas por uma membrana.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.87,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Crista Sacral Mediana",
+                    "description": "Corresponde à fusão dos processos espinhosos das vértebras sacrais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Crista Sacral Intermédia",
+                    "description": "Corresponde à fusão dos processos articulas das vértebras sacrais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Crista Sacral Lateral",
+                    "description": "Corresponde à fusão dos processos transversos das vértebras sacrais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Processo Articular Superior (1º vértebra sacral)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.11,
+                    "placement": "left"
+                }
+            ]      
+        },
+        {
+            "id": 5, 
+            "title": "Sacro",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral22.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Tuberosidade Sacral",
+                    "description": "Onde se prendem os ligamentos interósseos sacroilíacos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.17,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Face Auricular",
+                    "description": "Tem formato semelhante a uma orelha. A face articular é para a articulação com os ossos do quadril.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Face Anterior (Pélvica)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.91,
+                    "y": 0.27,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Face Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.09,
+                    "y": 0.29,
+                    "placement": "left"
+                }
+            ]   
+            
+        },
+        {
+            "id": 5, 
+            "title": "Sacro",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral23.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Canal Sacral",
+                    "description": "Contém o sacro dural, o filamento terminal, a parte inferior da cauda equina e um filamento de dura-máter.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Base do Sacro",
+                    "description": "É formada pela superfície superior da vértebra S1. Articula-se com a última vértebra lombar.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.42,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Processo Articular Superior (1º vértebra sacral)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Asa do Sacro",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.14,
+                    "y": 0.54,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 5, 
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral24.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Coluna Cervical",
+                    "description": "Corresponde às 7 vértebras superiores. Apresenta curvatura convexa anteriormente, do tipo secundária, que se desenvolve após o nascimento.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.11,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Coluna Torácica",
+                    "description": "Corresponde às 12 vértebras subsequentes à coluna cervical. Apresenta curvatura côncava anteriormente, do tipo primária, presente ao nascimento.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Coluna Lombar",
+                    "description": "Corresponde às 5 vértebras subsequentes à coluna torácica. Apresenta curvatura convexa anteriormente, do tipo secundária, que se desenvolve após o nascimento.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Sacro",
+                    "description": "Corresponde às 5 vértebras fundidas. Apresenta curvatura côncava anteriormente, do tipo primária, presente ao nascimento.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.8,
+                    "placement": "left"
+                }
+            ]    
+            
         }
     ]
 }

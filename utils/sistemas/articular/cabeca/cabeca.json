@@ -1,0 +1,366 @@
+{
+    "systemName": "Cabeça",
+    "pieces": [
+        {
+            "id": 0, 
+            "title": "Vista Frontal",
+            "description": "",
+            "image": "./utils/sistemas/articular/cabeca/vistafrontal.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Osso Temporal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.76,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Osso Frontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Glabela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Násion",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Osso Nasal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Osso Maxilar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.68,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Osso Zigomático",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.6,
+                    "placement": "left"
+                }
+            ]  
+        },
+        {
+            "id": 1,
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/articular/cabeca/vistalateral1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Osso Temporal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.58,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Osso Frontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.26,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Osso Parietal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Osso Occipital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.9,
+                    "y": 0.69,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Osso Esfenoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Osso Nasal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.14,
+                    "y": 0.5,
+                    "placement": "right"
+                },
+                {
+                    "id": 7,
+                    "title": "Osso Zigomático",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Osso Maxilar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.13,
+                    "y": 0.7,
+                    "placement": "right"
+                },
+                {
+                    "id": 9,
+                    "title": "Sutura Escamosa",
+                    "description": "Sutura Fibrosa que une o osso temporal ao osso parietal de cada lado.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.52,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/articular/cabeca/vistalateral2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Osso Parietal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.81,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Osso Frontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Osso Occipital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.84,
+                    "y": 0.75,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Osso Temporal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Osso Zigomático",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Mandíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.77,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Articulação Temporomandibular",
+                    "description": "É a articulação presente entre a fossa mandibular e o tubérculo articular do temporal superiormente, e a cabeça da mandíbula inferiormente. Ela é sinovial do tipo gínglimo, o que permite movimentos de flexão, extensão, translação e rotação.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.6,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2, 
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/articular/cabeca/vistaposterior.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Sutura Sagital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.1,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Osso Temporal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.91,
+                    "y": 0.69,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Osso Parietal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.18,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Osso Occipital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Sutura Lambdóidea",
+                    "description": "Sutura Fibrosa que une os ossos parietais ao osso occipital.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.24,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3, 
+            "title": "Vista Superior",
+            "description": "",
+            "image": "./utils/sistemas/articular/cabeca/vistasuperior.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Osso Frontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.07,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Osso Parietal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.7,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Sutura Coronal",
+                    "description": "Sutura Fibrosa que une os ossos parietais ao osso frontal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.18,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Sutura Sagital",
+                    "description": "Sutura Fibrosa que une os dois ossos parietais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.62,
+                    "placement": "left"
+                }
+            ]
+        }        
+    ]
+}

@@ -1,0 +1,305 @@
+{
+    "systemName": "Coluna Vertebral",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/articular/tronco/coluna/coluna3.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Processos Transversos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.07,
+                    "y": 0.27,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Corpos Vertebrais",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Discos Intervertebrais",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Ílio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.81,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Articulação Sacroilíaca",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.77,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Sínfise Púbica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.96,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/articular/tronco/coluna/coluna4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Processos Transversos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Processos Espinhosos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Ílio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.75,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Articulação Sacroilíaca",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.82,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Sacro",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.87,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/articular/tronco/coluna/coluna1.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Articulação dos Corpos Vertebrais",
+                    "description": "É uma articulação do tipo sínfise, destinada à resistência e à sustentação de peso. As superfícies articulares das vértebras adjacentes são unidas por discos intervertebrais; pelo ligamento longitudinal anterior, que cobre e une as faces anterolaterais dos corpos vertebrais e discos intervertebrais; e pelo ligamento longitudinal posterior, que segue dentro do canal vertebral ao longo da face posterior dos corpos vertebrais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.1,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Corpo Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Processo Espinhoso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.85,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Processo Transverso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.83,
+                    "y": 0.66,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Articulação dos Processos Articulares",
+                    "description": "São articulações sinoviais planas entre os processos articulares superiores e inferiores de vértebras adjacentes. Cada articulação é circundada por uma cápsula articular fina, sendo que na região cervical elas são mais finas e frouxas, refletindo a grande amplitude do movimento. A cápsula é fixada às margens das superfícies articulares dos processos articulares de vértebras adjacentes. Ligamentos acessórios unem lâminas, processos espinhosos e processos transversos, auxiliando na estabilização.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.76,
+                    "y": 0.42,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/articular/tronco/coluna/coluna2.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Disco Intervertebral",
+                    "description": "Unem os corpos vertebrais em uma coluna vertebral semirrígida e contínua, possibilitando o movimento e ajudando na absorção de impactos. São constituídos de um anel fibroso formado por lamelas concêntricas de fibrocartilagem que formam a circunferência do disco, e um núcleo pulposo central de natureza semilíquida. Não há disco intervertebral entre C1 e C2.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.2,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Articulação Costotransversária",
+                    "description": "Entre a face articular do tubérculo da costela e a fóvea costal do processo transverso. As cápsulas articulares são frouxas e reforçadas por vários ligamentos. São ausentes na XI e XII costelas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.11,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Articulação Costovertebral",
+                    "description": "A cabeça da costela articula-se com a fóvea costal superior da vértebra subjacente e com a fóvea costal inferior da vértebra suprajacente.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Corpo Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.76,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Processo Transverso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.74,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Vista Superior",
+            "description": "",
+            "image": "./utils/sistemas/articular/tronco/coluna/coluna5.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Corpo Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.13,
+                    "y": 0.75,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Canal Vertebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.22,
+                    "y": 0.58,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Processo Transverso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.09,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Processo Espinhoso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.28,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Articulação Costotransversária",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.56,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

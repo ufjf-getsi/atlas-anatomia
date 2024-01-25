@@ -1,0 +1,201 @@
+{
+    "systemName": "Mão",
+    "pieces": [
+        {
+            "id": 0, 
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/articular/membro_superior/mao/vistaposterior.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Rádio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.19,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Ulna",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.19,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Ossos do Carpo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ossos Metacarpais",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.59,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Falanges Proximais",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.74,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Falanges Médias",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.82,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Falanges Distais",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.9,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Articulação Radioulnar Distal",
+                    "description": "Localizada entre a cabeça da ulna e incisura ulnar na extremidade distal do rádio, é uma articulação sinovial do tipo trocoide que realiza os movimentos de pronação e supinação.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Articulação Radiocárpica",
+                    "description": "É uma articulação sinovial do tipo elipsoide, que realiza os movimentos de flexão, extensão, adução e abdução. A face articular carpal do rádio articula-se com os ossos da fileira proximal do carpo (escafoide, semilunar).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.43,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/articular/membro_superior/mao/vistaanterior.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Rádio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.11,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Ulna",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.13,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Articulação Carpometacarpal do Polegar (entre o osso trapézio e o primeiro metacarpo)",
+                    "description": "É uma articulação sinovial do tipo plana que realiza os movimentos próprios do polegar (dedo I).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.25,
+                    "y": 0.18,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Túnel do Carpo",
+                    "description": "Passagem profunda ao retináculo dos músculos flexores, limitada lateralmente pelos tubérculos dos ossos escafoide e trapézio e medialmente pelo osso pisiforme e o hâmulo do osso hamato, por onde passa o nervo mediano. A compressão do nervo mediano no canal do carpo, causada principalmente por lesões relacionadas a esforço repetitivo, é conhecida como síndrome do túnel do carpo e provoca dormência e formigamento.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.72,
+                    "y": 0.26,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Articulações Metacarpofalângicas",
+                    "description": "São articulações sinoviais do tipo elipsoide que realizam movimento de flexão e extensão, abdução, adução.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.84,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Articulações Interfalângicas Proximais",
+                    "description": "São articulações sinoviais do tipo gínglimo que realizam movimento de flexão e extensão.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.85,
+                    "y": 0.68,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Articulações Interfalângicas Distais",
+                    "description": "São articulações sinoviais do tipo gínglimo que realizam movimentos de flexão e extensão.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.86,
+                    "y": 0.8,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Articulação Interfalângica do Polegar",
+                    "description": "Articulação sinovial do tipo gínglimo que realiza movimentos de flexão e extensão.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.14,
+                    "y": 0.6,
+                    "placement": "right"
+                },
+                {
+                    "id": 8,
+                    "title": "Articulação Metacarpofalângica do Polegar",
+                    "description": "Articulação sinovial do tipo elipsoide que realizam movimentos de flexão, extensão, abdução e adução.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.14,
+                    "y": 0.45,
+                    "placement": "right"
+                }
+            ]
+        }
+    ]
+}
