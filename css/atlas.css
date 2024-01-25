@@ -22,9 +22,11 @@
     border-radius: 10px;
     box-shadow: 1px 3px 2rem rgba(42, 42, 43, 0.699);
     width: clamp(300px, 80%, 600px);
+    aspect-ratio: 1;
 }
 
 .flex {
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -37,6 +39,48 @@
     aspect-ratio: 1; 
     cursor: pointer;
     border-radius: 10px;
+    transition: ease-out 0.3s;
+}
+
+#loader  {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+#loader img {
+    width: 15%;
+}
+
+#container[isLoading] #loader {
+    display: flex;
+}
+
+#container[isLoading = false] #loader {
+    display: none;
+}
+
+#container[isLoading] #content {
+    opacity: 0;
+}
+
+#container[isLoading = false] #content {
+    opacity: 1;
+}
+
+#pins-area {
+    transition: ease-out 0.3s;
+}
+
+#container[isLoading] #pins-area {
+    opacity: 0;  
+}
+
+#container[isLoading = false] #pins-area {
+    opacity: 1;
 }
 
 #main-title {
@@ -54,7 +98,6 @@
     padding: 5px;
     margin: 0;
 }
-
 
 /* ITEMS & FUNCIONALIDADES */
 .navigation-bar {

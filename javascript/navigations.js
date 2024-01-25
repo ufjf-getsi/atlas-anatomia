@@ -22,28 +22,32 @@ const loadNavigations = (piecesNumber) => {
 
 };
 
+const finishImageLoading = (index) => {
+
+  document.querySelector("#container").setAttribute("isLoading", false);
+  document.querySelector("#image-title").innerText = getPieces()[index].title;
+  
+  loadPins(getPieces()[index].pins);
+}
+
 // navega para a imagem de acordo com o index
 const navigateToImage = (index) => {
-
-  //atualizo o index da imagem atual no estado
-  setPieceIndex(index);
-
-  // carrega os alfinetes da imagem
-  loadPins(getPieces()[index].pins);
-
+  
+  document.querySelector("#container").setAttribute("isLoading", true);
+  document.querySelector("#image-title").innerText = "carregando...";
+  
   const backgroundImage = document.querySelector("#content");
-  const imageTitle = document.querySelector("#image-title");
-
+    backgroundImage.src = getPieces()[index].image;
+    backgroundImage.addEventListener("load", () => finishImageLoading(index));
+  
   // seletores
   const willBeSelected = document.querySelector(`#item_${index}`);
   const selected = document.querySelector(".selected");
-
+  
   // atualiza os seletores indicando qual imagem está sendo carregada
   selected.classList.remove("selected");
   willBeSelected.classList.add("selected");
-
-  backgroundImage.src = getPieces()[index].image;
-  imageTitle.innerText = getPieces()[index].title;
+  
 };
 
 const slideRight = () => {

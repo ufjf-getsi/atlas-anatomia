@@ -20,6 +20,7 @@ const loadSystemsCards = async (systems) => {
     card.classList.add("system-card");
     const img = document.createElement("img");
     img.src = data.image;
+    img.loading = "lazy"
 
     //caso nao tenha url e nem subsistemas, bloqueia a navegação
     if (!!data.url || !!data.subsystems) {
