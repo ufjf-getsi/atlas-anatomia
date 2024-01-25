@@ -1,0 +1,61 @@
+{
+    "systemName": "Cabeça",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/muscular/cabeca/cabeca1.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Músculo Temporal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.26,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Masseter",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.65,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Medial (Cabeça Seccionada)",
+            "description": "",
+            "image": "./utils/sistemas/muscular/cabeca/cabeca2.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Músculo Pterigoideo Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Pterigoideo Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.48,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

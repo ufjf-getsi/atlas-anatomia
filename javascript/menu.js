@@ -55,9 +55,11 @@ const loadDropdown = (dropdownName, id, data, parent) => {
 
   data.forEach((link) => {
 
+    console.log(link.path)
+
     if (!!link.subsystems) {
       // nome da nova dropdown nesse caso dos subsistemas
-      let name = link.systemName.toLowerCase().replace(" ", "");
+      let name = link.path.toLowerCase().replace("#", "");
 
       //gera uma nova dropdown ao invés de um link
       loadDropdown(link.systemName, "subsystem" + name, link.subsystems, content);
