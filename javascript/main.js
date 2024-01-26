@@ -1,7 +1,7 @@
 import { showCoordinates } from "./atlas.js";
 import { loadHomeCards } from "./home.js";
 import { loadMenu, toggleMenu } from "./menu.js";
-import { slideLeft, slideRight } from "./navigations.js";
+import { slideLeft, slideRight, finishImageLoading } from "./navigations.js";
 import { navigate, createRoutes } from "./router.js";
 import { setSearchContent, search, toggleSearchMenu, loadSearchContents } from './search.js'
 
@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector("#search").addEventListener("click", () => toggleSearchMenu())
   document.querySelector("#search-button").addEventListener("click", () => search())
   document.querySelector("#search-input").addEventListener("input", (e) => setSearchContent(e.target.value))
+  document.querySelector("#content").addEventListener("load", () => finishImageLoading());
 
   // inicia a aplicação
   createRoutes();

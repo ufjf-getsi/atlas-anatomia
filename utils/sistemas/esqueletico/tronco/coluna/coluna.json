@@ -303,7 +303,7 @@
         },
         {
             "id": 6, 
-            "title": "Vértebra Cervical",
+            "title": "Vértebra Cervical - Vista Superior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral6.png",
             "pins": [
@@ -391,7 +391,7 @@
         },
         {
             "id": 7, 
-            "title": "Vértebra Cervical",
+            "title": "Vértebra Cervical - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral7.png",
             "pins": [
@@ -449,7 +449,7 @@
         },
         {
             "id": 8, 
-            "title": "Vértebra Cervical",
+            "title": "Vértebra Cervical - Vista Superior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral8.png",
             "pins": [
@@ -497,7 +497,7 @@
         },
         {
             "id": 9, 
-            "title": "Vértebra Cervical",
+            "title": "Vértebra Cervical - Vista Posterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral9.png",
             "pins": [
@@ -534,8 +534,8 @@
             ]
         },
         {
-            "id": 0, 
-            "title": "Vértebra Torácica",
+            "id": 10, 
+            "title": "Vértebra Torácica - Vista Superior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral13.png",
             "pins":     [
@@ -613,8 +613,8 @@
                 
         },
         {
-            "id": 1,
-            "title": "Vértebra Torácica",
+            "id": 11,
+            "title": "Vértebra Torácica - Vista Inferior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral14.png",
             "pins": [
@@ -691,8 +691,8 @@
             ]   
         },
         {
-            "id": 2, 
-            "title": "Vértebra Torácica",
+            "id": 12, 
+            "title": "Vértebra Torácica - Vista Lateral",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral15.png",
             "pins": 
@@ -770,8 +770,8 @@
             ]    
         },
         {
-            "id": 3, 
-            "title": "Vértebra Torácica",
+            "id": 13, 
+            "title": "Vértebra Torácica - Vista Posterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral16.png",
             "pins": 
@@ -829,8 +829,8 @@
             ]            
         },
         {
-            "id": 4, 
-            "title": "Vértebra Lombar",
+            "id": 14, 
+            "title": "Vértebra Lombar - Vista Superior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral17.png",
             "pins": 
@@ -853,26 +853,6 @@
                     "url": "",
                     "x": 0.43,
                     "y": 0.29,
-                    "placement": "left"
-                },
-                {
-                    "id": 2,
-                    "title": "Processo Transverso",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.28,
-                    "y": 0.27,
-                    "placement": "left"
-                },
-                {
-                    "id": 3,
-                    "title": "Processo Mamilar",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.18,
-                    "y": 0.32,
                     "placement": "left"
                 },
                 {
@@ -907,7 +887,7 @@
                 },
                 {
                     "id": 7,
-                    "title": "Processo Articular Inferior",
+                    "title": "Processo Articular Superior",
                     "description": "",
                     "color": "blue",
                     "url": "",
@@ -918,8 +898,8 @@
             ]            
         },
         {
-            "id": 5, 
-            "title": "Vértebra Lombar",
+            "id": 15, 
+            "title": "Vértebra Lombar - Vista Inferior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral18.png",
             "pins":                 
@@ -942,26 +922,6 @@
                     "url": "",
                     "x": 0.41,
                     "y": 0.25,
-                    "placement": "left"
-                },
-                {
-                    "id": 2,
-                    "title": "Processo Transverso",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.75,
-                    "y": 0.36,
-                    "placement": "left"
-                },
-                {
-                    "id": 3,
-                    "title": "Processo Acessório",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.79,
-                    "y": 0.39,
                     "placement": "left"
                 },
                 {
@@ -1008,8 +968,8 @@
             
         },
         {
-            "id": 6, 
-            "title": "Vértebra Lombar",
+            "id": 16, 
+            "title": "Vértebra Lombar - Vista Lateral",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral19.png",
             "pins": 
@@ -1087,7 +1047,7 @@
             ]            
         },
         {
-            "id": 10, 
+            "id": 17, 
             "title": "Vértebra Lombar - Vista Superior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral10.png",
@@ -1185,7 +1145,7 @@
             ]
         },
         {
-            "id": 11, 
+            "id": 18, 
             "title": "Vértebra Lombar - Vista Lateral",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral11.png",
@@ -1243,7 +1203,7 @@
             ]
         },
         {
-            "id": 12, 
+            "id": 19, 
             "title": "Vértebra Lombar - Vista Posterolateral",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral12.png",
@@ -1311,8 +1271,8 @@
             ]
         },
         {
-            "id": 7, 
-            "title": "Sacro",
+            "id": 20, 
+            "title": "Sacro - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral20.png",
             "pins": 
@@ -1370,8 +1330,8 @@
             ] 
         },
         {
-            "id": 7, 
-            "title": "Sacro",
+            "id": 21, 
+            "title": "Sacro - Vista Posterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral21.png",
             "pins": 
@@ -1435,12 +1395,22 @@
                     "x": 0.33,
                     "y": 0.11,
                     "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Forames Sacrais Posteriores",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.0714,
+                    "y": 0.5286,
+                    "placement": "left"
                 }
             ]      
         },
         {
-            "id": 5, 
-            "title": "Sacro",
+            "id": 22, 
+            "title": "Sacro - Vista Lateral",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral22.png",
             "pins": 
@@ -1489,8 +1459,8 @@
             
         },
         {
-            "id": 5, 
-            "title": "Sacro",
+            "id": 23, 
+            "title": "Sacro - Vista Superior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral23.png",
             "pins": 
@@ -1538,8 +1508,8 @@
             ]
         },
         {
-            "id": 5, 
-            "title": "",
+            "id": 24, 
+            "title": "Vista Lateral",
             "description": "",
             "image": "./utils/sistemas/esqueletico/tronco/coluna/colunavertebral24.png",
             "pins": 

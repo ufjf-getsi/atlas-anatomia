@@ -1,7 +1,7 @@
 // ARQUIVO RESPONSÁVEL POR GERENCIAR AS NAVEGAÇÕES ENTRE IMAGENS
 // E CARREGAR OS ALFINETES DE ACORDO COM A IMAGEM NA TELA
 
-import { decPieceIndex, getPieces, incPieceIndex, setPieceIndex } from "./atlas.js";
+import { decPieceIndex, getPieceIndex, getPieces, incPieceIndex, setPieceIndex } from "./atlas.js";
 import { loadPins } from "./pins.js";
 
 // carrega as navegações para navegar pelas imagens
@@ -22,24 +22,25 @@ const loadNavigations = (piecesNumber) => {
 
 };
 
-const finishImageLoading = (index) => {
+const finishImageLoading = () => {
 
   document.querySelector("#container").setAttribute("isLoading", false);
-  document.querySelector("#image-title").innerText = getPieces()[index].title;
+  document.querySelector("#image-title").innerText = getPieces()[getPieceIndex()].title;
   
-  loadPins(getPieces()[index].pins);
+  loadPins(getPieces()[getPieceIndex()].pins);
 }
 
 // navega para a imagem de acordo com o index
 const navigateToImage = (index) => {
   
+  setPieceIndex(index);
+
   document.querySelector("#container").setAttribute("isLoading", true);
-  document.querySelector("#image-title").innerText = "carregando...";
+  document.querySelector("#content").src = getPieces()[index].image;
   
-  const backgroundImage = document.querySelector("#content");
-    backgroundImage.src = getPieces()[index].image;
-    backgroundImage.addEventListener("load", () => finishImageLoading(index));
-  
+  if(getPieces()[index].title)
+    document.querySelector("#image-title").innerText = "carregando...";
+
   // seletores
   const willBeSelected = document.querySelector(`#item_${index}`);
   const selected = document.querySelector(".selected");
@@ -58,4 +59,4 @@ const slideLeft = () => {
   navigateToImage(decPieceIndex());
 };
 
-export { loadNavigations, navigateToImage, slideRight, slideLeft };
+export { loadNavigations, navigateToImage, slideRight, slideLeft, finishImageLoading };

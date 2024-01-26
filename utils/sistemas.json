@@ -108,7 +108,7 @@
                             "image": "./utils/imagens/icone_braco.png"
                         },
                         {
-                            "systemName": "",
+                            "systemName": "Antebraço",
                             "id": 0,
                             "path": "#antebraco-E",
                             "section": "atlas",
