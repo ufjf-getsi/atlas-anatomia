@@ -208,7 +208,7 @@
         {
             "id": 3, 
             "title": "Vista Medial",
-            "description": "",
+            "description": "Os meniscos são estruturas fibrocartilagíneas que compõem os elementos intrarticulares do joelho, juntamente com os ligamentos cruzados.",
             "image": "./utils/sistemas/articular/membro_inferior/joelho_perna/joelho4.png",
             "pins": [
                 {
