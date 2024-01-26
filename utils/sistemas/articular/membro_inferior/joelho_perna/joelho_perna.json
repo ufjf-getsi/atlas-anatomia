@@ -1,11 +1,11 @@
 {
-    "systemName": "Joelho",
+    "systemName": "Joelho e Perna",
     "pieces": [
         {
             "id": 0, 
             "title": "Vista Anteromedial",
             "description": "",
-            "image": "./utils/sistemas/articular/membro_inferior/joelho/joelho1.png",
+            "image": "./utils/sistemas/articular/membro_inferior/joelho_perna/joelho1.png",
             "pins": [
                 {
                     "id": 0,
@@ -53,7 +53,7 @@
             "id": 1,
             "title": "Vista Lateral",
             "description": "",
-            "image": "./utils/sistemas/articular/membro_inferior/joelho/joelho2.png",
+            "image": "./utils/sistemas/articular/membro_inferior/joelho_perna/joelho2.png",
             "pins": [
                 {
                     "id": 0,
@@ -131,7 +131,7 @@
             "id": 2, 
             "title": "Vista Anterior",
             "description": "",
-            "image": "./utils/sistemas/articular/membro_inferior/joelho/joelho3.png",
+            "image": "./utils/sistemas/articular/membro_inferior/joelho_perna/joelho3.png",
             "pins": [
                 {
                     "id": 0,
@@ -209,7 +209,7 @@
             "id": 3, 
             "title": "Vista Medial",
             "description": "",
-            "image": "./utils/sistemas/articular/membro_inferior/joelho/joelho4.png",
+            "image": "./utils/sistemas/articular/membro_inferior/joelho_perna/joelho4.png",
             "pins": [
                 {
                     "id": 0,
@@ -264,7 +264,7 @@
                 {
                     "id": 5,
                     "title": "Menisco Medial",
-                    "description": "Os meniscos são estruturas fibrocartilagíneas que compõem os elementos intrarticulares do joelho, juntamente com os ligamentos cruzados.",
+                    "description": "Consistem em discos articulares fibrocartilagíneos que compõem os ligamentos intrarticulares do joelho, juntamente com os ligamentos cruzados.",
                     "color": "red",
                     "url": "",
                     "x": 0.43,
@@ -277,7 +277,7 @@
             "id": 4, 
             "title": "Articulação aberta, joelho em suave flexão",
             "description": "",
-            "image": "./utils/sistemas/articular/membro_inferior/joelho/joelho5.png",
+            "image": "./utils/sistemas/articular/membro_inferior/joelho_perna/joelho5.png",
             "pins": [
                 {
                     "id": 0,
@@ -325,7 +325,7 @@
             "id": 5, 
             "title": "Vista Posterior",
             "description": "",
-            "image": "./utils/sistemas/articular/membro_inferior/joelho/joelho6.png",
+            "image": "./utils/sistemas/articular/membro_inferior/joelho_perna/joelho6.png",
             "pins": [
                 {
                     "id": 0,
@@ -377,6 +377,64 @@
                         "y": 0.71,
                         "placement": "left"
                     }
+            ]
+        },
+        {
+            "id": 6, 
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/articular/membro_inferior/joelho_perna/perna.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Fêmur",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.09,
+                    "y": 0.59,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Ligamento Patelar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tíbia",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Fíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Membrana Interóssea da Perna",
+                    "description": "Membrana de tecido conjuntivo denso que se estende entre a tíbia e a fíbula.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.59,
+                    "placement": "left"
+                }
             ]
         }
     ]

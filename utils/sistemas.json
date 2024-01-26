@@ -192,87 +192,9 @@
                     "image": "./utils/imagens/icone_basedocranio.png"
                 },
                 {
-                    "systemName": "Membro Inferior",
-                    "id": 1,
-                    "path": "#membro-inferior-A",
-                    "section": "subsystems",
-                    "subsystems": [
-                        {
-                            "systemName": "Quadril",
-                            "id": 3,
-                            "path": "#quadril-A",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/articular/membro_inferior/quadril/quadril.json",
-                            "image": "./utils/imagens/icone_basedocranio.png"
-                        },
-                        {
-                            "systemName": "Joelho",
-                            "id": 0,
-                            "path": "#joelho-A",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/articular/membro_inferior/joelho/joelho.json",
-                            "image": "./utils/imagens/icone_basedocranio.png"
-                        },
-                        {
-                            "systemName": "Pé",
-                            "id": 1,
-                            "path": "#pe-A",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/articular/membro_inferior/pe/pe.json",
-                            "image": "./utils/imagens/icone_basedocranio.png"
-                        },
-                        {
-                            "systemName": "Perna",
-                            "id": 2,
-                            "path": "#perna-A",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/articular/membro_inferior/perna/perna.json",
-                            "image": "./utils/imagens/icone_basedocranio.png"
-                        },
-                        {
-                            "systemName": "Tornozelo",
-                            "id": 4,
-                            "path": "#tornozelo-A",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/articular/membro_inferior/tornozelo/tornozelo.json",
-                            "image": "./utils/imagens/icone_basedocranio.png"
-                        }
-                    ]
-                },
-                {
-                    "systemName": "Membro Superior",
-                    "path": "#membro-superior-A",
-                    "section": "subsystems",
-                    "subsystems": [
-                        {
-                            "systemName": "Cotovelo",
-                            "id": 0,
-                            "path": "#cotovelo-A",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/articular/membro_superior/cotovelo/cotovelo.json",
-                            "image": "./utils/imagens/icone_basedocranio.png"
-                        },
-                        {
-                            "systemName": "Mão",
-                            "id": 0,
-                            "path": "#mao-A",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/articular/membro_superior/mao/mao.json",
-                            "image": "./utils/imagens/icone_basedocranio.png"
-                        },
-                        {
-                            "systemName": "Ombro",
-                            "id": 0,
-                            "path": "#ombro-A",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/articular/membro_superior/ombro/ombro.json",
-                            "image": "./utils/imagens/icone_basedocranio.png"
-                        }
-                    ]
-                },
-                {
                     "systemName": "Tronco",
                     "path": "#tronco-A",
+                    "id": 1,
                     "section": "subsystems",
                     "subsystems": [
                         {
@@ -289,6 +211,70 @@
                             "path": "#esterno-A",
                             "section": "atlas",
                             "url": "./utils/sistemas/articular/tronco/esterno/esterno.json",
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        }
+                    ]
+                },
+                {
+                    "systemName": "Membro Superior",
+                    "path": "#membro-superior-A",
+                    "id": 2,
+                    "section": "subsystems",
+                    "subsystems": [
+                        {
+                            "systemName": "Ombro",
+                            "id": 0,
+                            "path": "#ombro-A",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/articular/membro_superior/ombro/ombro.json",
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        },
+                        {
+                            "systemName": "Cotovelo",
+                            "id": 1,
+                            "path": "#cotovelo-A",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/articular/membro_superior/cotovelo/cotovelo.json",
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        },
+                        {
+                            "systemName": "Mão",
+                            "id": 2,
+                            "path": "#mao-A",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/articular/membro_superior/mao/mao.json",
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        }
+                    ]
+                },
+                {
+                    "systemName": "Membro Inferior",
+                    "id": 3,
+                    "path": "#membro-inferior-A",
+                    "section": "subsystems",
+                    "subsystems": [
+                        {
+                            "systemName": "Quadril",
+                            "id": 0,
+                            "path": "#quadril-A",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/articular/membro_inferior/quadril/quadril.json",
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        },
+                        {
+                            "systemName": "Joelho e Perna",
+                            "id": 1,
+                            "path": "#joelho-perna-A",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/articular/membro_inferior/joelho_perna/joelho_perna.json",
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        },
+                        {
+                            "systemName": "Tornozelo e Pé",
+                            "id": 2,
+                            "path": "#tornozelo-pe-A",
+                            "section": "atlas",
+                            "url": "./utils/sistemas/articular/membro_inferior/tornozelo_pe/tornozelo_pe.json",
                             "image": "./utils/imagens/icone_basedocranio.png"
                         }
                     ]
