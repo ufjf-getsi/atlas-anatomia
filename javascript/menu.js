@@ -81,27 +81,23 @@ const toggleDropdown = async (id) => {
   const dropdown = document.querySelector("#" + id);
 
   dropdown.classList.toggle("active");
-  dropdown.children[1].classList.toggle("active")
+  dropdown.children[1].classList.toggle("active");
 };
 
 const toggleMenu = () => {
 
-  const menuContainer = document.getElementById("menu-sidebar-container");
-  menuContainer.classList.toggle("active");
+  document.getElementById("menu-sidebar-container").classList.toggle("active");
 
   toggleSidebar();
 };
 
 const closeSidebar = () => {
-  const sidebarWrapper = document.querySelector("#sidebar-wrapper");
-  const sidebarIcon = document.querySelector("#sidebar-icon");
-  const menuContainer = document.querySelector("#menu-sidebar-container");
-  const searchContainer = document.querySelector("#search-menu-container");
+  
+  document.querySelector("#sidebar-wrapper").classList.remove("active");
+  document.querySelector("#sidebar-icon").classList.remove("active");
+  document.querySelector("#menu-sidebar-container").classList.remove("active");
+  document.querySelector("#search-menu-container").classList.remove("active");
 
-  sidebarWrapper.classList.remove("active");
-  sidebarIcon.classList.remove("active");
-  menuContainer.classList.remove("active");
-  searchContainer.classList.remove("active");
 }
 
 const toggleSidebar = () => {

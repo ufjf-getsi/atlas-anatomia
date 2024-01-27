@@ -2,8 +2,7 @@
 // A PARTIR DO JSON ESPECÍFICO DE CADA SISTEMA
 
 import { loadNavigations, navigateToImage } from "./navigations.js";
-import { navigate } from "./router.js";
-import { fetchData, getAllSystemsData } from "./services.js";
+import { fetchData } from "./services.js";
 
 let pieceIndex = 0;
 let pieces, piecesNumber;
@@ -11,31 +10,20 @@ let pieces, piecesNumber;
 // carrega os dados quando a tela for chamada
 const loadSystemContent = async (systemURL) => {
 
-  // começa da imagem 0 
-  setPieceIndex(0);
-
-  //se o sistema ainda nao tiver uma URL, navega para a página de erro
-  if (!systemURL) {
-    navigate("#error");
-    return;
-  }
-
-  // request pra buscar os dados
+  // buscar os dados
   const request = new Request(systemURL);
-
-  // dados do sistema
   const systemData = await fetchData(request.url);
   const { systemName } = systemData;
   pieces = systemData.pieces;
   piecesNumber = pieces.length;
 
-  // inicar navegando para a primeira imagem
-  loadNavigations(piecesNumber);
-  navigateToImage(pieceIndex, pieces);
-
   // define o título do sistema
-  const mainTitle = document.getElementById("main-title");
-  mainTitle.innerHTML = systemName;
+  document.getElementById("main-title").innerHTML = systemName;
+
+  // inicar navegando para a primeira imagem
+  setPieceIndex(0);
+  loadNavigations(piecesNumber);
+  navigateToImage(pieceIndex);
 };
 
 const showCoordinates = (e) => {
@@ -71,10 +59,9 @@ const decPieceIndex = () => {
   return pieceIndex;
 };
 
-
 const getPieces = () => {
   return pieces;
-}
+};
 
 export {
   loadSystemContent,

@@ -3,8 +3,8 @@ import { getRoutes, navigate } from "./router.js";
 import { toggleSidebar } from './menu.js'
 
 const toggleSearchMenu = () => {
-    const searchContainer = document.querySelector("#search-menu-container");
-    searchContainer.classList.toggle("active");
+    
+    document.querySelector("#search-menu-container").classList.toggle("active");
 
     toggleSidebar();
 }
@@ -26,8 +26,7 @@ const setSearchContent = (value) => {
     
     // limpar os resultados
     else {
-        const resultsContainer = document.querySelector("#search-results-container");
-        resultsContainer.innerHTML = "";
+        document.querySelector("#search-results-container").innerHTML = "";
     }
 }
 

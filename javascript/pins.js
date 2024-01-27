@@ -87,10 +87,9 @@ const loadPinContent = async (index) => {
 
 // esconde o conteudo do alfinete
 const hideContent = () => {
-    const tooltip = document.querySelector("#tooltip");
-    const tooltipDescription = document.querySelector("#tooltip-description");
-    tooltip.removeAttribute('data-show');
-    tooltipDescription.removeAttribute('data-show');
+
+    document.querySelector("#tooltip").removeAttribute('data-show');
+    document.querySelector("#tooltip-description").removeAttribute('data-show');
 }
 
 // personaliza as cores do alfinete 
