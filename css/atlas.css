@@ -83,6 +83,10 @@
     opacity: 1;
 }
 
+.image-info {
+    min-height: 100px;
+}
+
 #main-title {
     font-family: 'Cinzel', sans-serif;
     font-weight: 700;
@@ -119,7 +123,7 @@
     margin: 0 4px;
     border-radius: 50%;
     background-color: #5757579c;    
-    transition: 0.2s all;
+    transition: 0.3s all;
 }
 
 .selected {

@@ -41,9 +41,7 @@ const navigateToImage = (index) => {
 
   document.querySelector("#container").setAttribute("isLoading", true);
   document.querySelector("#content").src = getPieces()[index].image;
-  
-  if(getPieces()[index].title)
-    document.querySelector("#image-title").innerText = "carregando...";
+  document.querySelector("#image-title").innerText = "carregando...";
 
   // seletores
   const willBeSelected = document.querySelector(`#item_${index}`);
