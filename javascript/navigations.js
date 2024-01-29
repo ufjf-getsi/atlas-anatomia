@@ -11,16 +11,20 @@ const loadNavigations = (piecesNumber) => {
   navigations.innerHTML = "";
 
   for (let i = 0; i < piecesNumber; i++) {
-    const b = document.createElement("button");
-    b.classList.add("selectors");
+    const d = document.createElement("div");
+    d.classList.add("selectors");
     if(!i)
-      b.classList.add("selected");
-    b.id = `item_${i}`;
-    b.onclick = () => navigateToImage(i);
-    navigations.appendChild(b);
+      d.classList.add("selected");
+    d.id = `item_${i}`;
+    d.onclick = () => handleNavigations(i);
+    navigations.appendChild(d);
   }
-
 };
+
+const handleNavigations = (index) => {
+  document.querySelector("#item_"+index).scrollIntoView({ behavior: "smooth", inline: "center"});
+  navigateToImage(index);
+}
 
 const finishImageLoading = () => {
 
@@ -48,15 +52,15 @@ const navigateToImage = (index) => {
   // atualiza os seletores indicando qual imagem está sendo carregada
   selected.classList.remove("selected");
   willBeSelected.classList.add("selected");
-  
+
 };
 
 const slideRight = () => {
-  navigateToImage(incPieceIndex());
+  handleNavigations(incPieceIndex());
 };
 
 const slideLeft = () => {
-  navigateToImage(decPieceIndex());
+  handleNavigations(decPieceIndex());
 };
 
 export { loadNavigations, navigateToImage, slideRight, slideLeft, finishImageLoading };

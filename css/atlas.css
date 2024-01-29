@@ -101,25 +101,30 @@
 
 /* ITEMS & FUNCIONALIDADES */
 .navigation-bar {
-    width: 100%;
-    margin-top: 25px;
+    width: clamp(300px, 80%, 600px);
+    margin-top: 20px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
+#navigations {
+    display: flex;
+    overflow-x: scroll;
+}
+
 .selectors {
-    width: 5%;
+    width: clamp(12px, 5%, 15px);
     aspect-ratio: 1;
-    margin-left: 3px;
-    margin-right: 3px;
-    background-color: #5757579c;
+    padding: 8px;
+    margin: 0 4px;
     border-radius: 50%;
-    border: none;
+    background-color: #5757579c;    
+    transition: 0.2s all;
 }
 
 .selected {
     background-color: #1f1f1fd8;
+    margin: 0 10px;
 }
 
 .slide-button svg {
