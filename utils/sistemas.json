@@ -297,9 +297,17 @@
                     "image": "./utils/imagens/icone_basedocranio.png"
                 },
                 {
+                    "systemName": "Tórax",
+                    "path": "#torax-M",
+                    "id": 1,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/muscular/torax/torax.json", 
+                    "image": "./utils/imagens/icone_basedocranio.png"
+                },
+                {
                     "systemName": "Abdome",
                     "path": "#abdome-M",
-                    "id": 1,
+                    "id": 2,
                     "section": "atlas",
                     "url": "./utils/sistemas/muscular/abdome/abdome.json", 
                     "image": "./utils/imagens/icone_basedocranio.png"
@@ -307,7 +315,7 @@
                 {
                     "systemName": "Dorso",
                     "path": "#dorso-M",
-                    "id": 2,
+                    "id": 3,
                     "section": "atlas",
                     "url": "./utils/sistemas/muscular/dorso/dorso.json",
                     "image": "./utils/imagens/icone_basedocranio.png"
@@ -315,7 +323,7 @@
                 {
                     "systemName": "Membro Superior",
                     "path": "#membro-superior-M",
-                    "id": 3,
+                    "id": 4,
                     "section": "subsystems",
                     "subsystems": [
                         {
@@ -425,7 +433,7 @@
                 {
                     "systemName": "Membro Inferior",
                     "path": "#membro-inferior-M",
-                    "id": 4,
+                    "id": 5,
                     "section": "subsystems",
                     "subsystems": [
                         {
@@ -512,14 +520,6 @@
                         }
                     ],
                     "url": "./utils/sistemas/articular/cabeca/cabeca.json", 
-                    "image": "./utils/imagens/icone_basedocranio.png"
-                },
-                {
-                    "systemName": "Tórax",
-                    "path": "#torax-M",
-                    "id": 5,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/muscular/torax/torax.json", 
                     "image": "./utils/imagens/icone_basedocranio.png"
                 }
             ],
