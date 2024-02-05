@@ -1,0 +1,262 @@
+{
+    "systemName": "Camada Superficial",
+    "pieces": [
+        {
+            "id": 0, 
+            "title": "Vista Posterior do Antebraço",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_superior/antebraco/posterior/superficial/antebracoposteriorsuperficial1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Epicôndilo Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.22,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Músculo Extensor Radial Longo do Carpo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Extensor dos Dedos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.42,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Músculo Braquiorradial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Músculo Extensor Radial Curto do Carpo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Músculo Extensor Ulnar do Carpo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.81,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Músculo Abdutor Longo do Polegar (pertence ao grupo profundo)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Músculo Extensor Curto do Polegar (pertence ao grupo profundo)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.88,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Retináculo dos Extensores",
+                    "description": "Espessamento da fáscia, responsável por manter a posição dos tendões do Músculo Extensor dos Dedos durante o movimento de extensão do punho.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.79,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Posterior do Antebraço",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_superior/antebraco/posterior/superficial/antebracoposteriorsuperficial2.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Músculo Braquiorradial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.08,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Músculo Extensor Radial Longo do Carpo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.28,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Extensor Radial Curto do Carpo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Músculo Extensor dos Dedos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Retináculo dos Extensores",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.92,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Músculo Extensor Ulnar do Carpo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.81,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Músculo Abdutor Longo do Polegar (pertence ao grupo profundo)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.79,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Músculo Extensor Curto do Polegar (pertence ao grupo profundo)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.85,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Posterior do Antebraço",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_superior/antebraco/posterior/superficial/antebracoposteriorsuperficial3.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Músculo Extensor Ulnar do Carpo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Músculo Extensor Radial Longo do Carpo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Extensor dos Dedos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Músculo Extensor do Dedo Mínimo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Músculo Abdutor Longo do Polegar (pertence ao grupo profundo)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.78,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Músculo Extensor Curto do Polegar (pertence ao grupo profundo)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.86,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

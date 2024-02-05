@@ -1,0 +1,162 @@
+{
+    "systemName": "Braço",
+    "pieces": [
+        {
+            "id": 0, 
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_superior/braco/anterior/bracoanterior1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Cabeça Longa do Músculo Bíceps Braquial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.46,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Cabeça Curta do Músculo Bíceps Braquial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.39,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Nervo Mediano",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Aponeurose Bicipital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.95,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Músculo Bíceps Braquial",
+                    "description": "Duas porções: cabeça longa e cabeça curta. Inervação: nervo musculocutâneo (C5, C6, C7). Ação: flexão do antebraço (articulação do cotovelo), supinação do antebraço quando ele está fletido e flexão do ombro (articulação do ombro).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.74,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_superior/braco/anterior/bracoanterior2.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Músculo Deltoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.13,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Músculo Peitoral Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.82,
+                    "y": 0.35,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Cabeça Curta do Músculo Bíceps Braquial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.47,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Cabeça Longa do Músculo Bíceps Braquial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.52,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Músculo Braquial",
+                    "description": "Inervação: nervo musculocutâneo (C5, C6). Ação: flexão do antebraço.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.21,
+                    "y": 0.68,
+                    "placement": "right"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_superior/braco/anterior/bracoanterior3.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Músculo Coracobraquial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.28,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Nervo Musculocutâneo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Cabeça Curta do Músculo Bíceps Braquial Rebatido",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.15,
+                    "y": 0.71,
+                    "placement": "right"
+                }
+            ]
+        }       
+    ]
+}

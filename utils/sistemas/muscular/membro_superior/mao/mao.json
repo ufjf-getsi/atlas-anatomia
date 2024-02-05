@@ -1,0 +1,539 @@
+{
+    "systemName": "Mão",
+    "pieces": [
+        {
+            "id": 0, 
+            "title": "Vista Anterior (Palmar)",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_superior/mao/mao1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Músculos Interósseos Dorsais",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Artéria Radial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Abdutor Curto do Polegar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.48,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Aponeurose Palmar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Músculo Abdutor do Dedo Mínimo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.69,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Anterior (Palmar)",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_superior/mao/mao2.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Tendão do Músculo Palmar Longo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.18,
+                    "y": 0.58,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Músculo Abdutor Curto do Polegar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.45,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Abdutor do Dedo Mínimo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.69,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Músculo Flexor Curto do Polegar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Artéria Principal do Polegar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.475,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Músculos Lumbricais",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Arco Palmar Superficial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.58,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Artérias Digitais Palmares Comuns",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.575,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Aponeurose Palmar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.61,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Anterior (Palmar)",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_superior/mao/mao3.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Tendão do Músculo Flexor Ulnar do Carpo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.4,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Artéria Ulnar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.44,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Nervo Mediano",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ramo Palmar Profundo da Artéria Radial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.57,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Nervo Ulnar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Músculo Abdutor Curto do Polegar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Músculo Abdutor do Dedo Mínimo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Músculo Flexor Curto do Polegar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.58,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Arco Palmar Superficial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.44,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3, 
+            "title": "Vista Anterior (Palmar)",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_superior/mao/mao4.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Músculos Lumbricais",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.485,
+                    "y": 0.74,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Tendão do Músculo Flexor Superficial dos Dedos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.753,
+                    "y": 0.365,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tendão do Músculo Flexor Superficial dos Dedos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.54,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Músculo Adutor do Polegar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.42,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Músculo Flexor Curto do Polegar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.37,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Músculo Abdutor Curto do Polegar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.38,
+                    "placement": "right"
+                },
+                {
+                    "id": 6,
+                    "title": "Tendão do Músculo Flexor Longo do Polegar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Músculos Tenares",
+                    "description": "Os músculos tenares formam a eminência tenar na face lateral da palma e sua principal ação é a oposição do polegar.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.2,
+                    "y": 0.37,
+                    "placement": "right"
+                },
+                {
+                    "id": 8,
+                    "title": "Músculos Hipotenares",
+                    "description": "Os músculos hipotenares formam a eminência hipotenar na face medial da palma e movem o dedo mínimo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.68,
+                    "placement": "right"
+                }
+            ]
+        },
+        {
+            "id": 4, 
+            "title": "Vista Posterior (Dorsal)",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_superior/mao/mao5.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Retináculo dos Músculos Extensores",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.2,
+                    "y": 0.38,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Tendão do Músculo Extensor do Dedo Mínimo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.32,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Tendão do Músculo Extensor Radial Curto do Carpo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.52,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Tendão do Músculo Extensor Radial Longo do Carpo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.57,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Tendão do Músculo Extensor Curto do Polegar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.64,
+                    "placement": "right"
+                },
+                {
+                    "id": 5,
+                    "title": "Tendão do Músculo Extensor Longo do Polegar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.66,
+                    "placement": "right"
+                },
+                {
+                    "id": 6,
+                    "title": "Tendão do Músculo Extensor do Indicador",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.54,
+                    "placement": "right"
+                },
+                {
+                    "id": 7,
+                    "title": "Tendões dos Músculos Extensores dos Dedos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.82,
+                    "y": 0.42,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 5, 
+            "title": "Vista Posterior (Dorsal)",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_superior/mao/mao6.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Tendão do Músculo Extensor dos Dedos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.11,
+                    "y": 0.44,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Retináculo dos Músculos Extensores",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.08,
+                    "y": 0.49,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Tendão do Músculo Extensor do Dedo Mínimo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tendão do Músculo Extensor Curto do Polegar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.64,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Tendão do Músculo Extensor Longo do Polegar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.25,
+                    "y": 0.6,
+                    "placement": "right"
+                },
+                {
+                    "id": 5,
+                    "title": "Músculo Interósseo Dorsal I",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Tendão do Músculo Extensor do Indicador",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.52,
+                    "placement": "right"
+                },
+                {
+                    "id": 7,
+                    "title": "Conexões Intertendíneas",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.43,
+                    "placement": "left"
+                }
+            ]
+        }            
+    ]
+}

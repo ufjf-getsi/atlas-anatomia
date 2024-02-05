@@ -1,0 +1,158 @@
+{
+    "systemName": "Tórax",
+    "pieces": [
+        {
+            "id": 0, 
+            "title": "Parede Anterior do Tórax",
+            "description": "",
+            "image": "./utils/sistemas/muscular/torax/torax1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Músculo Deltoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.1,
+                    "y": 0.13,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Porcão Clavicular do Músculo Peitoral Maior",
+                    "description": "Inervação: ramos de C5-C6. Ação: rotação e flexão do braço. Origem: metade medial da superfície anterior da clavícula.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Porçâo Esternocostal do Músculo Peitoral Maior",
+                    "description": "Inervação: ramos de C7, C8 e T1. Ação: abaixa o ombro e o braço. Origem: superfície anterior da cartilagem costal das seis primeiras costelas e porção adjacente do esterno.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.45,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Músculo Peitoral Maior",
+                    "description": "Inervação: nervos peitorais lateral e medial (ramos de C5-T1). Fibras superiores: cabeça clavicular. Fibras inferiores: cabeça esternal. Ação conjunta: adução do braço e auxilia nos atos de empurrar, lançar e escavar. Inserção: tendão plano com largura de 5 a 8 cm no lábio externo do sulco intratubercular.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.57,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Parede Anterior do Tórax",
+            "description": "",
+            "image": "./utils/sistemas/muscular/torax/torax2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Músculo Peitoral Maior (rebatido)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.21,
+                    "y": 0.34,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Músculo Peitoral Maior (rebatido)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.82,
+                    "y": 0.35,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Peitoral Menor",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Músculo Peitoral Menor",
+                    "description": "Inervação: nervo peitoral medial (C8-T1). Ação: fixa a clavícula na articulação esternoclavicular e auxilia na depressão do ombro. Origem: superfície anterior das 3ª-5ª costelas. Inserção: processo coracóide da escápula.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.78,
+                    "y": 0.55,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Parede Anterior do Tórax",
+            "description": "",
+            "image": "./utils/sistemas/muscular/torax/torax3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Músculos Intercostais Internos",
+                    "description": "Esses músculos vão das extremidades mediais dos espaços intercostais para os ângulos das costelas, onde dão lugar as membranas intercostais internas. Inervação: nervos intercostais. Ação: são considerados músculos da expiração. Origem: margem superior das costelas. Inserção: margem inferior das costelas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.02,
+                    "y": 0.27,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Músculo Subclávio",
+                    "description": "Inervação: nervo para o músculo subclávio (C5, C6). Ação: fixa e deprime a clavícula. Origem: junção da 1ª costela e sua cartilagem costal. Inserção: face inferior do terço médio da clavícula.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.26,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculos Intercostais Externos",
+                    "description": "Inervação: nervos intercostais. Ação: elevam as costelas, são considerados músculos da inspiração. Origem: margem superior das costelas. Inserção: margem inferior das costelas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.97,
+                    "y": 0.50,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3, 
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/muscular/torax/torax4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Músculo Serrátil Anterior",
+                    "description": "Inervação: nervo torácico longo (C5-C7). Ação: giram a escápula, movendo lateralmente o ângulo inferior, desempenhando, assim, importante papel na abdução do braço e elevação do mesmo acima da horizontal. Além disso, traciona a escápula para frente no ato de empurrar. Origem: faces externas das partes laterais das 1ª-8ª costelas. Inserção: face anterior da margem medial da escápula.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.5,
+                    "placement": "left"
+                }
+            ]
+        }        
+    ]
+}

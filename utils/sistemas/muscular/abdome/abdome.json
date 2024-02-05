@@ -1,0 +1,148 @@
+{
+    "systemName": "Abdome",
+    "pieces": [
+        {
+            "id": 0, 
+            "title": "Parede Anterior do Abdome",
+            "description": "",
+            "image": "./utils/sistemas/muscular/abdome/abdome1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Musculatura da Parede Abdominal",
+                    "description": "Protegem as vísceras e auxiliam na manutenção e aumento da pressão intrabdominal. Assim, são importantes na defecação, micção, parto e vômito. Também movimentam o tronco e auxiliam na postura.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.84,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Músculo Peitoral Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.24,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Parede Anterior do Abdome",
+            "description": "",
+            "image": "./utils/sistemas/muscular/abdome/abdome2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Ventre Muscular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.93,
+                    "y": 0.515,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Músculo Peitoral Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.26,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Parede Anterior do Abdome",
+            "description": "",
+            "image": "./utils/sistemas/muscular/abdome/abdome3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Músculo Peitoral Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.37,
+                    "y": 0.23,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Músculo Reto do Abdome",
+                    "description": "Músculo dividido em metades direita e esquerda pela linha alba, cada metade é formada por ventres musculares, separados por tendões mais finos, conhecidos como inserções tendíneas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.17,
+                    "y": 0.65,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Oblíquo Externo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.7,
+                    "y": 0.64,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2, 
+            "title": "Parede Anterior do Abdome",
+            "description": "",
+            "image": "./utils/sistemas/muscular/abdome/abdome4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Músculo Oblíquo Externo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.35,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Músculo Oblíquo Interno",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Reto do Abdome - Ventre",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Músculo Reto do Abdome - Tendão",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.36,
+                    "placement": "left"
+                }
+            ]
+        }       
+    ]
+}
