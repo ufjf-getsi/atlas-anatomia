@@ -1,0 +1,179 @@
+{
+    "systemName": "Ombro",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_superior/ombro/ombro1.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Músculo Deltoide - Porção Acromial",
+                    "description": "Músculo que determina a morfologia externa do ombro. É dividido em três porções: acromial, clavicular e espinal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.19,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Deltoide - Porção Clavicular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.23,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Veia Cefálica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Músculo Peitoral Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.8,
+                    "y": 0.68,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_superior/ombro/ombro2.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Músculo Deltoide - Porção Acromial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.07,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Tríceps Braquial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.16,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Músculo Braquial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.78,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Músculo Bíceps Braquial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.66,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Músculo Peitoral Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.39,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_superior/ombro/ombro3.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Músculo Deltoide - Porção Espinal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.17,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Supraespinal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.17,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Músculo Infraespinal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Músculo Redondo Menor",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Músculo Redondo Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Manguito Rotador",
+                    "description": "É composto por esses três músculos, além do músculo subescapular. O manguito rotador estabiliza a articulação gleno-umeral e auxilia nos movimentos realizados pelo ombro.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.91,
+                    "y": 0.26,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}
