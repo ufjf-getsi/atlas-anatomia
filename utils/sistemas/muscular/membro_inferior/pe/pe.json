@@ -1,0 +1,565 @@
+{
+    "systemName": "Pé",
+    "pieces": [
+        {
+            "id": 0, 
+            "title": "Vista Dorsal",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_inferior/pe/vistadorsaldope1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Tendão do Músculo Fibular Terceiro",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Retináculo Inferior dos Músculos Extensores",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tendão do Músculo Tibial Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Retináculo Superior dos Músculos Extensores",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.2,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Dorsal",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_inferior/pe/vistadorsaldope2.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Tendão do Músculo Extensor Curto do Hálux",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.66,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Ramo Medial do Nervo Fibular Profundo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tendão do Músculo Extensor Longo do Hálux",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Artéria Tibial Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Tendão do Músculo Tibial Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.29,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Dorsal",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_inferior/pe/vistadorsaldope3.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Tendão do Músculo Extensor Longo do Hálux",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.395,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Ramo Medial do Nervo Fibular Profundo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Artéria Tibial Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tendões do Músculo Extensor Curto dos Dedos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.975,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Retináculo Inferior dos Músculos Extensores",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Tendões do Músculo Extensor Longo dos Dedos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.72,
+                    "y": 0.67,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3, 
+            "title": "Vista Plantar",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_inferior/pe/vistaplantardope1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Tendão do Calcâneo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.12,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Vasos Tibiais Posteriores",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.18,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Nervo Tibial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Músculo Abdutor do Hálux",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Aponeurose Plantar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Tendão do Músculo Flexor Longo do Hálux",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.8,
+                    "placement": "right"
+                }
+            ]
+        },
+        {
+            "id": 4, 
+            "title": "Vista Plantar",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_inferior/pe/vistaplantardope2.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Aponeurose Plantar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Músculo Flexor Curto dos Dedos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Abdutor do Dedo Mínimo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tendão do Músculo Flexor Longo do Hálux",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.76,
+                    "placement": "right"
+                }
+            ]
+        },
+        {
+            "id": 5, 
+            "title": "Vista Plantar",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_inferior/pe/vistaplantardope3.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Músculo Flexor Curto dos Dedos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Artéria e Nervo Plantares Mediais",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tendão do Músculo Flexor Longo dos Dedos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Músculo Abdutor do Dedo Mínimo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Tendão do Músculo Flexor Longo do Hálux",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.73,
+                    "placement": "right"
+                }
+            ]
+        },
+        {
+            "id": 6, 
+            "title": "Vista Plantar",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_inferior/pe/vistaplantardope4.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Cabeça Oblíqua do Músculo Adutor do Hálux",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Músculo Quadrado Plantar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Abdutor do Dedo Mínimo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.5,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 7, 
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_inferior/pe/vistalateraldope.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Retináculo Superior dos Músculos Fibulares",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Tendão do Músculo Fibular Longo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.37,
+                    "y": 0.4,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Tendão do Músculo Fibular Curto",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Retináculo Inferior dos Músculos Fibulares",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.42,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Tendões do Músculo Extensor Longo dos Dedos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.33,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 8, 
+            "title": "Vista Medial",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_inferior/pe/vistamedialdope1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Veia Safena Magna",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.77,
+                    "y": 0.26,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Tendão do Calcâneo (de Aquiles)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.91,
+                    "y": 0.27,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 9, 
+            "title": "Vista Medial",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_inferior/pe/vistamedialdope2.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Tendão do Músculo Flexor Longo do Hálux",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.66,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Músculo Abdutor Longo do Hálux",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tendão do Músculo Tibial Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tendão do Músculo Flexor Longo dos Dedos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Tendão do Músculo Tibial Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.81,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Tendão do Músculo Flexor Longo do Hálux",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.8,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Tendão do Calcâneo (de Aquiles)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.88,
+                    "y": 0.5,
+                    "placement": "left"
+                }
+            ]
+        }         
+    ]
+}

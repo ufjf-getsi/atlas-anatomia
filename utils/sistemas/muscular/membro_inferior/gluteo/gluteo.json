@@ -1,0 +1,219 @@
+{
+    "systemName": "Glúteo",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_inferior/gluteo/gluteo1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Músculo Glúteo Máximo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.41,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_inferior/gluteo/gluteo2.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Nervo Isquiático",
+                    "description": "É o maior nervo do corpo. Fornece inervação motora e sensitiva para os membros inferiores.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Glúteo Médio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Músculo Glúteo Mínimo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Músculo Piriforme",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Músculo Glúteo Máximo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Tendão do Músculo Obturador Interno",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Músculo Gêmeo Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.04,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Músculo Gêmeo Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.03,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Músculo Quadrado Femoral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.59,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/muscular/membro_inferior/gluteo/gluteo3.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Nervo Isquiático",
+                    "description": "É o maior nervo do corpo. Fornece inervação motora e sensitiva para os membros inferiores.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Músculo Glúteo Máximo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.81,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Músculo Piriforme",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Músculo Glúteo Médio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Músculo Glúteo Mínimo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Músculo Quadrado Femoral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Tendão do Músculo Obturador Interno",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Músculo Gêmeo Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.04,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Músculo Gêmeo Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.04,
+                    "y": 0.59,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

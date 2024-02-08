@@ -338,25 +338,8 @@
                             "systemName": "Braço",
                             "path": "#braco-M",
                             "id": 1,
-                            "section": "subsystems",
-                            "subsystems": [
-                                {
-                                    "systemName": "Anterior",
-                                    "path": "#braco-anterior-M",
-                                    "id": 0,
-                                    "section": "atlas",
-                                    "url": "./utils/sistemas/muscular/membro_superior/braco/anterior/anterior.json", 
-                                    "image": "./utils/imagens/icone_basedocranio.png"
-                                },
-                                {
-                                    "systemName": "Posterior",
-                                    "path": "#braco-posterior-M",
-                                    "id": 1,
-                                    "section": "atlas",
-                                    "url": "./utils/sistemas/muscular/membro_superior/braco/posterior/posterior.json", 
-                                    "image": "./utils/imagens/icone_basedocranio.png"
-                                }
-                            ],
+                            "section": "atlas",
+                            "url": "./utils/sistemas/muscular/membro_superior/braco/braco.json",
                             "image": "./utils/imagens/icone_basedocranio.png"
                         },
                         {
@@ -437,85 +420,35 @@
                     "section": "subsystems",
                     "subsystems": [
                         {
-                            "systemName": "Coxa",
-                            "path": "#coxa-M",
-                            "id": 0,
-                            "section": "subsystems",
-                            "subsystems": [
-                                {
-                                    "systemName": "Anterior",
-                                    "path": "#coxa-anterior-M",
-                                    "id": 0,
-                                    "section": "atlas",
-                                    "url": "./utils/sistemas/muscular/membro_inferior/coxa/anterior/anterior.json", 
-                                    "image": "./utils/imagens/icone_basedocranio.png"
-                                },
-                                {
-                                    "systemName": "Posterior",
-                                    "path": "#coxa-posterior-M",
-                                    "id": 1,
-                                    "section": "atlas",
-                                    "url": "./utils/sistemas/muscular/membro_inferior/coxa/posterior/posterior.json", 
-                                    "image": "./utils/imagens/icone_basedocranio.png"
-                                }
-                            ],
-                            "image": "./utils/imagens/icone_basedocranio.png"
-                        },
-                        {
                             "systemName": "Glúteo",
                             "path": "#gluteo-M",
-                            "id": 1,
+                            "id": 0,
                             "section": "atlas",
                             "url": "./utils/sistemas/muscular/membro_inferior/gluteo/gluteo.json", 
                             "image": "./utils/imagens/icone_basedocranio.png"
                         },
                         {
-                            "systemName": "Pé",
-                            "path": "#pe-M",
-                            "id": 2,
-                            "section": "subsystems",
-                            "subsystems": [
-                                {
-                                    "systemName": "Dorsal",
-                                    "path": "#dorsal-M",
-                                    "id": 0,
-                                    "section": "atlas",
-                                    "url": "./utils/sistemas/muscular/membro_inferior/pe/dorsal/dorsal.json", 
-                                    "image": "./utils/imagens/icone_basedocranio.png"
-                                },
-                                {
-                                    "systemName": "Lateral",
-                                    "path": "#lateral-M",
-                                    "id": 1,
-                                    "section": "atlas",
-                                    "url": "./utils/sistemas/muscular/membro_inferior/pe/lateral/lateral.json", 
-                                    "image": "./utils/imagens/icone_basedocranio.png"
-                                },
-                                {
-                                    "systemName": "Medial",
-                                    "path": "#medial-M",
-                                    "id": 2,
-                                    "section": "atlas",
-                                    "url": "./utils/sistemas/muscular/membro_inferior/pe/medial/medial.json", 
-                                    "image": "./utils/imagens/icone_basedocranio.png"
-                                },
-                                {
-                                    "systemName": "Plantar",
-                                    "path": "#plantar-M",
-                                    "id": 3,
-                                    "section": "atlas",
-                                    "url": "./utils/sistemas/muscular/membro_inferior/pe/plantar/plantar.json", 
-                                    "image": "./utils/imagens/icone_basedocranio.png"
-                                }
-                            ],
+                            "systemName": "Coxa",
+                            "path": "#coxa-M",
+                            "id": 1,
+                            "section": "atlas",
+                            "url": "./utils/sistemas/muscular/membro_inferior/coxa/coxa.json", 
                             "image": "./utils/imagens/icone_basedocranio.png"
                         },
                         {
                             "systemName": "Perna",
                             "path": "#perna-M",
-                            "id": 3,
+                            "id": 2,
                             "section": "atlas",
                             "url": "./utils/sistemas/muscular/membro_inferior/perna/perna.json", 
+                            "image": "./utils/imagens/icone_basedocranio.png"
+                        },
+                        {
+                            "systemName": "Pé",
+                            "path": "#pe-M",
+                            "id": 3,
+                            "section": "atlas",
+                            "url": "./utils/sistemas/muscular/membro_inferior/pe/pe.json", 
                             "image": "./utils/imagens/icone_basedocranio.png"
                         }
                     ],
