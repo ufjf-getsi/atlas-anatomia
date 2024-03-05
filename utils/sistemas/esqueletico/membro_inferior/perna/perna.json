@@ -115,17 +115,17 @@
                 },
                 {
                     "id": 1,
-                    "title": "Face Lateral",
+                    "title": "Margem Interóssea",
                     "description": "",
                     "color": "blue",
                     "url": "",
-                    "x": 0.49,
-                    "y": 0.44,
+                    "x": 0.47,
+                    "y": 0.43,
                     "placement": "left"
                 },
                 {
                     "id": 2,
-                    "title": "Margem Anterior",
+                    "title": "Face Medial",
                     "description": "",
                     "color": "blue",
                     "url": "",
@@ -135,7 +135,7 @@
                 },
                 {
                     "id": 3,
-                    "title": "Margem Posterior",
+                    "title": "Face Lateral",
                     "description": "",
                     "color": "blue",
                     "url": "",
@@ -149,7 +149,7 @@
                     "description": "",
                     "color": "blue",
                     "url": "",
-                    "x": 0.48,
+                    "x": 0.47,
                     "y": 0.93,
                     "placement": "left"
                 }
@@ -378,35 +378,6 @@
                     "url": "",
                     "x": 0.56,
                     "y": 0.73,
-                    "placement": "left"
-                }
-            ]
-        },
-        {
-            "id": 0,
-            "title": "Tíbia",
-            "description": "",
-            "image": "./utils/sistemas/esqueletico/membro_inferior/perna/tibia5.png",
-            "pins": 
-            [
-                {
-                    "id": 0,
-                    "title": "Sulco Maleolar",
-                    "description": "Passam os tendões dos músculos tibial posterior e flexor longo dos dedos.",
-                    "color": "red",
-                    "url": "",
-                    "x": 0.69,
-                    "y": 0.7,
-                    "placement": "left"
-                },
-                {
-                    "id": 1,
-                    "title": "Face Articular do Maléolo Medial",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.52,
-                    "y": 0.85,
                     "placement": "left"
                 }
             ]

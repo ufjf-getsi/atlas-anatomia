@@ -73,8 +73,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "",
-                    "x": 0.45,
-                    "y": 0.47,
+                    "x": 0.46,
+                    "y": 0.51,
                     "placement": "left"
                 },
                 {
@@ -89,12 +89,12 @@
                 },
                 {
                     "id": 3,
-                    "title": "Artéria Tibial Anterior",
+                    "title": "Artéria Dorsal do Pé",
                     "description": "",
                     "color": "blue",
                     "url": "",
-                    "x": 0.45,
-                    "y": 0.36,
+                    "x": 0.46,
+                    "y": 0.40,
                     "placement": "left"
                 },
                 {
@@ -197,22 +197,12 @@
                 },
                 {
                     "id": 1,
-                    "title": "Vasos Tibiais Posteriores",
+                    "title": "Nervo Tibial",
                     "description": "",
                     "color": "blue",
                     "url": "",
                     "x": 0.52,
                     "y": 0.18,
-                    "placement": "left"
-                },
-                {
-                    "id": 2,
-                    "title": "Nervo Tibial",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.48,
-                    "y": 0.25,
                     "placement": "left"
                 },
                 {
@@ -393,173 +383,6 @@
                     "placement": "left"
                 }
             ]
-        },
-        {
-            "id": 7, 
-            "title": "Vista Lateral",
-            "description": "",
-            "image": "./utils/sistemas/muscular/membro_inferior/pe/vistalateraldope.png",
-            "pins": 
-            [
-                {
-                    "id": 0,
-                    "title": "Retináculo Superior dos Músculos Fibulares",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.33,
-                    "y": 0.34,
-                    "placement": "left"
-                },
-                {
-                    "id": 1,
-                    "title": "Tendão do Músculo Fibular Longo",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.37,
-                    "y": 0.4,
-                    "placement": "right"
-                },
-                {
-                    "id": 2,
-                    "title": "Tendão do Músculo Fibular Curto",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.41,
-                    "y": 0.4,
-                    "placement": "left"
-                },
-                {
-                    "id": 3,
-                    "title": "Retináculo Inferior dos Músculos Fibulares",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.44,
-                    "y": 0.42,
-                    "placement": "left"
-                },
-                {
-                    "id": 4,
-                    "title": "Tendões do Músculo Extensor Longo dos Dedos",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.56,
-                    "y": 0.33,
-                    "placement": "left"
-                }
-            ]
-        },
-        {
-            "id": 8, 
-            "title": "Vista Medial",
-            "description": "",
-            "image": "./utils/sistemas/muscular/membro_inferior/pe/vistamedialdope1.png",
-            "pins": 
-            [
-                {
-                    "id": 0,
-                    "title": "Veia Safena Magna",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.77,
-                    "y": 0.26,
-                    "placement": "left"
-                },
-                {
-                    "id": 1,
-                    "title": "Tendão do Calcâneo (de Aquiles)",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.91,
-                    "y": 0.27,
-                    "placement": "left"
-                }
-            ]
-        },
-        {
-            "id": 9, 
-            "title": "Vista Medial",
-            "description": "",
-            "image": "./utils/sistemas/muscular/membro_inferior/pe/vistamedialdope2.png",
-            "pins": 
-            [
-                {
-                    "id": 0,
-                    "title": "Tendão do Músculo Flexor Longo do Hálux",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.34,
-                    "y": 0.66,
-                    "placement": "left"
-                },
-                {
-                    "id": 1,
-                    "title": "Músculo Abdutor Longo do Hálux",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.58,
-                    "y": 0.54,
-                    "placement": "left"
-                },
-                {
-                    "id": 2,
-                    "title": "Tendão do Músculo Tibial Anterior",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.58,
-                    "y": 0.43,
-                    "placement": "left"
-                },
-                {
-                    "id": 3,
-                    "title": "Tendão do Músculo Flexor Longo dos Dedos",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.73,
-                    "y": 0.48,
-                    "placement": "left"
-                },
-                {
-                    "id": 4,
-                    "title": "Tendão do Músculo Tibial Posterior",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.81,
-                    "y": 0.38,
-                    "placement": "left"
-                },
-                {
-                    "id": 5,
-                    "title": "Tendão do Músculo Flexor Longo do Hálux",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.8,
-                    "y": 0.45,
-                    "placement": "left"
-                },
-                {
-                    "id": 6,
-                    "title": "Tendão do Calcâneo (de Aquiles)",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.88,
-                    "y": 0.5,
-                    "placement": "left"
-                }
-            ]
-        }         
+        }          
     ]
 }
