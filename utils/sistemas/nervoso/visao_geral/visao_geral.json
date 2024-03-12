@@ -1,0 +1,23 @@
+{
+    "systemName": "Visão Geral",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Cíngulo",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/acetabulo.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Acetábulo",
+                    "description": "Cavidade que se articula com a cabeça do fêmur.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.39,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

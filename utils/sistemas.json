@@ -498,7 +498,72 @@
             "id": 3,
             "path": "#nervoso",
             "section": "subsystems",
-            "url": "",
+            "subsystems": [
+                {
+                    "systemName": "Visão Geral",
+                    "path": "#nervoso-geral",
+                    "id": 0,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/nervoso/visao_geral/visao_geral.json", 
+                    "image": "./utils/imagens/icone_nervoso.png"
+                },
+                {
+                    "systemName": "Vascularização",
+                    "path": "#vascularizacao",
+                    "id": 0,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/nervoso/vascularizacao/vascularizacao.json", 
+                    "image": "./utils/imagens/icone_nervoso.png"
+                },
+                {
+                    "systemName": "Tronco Encefálico",
+                    "path": "#tronco-encefalico",
+                    "id": 0,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/nervoso/tronco_encefalico/tronco_encefalico.json", 
+                    "image": "./utils/imagens/icone_nervoso.png"
+                },
+                {
+                    "systemName": "Telencefalo",
+                    "path": "#telencefalo",
+                    "id": 0,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/nervoso/telencefalo/telencefalo.json", 
+                    "image": "./utils/imagens/icone_nervoso.png"
+                },
+                {
+                    "systemName": "Meninges",
+                    "path": "#meninges",
+                    "id": 0,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/nervoso/meninges/meninges.json", 
+                    "image": "./utils/imagens/icone_nervoso.png"
+                },
+                {
+                    "systemName": "Medula Espinhal",
+                    "path": "#medula-espinhal",
+                    "id": 0,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/nervoso/medula_espinhal/medula_espinhal.json", 
+                    "image": "./utils/imagens/icone_nervoso.png"
+                },
+                {
+                    "systemName": "Diencefalo",
+                    "path": "#diencefalo",
+                    "id": 0,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/nervoso/diencefalo/diencefalo.json", 
+                    "image": "./utils/imagens/icone_nervoso.png"
+                },
+                {
+                    "systemName": "Cerebelo",
+                    "path": "#cerebelo",
+                    "id": 0,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/nervoso/cerebelo/cerebelo.json", 
+                    "image": "./utils/imagens/icone_nervoso.png"
+                }
+            ],
             "image": "./utils/imagens/icone_nervoso.png"
         },
         {
