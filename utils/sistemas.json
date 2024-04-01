@@ -537,7 +537,32 @@
             "id": 4,
             "path": "#circulatorio",
             "section": "subsystems",
-            "url": "",
+            "subsystems": [
+                {
+                    "systemName": "Vísceras",
+                    "path": "#visceras",
+                    "id": 0,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/circulatorio/visceras/visceras.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Coração",
+                    "path": "#coracao",
+                    "id": 1,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/circulatorio/coracao/coracao.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Baco",
+                    "path": "#baco",
+                    "id": 2,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/circulatorio/baco/baco.json", 
+                    "image": "./utils/imagens/"
+                }
+            ],
             "image": "./utils/imagens/icone_circulatorio.png"
         },
         {
