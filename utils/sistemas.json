@@ -540,7 +540,7 @@
             "subsystems": [
                 {
                     "systemName": "Vísceras",
-                    "path": "#visceras",
+                    "path": "#visceras-C",
                     "id": 0,
                     "section": "atlas",
                     "url": "./utils/sistemas/circulatorio/visceras/visceras.json", 
@@ -570,7 +570,64 @@
             "id": 5,
             "path": "#respiratorio",
             "section": "subsystems",
-            "url": "",
+            "subsystems": [
+                {
+                    "systemName": "Vísceras",
+                    "path": "#visceras-R",
+                    "id": 0,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/respiratorio/visceras/visceras.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Traqueia e Brônquio",
+                    "path": "#traqueia-bronquio",
+                    "id": 1,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/respiratorio/traqueia_bronquio/traqueia_bronquio.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Pulmão",
+                    "path": "#pulmao",
+                    "id": 2,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/respiratorio/pulmao/pulmao.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Nariz",
+                    "path": "#nariz",
+                    "id": 3,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/respiratorio/nariz/nariz.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Laringe",
+                    "path": "#laringe",
+                    "id": 4,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/respiratorio/laringe/laringe.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Faringe",
+                    "path": "#faringe",
+                    "id": 5,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/respiratorio/faringe/faringe.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Diafragma",
+                    "path": "#diafragma",
+                    "id": 6,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/respiratorio/diafragma/diafragma.json", 
+                    "image": "./utils/imagens/"
+                }
+            ],
             "image": "./utils/imagens/icone_respiratorio.png"
         },
         {
