@@ -1,26 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Poppins&display=swap');
 
+:root {
+    --black: #2a2a2a;
+    --bg-white: #dededeef;
+    --bg-gray: #b9b9b9e0;
+    --bg-darker-gray: #5e5e5e;
+    --bg-shadow: #6b6b6b93;
+
+}
+
 /* ATLAS */
 .image-card {
     max-width: 700px;
     width: 95%;
     margin: 25px auto;
-    border-radius: 15px;
+    border-radius: 28px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #ffffffc4;
+    background: var(--bg-white);
     display: flex;
     justify-content: center;
 }
-
-#container {
-    background-color: #ffffff56;
+    
+#container {    
     display: flex;
     position: relative;
-    border: 1px solid #333333;
-    border-radius: 10px;
-    box-shadow: 1px 3px 2rem rgba(42, 42, 43, 0.699);
+    border-radius: 25px;
+    background: linear-gradient(var(--bg-white), var(--bg-gray));
+    box-shadow: 5px 5px 25px var(--bg-shadow);
+    border: 1px solid var(--bg-gray);
     width: clamp(300px, 80%, 600px);
     aspect-ratio: 1;
 }
@@ -30,7 +39,7 @@
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 #content {
@@ -83,6 +92,10 @@
     opacity: 1;
 }
 
+#container img {
+    filter: drop-shadow(1px 10px 10px var(--bg-shadow));
+}
+
 .image-info {
     min-height: 100px;
     text-align: center;
@@ -91,14 +104,14 @@
 #main-title {
     font-family: 'Cinzel', sans-serif;
     font-weight: 700;
-    color: #313131;
+    color: var(--black);
     padding-top: 15px;
     margin: 0;
 }
 
 #image-title {
     text-align: center;
-    color: #303030;
+    color: var(--black);
     font-family: 'Poppins', sans-serif;
     padding: 5px;
     margin: 0;
@@ -106,30 +119,33 @@
 
 /* ITEMS & FUNCIONALIDADES */
 .navigation-bar {
-    width: clamp(300px, 80%, 600px);
-    margin-top: 20px;
+    width: 50%;
+    height: 25px;
+    border-radius: 45px;
+
+    overflow: hidden;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #navigations {
+    margin: auto;
     display: flex;
-    overflow-x: scroll;
 }
 
 .selectors {
-    width: clamp(12px, 5%, 15px);
+    padding: 7px;
     aspect-ratio: 1;
-    padding: 8px;
-    margin: 0 4px;
+    margin: 0 3px;
     border-radius: 50%;
-    background-color: #5757579c;    
+    background-color: var(--bg-gray);    
     transition: 0.3s all;
 }
 
 .selected {
-    background-color: #1f1f1fd8;
-    margin: 0 10px;
+    background-color: var(--bg-darker-gray);
+    margin: 0 5px;
 }
 
 .slide-button svg {
@@ -139,23 +155,23 @@
 }
 
 .slide-button {
-    padding: 0;
-    margin: 5px;
-    width: 8%;
-    background-color: #ffffffc4;
-    color: #303030;
+    padding: 0px;
+    width: 6%;
+    background: transparent;
+    color: var(--black);
     border: none;
     cursor: pointer;
-    border-radius: 25%;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 2px 2px 2rem rgb(65, 65, 65);
+    outline: none;
+    transition: 0.15s ease-in;
 }
 
-.slide-button:active {
-    box-shadow: 2px 2px #222;
-    transform: translate(2px, 2px);
+.slide-button:hover {
+    background: var(--bg-gray);
+    transform: scale(1.2);
 }
 
 /* ALFINETES & TOOLTIPS */
@@ -177,20 +193,46 @@
 
 #tooltip {
     z-index: 1;
+    min-width: 45px;
     max-width: 50%;
-    background-color: #dfdddd;
-    border-radius: 5px;
+    background: var(--bg-white);
+    background-size: 800%;
+    border-radius: 25px;
     color: #303030;
     font-family: 'Poppins', sans-serif;
     font-size: 0.75rem;
     padding: 5px;
     display: none;
     word-wrap: break-word;
-    box-shadow: 1px 3px 2rem rgba(42, 42, 43, 0.699);
+    box-shadow: 1px 5px 15px var(--bg-shadow);
+
+    transition: 0.2s ease-in-out;
+}
+
+#tooltip:hover {
+    background: var(--black);
+}
+
+#tooltip::after {
+    color: var(--black);
+    transition: 0.2s ease-in-out;
+}
+
+#tooltip:hover::after {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    content: "Ocultar";
+    color: var(--bg-white);
+}
+
+#tooltip:hover #tooltip-title {
+    color: var(--black);
 }
 
 #tooltip[data-show] {
-    display: block;
+    display: flex;
 }
 
 #tooltip p {
@@ -211,25 +253,30 @@
 }
 
 #tooltip-description {
-    width: clamp(300px, 80vw, 600px);
-    margin-top: 15px;
-    background-color: #ffffff75;
-    border-radius: 5px;
-    color: #303030;
+    width: clamp(300px, 80%, 600px);
+    margin: 10px 0;
+    border-radius: 25px;
+    border: 1px solid var(--bg-shadow);
+    color: var(--black);
+    backdrop-filter: blur(5px);
     font-family: 'Poppins', sans-serif;
-    display: none;
     word-wrap: break-word;
-    border: 1px solid rgba(51, 51, 51, 0.089);
-    box-shadow: 1px 3px 2rem rgba(42, 42, 43, 0.342);
+    max-height: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.25s ease-in-out;
 }   
 
-#tooltip-description[data-show] {
-    display: block;
+#tooltip-description[data-show] {   
+    max-height: 250px;
+    overflow-y: scroll;
+    opacity: 1;
+    padding: 15px 0px;
 }
 
 #tooltip-content {  
     text-align: justify;
     margin: 0;
-    padding: 5px;
+    padding: 10px;
     font-size: 0.75em;
 }

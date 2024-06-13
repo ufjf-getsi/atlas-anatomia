@@ -17,6 +17,10 @@
     margin: 10px;
 }
 
+#about p {
+    text-align: justify;
+}
+
 .title {
     text-align: center;
     border-radius: 10px;
