@@ -635,7 +635,56 @@
             "id": 6,
             "path": "#digestorio",
             "section": "subsystems",
-            "url": "",
+            "subsystems": [
+                {
+                    "systemName": "Vísceras",
+                    "path": "#visceras-D",
+                    "id": 0,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/digestorio/visceras/visceras.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Intestinos",
+                    "path": "#intestinos",
+                    "id": 1,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/digestorio/intestinos/intestinos.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Glandulas",
+                    "path": "#glandulas",
+                    "id": 2,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/digestorio/glandulas/glandulas.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Esôfago e Estomago",
+                    "path": "#estomago-esofago",
+                    "id": 3,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/digestorio/estomago_esofago/estomago_esofago.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Dentes",
+                    "path": "#dentes",
+                    "id": 4,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/digestorio/dentes/dentes.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Cavidade Oral",
+                    "path": "#cavidade-oral",
+                    "id": 5,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/digestorio/cavidade_oral/cavidade_oral.json", 
+                    "image": "./utils/imagens/"
+                }
+            ],
             "image": "./utils/imagens/icone_digestorio.png"
         },
         {
@@ -643,7 +692,40 @@
             "id": 7,
             "path": "#urinario",
             "section": "subsystems",
-            "url": "",
+            "subsystems": [
+                {
+                    "systemName": "Vísceras",
+                    "path": "#visceras-U",
+                    "id": 0,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/urinario/visceras/visceras.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Uretra",
+                    "path": "#uretra",
+                    "id": 1,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/urinario/uretra/uretra.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Rim Ureter",
+                    "path": "#rim-ureter",
+                    "id": 2,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/urinario/rim_ureter/rim_ureter.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Bexiga",
+                    "path": "#bexiga",
+                    "id": 3,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/urinario/bexiga/bexiga.json", 
+                    "image": "./utils/imagens/"
+                }
+            ],
             "image": "./utils/imagens/urinario.jpg"
         },
         {
@@ -651,7 +733,48 @@
             "id": 8,
             "path": "#genital-feminino",
             "section": "subsystems",
-            "url": "",
+            "subsystems": [
+                {
+                    "systemName": "Vulva",
+                    "path": "#vulva",
+                    "id": 0,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/gem_fem/vulva/vulva.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Útero e Vagina",
+                    "path": "#utero-vagina",
+                    "id": 1,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/gem_fem/utero_vagina/utero_vagina.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Tuba Uterina",
+                    "path": "#tuba",
+                    "id": 2,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/gem_fem/tuba/tuba.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Ovários",
+                    "path": "#ovarios",
+                    "id": 3,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/gem_fem/ovarios/ovarios.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Mama",
+                    "path": "#mama",
+                    "id": 3,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/gem_fem/mama/mama.json", 
+                    "image": "./utils/imagens/"
+                }
+            ],
             "image": "./utils/imagens/genfem.jpg"
         },
         {
@@ -659,7 +782,40 @@
             "id": 9,
             "path": "#genital-masculino",
             "section": "subsystems",
-            "url": "",
+            "subsystems": [
+                {
+                    "systemName": "Vísceras",
+                    "path": "#visceras-GM",
+                    "id": 0,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/gem_masc/visceras/visceras.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Testículos",
+                    "path": "#testiculos",
+                    "id": 1,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/gem_masc/testiculos/testiculos.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Pênis",
+                    "path": "#penis",
+                    "id": 2,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/gem_masc/penis/penis.json", 
+                    "image": "./utils/imagens/"
+                },
+                {
+                    "systemName": "Glândulas",
+                    "path": "#glandulas-GM",
+                    "id": 3,
+                    "section": "atlas",
+                    "url": "./utils/sistemas/gem_masc/glandulas/glandulas.json", 
+                    "image": "./utils/imagens/"
+                }
+            ],
             "image": "./utils/imagens/genmasc.jpg"
         }
     ]
