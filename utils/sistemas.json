@@ -698,7 +698,7 @@
                     "path": "#visceras-U",
                     "id": 0,
                     "section": "atlas",
-                    "url": "./utils/sistemas/urinario/visceras/visceras.json", 
+                    "url": "./utils/sistemas/urinario/visceras_u/visceras_u.json", 
                     "image": "./utils/imagens/"
                 },
                 {
@@ -752,10 +752,10 @@
                 },
                 {
                     "systemName": "Tuba Uterina",
-                    "path": "#tuba",
+                    "path": "#tuba-uterina",
                     "id": 2,
                     "section": "atlas",
-                    "url": "./utils/sistemas/gem_fem/tuba/tuba.json", 
+                    "url": "./utils/sistemas/gem_fem/tuba_uterina/tuba_uterina.json", 
                     "image": "./utils/imagens/"
                 },
                 {
@@ -788,7 +788,7 @@
                     "path": "#visceras-GM",
                     "id": 0,
                     "section": "atlas",
-                    "url": "./utils/sistemas/gem_masc/visceras/visceras.json", 
+                    "url": "./utils/sistemas/gem_masc/visceras_gm/visceras_gm.json", 
                     "image": "./utils/imagens/"
                 },
                 {
@@ -812,7 +812,7 @@
                     "path": "#glandulas-GM",
                     "id": 3,
                     "section": "atlas",
-                    "url": "./utils/sistemas/gem_masc/glandulas/glandulas.json", 
+                    "url": "./utils/sistemas/gem_masc/glandulas_gm/glandulas_gm.json", 
                     "image": "./utils/imagens/"
                 }
             ],
