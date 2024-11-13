@@ -23,7 +23,7 @@ const loadSystemsCards = async (systems) => {
     img.loading = "lazy"
 
     //caso nao tenha url e nem subsistemas, bloqueia a navegação
-    if (!!data.url || !!data.subsystems) {
+    if ( !data.locked && (!!data.url || !!data.subsystems) ) {
       img.addEventListener("click", () => navigate(data.path));
     } else {
       card.setAttribute("blocked", true);

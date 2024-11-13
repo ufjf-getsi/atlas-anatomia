@@ -1,6 +1,7 @@
 {
     "systems": [
         {
+            "locked": false,
             "systemName": "Esquelético",
             "id": 0,
             "path": "#esqueletico",
@@ -178,6 +179,7 @@
             "image": "./utils/imagens/icone_esqueletico.png"
         },
         {
+            "locked": false,
             "systemName": "Articular",
             "id": 1,
             "path": "#articular",
@@ -286,6 +288,7 @@
             "image": "./utils/imagens/icone_articular.png"
         },
         {
+            "locked": false,
             "systemName": "Muscular",
             "id": 2,
             "path": "#muscular",
@@ -460,6 +463,7 @@
             "image": "./utils/imagens/icone_muscular.png"
         },
         {
+            "locked": true,
             "systemName": "Nervoso",
             "id": 3,
             "path": "#nervoso",
@@ -533,6 +537,7 @@
             "image": "./utils/imagens/icone_nervoso.png"
         },
         {
+            "locked": true,
             "systemName": "Circulatório",
             "id": 4,
             "path": "#circulatorio",
@@ -566,6 +571,7 @@
             "image": "./utils/imagens/icone_circulatorio.png"
         },
         {
+            "locked": true,
             "systemName": "Respiratório",
             "id": 5,
             "path": "#respiratorio",
@@ -631,6 +637,7 @@
             "image": "./utils/imagens/icone_respiratorio.png"
         },
         {
+            "locked": true,
             "systemName": "Digestório",
             "id": 6,
             "path": "#digestorio",
@@ -688,6 +695,7 @@
             "image": "./utils/imagens/icone_digestorio.png"
         },
         {
+            "locked": true,
             "systemName": "Urinário",
             "id": 7,
             "path": "#urinario",
@@ -729,6 +737,7 @@
             "image": "./utils/imagens/urinario.jpg"
         },
         {
+            "locked": true,
             "systemName": "Genital Feminino",
             "id": 8,
             "path": "#genital-feminino",
@@ -778,6 +787,7 @@
             "image": "./utils/imagens/genfem.jpg"
         },
         {
+            "locked": true,
             "systemName": "Genital Masculino",
             "id": 9,
             "path": "#genital-masculino",
