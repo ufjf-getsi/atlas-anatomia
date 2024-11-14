@@ -190,7 +190,8 @@
 
 #search-menu-container {
     width: 85%;
-    height: 100%;
+    height: 95%;
+    overflow-y: scroll;
     transform: translateX(200%);
     transition: 0.25s all;
     margin: 10px;
