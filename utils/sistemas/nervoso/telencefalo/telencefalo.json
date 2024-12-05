@@ -1,23 +1,1113 @@
 {
-    "systemName": "Visão Geral",
+    "systemName": "Telencéfalo",
     "pieces": [
         {
             "id": 0,
-            "title": "Cíngulo",
+            "title": "Vista Lateral",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/acetabulo.png",
+            "image": "./utils/sistemas/nervoso/telencefalo/telencefalo1.png",
             "pins": [
                 {
                     "id": 0,
-                    "title": "Acetábulo",
-                    "description": "Cavidade que se articula com a cabeça do fêmur.",
+                    "title": "Lobo Frontal",
+                    "description": "Localiza-se anteriormente ao sulco central e superiormente ao sulco lateral, sob o osso de mesmo nome.",
                     "color": "red",
                     "url": "",
-                    "x": 0.62,
-                    "y": 0.39,
+                    "x": 0.24,
+                    "y": 0.35,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Sulco Lateral",
+                    "description": "Inicia-se na base do cérebro, separando os lobos frontal e temporal, e dirige-se para a face superolateral. Termina dividindo-se em três ramos: ascendente, anterior e posterior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.55,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Lobo Temporal",
+                    "description": "Localiza-se abaixo do sulco lateral, sob o osso de mesmo nome.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.68,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Cerebelo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.8,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Lobo Occipital",
+                    "description": "Localiza-se posteriormente aos lobos parietal e temporal e superiormente ao tentório do cerebelo, sob o osso de mesmo nome. Está relacionado com o processamento visual.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.88,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Lobo Parietal",
+                    "description": "Localiza-se posteriormente ao sulco central e superiormente ao sulco lateral, sob o osso de mesmo nome.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Sulco Central",
+                    "description": "Percorre obliquamente a face superolateral do hemisfério cerebral, separando os lobos frontal (anteriormente) e parietal (posteriormente).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.29,
                     "placement": "left"
                 }
             ]
+        },
+        {
+            "id": 0,
+            "title": "Vista Inferior",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/telencefalo/telencefalo2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Lobo Occipital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.05,
+                    "y": 0.43,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Lobo Temporal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Lobo Frontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.83,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Lobo Occipital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.06,
+                    "y": 0.59,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Lobo Temporal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.71,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Lobo Frontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.84,
+                    "y": 0.42,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/telencefalo/telencefalo3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Polo Frontal ",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.04,
+                    "y": 0.42,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Polo Temporal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.75,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Polo Occipital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.93,
+                    "y": 0.69,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Vista Superior",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/telencefalo/telencefalo4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Polo Occipital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.05,
+                    "y": 0.44,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Sulco Pós-Central",
+                    "description": "Tem posição paralela e posterior ao sulco central, com o qual delimita o giro de mesmo nome.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.76,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Giro Pós-Central",
+                    "description": "Giro localizado entre o sulco central e o sulco pós-central no lobo parietal. É onde se localiza área somestésica primária (área da sensibilidade somática geral) do córtex cerebral.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Sulco Central",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Giro Pré-Central",
+                    "description": "Giro localizado entre o sulco central e o sulco pré-central no lobo frontal. É onde se localiza a área motora primária do córtex cerebral.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.35,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Sulco Pré-Central",
+                    "description": "Tem posição paralela e anterior ao sulco central, com o qual delimita o giro de mesmo nome.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Polo Frontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.96,
+                    "y": 0.46,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/telencefalo/telencefalo5.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Sulco Pré-Central",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Giro Pré-Central",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.19,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Sulco Central",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Giro Pós-Central",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.7,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Sulco Pós-Central",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.34,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/telencefalo/telencefalo6.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Giro Frontal Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sulco Frontal Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Giro Frontal Médio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Sulco Frontal Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.18,
+                    "y": 0.4,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Giro Frontal Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.18,
+                    "y": 0.49,
+                    "placement": "right"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/telencefalo/telencefalo7.png",
+            "pins": 
+
+            [
+                {
+                    "id": 0,
+                    "title": "Ramo Ascendente do Sulco Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Ramo Posterior do Sulco Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.66,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Sulco Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Parte Orbital do Giro Frontal Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.54,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Parte Opercular do Giro Frontal Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.53,
+                    "placement": "right"
+                },
+                {
+                    "id": 5,
+                    "title": "Ramo Anterior do Sulco Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.48,
+                    "placement": "right"
+                },
+                {
+                    "id": 7,
+                    "title": "Parte Triangular do Giro Frontal Inferior",
+                    "description": "Esta parte, juntamente com a parte opercular do giro frontal inferior, formam a área de Broca (em verde), associada à expressão da linguagem.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.49,
+                    "placement": "right"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/telencefalo/telencefalo8.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Sulco Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sulco Central",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.23,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Giro Pós-Central",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Giro Supramarginal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Sulco Pós-Central",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.72,
+                    "y": 0.27,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Lóbulo Parietal Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.8,
+                    "y": 0.26,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Sulco Intraparietal ",
+                    "description": "Separa os lóbulos parietais superior e inferior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.83,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Giro Angular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.79,
+                    "y": 0.42,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/telencefalo/telencefalo9.png",
+            "pins": 
+            [
+                {
+                    "id": 3,
+                    "title": "Giro Temporal Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Sulco Temporal Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Sulco Temporal Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.71,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Giro Temporal Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.74,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Giro Temporal Médio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.65,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Sulco Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Área de Wernicke",
+                    "description": "Situa-se na junção entre os lobos parietal e temporal. Está relacionada com a percepção da linguagem e é ligada à área de Broca pelos fascículos arqueado e longitudinal superior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.52,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Vista Medial",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/telencefalo/telencefalo10.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Giro Occipitotemporal Medial ",
+                    "description": "Localiza-se abaixo do sulco calcarino e continua anteriormente com o giro para-hipocampal, no lobo temporal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.15,
+                    "y": 0.6,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Sulco Calcarino ",
+                    "description": "Inicia-se abaixo do esplênio do corpo caloso e tem trajeto arqueado em direção ao polo occipital. Nos seus lábios está localizada a área visual primária do córtex cerebral.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.17,
+                    "y": 0.52,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Cúneo",
+                    "description": "Giro de forma triangular que se localiza no lobo occipital entre o sulco calcarino e o sulco parietoccipital.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.09,
+                    "y": 0.46,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Sulco Parietoccipital",
+                    "description": "Forma um ângulo agudo com o sulco calcarino e divide os lobos occipital e parietal na face medial.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.18,
+                    "y": 0.43,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Pré-Cúneo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.14,
+                    "y": 0.29,
+                    "placement": "right"
+                },
+                {
+                    "id": 6,
+                    "title": "Ramo Marginal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.2,
+                    "placement": "right"
+                },
+                {
+                    "id": 7,
+                    "title": "Lóbulo Paracentral",
+                    "description": "Lóbulo que está relacionado ao término do sulco central na face medial e, portanto, nele se localizam as áreas motora primária (anteriormente) e somestésica (posteriormente) dos membros inferiores.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.11,
+                    "placement": "right"
+                },
+                {
+                    "id": 8,
+                    "title": "Sulco Paracentral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.1,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Esplênio do Corpo Caloso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.42,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Tronco do Corpo Caloso",
+                    "description": "O corpo caloso é a maior das comissuras telencéfalicas e o maior feixe do sistema nervoso. Estabelece conexão entre áreas corticais simétricas dos hemisférios, com exceção das do lobo temporal, que são unidas pela comissura anterior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.31,
+                    "placement": "left"
+                },
+                {
+                    "id": 11,
+                    "title": "Sulco do Cíngulo ",
+                    "description": "Tem curso paralelo ao corpo caloso, do qual é separado pelo giro do cíngulo. Termina posteriormente dividindo-se em dois ramos, marginal e subparietal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 12,
+                    "title": "Giro do Cíngulo ",
+                    "description": "Contorna o corpo caloso, ligando-se ao giro para-hipocampal pelo istmo do giro do cíngulo. É percorrido pelo fascículo do cíngulo e integra o circuito de Papez.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.26,
+                    "placement": "left"
+                },
+                {
+                    "id": 13,
+                    "title": "Joelho do Corpo Caloso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.76,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 14,
+                    "title": "Rostro do Corpo Caloso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.72,
+                    "y": 0.42,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Vista Inferior",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/telencefalo/telencefalo11.png",
+            "pins": 
+
+            [
+                {
+                    "id": 0,
+                    "title": "Lobo Occipital",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.04,
+                    "y": 0.42,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Sulco Colateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Sulco Occipitotemporal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.37,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Giro Temporal Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.20,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Giro Occipitotemporal Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 12,
+                    "title": "Giro Occipitotemporal Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Giro Para-Hipocampal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Sulco do Hipocampo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Unco",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.58,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Giros Orbitários",
+                    "description": "Localizados lateralmente ao sulco olfatório e acima da órbita.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.89,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Sulco Olfatório",
+                    "description": "Importante sulco do lobo frontal, onde estão alojados o bulbo e o trato olfatório.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.86,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Giro Reto",
+                    "description": "Localizado medialmente ao sulco olfatório.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.76,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 11,
+                    "title": "Sulco Rinal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.32,
+                    "placement": "left"
+                }
+            ]    
+
+        },
+        {
+            "id": 0,
+            "title": "Vista Medial",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/telencefalo/telencefalo12.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Corpo Caloso ",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Septo Pelúcido",
+                    "description": "Duas delgadas lâminas de tecido nervoso que separam os cornos anteriores e a parte central dos ventrículos laterais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.31,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Fórnix",
+                    "description": "Fibras de projeção que liga o hipocampo aos corpos mamilares. Percorre de cima para baixo cada metade do hipotálamo, dividindo-o em áreas medial e lateral.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Forame Interventricular",
+                    "description": "São em número de dois e ligam cada ventrículo lateral ao III ventrículo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Comissura Anterior",
+                    "description": "Fibras de associação inter-hemisféricas que ligam os lobos temporais e os bulbos e tratos olfatórios.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Epitálamo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Hipotálamo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Ponte",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 11,
+                    "title": "Mesencéfalo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 13,
+                    "title": "Cerebelo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.1,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 15,
+                    "title": "Bulbo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.79,
+                    "placement": "left"
+                },
+                {
+                    "id": 16,
+                    "title": "Tálamo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.35,
+                    "placement": "left"
+                }
+            ]
+
+        },
+        {
+            "id": 0,
+            "title": "Vista Medial",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/telencefalo/telencefalo13.png",
+            "pins": 
+
+            [
+                {
+                    "id": 0,
+                    "title": "Coroa Radiada",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.21,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Quiasma Óptico",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.69,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Pedúnculo Cerebral (Mesencéfalo)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ponte",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.71,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Coroa Radiada",
+                    "description": "Fibras de projeção que dão continuidade à cápsula interna, acima do núcleo lentiforme, e conectam estruturas corticais e subcorticais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.48,
+                    "placement": "left"
+                }
+            ]
+
         }
     ]
 }

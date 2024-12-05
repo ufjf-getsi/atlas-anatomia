@@ -1,0 +1,232 @@
+{
+    "systemName": "Testículos",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "In situ",
+            "description": "",
+            "image": "./utils/sistemas/genital_masculino/testiculos/testiculos3.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Testículo Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.86,
+                    "y": 0.78,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Septo do Escroto",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.65,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Funículo Espermático",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.31,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Epidídimo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Testículo Direito",
+                    "description": "Gônada masculina responsável pela produção de espermatozoides e de hormônios sexuais. São em número de dois e localizam-se no escroto. É revestido externamente pela lâmina visceral da túnica vaginal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.66,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Lâmina Parietal da Túnica Vaginal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.62,
+                    "placement": "right"
+                },
+                {
+                    "id": 6,
+                    "title": "Músculo Cremaster e Fáscia Espermática Interna",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.39,
+                    "placement": "right"
+                },
+                {
+                    "id": 7,
+                    "title": "Fáscia Espermática Externa",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Túnica Dartos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Pele do Escroto",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.14,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vias Condutoras dos Gametas",
+            "description": "",
+            "image": "./utils/sistemas/genital_masculino/testiculos/testiculos1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Funículo Espermático",
+                    "description": "Se estende dos testículos ao ânulo inguinal profundo. Inclui o ducto deferente e estruturas vasculonervosas, com destaque para o plexo venoso pampiniforme e o ramo genital do nervo genitofemoral.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.7,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Ducto Deferente",
+                    "description": "Tubo muscular que transporta os espermatozoides do epidídimo até o ducto ejaculatório (formado pela união do ducto deferente com o ducto da glândula seminal).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Corpo do Epidídimo",
+                    "description": "O epidídimo é uma estrutura alongada que se localiza nas faces posterior e superior do testículo. Armazena os espermatozoides até o momento da ejaculação e se divide em cabeça, corpo e cauda.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Cabeça do Epidíidimo",
+                    "description": "É a parte superior expandida do epidídimo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Cauda do Epidídimo",
+                    "description": "É a porção mais fina do epidídimo, contínua com o ducto deferente.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.91,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Testículo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.78,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Corte Sagital",
+            "description": "",
+            "image": "./utils/sistemas/genital_masculino/testiculos/testiculos4.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Epidídimo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.13,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Parênquima Testicular",
+                    "description": "Formado principalmente pelos túbulos seminíferos contorcidos, além das células testiculares que são responsáveis pela produção dos hormônios sexuais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Mediastino do Testículo",
+                    "description": "Massa de tecido fibroso contínua com a túnica albugínea que aloja a rede testicular, local de convergência dos túbulos seminíferos retos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Túnica Albugínea",
+                    "description": "Membrana fibrosa resistente que reveste o testículo externamente e emite septos que o divide em lóbulos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.17,
+                    "y": 0.53,
+                    "placement": "right"
+                }
+            ]
+        }
+    ]
+}

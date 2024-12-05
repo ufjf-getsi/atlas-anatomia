@@ -1,0 +1,673 @@
+{
+    "systemName": "Órgãos Anexos",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "In situ - Fígado",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/glandulas/visceras_d5.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Ligamento Redondo do Fígado",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Ligamento Falciforme",
+                    "description": "Prega peritoneal que se estende entre o fígado e a parede anterior do abdome dividindo os lobos direito e esquerdo na face diafragmática.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.7,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Lobo Hepático Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Parede Abdominal Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.23,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Colo Transverso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.76,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Baço",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.22,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Anterior do Fígado",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/glandulas/glandulas1.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Lobo Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.19,
+                    "y": 0.42,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Lobo Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Ligamento Falciforme",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ligamento Redondo",
+                    "description": "Remanescente fibroso da veia umbilical. Compõe a margem livre do ligamento falciforme.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.71,
+                    "placement": "left"
+                }
+            ]           
+        },
+        {  
+            "id": 2,
+            "title": "Vista Inferior do Fígado",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/glandulas/glandulas2.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Lobo Hepático Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.17,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Ligamento Venoso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Lobo Caudado",
+                    "description": "Visível somente na face visceral, é localizado mais posterior e superiormente, entre a fissura do ligamento venoso e a veia cava inferior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.44,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Lobo Quadrado",
+                    "description": "Visível somente na face visceral, é localizado mais anterior e inferiormente, entre o ligamento redondo do fígado e a vesícula biliar.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Ligamento Redondo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.77,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Vesícula Biliar",
+                    "description": "É um órgão saculiforme que armazena a bile produzida pelo fígado.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.68,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Lobo Hepático Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.72,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Veia Cava Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.37,
+                    "placement": "left"
+                }
+            ]
+        },
+        {   
+            "id": 3,
+            "title": "Vista Inferior do Fígado ",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/glandulas/glandulas3.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Lobo Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.21,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Artéria Hepática Própria",
+                    "description": "Tem origem da artéria hepática comum e bifurca-se em ramos (artérias) direito e esquerdo. ",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Veia Porta",
+                    "description": "Responsável pela drenagem do sangue pouco oxigenado e rico em nutrientes do intestino, vesícula biliar, pâncreas e baço, direcionando-o ao fígado.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.69,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ducto Colédoco",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Vesícula Biliar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Lobo Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.72,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Veia Cava Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.39,
+                    "placement": "left"
+                } 
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Vista Superior do Fígado ",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/glandulas/glandulas4.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Lobo Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Óstios das Veias Hepáticas",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.66,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Veia Cava Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.65,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Óstio da Veia Cava Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.75,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Lobo Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.44,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Hilo Hepático e Vias Biliares",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/glandulas/glandulas6.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Lobo Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.21,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Lobo Caudado",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Veia Cava Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.27,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Lobo Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.8,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Vesícula Biliar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Ducto Cístico",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Ducto Hepático Comum",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Ducto Colédoco",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.67,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Hilo Hepático e Vias Biliares",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/glandulas/glandulas5.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Ducto Hepático Comum",
+                    "description": "Formado pela união dos ductos hepáticos comum direito e esquerdo, que drenam a bile dos respectivos lobos hepáticos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Ducto Colédoco",
+                    "description": "É formado pela junção do ducto hepático comum e ducto cístico. Tem trajeto descendente e carreia a bile até o duodeno.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.16,
+                    "y": 0.67,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Ducto Cístico",
+                    "description": "Tem origem no colo da vesícula biliar e se une ao ducto hepático comum para formar o ducto colédoco.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Artéria Cística",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Artéria Cística",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Vesícula Biliar",
+                    "description": "É um órgão em forma de saco, localizada inferiormente ao lobo direito do fígado, cuja função é armazenar a bile, secreção exócrina do fígado que atua na digestão de gorduras no intestino.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Porta Hepática",
+                    "description": "Sinônimo de hilo hepático, aloja as estruturas que entram ou saem do fígado, incluindo artéria hepática, veia porta, ductos hepáticos, vasos linfáticos e nervos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.34,
+                    "placement": "left"
+                }
+            ]
+        },
+        { 
+            "id": 7,
+            "title": "Vesícula Biliar",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/glandulas/glandulas7.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Ducto Cístico",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.18,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Colo",
+                    "description": "Parte mais estreita da vesícula biliar que mantém o ducto cístico aberto possibilitando a passagem da bile.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.22,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Corpo",
+                    "description": "Parte principal da vesícula biliar. Faz contato com a face visceral do fígado, colo transverso e parte superior do duodeno.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Fundo",
+                    "description": "Extremidade larga e arredondada da vesícula biliar, visível na margem inferior do fígado.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.9,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "In situ - Pâncreas",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/glandulas/glandulas8.png",
+            "pins":[
+                {
+                    "id": 0,
+                    "title": "Estômago (Rebatido)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.19,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Corpo do Pâncreas",
+                    "description": "Situa-se à esquerda dos vasos mesentéricos superiores e é contínuo com a cauda do órgão. Localiza-se anteriormente à aorta abdominal e à vértebra L2.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Cauda do Pâncreas",
+                    "description": "Tem estreita relação com o hilo esplênico e a flexura cólica esquerda, situando-se anteriormente ao rim esquerdo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.78,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Baço",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.78,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Rim Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.81,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Artéria Mesentérica Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Veia Mesentérica Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.55,
+                    "placement": "left"
+                },     
+                {
+                    "id": 11,
+                    "title": "Cabeça do Pâncreas ",
+                    "description": "Parte expandida do pâncreas, circundada pela curvatura duodenal, à direita dos vasos mesentéricos superiores, logo abaixo do piloro. O ducto colédoco está alojado no seu parênquima.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 12,
+                    "title": "Duodeno",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.25,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 13,
+                    "title": "Fígado",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.13,
+                    "y": 0.51,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

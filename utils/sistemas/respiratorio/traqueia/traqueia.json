@@ -1,0 +1,249 @@
+{
+    "systemName": "Traqueia",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Corte Sagital",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/traqueia/traqueia1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Palato Duro",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.21,
+                    "y": 0.17,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Porção Oral da Faringe",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.27,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Ádito da Laringe",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Osso Hioide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.42,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Mandíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.44,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Laringe",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Traqueia",
+                    "description": "Tubo fibrocartilagíneo que se estende da extremidade inferior da laringe (ao nível de C6) até o ângulo esternal (T4-T5), onde se ramifica nos brônquios principais. É formada por anéis cartilaginosos incompletos, unidos posteriormente pelo músculo traqueal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.69,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/traqueia/traqueia2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Osso Hioide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.09,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Cartilagem Tireóidea",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.19,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Proeminência da Laringe",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.19,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Cartilagem Cricóidea",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Glândula Tireoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Traqueia",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.68,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Brônquio Principal Direito",
+                    "description": "Possui 3cm de comprimento e se divide em 3 brônquios lobares. É mais vertical, mais curto e mais calibroso que o esquerdo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.84,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Brônquio Principal Esquerdo",
+                    "description": "Possui 5cm de comprimento e divide-se em 2 brônquios lobares.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.89,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/traqueia/traqueia3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Esôfago (Rebatido)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Músculo Cricoaritenóideo Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.44,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Cartilagem Cricóidea (Lâmina)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Traqueia (Porção Membranácea)",
+                    "description": "Formada por fibras musculares lisas (Músculo Traqueal) e tecido conjuntivo elástico, sem presença de tecido cartilaginoso.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Carina",
+                    "description": "É uma projeção cartilaginosa do último anel traqueal, ao nível da bifurcação da traqueia em brônquios principais esquerdo e direito. ",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Brônquio Principal Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.93,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Brônquio Principal Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.91,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

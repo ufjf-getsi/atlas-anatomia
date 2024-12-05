@@ -1,20 +1,130 @@
 {
-    "systemName": "Visão Geral",
+    "systemName": "Vascularização",
     "pieces": [
         {
             "id": 0,
-            "title": "Cíngulo",
+            "title": "Vista Anterior",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/acetabulo.png",
+            "image": "./utils/sistemas/nervoso/vascularizacao/vascularizacao.png",
             "pins": [
                 {
                     "id": 0,
-                    "title": "Acetábulo",
-                    "description": "Cavidade que se articula com a cabeça do fêmur.",
+                    "title": "Artéria Cerebral Posterior Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Artéria Cerebelar Superior Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Artéria Comunicante Posterior Esquerda",
+                    "description": "Ramo da artéria carótida interna, anastomosa-se com a artéria cerebral posterior, conectando os sistemas anterior e posterior, e contribuindo para a formação do Círculo Arterial do Cérebro (Polígono de Willis).",
                     "color": "red",
                     "url": "",
-                    "x": 0.62,
-                    "y": 0.39,
+                    "x": 0.54,
+                    "y": 0.17,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Artéria Vertebral Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Artéria Carótida Interna Esquerda",
+                    "description": "Ramo da bifurcação da artéria carótida comum, ascende no pescoço e penetra na cavidade craniana pelo canal carotídeo. Atravessa o seio cavernoso, formando o sifão carotídeo. Origina o sistema anterior de irrigação encefálica (ou carotídeo interno), que integra o Polígono de Willis. No início do sulco lateral, bifurca-se nas artérias cerebrais média e anterior. Origina também as artérias oftálmica, comunicante posterior e corióidea anterior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.11,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Artéria Cerebral Posterior Esquerda",
+                    "description": "Ramos da bifurcação da artéria basilar, as artérias cerebrais posteriores dirigem-se para trás e irrigam o lobo occipital e a face inferior do lobo temporal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.23,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Artéria Cerebelar Superior Esquerda",
+                    "description": "Ramo da artéria basilar, origina-se imediatamente antes da bifurcação nas artérias cerebrais posteriores. Distribui-se à região superior do cerebelo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Artéria Cerebelar Inferior Anterior Esquerda",
+                    "description": "Ramo da artéria basilar, distribui-se à porção anterior da face inferior do cerebelo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Artéria Basilar",
+                    "description": "Formada pela união das artérias vertebrais direita e esquerda. Percorre a região anterior da ponte e termina bifurcando-se nas artérias cerebrais posteriores. Juntamente com as artérias vertebrais, origina o sistema posterior de irrigação encefálica (ou vértebro-basilar), que integra o Polígono de Willis.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Artéria Labiríntica Esquerda",
+                    "description": "Ramo da artéria basilar, penetra no meato acústico interno junto com os nervos facial e vestibulococlear, vascularizando estruturas do ouvido interno.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 11,
+                    "title": "Artéria Vertebral Esquerda",
+                    "description": "Ramo da artéria subclávia esquerda, entra na cavidade craniana através do forame magno e une-se à artéria vertebral direita para formar a artéria basilar.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 13,
+                    "title": "Artéria Cerebelar Inferior Posterior Direita",
+                    "description": "Ramo da artéria vertebral, irriga a porção inferior e posterior do cerebelo e a área lateral do bulbo. Lesões dessa artéria comprometem várias estruturas, resultando na sintomatologia complexa da Síndrome de Wallemberg.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.73,
                     "placement": "left"
                 }
             ]

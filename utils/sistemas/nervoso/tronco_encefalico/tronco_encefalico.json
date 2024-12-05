@@ -1,23 +1,459 @@
 {
-    "systemName": "Visão Geral",
+    "systemName": "Tronco Encefálico",
     "pieces": [
         {
             "id": 0,
-            "title": "Cíngulo",
+            "title": "Vista Anterior",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/acetabulo.png",
+            "image": "./utils/sistemas/nervoso/tronco_encefalico/troncoencefalico1.png",
             "pins": [
                 {
                     "id": 0,
-                    "title": "Acetábulo",
-                    "description": "Cavidade que se articula com a cabeça do fêmur.",
+                    "title": "Mesencéfalo",
+                    "description": "É a porção mais superior do tronco encefálico.",
                     "color": "red",
                     "url": "",
-                    "x": 0.62,
-                    "y": 0.39,
+                    "x": 0.4,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Ponte",
+                    "description": "Porção do tronco encefálico interposta entre o bulbo e o mesencéfalo, localizada ventralmente ao cerebelo. Possui estrias transversais em sua base que convergem para formar o pedúnculo cerebelar médio.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Sulco Bulbopontino",
+                    "description": "Sulco horizontal situado entre a ponte e o bulbo. Nele emergem, de medial para lateral, o VI, VII e VIII pares cranianos (respectivamente os nervos abducente, facial e vestibulococlear). Além disso, entre o VII e VIII pares, emerge o chamado nervo intermédio, que é a raiz sensitiva do VII par.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Bulbo",
+                    "description": "É a porção inferior do tronco encefálico.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.53,
+                    "placement": "left"
+                }
+            ]    
+        }, 
+        {
+            "id": 1,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/tronco_encefalico/troncoencefalico2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Forame Cego",
+                    "description": "Forame onde a fissura mediana anterior termina ao encontrar-se com o sulco bulbopontino, na parte superior do bulbo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.50,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sulco Lateral Posterior",
+                    "description": "Nele emergem o IX, X e XI pares cranianos (respectivamente, os nervos glossofaríngeo, vago e acessório).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Sulco Lateral Anterior",
+                    "description": "Nele emerge o XII par craniano (nervo hipoglosso).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Mesencéfalo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Ponte",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Fissura Mediana Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.63,
                     "placement": "left"
                 }
             ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/tronco_encefalico/troncoencefalico3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Pedúnculo Cerebelar Inferior",
+                    "description": "Conjunto de fibras que ligam a medula espinal e o bulbo ao cerebelo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Pirâmide Bulbar",
+                    "description": "Eminência alongada formada pelas fibras do trato corticospinal. Encontra-se de cada lado da fissura mediana anterior, sendo medial ao sulco lateral anterior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Oliva Bulbar",
+                    "description": "Elevação oval da superfície bulbar situada entre os sulcos laterais anterior e posterior do bulbo. É formada por uma grande massa de substância cinzenta, o núcleo olivar inferior, situado logo abaixo da superfície.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Decussação das Pirâmides",
+                    "description": "Cruzamento das fibras do trato corticospinal na região inferior do bulbo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Mesencéfalo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Ponte",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.34,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/tronco_encefalico/troncoencefalico4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Pedúnculo Cerebral",
+                    "description": "Porção anterior do mesencéfalo. Dividido pela substância negra em base, anteriormente, e tegmento, posteriormente.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.23,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Pedúnculo Cerebelar Médio",
+                    "description": "Conjunto de fibras que ligam a ponte ao cerebelo, também conhecido como 'braço da ponte'. Por ele passam as fibras da via córtico-ponto-cerebelar.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.47,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Raiz Sensitiva do Nervo Trigêmeo",
+                    "description": "V par craniano, é um nervo misto predominantemente sensitivo. Suas duas raízes emergem entre a ponte e o pedúnculo cerebelar médio, sendo que a raiz sensitiva é mais espessa que a motora.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.33,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Sulco Basilar",
+                    "description": "Sulco longitudinal que aloja a artéria basilar.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Bulbo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.56,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Ponte",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/tronco_encefalico/troncoencefalico5.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Sulco Basilar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.13,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Base da Ponte",
+                    "description": "Porção anterior da ponte, separada do tegmento pelo corpo trapezoide. Pela base da ponte passam fibras longitudinais (tratos corticospinal, corticonuclear e corticopontino) e transversais (fibras ponto-cerebelares e corpo trapezoide). Os núcleos pontinos também estão localizados nessa região.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tegmento da Ponte",
+                    "description": "Porção posterior da ponte, separada da base pelo corpo trapezoide. No tegmento se situam diversos núcleos (cocleares, vestibulares, facial, abducente, salivatório superior e lacrimal).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.73,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Aqueduto Cerebral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.84,
+                    "placement": "left"
+                }
+            ]    
+        },
+        {
+            "id": 5,
+            "title": "Mesencéfalo",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/tronco_encefalico/troncoencefalico6.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Aqueduto Cerebral",
+                    "description": "Canal repleto de líquor, atravessa longitudinalmente o mesencéfalo, comunicando o III com o IV ventrículo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.72,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Teto do Mesencéfalo",
+                    "description": "Porção mesencefálica posterior ao aqueduto cerebral, onde estão situados os colículos superiores e inferiores.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.81,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tegmento do Mesencéfalo",
+                    "description": "Parte posterior do pedúnculo cerebral, encontra-se dorsalmente à substância negra.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Substância Negra",
+                    "description": "Neurônios dopaminérgicos que encontram-se a nível mesencefálico e servem de marco topográfico para separar a base (anterior) do tegmento (posterior) do pedúnculo cerebral. A depleção de dopamina nas fibras aí originadas causa a doença de Parkinson.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Base do Mesencéfalo",
+                    "description": "Parte anterior do pedúnculo cerebral, encontra-se ventralmente à substância negra.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.82,
+                    "y": 0.29,
+                    "placement": "left"
+                }
+            ]    
+        },
+        {
+            "id": 6,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/tronco_encefalico/troncoencefalico7.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Colículo Superior",
+                    "description": "Elevação do teto mesencefálico, formada por uma série de camadas alternadamente sobrepostas de subtâncias branca e cinzenta. Possui conexões com o corpo geniculado lateral através do braço do colículo superior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Colículo Inferior",
+                    "description": "Elevação do teto mesencefálico, constituída de uma massa bem delimitada de substância cinzenta. Possui conexões com o corpo geniculado medial através do braço do colículo inferior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "IV Ventrículo",
+                    "description": "Cavidade situada posteriormente ao bulbo e à ponte e anteriormente ao cerebelo. Contínua cranialmente com o aqueduto cerebral e caudalmente com o canal central do bulbo. Sua cavidade é repleta de líquor, produzido pelo plexo corióideo. Possui dois forames laterais e um mediano que o comunicam com o espaço subaracnóideo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.69,
+                    "placement": "left"
+                }
+            ]    
+        },
+        {
+            "id": 7,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/tronco_encefalico/troncoencefalico8.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Sulco Mediano",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Sulco Limitante",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Colículo Facial",
+                    "description": "É formado por fibras do nervo facial, que contornam o núcleo do nervo abducente.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Pedúnculo Cerebelar Médio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Trígono do Hipoglosso",
+                    "description": "Área triangular onde está localizado o núcleo do nervo hipoglosso, medialmente ao trígono do vago.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Trígono do Vago",
+                    "description": "Área triangular que corresponde ao núcleo dorsal do nervo vago, lateralmente ao trígono do hipoglosso.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.6,
+                    "placement": "left"
+                }
+            ]    
         }
     ]
 }

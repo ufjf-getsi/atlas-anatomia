@@ -1,20 +1,408 @@
 {
-    "systemName": "Visão Geral",
+    "systemName": "Cerebelo",
     "pieces": [
         {
             "id": 0,
-            "title": "Cíngulo",
+            "title": "Vista Posterior",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/acetabulo.png",
+            "image": "./utils/sistemas/nervoso/cerebelo/cerebelo1.png",
             "pins": [
                 {
                     "id": 0,
-                    "title": "Acetábulo",
-                    "description": "Cavidade que se articula com a cabeça do fêmur.",
+                    "title": "Hemisfério Cerebelar Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.73,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Hemisfério Cerebelar Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.71,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Verme",
+                    "description": "Porção mediana do cerebelo.",
                     "color": "red",
                     "url": "",
-                    "x": 0.62,
+                    "x": 0.54,
+                    "y": 0.74,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Inferior",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/cerebelo/cerebelo2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Lobo Posterior",
+                    "description": "Separado do lobo floculonodular pela fissura posterolateral e do lobo anterior pela fissura prima.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.66,
+                    "y": 0.88,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Tonsila",
+                    "description": "Lóbulo cerebelar localizado superiormente ao forame magno. Em situações de hipertensão intracraniana, as tonsilas podem herniar-se através desse forame e comprimir a região posterior do bulbo, comprometendo os centros vasomotor e respiratório, o que pode ser fatal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Lobo Floculonodular",
+                    "description": "Separado do lobo posterior pela fissura posterolateral, corresponde ao vestibulocerebelo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.68,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/cerebelo/cerebelo3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Lobo Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.21,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Lobo Floculonodular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tonsila",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.67,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Secção Transversal do Cerebelo",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/cerebelo/cerebelo4.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Verme",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Córtex Cerebelar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Corpo Medular do Cerebelo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Núcleo Denteado",
+                    "description": "É o núcleo cerebelar mais lateral. Medialmente a ele, localizam-se em sequência os núcleos interpósito (emboliforme e globoso) e fastigial.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.5,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Secção Sagital",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/cerebelo/cerebelo5.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Corpo Medular do Cerebelo",
+                    "description": "É a substância branca que, no cerebelo, tem localização central. Abriga os quatro pares de núcleos centrais do cerebelo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Córtex Cerebelar",
+                    "description": "É a substância cinzenta do cerebelo. Assim como o cérebro, o cerebelo faz parte do sistema nervoso suprassegmentar, portanto, possui a substância cinzenta (córtex) externa à substância branca (medula).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "IV Ventrículo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.52,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Secção Sagital",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/cerebelo/cerebelo6.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Fissura Prima",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.25,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Fissura Pós Clival",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.16,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Fissura Horizontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.14,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Fissura Pré Piramidal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.19,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Fissura Pós Piramidal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Fissura Posterolateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "IV Ventrículo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Fissura Pré Central",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
                     "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Fissura Pré Culminar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.25,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Secção Sagital",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/cerebelo/cerebelo7.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "IV Ventrículo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Língula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Lóbulo Central",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Cúlmen",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.22,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Declive",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Folium",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.16,
+                    "y": 0.42,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Túber",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.16,
+                    "y": 0.59,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Pirâmide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Úvula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Nódulo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.63,
                     "placement": "left"
                 }
             ]

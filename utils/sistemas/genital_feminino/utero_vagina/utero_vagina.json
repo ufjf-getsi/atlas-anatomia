@@ -1,0 +1,291 @@
+{
+    "systemName": "Útero e Vagina",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Útero e Vagina in situ",
+            "description": "",
+            "image": "./utils/sistemas/genital_feminino/utero_vagina/utero_vagina1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Vagina",
+                    "description": "Órgão feminino da cópula, comunica a cavidade uterina com o meio externo e possui paredes distensíveis. É local de passagem do fluxo menstrual e faz parte do canal de parto.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.8,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Uretra",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Bexiga",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Escavação Vesicouterina",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Fórnice da Vagina",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.74,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Fórnice da Vagina",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.65,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Escavação Retouterina",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.58,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Reto",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.8,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Útero",
+                    "description": "É um órgão muscular oco, com formato piriforme, que abriga o embrião durante a gestação.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.44,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Útero",
+            "description": "",
+            "image": "./utils/sistemas/genital_feminino/utero_vagina/utero_vagina2.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Vagina",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.8,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Bexiga",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Reto",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.8,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Corpo do Útero",
+                    "description": "Corresponde a dois terços do volume total do útero.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.44,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Fundo do Útero",
+                    "description": "Porção situada superiormente à abertura das tubas uterinas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Colo do Útero",
+                    "description": "Continuação do istmo, que se projeta na região superior da vagina.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.72,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Istmo do Útero",
+                    "description": "Estreitamento entre o colo e o corpo do útero.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.61,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Útero",
+            "description": "",
+            "image": "./utils/sistemas/genital_feminino/utero_vagina/utero_vagina5.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Perimétrio",
+                    "description": "Serosa que reveste externamente o útero e é constituída pelo peritônio.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.3,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Endométrio",
+                    "description": "Revestimento interno do útero, cuja espessura e irrigação variam nas diferentes fases do ciclo menstrual e da gestação.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.46,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Miométrio",
+                    "description": "Camada muscular lisa que compõe a maior parte da parede uterina.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.7,
+                    "y": 0.39,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Fórnice da Vagina",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.14,
+                    "y": 0.43,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Canal Vaginal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.15,
+                    "y": 0.49,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Cavidade do Útero",
+                    "description": "Juntamente com a vagina, compõe o canal do parto.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.48,
+                    "placement": "right"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Colo do Útero",
+            "description": "",
+            "image": "./utils/sistemas/genital_feminino/utero_vagina/utero_vagina7.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Óstio Uterino",
+                    "description": "Comunica a cavidade uterina com o canal da vagina. Seu formato pode variar em função do número de partos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.61,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Fórnice da Vagina",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.81,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Colo Uterino",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.42,
+                    "placement": "right"
+                }
+            ]
+        }
+    ]
+}
+    

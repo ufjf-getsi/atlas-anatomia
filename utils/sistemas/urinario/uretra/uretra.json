@@ -1,0 +1,184 @@
+{
+    "systemName": "Uretra",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Corte Sagital - Pelve Feminina",
+            "description": "",
+            "image": "./utils/sistemas/urinario/uretra/uretra1.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Útero",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Reto",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Bexiga",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Óstio Interno da Uretra",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.76,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Sínfise Púbica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.72,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Uretra Feminina",
+                    "description": "Conduz a urina da bexiga (óstio interno da uretra) até o meio externo (óstio externo da uretra). Na mulher, é curta e possui cerca de três a cinco centímetros, o que facilita a ocorrência de infecções urinárias.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.81,
+                    "placement": "left"
+                }
+            ]
+        
+        },
+        {
+            "id": 0,
+            "title": "Corte Sagital - Pelve Masculina",
+            "description": "",
+            "image": "./utils/sistemas/urinario/uretra/uretra2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Óstio Externo da Uretra",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.94,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.22,
+                    "y": 0.72,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Uretra - Parte Esponjosa",
+                    "description": "Atravessa o bulbo e o corpo esponjoso do pênis. Possui cerca de 15cm de comprimento e termina no óstio externo da uretra, que se abre na glande do pênis.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Testículo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                
+                {
+                    "id": 4,
+                    "title": "Próstata",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Uretra - Parte Membranácea",
+                    "description": "Atravessa o assoalho da pelve e possui cerca de 1 cm.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Uretra - Parte Prostática",
+                    "description": "A uretra masculina é uma estrutura comum aos sistemas urinário e genital. Tem início no óstio interno da uretra, é longa e possui cerca de 20cm de comprimento. A parte prostática da uretra tem cerca de 3cm e é envolvida pela próstata.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Óstio Interno da Uretra",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.66,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Bexiga",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.17,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Sínfise Púbica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.29,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

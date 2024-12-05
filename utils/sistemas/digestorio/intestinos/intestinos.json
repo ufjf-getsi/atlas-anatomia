@@ -1,0 +1,667 @@
+{
+    "systemName": "Intestinos",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "In situ - Estruturas da Cavidade Abdominal",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/intestinos/visceras_d.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Fígado",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.14,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Estômago",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.28,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Omento Maior",
+                    "description": "Prega peritoneal que pende como um avental a partir da curvatura maior do estômago e da parte proximal do duodeno, cobrindo anteriormente as estruturas da cavidade abdominal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.49,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "In situ - Estruturas da Cavidade Abdominal",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/intestinos/visceras_d2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Omento Maior (Rebatido)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.11,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Intestino Grosso (Colo Transverso)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Mesentério",
+                    "description": "Lâmina dupla de peritônio que possibilita a comunicação neurovascular entre o órgão e a parede posterior do abdome.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Intestino Delgado (Jejuno)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Peritônio Parietal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.67,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "In situ - Estruturas da Cavidade Abdominal",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/intestinos/visceras_d3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Fígado",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.18,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Intestino Grosso (Colo Transverso)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Estômago",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.19,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Intestino Delgado (Íleo)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.82,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Mesentério",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.64,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "In situ - Estruturas da Cavidade Abdominal",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/intestinos/visceras_d4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Estômago (Rebatido)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Pâncreas",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Baço",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.82,
+                    "y": 0.28,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Jejuno",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.74,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Artéria Mesentérica Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Veia Mesentérica Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.59,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Duodeno",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Fígado",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.13,
+                    "y": 0.53,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "In situ - Intestino Delgado",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/intestinos/visceras_d4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Estômago (Rebatido)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Parte Superior do Duodeno",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Pâncreas",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Jejuno",
+                    "description": "É a segunda porção do intestino delgado, interposta entre duodeno e íleo. O íleo termina na junção ileocecal, que corresponde ao início do intestino grosso.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.74,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Parte Ascendente do Duodeno",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Parte Horizontal do Duodeno",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Parte Descendente do Duodeno",
+                    "description": "O duodeno é primeira porção do intestino delgado e subdivide-se em partes superior, descendente, horizontal e ascendente.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.5,
+                    "placement": "right"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Duodeno - Vista Interna",
+            "description": "Vista Interna",
+            "image": "./utils/sistemas/digestorio/intestinos/intestinos1.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Parte Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.14,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Papila Maior do Duodeno",
+                    "description": "Pequena projeção mamilar na parede posteromedial, onde desembocam os ductos pancreático principal e colédoco (após se unirem formando a ampola hepatopancreática). A papila menor do duodeno (inconstante) é o orifício de drenagem do ducto pancreático acessório.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Parte Descendente (Pregas Circulares)",
+                    "description": "Pregas circulares são dobras de mucosa que se projetam para o interior do lúmen do intestino delgado.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.6,
+                    "placement": "right"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Jejuno - Vista Interna",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/intestinos/intestinos2.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Pregas Circulares",
+                    "description": "As pregas circulares do jejuno são grandes, altas e próximas umas às outras.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.39,
+                    "placement": "left"
+                }       
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Íleo Proximal - Vista Interna",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/intestinos/intestinos3.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Pregas Circulares",
+                    "description": "As pregas circulares da porção proximal do íleo são baixas e vão se tornando cada vez mais esparsas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.39,
+                    "placement": "left"
+                }         
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Íleo Distal - Vista Interna",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/intestinos/intestinos4.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Pregas Circulares",
+                    "description": "As pregas circulares da porção distal do íleo são praticamente ausentes.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.44,
+                    "placement": "left"
+                }                          
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Junção Ileocecal e Primeiros Segmentos do Intestino Grosso",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/intestinos/intestinos5.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Colo Ascendente",
+                    "description": "É o segundo segmento do intestino grosso, contínuo ao ceco, tendo como limite a flexura cólica direita (flexura hepática). O colo ascendente é mais estreito do que o ceco.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Tênia Livre",
+                    "description": "Condensação da musculatura longitudinal que percorre o intestino grosso em quase toda a sua extensão. São em número de três: livre, omental e mesocólica.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.59,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Ceco",
+                    "description": "Primeiro segmento do intestino grosso, onde desemboca o íleo. O intestino grosso é formado por: ceco, apêndice vermiforme, colos ascendente, transverso, descendente e sigmoide, reto e canal anal. ",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Apêndice Vermiforme",
+                    "description": "É um divertículo cecal cego e verdadeiro, que mede entre 6 cm e 10 cm de comprimento.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.79,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Junção Ileocecal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.68,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Porção Terminal do Íleo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.8,
+                    "y": 0.68,
+                    "placement": "left"
+                }     
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Ceco - Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/intestinos/intestinos6.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Tênia Livre",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Saculação do Ceco",
+                    "description": "Dilatações limitadas por sulcos transversais. O intestino grosso pode ser diferenciado do intestino delgado pela presença de tênias, saculações e apêndices omentais, além do maior diâmetro interno.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.21,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Ceco",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.84,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Porção Terminal do Íleo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Apêndice Vermiforme",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.76,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Apêndice Omental",
+                    "description": "Projeções adiposas pequenas, semelhantes ao omento.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.28,
+                    "placement": "left"
+                }     
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Ceco - Vista Interna",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/intestinos/intestinos8.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Frênulo do Óstio Ileal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Papila Ileal",
+                    "description": "Projeção mucosa na junção ileocecal que impede o refluxo do bolo fecal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Óstio Ileal",
+                    "description": "Abertura da porção terminal do íleo no ceco.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Frênulo do Óstio Ileal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.7,
+                    "y": 0.61,
+                    "placement": "right"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Colos - Vista Interna",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/intestinos/intestinos9.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Prega Semicircular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.69,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Saculação",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Prega Semicircular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Saculação",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Prega Semicircular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.41,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

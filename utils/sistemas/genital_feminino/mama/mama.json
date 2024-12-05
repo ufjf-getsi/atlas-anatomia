@@ -1,0 +1,83 @@
+{
+    "systemName": "Mama",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Mama Direita",
+            "description": "",
+            "image": "utils/sistemas/genital_feminino/mama/mama1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Quadrante Inferior Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.77,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Quadrante Inferior Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.75,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Quadrante Superior Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.7,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Quadrante Superior Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Processo Axilar da Mama",
+                    "description": "Porção da glândula mamária que se estende ao longo da margem inferolateral do músculo peitoral maior em direção à fossa axilar.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.25,
+                    "y": 0.12,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Papila Mamária",
+                    "description": "Projeção cônica de musculatura lisa circular, localizada no centro da aréola. É o local onde desembocam os ductos lactíferos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Aréola Mamária",
+                    "description": "Área que circunda a papila mamária. Constituída de pele pigmentada, com um maior concentração de glândulas sudoríparas e sebáceas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.62,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

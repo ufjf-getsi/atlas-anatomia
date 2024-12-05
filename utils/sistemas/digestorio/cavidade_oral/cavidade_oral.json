@@ -1,0 +1,703 @@
+{
+    "systemName": "Cavidade Oral",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Boca",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/cavidade_oral/cavidade_oral1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Comissura Labial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.09,
+                    "y": 0.46,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Lábios",
+                    "description": "Pregas musculofibrosas cobertas externamente por pele e internamente por mucosa.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.19,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Filtro Labial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.35,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Lábio Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Lábio inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Sulco Mentoniano",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.71,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Comissura Labial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.88,
+                    "y": 0.47,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vestíbulo da Boca",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/cavidade_oral/cavidade_oral4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Prega Vestibular (Mucolabial)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.15,
+                    "y": 0.37,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Frênulo do Lábio Superior",
+                    "description": "Prega mucosa que liga o lábio à gengiva adjacente.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.28,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Gengiva Labial Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Prega Vestibular (Mucolabial)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.81,
+                    "y": 0.33,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vestíbulo da Boca",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/cavidade_oral/cavidade_oral5.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Prega Vestibular (Mucolabial)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.54,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Gengiva Labial Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Prega Vestibular (Mucolabial)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Frênulo do Lábio Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.515,
+                    "y": 0.58,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Cavidade Própria da Boca",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/cavidade_oral/cavidade_oral9.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Prega Franjada",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Veia Lingual Profunda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Veia Lingual Profunda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Carúncula Sublingual",
+                    "description": "Onde se abrem o ducto da glândula submandibular a cada lado.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.81,
+                    "y": 0.89,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Frênulo da Língua",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.69,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Corte Sagital",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/cavidade_oral/cavidade_oral2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Cavidade Oral Propriamente Dita",
+                    "description": "A Cavidade Oral consiste em Vestíbulo da Boca e Cavidade Própria da Boca. O vestíbulo é uma fenda entre os lábios e as bochechas, externamente, e a gengiva e os dentes, internamente. A cavidade própria da boca, por sua vez, é o espaço interno às arcadas dentais e contém a língua.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.21,
+                    "y": 0.55,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Língua",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.64,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Corte Sagital",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/cavidade_oral/cavidade_oral6.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Lábio Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.18,
+                    "y": 0.55,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Lábio Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.615,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Palato Duro",
+                    "description": "É uma fina camada óssea que separa a cavidade oral da cavidade nasal, constituída anteriormente pelo processo palatino da maxila e posteriormente pela lâmina horizontal do osso palatino.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Língua",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Arco Palatoglosso",
+                    "description": "Compõe o limite entre a cavidade própria da boca e a parte oral da faringe.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Fossa Tonsilar",
+                    "description": "É limitada anteriomente pelo arco palatoglosso e posteriormente pelo arco palatofaríngeo. Abriga a tonsila palatina.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Arco Palatofaríngeo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Epiglote",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.66,
+                    "y": 0.65,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Palato Mole",
+                    "description": "Prega fibromuscular móvel suspensa da margem posterior do palato duro, constituindo o terço posterior do palato.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.46,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Língua",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/cavidade_oral/cavidade_oral7.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Sulco Terminal",
+                    "description": "Sulco em forma de V com ápice apontado posteriormente para o forame cego, limita o dorso da língua em corpo (2/3 anteriores) e raiz (1/3 posterior).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.19,
+                    "y": 0.445,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Istmo das Fauces",
+                    "description": "Comunicação entre a cavidade própria da boca e a parte oral da faringe. É limitado superiormente pelo palato mole, inferiormente pelo dorso da língua e lateralmente pelos arcos palatoglossos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.19,
+                    "y": 0.29,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Úvula Palatina",
+                    "description": "Projeção mediana do palato mole.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Forame Cego",
+                    "description": "Resquício não funcional da parte proximal do ducto tireoglossso embrionário a partir da qual a glândula tireóidea se desenvolveu.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Epiglote",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Raiz da Língua",
+                    "description": "Corresponde ao terço posterior da língua (parte fixa), onde estão localizadas as tonsilas linguais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Papila Circunvalada",
+                    "description": "Localizam-se anteriormente ao sulco terminal e são em número de 7, aproximadamente.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Corpo da Língua",
+                    "description": "Corresponde aos 2/3 anteriores da língua (parte móvel).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Ápice da Língua",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.94,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Raiz da Língua e Epiglote",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/cavidade_oral/cavidade_oral8.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Prega Glossoepiglótica Lateral",
+                    "description": "Prega lateral que liga a epiglote à língua.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Valécula Epiglótica",
+                    "description": "Depressão entre as pregas glossoepiglóticas mediana e lateral.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Prega Glossoepiglótica Mediana",
+                    "description": "Prega mediana que liga a epiglote à língua.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Valécula Epiglótica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.44,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Prega Glossoepiglótica Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Epiglote",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Raiz da Língua",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.58,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Arco Dental Mandibular",
+            "description": "",
+            "image": "utils/sistemas/digestorio/cavidade_oral/dentes1.png",
+            "pins": [
+                        {
+                            "id": 1,
+                            "title": "Pré-molares",
+                            "description": "Possuem superfície levemente arredondada, adaptada para esmagar e triturar os alimentos. São bicúspides.",
+                            "color": "red",
+                            "url": "",
+                            "x": 0.22,
+                            "y": 0.69,
+                            "placement": "left"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Canino",
+                            "description": "Possui forma cônica, adapatada para prender e rasgar o alimento.",
+                            "color": "red",
+                            "url": "",
+                            "x": 0.78,
+                            "y": 0.71,
+                            "placement": "left"
+                        },
+                        {
+                            "id": 3,
+                            "title": "Incisivos",
+                            "description": "Possuem margens cortantes e finas, adaptadas para cortar o alimento.",
+                            "color": "red",
+                            "url": "",
+                            "x": 0.59,
+                            "y": 0.86,
+                            "placement": "left"
+                        },
+                        {
+                            "id": 4,
+                            "title": "Molares",
+                            "description": "Possuem superfície ampla e plana, adaptada para esmagar e triturar os alimentos. Apresentam três ou mais cúspides.", 
+                            "color": "red",
+                            "url": "",
+                            "x": 0.89,
+                            "y": 0.47,
+                            "placement": "left"
+                        }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Arco Dental Mandibular",
+            "description": "",
+            "image": "utils/sistemas/digestorio/cavidade_oral/dentes2.png",
+            "pins": [
+                    {
+                        "id": 0,
+                        "title": "Incisivo Central",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.49,
+                        "y": 0.74,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 1,
+                        "title": "Incisivo Lateral",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.45,
+                        "y": 0.72,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Canino",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.41,
+                        "y": 0.7,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 7,
+                        "title": "1° Pré-Molar",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.37,
+                        "y": 0.65,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 8,
+                        "title": "2° Pré-Molar",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.37,
+                        "y": 0.58,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 9,
+                        "title": "1° Molar",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.33,
+                        "y": 0.51,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 11,
+                        "title": "2° Molar",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.31,
+                        "y": 0.41,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 12,
+                        "title": "3° Molar",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.29,
+                        "y": 0.32,
+                        "placement": "left"
+                    }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Arco Dental Mandibular",
+            "description": "",
+            "image": "utils/sistemas/digestorio/cavidade_oral/dentes3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Coroa do Dente",
+                    "description": "O dente é subdividido em coroa, colo e raiz. A coroa é a porção do dente que se projeta a partir da gengiva. O colo está interposto entre coroa e raiz. A raiz, por sua vez, é a porção fixa no alvéolo dental.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.50,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Colo do Dente",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.55,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

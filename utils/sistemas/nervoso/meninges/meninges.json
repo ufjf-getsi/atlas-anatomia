@@ -1,20 +1,144 @@
 {
-    "systemName": "Visão Geral",
+    "systemName": "Meninges",
     "pieces": [
         {
             "id": 0,
-            "title": "Cíngulo",
+            "title": "Vista Lateral Esquerda",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/acetabulo.png",
+            "image": "./utils/sistemas/nervoso/meninges/meninges1.png",
             "pins": [
                 {
-                    "id": 0,
-                    "title": "Acetábulo",
-                    "description": "Cavidade que se articula com a cabeça do fêmur.",
+                    "id": 1,
+                    "title": "Dura-Máter",
+                    "description": "É a mais externa e mais espessa das três meninges.",
                     "color": "red",
                     "url": "",
-                    "x": 0.62,
-                    "y": 0.39,
+                    "x": 0.39,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Artéria Meníngea Média",
+                    "description": "Ramo da artéria maxilar que, por sua vez, é ramo da artéria carótida externa. Nutre a dura-máter através de seus inúmeros ramos e origina o hematoma epidural ou extradural em caso de ruptura traumática.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.7,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Medial",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/meninges/meninges2.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Seio Sagital Superior",
+                    "description": "Canal venoso revestido por endotélio, situado entre os dois folhetos da dura-máter. Situa-se ao longo da margem de inserção da foice do cérebro e drena o sangue venoso encefálico para a confluência dos seios.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.22,
+                    "y": 0.22,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Foice do Cérebro",
+                    "description": "Prega formada pelo desprendimento do folheto interno da dura-máter. Localiza-se na fissura longitudinal do cérebro e marca a divisão entre os hemisférios cerebrais esquerdo e direito.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Seio Sagital Inferior",
+                    "description": "Seio da dura-máter, com sentido antero-posterior, percorre a margem livre da foice do cérebro, desembocando no seio reto.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Seio Reto",
+                    "description": "Seio venoso pequeno e retilíneo, drena o sangue do seio sagital inferior até a confluência dos seios.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.17,
+                    "y": 0.59,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Inferior",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/meninges/meninges3.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Foice do Cérebro",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tentório do Cerebelo",
+                    "description": "Prega transversal formada pelo desprendimento do folheto interno da dura-máter. Divide a cavidade craniana nos compartimentos supratentorial e infratentorial. Separa o lobo occipital do cérebro e o cerebelo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.20,
+                    "y": 0.56,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Medula Espinal",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/meninges/meninges4.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Medula Espinal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.65,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Pia-máter",
+                    "description": "É a meninge mais interna e delicada, intimamente relacionada ao tecido nervoso. Após o término da medula espinal, no cone medular, a pia-máter continua como filamento terminal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Dura-máter e Aracnoide",
+                    "description": "A dura-máter é a meninge mais externa e mais espessa. Envolve a medula por toda a sua extensão e termina formando o saco dural. A aracnoide está intimamente relacionada com a dura-máter e emite as trabéculas aracnóideas, que atravessam o espaço subaracnoide em direção à pia-máter.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.2,
                     "placement": "left"
                 }
             ]

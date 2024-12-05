@@ -1,0 +1,470 @@
+{
+    "systemName": "Nariz",
+    "pieces": [
+    {
+        "id": 0,
+        "title": "Vista Anterior",
+        "description": "",
+        "image": "./utils/sistemas/respiratorio/nariz/nariz1.png",
+        "pins":[
+            {
+                "id": 1,
+                "title": "Ápice do Nariz",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.5,
+                "y": 0.45,
+                "placement": "left"
+            },
+            {
+                "id": 2,
+                "title": "Asa do Nariz",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.76,
+                "y": 0.5,
+                "placement": "left"
+            },
+            {
+                "id": 3,
+                "title": "Narina Direita",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.36,
+                "y": 0.58,
+                "placement": "left"
+            },
+            {
+                "id": 4,
+                "title": "Narina Esquerda",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.66,
+                "y": 0.58,
+                "placement": "left"
+            },
+            {
+                "id": 5,
+                "title": "Septo Nasal",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.51,
+                "y": 0.62,
+                "placement": "left"
+            }          
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Vista Lateral",
+        "description": "",
+        "image": "./utils/sistemas/respiratorio/nariz/nariz2.png",
+        "pins":[
+            {
+                "id": 0,
+                "title": "Raiz do Nariz",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.52,
+                "y": 0.18,
+                "placement": "left"
+            },
+            {
+                "id": 1,
+                "title": "Dorso do Nariz",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.62,
+                "y": 0.33,
+                "placement": "left"
+            },
+            {
+                "id": 2,
+                "title": "Ápice do Nariz",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.81,
+                "y": 0.61,
+                "placement": "left"
+            },
+            {
+                "id": 3,
+                "title": "Asa do Nariz",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.47,
+                "y": 0.68,
+                "placement": "left"
+            }
+        ]
+    },
+    {
+        "id": 2,
+       "title": "Cavidade Nasal - Corte Sagital",
+       "description": "",
+       "image": "./utils/sistemas/respiratorio/nariz/nariz3.png",
+       "pins":[
+            {
+                "id": 0,
+                "title": "Vestíbulo do Nariz",
+                "description": "Região anterior da cavidade nasal, revestida por pele rica em pelos e glândulas sebáceas.",
+                "color": "red",
+                "url": "",
+                "x": 0.08,
+                "y": 0.37,
+                "placement": "right"
+            },
+            {
+                "id": 1,
+                "title": "Limiar do Nariz",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.12,
+                "y": 0.33,
+                "placement": "left"
+            },
+            {
+                "id": 4,
+                "title": "Região Respiratória",
+                "description": "Conchas nasais média e inferior e os dois terços inferiores da cavidade nasal e do septo nasal.",
+                "color": "red",
+                "url": "",
+                "x": 0.26,
+                "y": 0.34,
+                "placement": "left"
+            },
+            {
+                "id": 4,
+                "title": "Região Olfatória",
+                "description": "Concha nasal superior e o terço superior do septo nasal.",
+                "color": "red",
+                "url": "",
+                "x": 0.34,
+                "y": 0.24,
+                "placement": "left"
+            },
+            {
+                "id": 5,
+                "title": "Seio Esfenoidal",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.42,
+                "y": 0.24,
+                "placement": "left"
+            },
+            {
+                "id": 5,
+                "title": "Palato Duro",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.19,
+                "y": 0.44,
+                "placement": "left"
+            },
+            {
+                "id": 6,
+                "title": "Cavidade Oral",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.38,
+                "y": 0.52,
+                "placement": "left"
+            }
+    ]
+    },
+    {
+        "id": 3,
+        "title": "Cavidade Nasal - Corte Sagital",
+        "description": "",
+        "image": "./utils/sistemas/respiratorio/nariz/nariz4.png",
+        "pins":[
+            {
+                "id": 0,
+                "title": "Língua",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.38,
+                "y": 0.59,
+                "placement": "left"
+            },
+            {
+                "id": 1,
+                "title": "Meato Nasal Inferior",
+                "description": "Espaço existente entre a concha nasal inferior e o palato, no qual se abre o ducto lacrimonasal.",
+                "color": "red",
+                "url": "",
+                "x": 0.22,
+                "y": 0.4,
+                "placement": "right"
+            },
+            {
+                "id": 3,
+                "title": "Concha Nasal Inferior",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.28,
+                "y": 0.37,
+                "placement": "left"
+            },
+            {
+                "id": 4,
+                "title": "Meato Nasal Médio",
+                "description": "É o mais longo e profundo dos meatos, no qual se abrem os seios frontal, etmoidal anterior e maxilar.",
+                "color": "red",
+                "url": "",
+                "x": 0.24,
+                "y": 0.32,
+                "placement": "right"
+            },
+            {
+                "id": 5,
+                "title": "Concha Nasal Média",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.29,
+                "y": 0.3,
+                "placement": "left"
+            },
+            {
+                "id": 6,
+                "title": "Meato Nasal Superior",
+                "description": "Passagem estreita entre as conchas superior e média, no qual se abrem os seios etmoidais posteriores.",
+                "color": "red",
+                "url": "",
+                "x": 0.36,
+                "y": 0.29,
+                "placement": "left"
+            },
+            {
+                "id": 8,
+                "title": "Concha Nasal Superior",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.35,
+                "y": 0.25,
+                "placement": "left"
+            },
+            {
+                "id": 9,
+                "title": "Vestíbulo",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.08,
+                "y": 0.36,
+                "placement": "left"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Cavidade Nasal - Corte Sagital",
+        "description": "",
+        "image": "./utils/sistemas/respiratorio/nariz/nariz6.png",
+        "pins":[
+            {
+                "id": 0,
+                "title": "Septo Nasal",
+                "description": "Divide a cavidade nasal. Formado por: cartilagem do septo nasal, lâmina perpendicular do osso etmoide e osso vômer.",
+                "color": "red",
+                "url": "",
+                "x": 0.16,
+                "y": 0.34,
+                "placement": "left"
+            },
+            {
+                "id": 1,
+                "title": "Seio Esfenoidal",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.36,
+                "y": 0.24,
+                "placement": "left"
+            },
+            {
+                "id": 2,
+                "title": "Cóanos",
+                "description": "Aberturas entre a cavidade nasal e a nasofaringe.",
+                "color": "red",
+                "url": "",
+                "x": 0.4,
+                "y": 0.36,
+                "placement": "left"
+            },
+            {
+                "id": 3,
+                "title": "Língua",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.41,
+                "y": 0.58,
+                "placement": "left"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Cavidade Nasal - Corte Sagital",
+        "description": "",
+        "image": "./utils/sistemas/respiratorio/nariz/nariz7.png",
+        "pins":[
+            {
+                "id": 0,
+                "title": "Região Olfatória",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.22,
+                "y": 0.34,
+                "placement": "left"
+            },
+            {
+                "id": 1,
+                "title": "Região Respiratória",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.16,
+                "y": 0.43,
+                "placement": "right"
+            },
+            {
+                "id": 2,
+                "title": "Vestíbulo",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.05,
+                "y": 0.46,
+                "placement": "right"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Cavidade Nasal - Corte Coronal",
+        "description": "",
+        "image": "./utils/sistemas/respiratorio/nariz/nariz8.png",
+        "pins":[
+            {
+                "id": 0,
+                "title": "Seio Frontal",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.23,
+                "y": 0.34,
+                "placement": "left"
+            },
+            {
+                "id": 3,
+                "title": "Seio Etmoidal",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.24,
+                "y": 0.41,
+                "placement": "left"
+            },
+            {
+                "id": 4,
+                "title": "Seio Maxilar",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.19,
+                "y": 0.52,
+                "placement": "left"
+            },
+            {
+                "id": 7,
+                "title": "Seio Frontal",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.77,
+                "y": 0.37,
+                "placement": "left"
+            },
+            {
+                "id": 9,
+                "title": "Seio Etmoidal",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.76,
+                "y": 0.48,
+                "placement": "left"
+            },
+            {
+                "id": 11,
+                "title": "Seio Maxilar",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.8,
+                "y": 0.55,
+                "placement": "left"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Cavidade Nasal - Corte Transversal",
+        "description": "",
+        "image": "./utils/sistemas/respiratorio/nariz/nariz9.png",
+        "pins":[
+            {
+                "id": 0,
+                "title": "Seio Maxilar",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.37,
+                "y": 0.65,
+                
+                "placement": "left"
+            },
+            {
+                "id": 1,
+                "title": "Seio Maxilar",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.61,
+                "y": 0.67,
+                "placement": "left"
+            },
+            {
+                "id": 2,
+                "title": "Septo Nasal",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.5,
+                "y": 0.81,
+                "placement": "left"
+            }
+        ]
+    }     
+    ]
+}

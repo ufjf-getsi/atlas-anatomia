@@ -1,0 +1,114 @@
+{
+    "systemName": "Órgãos In situ",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Corte Sagital da Pelve Masculina",
+            "description": "",
+            "image": "./utils/sistemas/genital_masculino/visceras_gm/visceras_gm1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Bexiga Urinária",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.7,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Próstata",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Sínfise Púbica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.28,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Bulbo do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.59,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Testículo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Corpo do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.73,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Óstio Externo da Uretra",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.95,
+                    "placement": "left"
+                },
+                {
+                    "id": 11,
+                    "title": "Escroto",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.89,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Reto",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.81,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Prepúcio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.17,
+                    "y": 0.9,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

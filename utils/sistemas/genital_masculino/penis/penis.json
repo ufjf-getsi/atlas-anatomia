@@ -1,0 +1,563 @@
+{
+    "systemName": "Pênis e Escroto",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/genital_masculino/penis/penis10.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Corpo do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Testículo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.89,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Epidídimo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.82,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Funículo Espermático",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Ducto Deferente",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Raiz do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Próstata",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.37,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Glândula Seminal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.17,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Bexiga Urinária",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.23,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/genital_masculino/penis/penis1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Corpo do Pênis",
+                    "description": "O pênis é o órgão masculino da cópula e compõe, juntamente com o escroto, os órgãos genitais externos. É composto por raiz, corpo e glande.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Glande do Pênis",
+                    "description": "Dilatação anterior do corpo esponjoso do pênis.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.88,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Escroto",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.61,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/genital_masculino/penis/penis3.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Corpo do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Escroto",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Glande do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.91,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Frênulo do Prepúcio",
+                    "description": "Prega mediana anterior que vai da camada profunda do prepúcio até a face uretral da glande do pênis.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.436,
+                    "y": 0.87,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Coroa da Glande",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.77,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Colo da Glande",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.8,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Prepúcio",
+                    "description": "Dupla cadama de pele, com extensão variável, que recobre a glande.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.7,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Vista Inferolateral",
+            "description": "",
+            "image": "./utils/sistemas/genital_masculino/penis/penis2.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Corpo do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.35,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Glande do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.83,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Escroto",
+                    "description": "Saco cutâneo constituído por uma camada acentuadamente pigmentada de pele e pela túnica dartos, que aloja os testículos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.22,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Rafe do Escroto",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.7,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Vista Anterior - Glande",
+            "description": "",
+            "image": "./utils/sistemas/genital_masculino/penis/penis4.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Glande do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.13,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Óstio Externo da Uretra",
+                    "description": "Orifício de abertura da uretra masculina para o meio externo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.22,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Escroto",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.66,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Corte Transversal",
+            "description": "",
+            "image": "./utils/sistemas/genital_masculino/penis/penis5.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Pele",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Corpo Cavernoso do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.41,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Corpo Cavernoso do Pênis",
+                    "description": "São corpos cilíndricos de tecido erétil, revestidos externamente pela túnica albugínea.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.2,
+                    "y": 0.52,
+                    "placement": "right"
+                },
+                {
+                    "id": 5,
+                    "title": "Túnica Albugínea",
+                    "description": "Membrana conjuntiva que envolve os corpos cavernosos e o corpo esponjoso do pênis. ",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.25,
+                    "y": 0.35,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Parte Esponjosa da Uretra",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.65,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Corpo Esponjoso do Pênis",
+                    "description": "Estrutura erétil que se continua a partir do bulbo do pênis. É local de passagem da parte esponjosa da uretra e se expande para formar a glande do pênis.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.71,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Corte Transversal",
+            "description": "",
+            "image": "./utils/sistemas/genital_masculino/penis/penis6.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Artéria Profunda do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Artéria Profunda do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.59,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Veia Dorsal Profunda do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.19,
+                    "y": 0.31,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Veia Dorsal Profunda do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.8,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Artéria Dorsal do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.76,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Artéria Dorsal do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.81,
+                    "y": 0.43,
+                    "placement": "right"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Corte Sagital",
+            "description": "",
+            "image": "./utils/sistemas/genital_masculino/penis/penis7.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Parte Esponjosa da Uretra",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.83,
+                    "y": 0.695,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Corpo Esponjoso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.69,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Fossa Navicular",
+                    "description": "Dilatação anterior da porção esponjosa da uretra ao nível da glande.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.12,
+                    "y": 0.69,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Glande do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.11,
+                    "y": 0.59,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Corpo Cavernoso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.61,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/genital_masculino/penis/penis9.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Raiz do Pênis",
+                    "description": "Porção fixa do pênis localizada no espaço superficial do períneo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.08,
+                    "y": 0.73,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Ramos do Pênis",
+                    "description": "São as porções posteriores dos corpos cavernosos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.63,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Bulbo do Pênis",
+                    "description": "Dilatação posterior do corpo esponjoso que prende o pênis ao assoalho pélvico.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.76,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Corpo Esponjoso do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.22,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Corpo Cavernoso do Pênis",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.19,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

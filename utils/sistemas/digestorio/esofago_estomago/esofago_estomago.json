@@ -1,0 +1,199 @@
+{
+    "systemName": "Esôfago e Estômago",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "utils/sistemas/digestorio/esofago_estomago/esofago_estomago1.png",
+            "pins": [
+                    {
+                        "id": 0,
+                        "title": "Duodeno",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.18,
+                        "y": 0.68,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 1,
+                        "title": "Estômago",
+                        "description": "Órgão muscular oco entre o esôfago e o intestino delgado, especializado no armazenamento do alimento ingerido.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.73,
+                        "y": 0.74,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Esôfago",
+                        "description": "Tubo muscular com a função de transportar o alimento da faringe até o estômago através de movimentos musculares (peristaltismo). É dividido em porções cervical, torácica e abdominal, sendo o diafragma o limite entre as duas últimas.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.7,
+                        "y": 0.3,
+                        "placement": "left"
+                    }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "utils/sistemas/digestorio/esofago_estomago/esofago_estomago2.png",
+            "pins": [
+                    {
+                        "id": 0,
+                        "title": "Incisura Cárdica",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.54,
+                        "y": 0.09,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 1,
+                        "title": "Esôfago",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.45,
+                        "y": 0.13,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Cárdia",
+                        "description": "Parte adjacente à desembocadura do esôfago, onde está localizado o óstio cárdico (abertura superior do estômago).",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.49,
+                        "y": 0.24,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Fundo",
+                        "description": "Parte superior dilatada, localizada acima do nível de desembocadura do esôfago.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.63,
+                        "y": 0.15,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Corpo",
+                        "description": "Situa-se entre o fundo e a parte pilórica. Corresponde à maior parte do estômago.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.65,
+                        "y": 0.59,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 5,
+                        "title": "Curvatura Menor",
+                        "description": "Constitui a margem côncava do estômago.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.38,
+                        "y": 0.42,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 6,
+                        "title": "Incisura Angular",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.38,
+                        "y": 0.51,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 8,
+                        "title": "Parte Pilórica",
+                        "description": "Região de saída do estômago. Sua parte larga (antro pilórico) é contínua com a parte estreita (canal pilórico).",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.36,
+                        "y": 0.7,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 9,
+                        "title": "Piloro",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.18,
+                        "y": 0.68,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 10,
+                        "title": "Duodeno",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.09,
+                        "y": 0.67,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 11,
+                        "title": "Curvatura Maior",
+                        "description": "Constitui a margem convexa do estômago.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.94,
+                        "y": 0.61,
+                        "placement": "left"
+                    }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Vista Interna",
+            "description": "",
+            "image": "utils/sistemas/digestorio/esofago_estomago/esofago_estomago4.png",
+            "pins": [
+                    {
+                        "id": 0,
+                        "title": "Duodeno",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.07,
+                        "y": 0.45,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 1,
+                        "title": "Esfíncter Pilórico",
+                        "description": "É um espessamento da camada circular de músculo liso que controla o esvaziamento do estômago, regulando a passagem do quimo através do óstio pilórico para o duodeno.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.16,
+                        "y": 0.37,
+                        "placement": "right"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Pregas Gástricas",
+                        "description": "A mucosa do estômago, quando contraída, forma as pregas gástricas, que desaparecem quando ocorre a distensão do órgão.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.73,
+                        "y": 0.46,
+                        "placement": "left"
+                    }
+                ]
+        }
+    ]
+}

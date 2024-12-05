@@ -1,832 +1,777 @@
 {
-    "systems": [
+  "systems": [
+    {
+      "locked": false,
+      "systemName": "Esquelético",
+      "id": 0,
+      "path": "#esqueletico",
+      "section": "subsystems",
+      "subsystems": [
         {
-            "locked": false,
-            "systemName": "Esquelético",
-            "id": 0,
-            "path": "#esqueletico",
-            "section": "subsystems",
-            "subsystems": [
-                {
-                    "systemName": "Crânio",
-                    "path": "#cranio-E",
-                    "section": "subsystems",
-                    "subsystems": [
-                        {
-                            "systemName": "Vistas do Crânio",
-                            "id": 0,
-                            "path": "#vistas-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/cranio/vistas/vistas.json",
-                            "image": "./utils/imagens/icone_vistasdocranio.png"
-                        },
-                        {
-                            "systemName": "Base do Crânio",
-                            "id": 0,
-                            "path": "#base-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/cranio/base/base.json",
-                            "image": "./utils/imagens/icone_basedocranio.png"
-                        },
-                        {
-                            "systemName": "Mandíbula",
-                            "id": 0,
-                            "path": "#mandibula-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/cranio/mandibula/mandibula.json",
-                            "image": "./utils/imagens/icone_mandibula.png"
-                        },
-                        {
-                            "systemName": "Pontos Craniométricos",
-                            "id": 0,
-                            "path": "#pontos-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/cranio/pontos_craniometricos/pontos_craniometricos.json",
-                            "image": "./utils/imagens/icone_pontoscraniometricos.png"
-                        },
-                        {
-                            "systemName": "Crânios Infantis",
-                            "id": 0,
-                            "path": "#cranios-infantis-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/cranio/cranios_infantis/cranios_infantis.json",
-                            "image": "./utils/imagens/icone_craniosinfantis.png"
-                        }
-                    ],
-                    "image": "./utils/imagens/icone_vistasdocranio.png"
-                },
-                {
-                    "systemName": "Tronco",
-                    "path": "#tronco-E",
-                    "section": "subsystems",
-                    "subsystems": [
-                        {
-                            "systemName": "Coluna Vertebral",
-                            "id": 0,
-                            "path": "#coluna-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/tronco/coluna/coluna.json",
-                            "image": "./utils/imagens/icone_coluna.png"
-                        },
-                        {
-                            "systemName": "Costelas",
-                            "id": 0,
-                            "path": "#costelas-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/tronco/costelas/costelas.json",
-                            "image": "./utils/imagens/icone_costelas.png"
-                        },
-                        {
-                            "systemName": "Esterno",
-                            "id": 0,
-                            "path": "#esterno-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/tronco/esterno/esterno.json",
-                            "image": "./utils/imagens/icone_esterno.png"
-                        }
-                    ],
-                    "image": "./utils/imagens/icone_coluna.png"
-                }, 
-                {
-                    "systemName": "Membro Superior",
-                    "path": "#membro-superior-E",
-                    "section": "subsystems",
-                    "subsystems": [
-                        {
-                            "systemName": "Cíngulo dos Membros Superiores",
-                            "id": 0,
-                            "path": "#cingulo-dos-mmss-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/membro_superior/cingulo/cingulo.json",
-                            "image": "./utils/imagens/icone_cingulodosmmss.png"
-                        },
-                        {
-                            "systemName": "Braço",
-                            "id": 0,
-                            "path": "#braco-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/membro_superior/braco/braco.json",
-                            "image": "./utils/imagens/icone_braco.png"
-                        },
-                        {
-                            "systemName": "Antebraço",
-                            "id": 0,
-                            "path": "#antebraco-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco.json",
-                            "image": "./utils/imagens/icone_antebraco.png"
-                        },
-                        {
-                            "systemName": "Mão",
-                            "id": 0,
-                            "path": "#mao-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/membro_superior/mao/mao.json",
-                            "image": "./utils/imagens/icone_mao.png"
-                        }
-                    ],
-                    "image": "./utils/imagens/icone_cingulodosmmss.png"
-                },
-                {
-                    "systemName": "Membro Inferior",
-                    "path": "#membro-inferior-E",
-                    "section": "subsystems",
-                    "subsystems": [
-                        {
-                            "systemName": "Cíngulo",
-                            "id": 0,
-                            "path": "#cingulo-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/membro_inferior/cingulo/cingulo.json",
-                            "image": "./utils/imagens/icone_cingulodosmmii.png"
-                        },
-                        {
-                            "systemName": "Coxa",
-                            "id": 0,
-                            "path": "#coxa-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/membro_inferior/coxa/coxa.json",
-                            "image": "./utils/imagens/icone_coxa.png"
-                        },
-                        {
-                            "systemName": "Patela",
-                            "id": 0,
-                            "path": "#patela-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/membro_inferior/patela/patela.json",
-                            "image": "./utils/imagens/icone_patela.png"
-                        },
-                        {
-                            "systemName": "Perna",
-                            "id": 0,
-                            "path": "#perna-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/membro_inferior/perna/perna.json",
-                            "image": "./utils/imagens/icone_perna.png"
-                        },
-                        {
-                            "systemName": "Pé",
-                            "id": 0,
-                            "path": "#pe-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/membro_inferior/pe/pe.json",
-                            "image": "./utils/imagens/icone_pe.png"
-                        }
-                    ],
-                    "image": "./utils/imagens/icone_cingulodosmmii.png"
-                }
-            ],
-            "image": "./utils/imagens/icone_esqueletico.png"
+          "systemName": "Crânio",
+          "path": "#cranio-E",
+          "section": "subsystems",
+          "subsystems": [
+            {
+              "systemName": "Vistas do Crânio",
+              "id": 0,
+              "path": "#vistas-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/cranio/vistas/vistas.json",
+              "image": "./utils/imagens/icone_vistasdocranio.png"
+            },
+            {
+              "systemName": "Base do Crânio",
+              "id": 0,
+              "path": "#base-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/cranio/base/base.json",
+              "image": "./utils/imagens/icone_basedocranio.png"
+            },
+            {
+              "systemName": "Mandíbula",
+              "id": 0,
+              "path": "#mandibula-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/cranio/mandibula/mandibula.json",
+              "image": "./utils/imagens/icone_mandibula.png"
+            },
+            {
+              "systemName": "Pontos Craniométricos",
+              "id": 0,
+              "path": "#pontos-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/cranio/pontos_craniometricos/pontos_craniometricos.json",
+              "image": "./utils/imagens/icone_pontoscraniometricos.png"
+            },
+            {
+              "systemName": "Crânios Infantis",
+              "id": 0,
+              "path": "#cranios-infantis-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/cranio/cranios_infantis/cranios_infantis.json",
+              "image": "./utils/imagens/icone_craniosinfantis.png"
+            }
+          ],
+          "image": "./utils/imagens/icone_vistasdocranio.png"
         },
         {
-            "locked": false,
-            "systemName": "Articular",
-            "id": 1,
-            "path": "#articular",
-            "section": "subsystems",
-            "subsystems": [
-                {
-                    "systemName": "Cabeça",
-                    "path": "#cabeça-A",
-                    "id": 0,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/articular/cabeca/cabeca.json", 
-                    "image": "./utils/imagens/icone_cabeca_A.png"
-                },
-                {
-                    "systemName": "Tronco",
-                    "path": "#tronco-A",
-                    "id": 1,
-                    "section": "subsystems",
-                    "subsystems": [
-                        {
-                            "systemName": "Coluna Vertebral",
-                            "id": 0,
-                            "path": "#coluna-vertebral-A",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/articular/tronco/coluna/coluna.json",
-                            "image": "./utils/imagens/icone_coluna_A.png"
-                        },
-                        {
-                            "systemName": "Esterno e Gradil Costal",
-                            "id": 1,
-                            "path": "#esterno-A",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/articular/tronco/esterno/esterno.json",
-                            "image": "./utils/imagens/icone_esterno_A.png"
-                        }
-                    ],
-                    "image": "./utils/imagens/icone_coluna_A.png"
-                },
-                {
-                    "systemName": "Membro Superior",
-                    "path": "#membro-superior-A",
-                    "id": 2,
-                    "section": "subsystems",
-                    "subsystems": [
-                        {
-                            "systemName": "Ombro",
-                            "id": 0,
-                            "path": "#ombro-A",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/articular/membro_superior/ombro/ombro.json",
-                            "image": "./utils/imagens/icone_ombro_A.png"
-                        },
-                        {
-                            "systemName": "Cotovelo",
-                            "id": 1,
-                            "path": "#cotovelo-A",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/articular/membro_superior/cotovelo/cotovelo.json",
-                            "image": "./utils/imagens/icone_cotovelo_A.png"
-                        },
-                        {
-                            "systemName": "Mão",
-                            "id": 2,
-                            "path": "#mao-A",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/articular/membro_superior/mao/mao.json",
-                            "image": "./utils/imagens/icone_mao_A.png"
-                        }
-                    ],
-                    "image": "./utils/imagens/icone_mao_A.png"
-                },
-                {
-                    "systemName": "Membro Inferior",
-                    "id": 3,
-                    "path": "#membro-inferior-A",
-                    "section": "subsystems",
-                    "subsystems": [
-                        {
-                            "systemName": "Quadril",
-                            "id": 0,
-                            "path": "#quadril-A",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/articular/membro_inferior/quadril/quadril.json",
-                            "image": "./utils/imagens/icone_quadril_A.png"
-                        },
-                        {
-                            "systemName": "Joelho e Perna",
-                            "id": 1,
-                            "path": "#joelho-perna-A",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/articular/membro_inferior/joelho_perna/joelho_perna.json",
-                            "image": "./utils/imagens/icone_joelho_A.png"
-                        },
-                        {
-                            "systemName": "Tornozelo e Pé",
-                            "id": 2,
-                            "path": "#tornozelo-pe-A",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/articular/membro_inferior/tornozelo_pe/tornozelo_pe.json",
-                            "image": "./utils/imagens/icone_pe_A.png"
-                        }
-                    ],
-                    "image": "./utils/imagens/icone_pe_A.png"
-                }
-            ],
-            "image": "./utils/imagens/icone_articular.png"
+          "systemName": "Tronco",
+          "path": "#tronco-E",
+          "section": "subsystems",
+          "subsystems": [
+            {
+              "systemName": "Coluna Vertebral",
+              "id": 0,
+              "path": "#coluna-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/tronco/coluna/coluna.json",
+              "image": "./utils/imagens/icone_coluna.png"
+            },
+            {
+              "systemName": "Costelas",
+              "id": 0,
+              "path": "#costelas-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/tronco/costelas/costelas.json",
+              "image": "./utils/imagens/icone_costelas.png"
+            },
+            {
+              "systemName": "Esterno",
+              "id": 0,
+              "path": "#esterno-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/tronco/esterno/esterno.json",
+              "image": "./utils/imagens/icone_esterno.png"
+            }
+          ],
+          "image": "./utils/imagens/icone_coluna.png"
         },
         {
-            "locked": false,
-            "systemName": "Muscular",
-            "id": 2,
-            "path": "#muscular",
-            "section": "subsystems",
-            "subsystems": [
-                {
-                    "systemName": "Cabeça",
-                    "path": "#cabeça-M",
-                    "id": 0,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/muscular/cabeca/cabeca.json", 
-                    "image": "./utils/imagens/icone_cabeca_M.png"
-                },
-                {
-                    "systemName": "Tórax",
-                    "path": "#torax-M",
-                    "id": 1,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/muscular/torax/torax.json", 
-                    "image": "./utils/imagens/icone_torax_M.png"
-                },
-                {
-                    "systemName": "Abdome",
-                    "path": "#abdome-M",
-                    "id": 2,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/muscular/abdome/abdome.json", 
-                    "image": "./utils/imagens/icone_abdome_M.png"
-                },
-                {
-                    "systemName": "Dorso",
-                    "path": "#dorso-M",
-                    "id": 3,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/muscular/dorso/dorso.json",
-                    "image": "./utils/imagens/icone_dorso_M.png"
-                },
-                {
-                    "systemName": "Membro Superior",
-                    "path": "#membro-superior-M",
-                    "id": 4,
-                    "section": "subsystems",
-                    "subsystems": [
-                        {
-                            "systemName": "Ombro",
-                            "path": "#ombro-M",
-                            "id": 0,
-                            "section": "atlas",
-                            "url": "./utils/sistemas/muscular/membro_superior/ombro/ombro.json", 
-                            "image": "./utils/imagens/icone_ombro_M.png"
-                        },
-                        {
-                            "systemName": "Braço",
-                            "path": "#braco-M",
-                            "id": 1,
-                            "section": "atlas",
-                            "url": "./utils/sistemas/muscular/membro_superior/braco/braco.json",
-                            "image": "./utils/imagens/icone_braco_M.png"
-                        },
-                        {
-                            "systemName": "Antebraço",
-                            "path": "#antebraco_M",
-                            "id": 2,
-                            "section": "subsystems",
-                            "subsystems": [
-                                {
-                                    "systemName": "Anterior",
-                                    "path": "#antebraco-anterior-M",
-                                    "id": 0,
-                                    "section": "subsystems",
-                                    "subsystems": [
-                                        {
-                                            "systemName": "Superficial",
-                                            "path": "#anterior-superficial-M",
-                                            "id": 0,
-                                            "section": "atlas",
-                                            "url": "./utils/sistemas/muscular/membro_superior/antebraco/anterior/superficial/superficial.json", 
-                                            "image": "./utils/imagens/icone_antebraco_M.png"
-                                        },
-                                        {
-                                            "systemName": "Profundo",
-                                            "path": "#anterior-profundo-M",
-                                            "id": 1,
-                                            "section": "atlas",
-                                            "url": "./utils/sistemas/muscular/membro_superior/antebraco/anterior/profundo/profundo.json", 
-                                            "image": "./utils/imagens/icone_antebraco_M.png"
-                                        }
-                                    ],
-                                    "image": "./utils/imagens/icone_antebraco_M.png"
-                                },
-                                {
-                                    "systemName": "Posterior",
-                                    "path": "#antebraco-posterior-M",
-                                    "id": 1,
-                                    "section": "subsystems",
-                                    "subsystems": [
-                                        {
-                                            "systemName": "Superficial",
-                                            "path": "#posterior-superficial-M",
-                                            "id": 0,
-                                            "section": "atlas",
-                                            "url": "./utils/sistemas/muscular/membro_superior/antebraco/posterior/superficial/superficial.json", 
-                                            "image": "./utils/imagens/icone_antebraco_M.png"
-                                        },
-                                        {
-                                            "systemName": "Profundo",
-                                            "path": "#posterior-profundo-M",
-                                            "id": 1,
-                                            "section": "atlas",
-                                            "url": "./utils/sistemas/muscular/membro_superior/antebraco/posterior/profundo/profundo.json", 
-                                            "image": "./utils/imagens/icone_antebraco_M.png"
-                                        }
-                                    ],
-                                    "image": "./utils/imagens/icone_antebraco_M.png"
-                                }
-                            ],
-                            "image": "./utils/imagens/icone_antebraco_M.png"
-                        },
-                        {
-                            "systemName": "Mão",
-                            "path": "#mao-M",
-                            "id": 3,
-                            "section": "atlas",
-                            "url": "./utils/sistemas/muscular/membro_superior/mao/mao.json", 
-                            "image": "./utils/imagens/icone_mao_M.png"
-                        }
-                    ],
-                    "image": "./utils/imagens/icone_mao_M.png"
-                },
-                {
-                    "systemName": "Membro Inferior",
-                    "path": "#membro-inferior-M",
-                    "id": 5,
-                    "section": "subsystems",
-                    "subsystems": [
-                        {
-                            "systemName": "Glúteo",
-                            "path": "#gluteo-M",
-                            "id": 0,
-                            "section": "atlas",
-                            "url": "./utils/sistemas/muscular/membro_inferior/gluteo/gluteo.json", 
-                            "image": "./utils/imagens/icone_gluteo_M.png"
-                        },
-                        {
-                            "systemName": "Coxa",
-                            "path": "#coxa-M",
-                            "id": 1,
-                            "section": "atlas",
-                            "url": "./utils/sistemas/muscular/membro_inferior/coxa/coxa.json", 
-                            "image": "./utils/imagens/icone_coxa_M.png"
-                        },
-                        {
-                            "systemName": "Perna",
-                            "path": "#perna-M",
-                            "id": 2,
-                            "section": "atlas",
-                            "url": "./utils/sistemas/muscular/membro_inferior/perna/perna.json", 
-                            "image": "./utils/imagens/icone_perna_M.png"
-                        },
-                        {
-                            "systemName": "Pé",
-                            "path": "#pe-M",
-                            "id": 3,
-                            "section": "atlas",
-                            "url": "./utils/sistemas/muscular/membro_inferior/pe/pe.json", 
-                            "image": "./utils/imagens/icone_pe_M.png"
-                        }
-                    ],
-                    "image": "./utils/imagens/icone_pe_M.png"
-                }
-            ],
-            "image": "./utils/imagens/icone_muscular.png"
+          "systemName": "Membro Superior",
+          "path": "#membro-superior-E",
+          "section": "subsystems",
+          "subsystems": [
+            {
+              "systemName": "Cíngulo dos Membros Superiores",
+              "id": 0,
+              "path": "#cingulo-dos-mmss-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/membro_superior/cingulo/cingulo.json",
+              "image": "./utils/imagens/icone_cingulodosmmss.png"
+            },
+            {
+              "systemName": "Braço",
+              "id": 0,
+              "path": "#braco-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/membro_superior/braco/braco.json",
+              "image": "./utils/imagens/icone_braco.png"
+            },
+            {
+              "systemName": "Antebraço",
+              "id": 0,
+              "path": "#antebraco-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco.json",
+              "image": "./utils/imagens/icone_antebraco.png"
+            },
+            {
+              "systemName": "Mão",
+              "id": 0,
+              "path": "#mao-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/membro_superior/mao/mao.json",
+              "image": "./utils/imagens/icone_mao.png"
+            }
+          ],
+          "image": "./utils/imagens/icone_cingulodosmmss.png"
         },
         {
-            "locked": true,
-            "systemName": "Nervoso",
-            "id": 3,
-            "path": "#nervoso",
-            "section": "subsystems",
-            "subsystems": [
-                {
-                    "systemName": "Visão Geral",
-                    "path": "#nervoso-geral",
-                    "id": 0,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/nervoso/visao_geral/visao_geral.json", 
-                    "image": "./utils/imagens/icone_nervoso.png"
-                },
-                {
-                    "systemName": "Vascularização",
-                    "path": "#vascularizacao",
-                    "id": 0,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/nervoso/vascularizacao/vascularizacao.json", 
-                    "image": "./utils/imagens/icone_nervoso.png"
-                },
-                {
-                    "systemName": "Tronco Encefálico",
-                    "path": "#tronco-encefalico",
-                    "id": 0,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/nervoso/tronco_encefalico/tronco_encefalico.json", 
-                    "image": "./utils/imagens/icone_nervoso.png"
-                },
-                {
-                    "systemName": "Telencefalo",
-                    "path": "#telencefalo",
-                    "id": 0,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/nervoso/telencefalo/telencefalo.json", 
-                    "image": "./utils/imagens/icone_nervoso.png"
-                },
-                {
-                    "systemName": "Meninges",
-                    "path": "#meninges",
-                    "id": 0,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/nervoso/meninges/meninges.json", 
-                    "image": "./utils/imagens/icone_nervoso.png"
-                },
-                {
-                    "systemName": "Medula Espinhal",
-                    "path": "#medula-espinhal",
-                    "id": 0,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/nervoso/medula_espinhal/medula_espinhal.json", 
-                    "image": "./utils/imagens/icone_nervoso.png"
-                },
-                {
-                    "systemName": "Diencefalo",
-                    "path": "#diencefalo",
-                    "id": 0,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/nervoso/diencefalo/diencefalo.json", 
-                    "image": "./utils/imagens/icone_nervoso.png"
-                },
-                {
-                    "systemName": "Cerebelo",
-                    "path": "#cerebelo",
-                    "id": 0,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/nervoso/cerebelo/cerebelo.json", 
-                    "image": "./utils/imagens/icone_nervoso.png"
-                }
-            ],
-            "image": "./utils/imagens/icone_nervoso.png"
-        },
-        {
-            "locked": true,
-            "systemName": "Circulatório",
-            "id": 4,
-            "path": "#circulatorio",
-            "section": "subsystems",
-            "subsystems": [
-                {
-                    "systemName": "Vísceras",
-                    "path": "#visceras-C",
-                    "id": 0,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/circulatorio/visceras/visceras.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Coração",
-                    "path": "#coracao",
-                    "id": 1,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/circulatorio/coracao/coracao.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Baco",
-                    "path": "#baco",
-                    "id": 2,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/circulatorio/baco/baco.json", 
-                    "image": "./utils/imagens/"
-                }
-            ],
-            "image": "./utils/imagens/icone_circulatorio.png"
-        },
-        {
-            "locked": true,
-            "systemName": "Respiratório",
-            "id": 5,
-            "path": "#respiratorio",
-            "section": "subsystems",
-            "subsystems": [
-                {
-                    "systemName": "Vísceras",
-                    "path": "#visceras-R",
-                    "id": 0,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/respiratorio/visceras/visceras.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Traqueia e Brônquio",
-                    "path": "#traqueia-bronquio",
-                    "id": 1,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/respiratorio/traqueia_bronquio/traqueia_bronquio.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Pulmão",
-                    "path": "#pulmao",
-                    "id": 2,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/respiratorio/pulmao/pulmao.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Nariz",
-                    "path": "#nariz",
-                    "id": 3,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/respiratorio/nariz/nariz.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Laringe",
-                    "path": "#laringe",
-                    "id": 4,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/respiratorio/laringe/laringe.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Faringe",
-                    "path": "#faringe",
-                    "id": 5,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/respiratorio/faringe/faringe.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Diafragma",
-                    "path": "#diafragma",
-                    "id": 6,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/respiratorio/diafragma/diafragma.json", 
-                    "image": "./utils/imagens/"
-                }
-            ],
-            "image": "./utils/imagens/icone_respiratorio.png"
-        },
-        {
-            "locked": true,
-            "systemName": "Digestório",
-            "id": 6,
-            "path": "#digestorio",
-            "section": "subsystems",
-            "subsystems": [
-                {
-                    "systemName": "Vísceras",
-                    "path": "#visceras-D",
-                    "id": 0,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/digestorio/visceras/visceras.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Intestinos",
-                    "path": "#intestinos",
-                    "id": 1,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/digestorio/intestinos/intestinos.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Glandulas",
-                    "path": "#glandulas",
-                    "id": 2,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/digestorio/glandulas/glandulas.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Esôfago e Estomago",
-                    "path": "#estomago-esofago",
-                    "id": 3,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/digestorio/estomago_esofago/estomago_esofago.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Dentes",
-                    "path": "#dentes",
-                    "id": 4,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/digestorio/dentes/dentes.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Cavidade Oral",
-                    "path": "#cavidade-oral",
-                    "id": 5,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/digestorio/cavidade_oral/cavidade_oral.json", 
-                    "image": "./utils/imagens/"
-                }
-            ],
-            "image": "./utils/imagens/icone_digestorio.png"
-        },
-        {
-            "locked": true,
-            "systemName": "Urinário",
-            "id": 7,
-            "path": "#urinario",
-            "section": "subsystems",
-            "subsystems": [
-                {
-                    "systemName": "Vísceras",
-                    "path": "#visceras-U",
-                    "id": 0,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/urinario/visceras_u/visceras_u.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Uretra",
-                    "path": "#uretra",
-                    "id": 1,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/urinario/uretra/uretra.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Rim Ureter",
-                    "path": "#rim-ureter",
-                    "id": 2,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/urinario/rim_ureter/rim_ureter.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Bexiga",
-                    "path": "#bexiga",
-                    "id": 3,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/urinario/bexiga/bexiga.json", 
-                    "image": "./utils/imagens/"
-                }
-            ],
-            "image": "./utils/imagens/urinario.jpg"
-        },
-        {
-            "locked": true,
-            "systemName": "Genital Feminino",
-            "id": 8,
-            "path": "#genital-feminino",
-            "section": "subsystems",
-            "subsystems": [
-                {
-                    "systemName": "Vulva",
-                    "path": "#vulva",
-                    "id": 0,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/gem_fem/vulva/vulva.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Útero e Vagina",
-                    "path": "#utero-vagina",
-                    "id": 1,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/gem_fem/utero_vagina/utero_vagina.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Tuba Uterina",
-                    "path": "#tuba-uterina",
-                    "id": 2,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/gem_fem/tuba_uterina/tuba_uterina.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Ovários",
-                    "path": "#ovarios",
-                    "id": 3,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/gem_fem/ovarios/ovarios.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Mama",
-                    "path": "#mama",
-                    "id": 3,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/gem_fem/mama/mama.json", 
-                    "image": "./utils/imagens/"
-                }
-            ],
-            "image": "./utils/imagens/genfem.jpg"
-        },
-        {
-            "locked": true,
-            "systemName": "Genital Masculino",
-            "id": 9,
-            "path": "#genital-masculino",
-            "section": "subsystems",
-            "subsystems": [
-                {
-                    "systemName": "Vísceras",
-                    "path": "#visceras-GM",
-                    "id": 0,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/gem_masc/visceras_gm/visceras_gm.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Testículos",
-                    "path": "#testiculos",
-                    "id": 1,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/gem_masc/testiculos/testiculos.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Pênis",
-                    "path": "#penis",
-                    "id": 2,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/gem_masc/penis/penis.json", 
-                    "image": "./utils/imagens/"
-                },
-                {
-                    "systemName": "Glândulas",
-                    "path": "#glandulas-GM",
-                    "id": 3,
-                    "section": "atlas",
-                    "url": "./utils/sistemas/gem_masc/glandulas_gm/glandulas_gm.json", 
-                    "image": "./utils/imagens/"
-                }
-            ],
-            "image": "./utils/imagens/genmasc.jpg"
+          "systemName": "Membro Inferior",
+          "path": "#membro-inferior-E",
+          "section": "subsystems",
+          "subsystems": [
+            {
+              "systemName": "Cíngulo",
+              "id": 0,
+              "path": "#cingulo-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/membro_inferior/cingulo/cingulo.json",
+              "image": "./utils/imagens/icone_cingulodosmmii.png"
+            },
+            {
+              "systemName": "Coxa",
+              "id": 0,
+              "path": "#coxa-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/membro_inferior/coxa/coxa.json",
+              "image": "./utils/imagens/icone_coxa.png"
+            },
+            {
+              "systemName": "Patela",
+              "id": 0,
+              "path": "#patela-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/membro_inferior/patela/patela.json",
+              "image": "./utils/imagens/icone_patela.png"
+            },
+            {
+              "systemName": "Perna",
+              "id": 0,
+              "path": "#perna-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/membro_inferior/perna/perna.json",
+              "image": "./utils/imagens/icone_perna.png"
+            },
+            {
+              "systemName": "Pé",
+              "id": 0,
+              "path": "#pe-E",
+              "section": "atlas",
+              "url": "./utils/sistemas/esqueletico/membro_inferior/pe/pe.json",
+              "image": "./utils/imagens/icone_pe.png"
+            }
+          ],
+          "image": "./utils/imagens/icone_cingulodosmmii.png"
         }
-    ]
+      ],
+      "image": "./utils/imagens/icone_esqueletico.png"
+    },
+    {
+      "locked": false,
+      "systemName": "Articular",
+      "id": 1,
+      "path": "#articular",
+      "section": "subsystems",
+      "subsystems": [
+        {
+          "systemName": "Cabeça",
+          "path": "#cabeça-A",
+          "id": 0,
+          "section": "atlas",
+          "url": "./utils/sistemas/articular/cabeca/cabeca.json",
+          "image": "./utils/imagens/icone_cabeca_A.png"
+        },
+        {
+          "systemName": "Tronco",
+          "path": "#tronco-A",
+          "id": 1,
+          "section": "subsystems",
+          "subsystems": [
+            {
+              "systemName": "Coluna Vertebral",
+              "id": 0,
+              "path": "#coluna-vertebral-A",
+              "section": "atlas",
+              "url": "./utils/sistemas/articular/tronco/coluna/coluna.json",
+              "image": "./utils/imagens/icone_coluna_A.png"
+            },
+            {
+              "systemName": "Esterno e Gradil Costal",
+              "id": 1,
+              "path": "#esterno-A",
+              "section": "atlas",
+              "url": "./utils/sistemas/articular/tronco/esterno/esterno.json",
+              "image": "./utils/imagens/icone_esterno_A.png"
+            }
+          ],
+          "image": "./utils/imagens/icone_coluna_A.png"
+        },
+        {
+          "systemName": "Membro Superior",
+          "path": "#membro-superior-A",
+          "id": 2,
+          "section": "subsystems",
+          "subsystems": [
+            {
+              "systemName": "Ombro",
+              "id": 0,
+              "path": "#ombro-A",
+              "section": "atlas",
+              "url": "./utils/sistemas/articular/membro_superior/ombro/ombro.json",
+              "image": "./utils/imagens/icone_ombro_A.png"
+            },
+            {
+              "systemName": "Cotovelo",
+              "id": 1,
+              "path": "#cotovelo-A",
+              "section": "atlas",
+              "url": "./utils/sistemas/articular/membro_superior/cotovelo/cotovelo.json",
+              "image": "./utils/imagens/icone_cotovelo_A.png"
+            },
+            {
+              "systemName": "Mão",
+              "id": 2,
+              "path": "#mao-A",
+              "section": "atlas",
+              "url": "./utils/sistemas/articular/membro_superior/mao/mao.json",
+              "image": "./utils/imagens/icone_mao_A.png"
+            }
+          ],
+          "image": "./utils/imagens/icone_mao_A.png"
+        },
+        {
+          "systemName": "Membro Inferior",
+          "id": 3,
+          "path": "#membro-inferior-A",
+          "section": "subsystems",
+          "subsystems": [
+            {
+              "systemName": "Quadril",
+              "id": 0,
+              "path": "#quadril-A",
+              "section": "atlas",
+              "url": "./utils/sistemas/articular/membro_inferior/quadril/quadril.json",
+              "image": "./utils/imagens/icone_quadril_A.png"
+            },
+            {
+              "systemName": "Joelho e Perna",
+              "id": 1,
+              "path": "#joelho-perna-A",
+              "section": "atlas",
+              "url": "./utils/sistemas/articular/membro_inferior/joelho_perna/joelho_perna.json",
+              "image": "./utils/imagens/icone_joelho_A.png"
+            },
+            {
+              "systemName": "Tornozelo e Pé",
+              "id": 2,
+              "path": "#tornozelo-pe-A",
+              "section": "atlas",
+              "url": "./utils/sistemas/articular/membro_inferior/tornozelo_pe/tornozelo_pe.json",
+              "image": "./utils/imagens/icone_pe_A.png"
+            }
+          ],
+          "image": "./utils/imagens/icone_pe_A.png"
+        }
+      ],
+      "image": "./utils/imagens/icone_articular.png"
+    },
+    {
+      "locked": false,
+      "systemName": "Muscular",
+      "id": 2,
+      "path": "#muscular",
+      "section": "subsystems",
+      "subsystems": [
+        {
+          "systemName": "Cabeça",
+          "path": "#cabeça-M",
+          "id": 0,
+          "section": "atlas",
+          "url": "./utils/sistemas/muscular/cabeca/cabeca.json",
+          "image": "./utils/imagens/icone_cabeca_M.png"
+        },
+        {
+          "systemName": "Tórax",
+          "path": "#torax-M",
+          "id": 1,
+          "section": "atlas",
+          "url": "./utils/sistemas/muscular/torax/torax.json",
+          "image": "./utils/imagens/icone_torax_M.png"
+        },
+        {
+          "systemName": "Abdome",
+          "path": "#abdome-M",
+          "id": 2,
+          "section": "atlas",
+          "url": "./utils/sistemas/muscular/abdome/abdome.json",
+          "image": "./utils/imagens/icone_abdome_M.png"
+        },
+        {
+          "systemName": "Dorso",
+          "path": "#dorso-M",
+          "id": 3,
+          "section": "atlas",
+          "url": "./utils/sistemas/muscular/dorso/dorso.json",
+          "image": "./utils/imagens/icone_dorso_M.png"
+        },
+        {
+          "systemName": "Membro Superior",
+          "path": "#membro-superior-M",
+          "id": 4,
+          "section": "subsystems",
+          "subsystems": [
+            {
+              "systemName": "Ombro",
+              "path": "#ombro-M",
+              "id": 0,
+              "section": "atlas",
+              "url": "./utils/sistemas/muscular/membro_superior/ombro/ombro.json",
+              "image": "./utils/imagens/icone_ombro_M.png"
+            },
+            {
+              "systemName": "Braço",
+              "path": "#braco-M",
+              "id": 1,
+              "section": "atlas",
+              "url": "./utils/sistemas/muscular/membro_superior/braco/braco.json",
+              "image": "./utils/imagens/icone_braco_M.png"
+            },
+            {
+              "systemName": "Antebraço",
+              "path": "#antebraco_M",
+              "id": 2,
+              "section": "subsystems",
+              "subsystems": [
+                {
+                  "systemName": "Anterior",
+                  "path": "#antebraco-anterior-M",
+                  "id": 0,
+                  "section": "subsystems",
+                  "subsystems": [
+                    {
+                      "systemName": "Superficial",
+                      "path": "#anterior-superficial-M",
+                      "id": 0,
+                      "section": "atlas",
+                      "url": "./utils/sistemas/muscular/membro_superior/antebraco/anterior/superficial/superficial.json",
+                      "image": "./utils/imagens/icone_antebraco_M.png"
+                    },
+                    {
+                      "systemName": "Profundo",
+                      "path": "#anterior-profundo-M",
+                      "id": 1,
+                      "section": "atlas",
+                      "url": "./utils/sistemas/muscular/membro_superior/antebraco/anterior/profundo/profundo.json",
+                      "image": "./utils/imagens/icone_antebraco_M.png"
+                    }
+                  ],
+                  "image": "./utils/imagens/icone_antebraco_M.png"
+                },
+                {
+                  "systemName": "Posterior",
+                  "path": "#antebraco-posterior-M",
+                  "id": 1,
+                  "section": "subsystems",
+                  "subsystems": [
+                    {
+                      "systemName": "Superficial",
+                      "path": "#posterior-superficial-M",
+                      "id": 0,
+                      "section": "atlas",
+                      "url": "./utils/sistemas/muscular/membro_superior/antebraco/posterior/superficial/superficial.json",
+                      "image": "./utils/imagens/icone_antebraco_M.png"
+                    },
+                    {
+                      "systemName": "Profundo",
+                      "path": "#posterior-profundo-M",
+                      "id": 1,
+                      "section": "atlas",
+                      "url": "./utils/sistemas/muscular/membro_superior/antebraco/posterior/profundo/profundo.json",
+                      "image": "./utils/imagens/icone_antebraco_M.png"
+                    }
+                  ],
+                  "image": "./utils/imagens/icone_antebraco_M.png"
+                }
+              ],
+              "image": "./utils/imagens/icone_antebraco_M.png"
+            },
+            {
+              "systemName": "Mão",
+              "path": "#mao-M",
+              "id": 3,
+              "section": "atlas",
+              "url": "./utils/sistemas/muscular/membro_superior/mao/mao.json",
+              "image": "./utils/imagens/icone_mao_M.png"
+            }
+          ],
+          "image": "./utils/imagens/icone_mao_M.png"
+        },
+        {
+          "systemName": "Membro Inferior",
+          "path": "#membro-inferior-M",
+          "id": 5,
+          "section": "subsystems",
+          "subsystems": [
+            {
+              "systemName": "Glúteo",
+              "path": "#gluteo-M",
+              "id": 0,
+              "section": "atlas",
+              "url": "./utils/sistemas/muscular/membro_inferior/gluteo/gluteo.json",
+              "image": "./utils/imagens/icone_gluteo_M.png"
+            },
+            {
+              "systemName": "Coxa",
+              "path": "#coxa-M",
+              "id": 1,
+              "section": "atlas",
+              "url": "./utils/sistemas/muscular/membro_inferior/coxa/coxa.json",
+              "image": "./utils/imagens/icone_coxa_M.png"
+            },
+            {
+              "systemName": "Perna",
+              "path": "#perna-M",
+              "id": 2,
+              "section": "atlas",
+              "url": "./utils/sistemas/muscular/membro_inferior/perna/perna.json",
+              "image": "./utils/imagens/icone_perna_M.png"
+            },
+            {
+              "systemName": "Pé",
+              "path": "#pe-M",
+              "id": 3,
+              "section": "atlas",
+              "url": "./utils/sistemas/muscular/membro_inferior/pe/pe.json",
+              "image": "./utils/imagens/icone_pe_M.png"
+            }
+          ],
+          "image": "./utils/imagens/icone_pe_M.png"
+        }
+      ],
+      "image": "./utils/imagens/icone_muscular.png"
+    },
+    {
+      "systemName": "Nervoso",
+      "id": 3,
+      "path": "#nervoso",
+      "section": "subsystems",
+      "subsystems": [
+        {
+          "systemName": "Visão Geral",
+          "path": "#visaogeral-N",
+          "id": 0,
+          "section": "atlas",
+          "url": "./utils/sistemas/nervoso/visaogeral/visao_geral.json",
+          "image": "./utils/imagens/icone_visaogeral_N.png"
+        },
+        {
+          "systemName": "Medula Espinal",
+          "path": "#medula-espinal",
+          "id": 1,
+          "section": "atlas",
+          "url": "./utils/sistemas/nervoso/medula_espinal/medula_espinal.json",
+          "image": "./utils/imagens/icone_medula_N.png"
+        },
+        {
+          "systemName": "Tronco Encefálico",
+          "path": "#tronco-encefalico",
+          "id": 2,
+          "section": "atlas",
+          "url": "./utils/sistemas/nervoso/tronco_encefalico/tronco_encefalico.json",
+          "image": "./utils/imagens/icone_tronco_N.png"
+        },
+        {
+          "systemName": "Cerebelo",
+          "path": "#cerebelo-N",
+          "id": 3,
+          "section": "atlas",
+          "url": "./utils/sistemas/nervoso/cerebelo/cerebelo.json",
+          "image": "./utils/imagens/icone_cerebelo_N.png"
+        },
+        {
+          "systemName": "Diencéfalo",
+          "path": "#diencefalo-N",
+          "id": 4,
+          "section": "atlas",
+          "url": "./utils/sistemas/nervoso/diencefalo/diencefalo.json",
+          "image": "./utils/imagens/icone_diencefalo_N.png"
+        },
+        {
+          "systemName": "Telencefalo",
+          "path": "#telencefalo",
+          "id": 5,
+          "section": "atlas",
+          "url": "./utils/sistemas/nervoso/telencefalo/telencefalo.json",
+          "image": "./utils/imagens/icone_telencefalo_N.png"
+        },
+        {
+          "systemName": "Meninges",
+          "path": "#meninges-N",
+          "id": 6,
+          "section": "atlas",
+          "url": "./utils/sistemas/nervoso/meninges/meninges.json",
+          "image": "./utils/imagens/icone_meninges_N.png"
+        },
+        {
+          "systemName": "Vascularização",
+          "path": "#vascularizacao",
+          "id": 7,
+          "section": "atlas",
+          "url": "./utils/sistemas/nervoso/vascularizacao/vascularizacao.json",
+          "image": "./utils/imagens/icone_vascularizacao_N.png"
+        }
+      ],
+      "image": "./utils/imagens/icone_nervoso.png"
+    },
+    {
+      "systemName": "Circulatório",
+      "id": 4,
+      "path": "#circulatorio",
+      "section": "subsystems",
+      "subsystems": [
+        {
+          "systemName": "Coração",
+          "path": "#coracao",
+          "id": 0,
+          "section": "atlas",
+          "url": "./utils/sistemas/circulatorio/coracao/coracao.json",
+          "image": "./utils/imagens/icone_coracao.png"
+        },
+        {
+          "systemName": "Baço",
+          "path": "#baco",
+          "id": 1,
+          "section": "atlas",
+          "url": "./utils/sistemas/circulatorio/baco/baco.json",
+          "image": "./utils/imagens/icone_baco.png"
+        }
+      ],
+      "image": "./utils/imagens/icone_circulatorio.png"
+    },
+    {
+      "systemName": "Respiratório",
+      "id": 5,
+      "path": "#respiratorio",
+      "section": "subsystems",
+      "subsystems": [
+        {
+          "systemName": "Nariz",
+          "path": "#nariz",
+          "id": 0,
+          "section": "atlas",
+          "url": "./utils/sistemas/respiratorio/nariz/nariz.json",
+          "image": "./utils/imagens/icone_nariz.png"
+        },
+        {
+          "systemName": "Faringe",
+          "path": "#faringe",
+          "id": 1,
+          "section": "atlas",
+          "url": "./utils/sistemas/respiratorio/faringe/faringe.json",
+          "image": "./utils/imagens/icone_faringe.png"
+        },
+        {
+          "systemName": "Laringe",
+          "path": "#laringe",
+          "id": 2,
+          "section": "atlas",
+          "url": "./utils/sistemas/respiratorio/laringe/laringe.json",
+          "image": "./utils/imagens/icone_laringe.png"
+        },
+        {
+          "systemName": "Traqueia",
+          "path": "#traqueia",
+          "id": 3,
+          "section": "atlas",
+          "url": "./utils/sistemas/respiratorio/traqueia/traqueia.json",
+          "image": "./utils/imagens/icone_traqueia.png"
+        },
+        {
+          "systemName": "Pulmões",
+          "path": "#pulmoes",
+          "id": 4,
+          "section": "atlas",
+          "url": "./utils/sistemas/respiratorio/pulmoes/pulmoes.json",
+          "image": "./utils/imagens/icone_pulmoes.png"
+        },
+        {
+          "systemName": "Diafragma",
+          "path": "#diafragma",
+          "id": 5,
+          "section": "atlas",
+          "url": "./utils/sistemas/respiratorio/diafragma/diafragma.json",
+          "image": "./utils/imagens/icone_diafragma.png"
+        }
+      ],
+      "image": "./utils/imagens/icone_respiratorio.png"
+    },
+    {
+      "systemName": "Digestório",
+      "id": 6,
+      "path": "#digestorio",
+      "section": "subsystems",
+      "subsystems": [
+        {
+          "systemName": "Cavidade Oral",
+          "path": "#cavidade-oral",
+          "id": 0,
+          "section": "atlas",
+          "url": "./utils/sistemas/digestorio/cavidade_oral/cavidade_oral.json",
+          "image": "./utils/imagens/icone_cavidadeoral.png"
+        },
+        {
+          "systemName": "Esôfago e Estômago",
+          "path": "#esofago-estomago",
+          "id": 1,
+          "section": "atlas",
+          "url": "./utils/sistemas/digestorio/esofago_estomago/esofago_estomago.json",
+          "image": "./utils/imagens/icone_esofago.png"
+        },
+        {
+          "systemName": "Intestinos",
+          "path": "#intestinos",
+          "id": 2,
+          "section": "atlas",
+          "url": "./utils/sistemas/digestorio/intestinos/intestinos.json",
+          "image": "./utils/imagens/icone_intestinos.png"
+        },
+        {
+          "systemName": "Órgãos Anexos",
+          "path": "#orgaos_anexos",
+          "id": 3,
+          "section": "atlas",
+          "url": "./utils/sistemas/digestorio/glandulas/glandulas.json",
+          "image": "./utils/imagens/icone_glandulas.png"
+        }
+      ],
+      "image": "./utils/imagens/icone_digestorio.png"
+    },
+    {
+      "systemName": "Urinário",
+      "id": 7,
+      "path": "#urinario",
+      "section": "subsystems",
+      "subsystems": [
+        {
+          "systemName": "Rins e Ureteres",
+          "path": "#rim",
+          "id": 0,
+          "section": "atlas",
+          "url": "./utils/sistemas/urinario/rim_ureter/rim_ureter.json",
+          "image": "./utils/imagens/icone_rim.png"
+        },
+        {
+          "systemName": "Bexiga",
+          "path": "#bexiga",
+          "id": 1,
+          "section": "atlas",
+          "url": "./utils/sistemas/urinario/bexiga/bexiga.json",
+          "image": "./utils/imagens/icone_bexiga.png"
+        },
+        {
+          "systemName": "Uretra",
+          "path": "#uretra",
+          "id": 2,
+          "section": "atlas",
+          "url": "./utils/sistemas/urinario/uretra/uretra.json",
+          "image": "./utils/imagens/icone_uretra.png"
+        }
+      ],
+      "image": "./utils/imagens/urinario.jpg"
+    },
+    {
+      "systemName": "Genital Feminino",
+      "id": 8,
+      "path": "#genital-feminino",
+      "section": "subsystems",
+      "subsystems": [
+        {
+          "systemName": "Ovários e Tubas Uterinas",
+          "path": "#ovarios",
+          "id": 0,
+          "section": "atlas",
+          "url": "./utils/sistemas/genital_feminino/ovarios/ovarios.json",
+          "image": "./utils/imagens/icone_ovarios.png"
+        },
+        {
+          "systemName": "Útero e Vagina",
+          "path": "#utero-vagina",
+          "id": 1,
+          "section": "atlas",
+          "url": "./utils/sistemas/genital_feminino/utero_vagina/utero_vagina.json",
+          "image": "./utils/imagens/icone_utero.png"
+        },
+        {
+          "systemName": "Vulva",
+          "path": "#vulva",
+          "id": 2,
+          "section": "atlas",
+          "url": "./utils/sistemas/genital_feminino/vulva/vulva.json",
+          "image": "./utils/imagens/icone_vulva.png"
+        },
+        {
+          "systemName": "Mama",
+          "path": "#mama",
+          "id": 3,
+          "section": "atlas",
+          "url": "./utils/sistemas/genital_feminino/mama/mama.json",
+          "image": "./utils/imagens/icone_mama.png"
+        }
+      ],
+      "image": "./utils/imagens/genfem.jpg"
+    },
+    {
+      "systemName": "Genital Masculino",
+      "id": 9,
+      "path": "#genital-masculino",
+      "section": "subsystems",
+      "subsystems": [
+        {
+          "systemName": "Órgãos in Situ",
+          "path": "#visceras-gm",
+          "id": 0,
+          "section": "atlas",
+          "url": "./utils/sistemas/genital_masculino/visceras_gm/visceras_gm1.json",
+          "image": "./utils/imagens/icone_viscerasgm.png"
+        },
+        {
+          "systemName": "Testículos",
+          "path": "#testiculos",
+          "id": 1,
+          "section": "atlas",
+          "url": "./utils/sistemas/genital_masculino/testiculos/testiculos.json",
+          "image": "./utils/imagens/icone_testiculos.png"
+        },
+        {
+          "systemName": "Pênis e Escroto",
+          "path": "#penis",
+          "id": 2,
+          "section": "atlas",
+          "url": "./utils/sistemas/genital_masculino/penis/penis.json",
+          "image": "./utils/imagens/icone_penis.png"
+        },
+        {
+          "systemName": "Glândulas Anexas",
+          "path": "#glandulas-gm",
+          "id": 3,
+          "section": "atlas",
+          "url": "./utils/sistemas/genital_masculino/glandulas_gm/glandulas_gm.json",
+          "image": "./utils/imagens/icone_glandulasgm.png"
+        }
+      ],
+      "image": "./utils/imagens/genmasc.jpg"
+    }
+  ]
 }

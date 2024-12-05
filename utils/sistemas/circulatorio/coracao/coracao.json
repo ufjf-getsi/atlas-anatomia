@@ -1,0 +1,1961 @@
+{
+    "systemName": "Coração",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "In Situ",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/visceras1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Lobo Superior do Pulmão Direito",
+                    "description": "Cavidade que se articula com a cabeça do fêmur.",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.29,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Lobo Superior do Pulmão Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Lobo Médio do Pulmão Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.5,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Lobo Inferior do Pulmão Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.17,
+                    "y": 0.7,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Lobo Inferior do Pulmão Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.87,
+                    "y": 0.66,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Coração",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.62,
+                    "placement": "left"
+                }
+            
+            ]
+        },
+        {
+            "id": 0,
+            "title": "In Situ",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/visceras2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Lobo Superior do Pulmão Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.29,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Lobo Superior do Pulmão Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Lobo Médio do Pulmão Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.5,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Lobo Inferior do Pulmão Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.2,
+                    "y": 0.63,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Coração (Pericárdio Fibroso)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.62,
+                    "placement": "left"
+                }
+            
+            ]
+        },
+        {
+            "id": 0,
+            "title": "In Situ",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/visceras3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Lobo Superior do Pulmão Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.25,
+                    "y": 0.17,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Diafragma",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.77,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ligamento Pericardiofrênico",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.85,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Ápice do Coração",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.51,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Pericárdio Seroso - Lâmina Visceral (Epicárdio)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Átrio Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Artéria Aorta (Parte Ascendente)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tronco Pulmonar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Pericárdio Seroso - Lâmina Parietal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Língula do Pulmão Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.91,
+                    "y": 0.52,
+                    "placement": "left"
+                }
+            
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao1.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Pericárdio Fibroso",
+                    "description": "O pericárdio fibroso é a camada mais externa e resistente do pericárdio, que é um saco fechado de dupla camada que envolve o coração. A camada mais interna é o pericárdio seroso.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Pulmão Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.79,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Pulmão Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.22,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Lâmina Parietal do Pericárdio Seroso",
+                    "description": "É a lâmina mais externa do pericárdio seroso e está fundida ao pericárdio fibroso.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.58,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Cavidade Pericárdica",
+                    "description": "É um espaço virtual entre as lâminas parietal e visceral do pericárdio seroso. Normalmente contém uma fina película de líquido que permite ao coração se movimentar e bater sem atrito.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.65,
+                    "placement": "bottom"
+                },
+                {
+                    "id": 5,
+                    "title": "Lâmina Visceral do Pericárdio Seroso (Epicárdio)",
+                    "description": "É a lâmina mais interna do pericárdio seroso e se encontra em contato íntimo com o coração, constituindo o epicárdio.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.64,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Base do Coração",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Pulmão Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.79,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Pulmão Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.13,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Seio Transverso do Pericárdio",
+                    "description": "Passagem transversal no saco pericárdico, localizada posteriormente à aorta ascendente e ao tronco pulmonar e anteriormente à veia cava superior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Face Pulmonar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Face Esternocostal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Ápice",
+                    "description": "Parte inferolateral do ventrículo esquerdo, em geral, situada entre o 4º e o 5º espaços intercostais esquerdos, ao nível da linha médio-clavicular. Local onde os batimentos cardíacos podem ser melhor auscultados na parede torácica.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.77,
+                    "placement": "left"
+                }  
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Anterior - Coração Rebatido",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao3.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Face Diafragmática",
+                    "description": "Formada principalmente pelo ventrículo esquerdo e em parte pelo ventrículo direito. Está relacionada ao centro tendíneo do diafragma.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.02,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Seio Oblíquo do Pericárdio",
+                    "description": "Recesso semelhante a uma bolsa na cavidade pericárdica posterior à base do coração, formado pelo átrio esquerdo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.58,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Átrio Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Pericárdio Seroso (Lâmina Parietal)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.58,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao19.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Ventrículo Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.73,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Artéria Interventricular Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.66,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Átrio Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.72,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Aurícula Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Ventrículo Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Tronco Pulmonar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Átrio Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.25,
+                    "y": 0.2,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Aurícula Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Artéria Aorta",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.2,
+                    "placement": "left"
+                }     
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao20.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Átrio Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Seio Coronário",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Óstio da Veia Cava Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Átrio Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.26,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Veia Cava Superior",
+                    "description": "Formada pela união das veias braquiocefálicas direita e esquerda. Localiza-se posteriormente à primeira cartilagem costal direita. Recebe o sangue proveniente dos membros superiores, da cabeça, do pescoço, das paredes torácicas e de parte das paredes abdominais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.14,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Tronco Braquiocefálico Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.11,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Artéria Carótida Comum Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.07,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Artéria Subclávia Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.14,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Arco da Aorta",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.27,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Aurícula Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.78,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Aurícula Direita",
+                    "description": "Estrutura semelhante à uma orelha, é uma bolsa muscular cônica que se projeta do átrio como uma câmara adicional, que aumenta a sua capacidade.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Ventrículo Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.71,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Ventrículo Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.8,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Artéria Interventricular Anterior",
+                    "description": "Originada da artéria coronária esquerda, desce ao longo do sulco interventricular anterior até o ápice do coração. A seguir, realiza uma volta ao redor da margem inferior do coração e pode se anastomosar com a artéria interventricular posterior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Tronco Pulmonar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.39,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao5.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Artéria Interventricular Posterior",
+                    "description": "Pode se originar tanto da artéria coronária direita, quanto do ramo circunflexo da artéria coronária esquerda, o que determina a dominância do coração. Desce pelo sulco interventricular posterior até o ápice do coração, podendo se anastomosar com a artéria interventricular anterior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.96,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Seio Coronário",
+                    "description": "É um canal venoso largo que drena a maioria das veias cardíacas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.31,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Átrio Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.7,
+                    "y": 0.31,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Ventrículo Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.61,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Ventrículo Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.59,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Ápice do Coração",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.89,
+                    "placement": "right"
+                },
+                {                
+                    "id": 0,
+                    "title": "Veia Cava Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.17,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Veia Pulmonar Inferior Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.2,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Face Diafragmática",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.03,
+                    "y": 0.43,
+                    "placement": "right"
+                }
+                
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Vista Lateral Direita",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao6.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Átrio Direito",
+                    "description": "É a câmara superior direita do coração. Recebe o sangue proveniente da circulação sistêmica, através das veias cava superior, cava inferior e do seio coronário.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.55,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Ventrículo Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.6,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Artéria Aorta (Parte Ascendente)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.19,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Tronco Pulmonar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.2,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Cone Arterial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.24,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Veia Cava Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.19,
+                    "y": 0.76,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Margem Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.9,
+                    "placement": "right"
+                }
+
+
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Vista Lateral Esquerda",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao7.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Arco da Aorta",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.31,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Artéria Aorta (Parte Descendente/Torácica)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.82,
+                    "y": 0.67,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Ventrículo Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.64,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Artéria Interventricular Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.51,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Ramo Marginal Esquerdo",
+                    "description": "Proveniente do ramo circunflexo da artéria coronária esquerda.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.6,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Ramo Posterior do Ventrículo Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.75,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Aurícula Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.57,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Tronco Pulmonar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.43,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Veia Pulmonar Inferior Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.68,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Veia Pulmonar Superior Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.65,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Artéria Carótida Comum Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.78,
+                    "y": 0.22,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Artéria Subclávia Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.87,
+                    "y": 0.26,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Tronco Braquiocefálico",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.77,
+                    "y": 0.15,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Veia Cava Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.14,
+                    "placement": "right"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Vista Posterossuperior",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao8.png",
+            "pins":[
+                {
+                    "id": 1,
+                    "title": "Artéria Subclávia Esquerda",
+                    "description": "Origina-se do arco aórtico. Supre o membro superior e, por meio das artérias vertebrais, o sistema posterior de vascularização encefálica.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Artéria Carótida Comum Esquerda",
+                    "description": "Origina-se do arco da aorta, ascende pelo pescoço (onde palpamos o pulso carotídeo) e bifurca-se em carótida externa e interna que, por sua vez, supre o sistema anterior de vascularização encefálica.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.16,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Tronco Braquiocefálico",
+                    "description": "O primeiro e maior ramo do arco aórtico. Dá origem a duas artérias: carótida comum direita e subclávia direita.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.23,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Artéria Carótida Comum Direita",
+                    "description": "Origina-se do tronco braquiocefálico, ascende pelo pescoço (onde palpamos o pulso carotídeo) e bifurca-se em carótida externa e interna que, por sua vez, supre o sistema anterior de vascularização encefálica.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.1,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Artéria Subclávia Direita",
+                    "description": "Origina-se do tronco braquiocefálico. Supre o membro superior e, por meio das artérias vertebrais, o sistema posterior de vascularização encefálica.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.66,
+                    "y": 0.17,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Arteria Aorta (Parte Ascendente)",
+                    "description": "Primeiro segmento da aorta. Seus únicos ramos são as artérias coronárias, originadas nos seios da valva aórtica.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.44,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Veia Braquiocefálica",
+                    "description": "Formadas pela união das veias jugulares internas e subclávia, drenam sangue da cabeça, pescoço, membros superiores, glândulas mamárias e parte superior do tórax.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.77,
+                    "y": 0.23,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Artéria Aorta (Parte Descendente)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Artéria Pulmonar Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Artéria Pulmonar Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 11,
+                    "title": "Àtrio Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 12,
+                    "title": "Veia Cava Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.91,
+                    "placement": "left"
+                },
+                {
+                    "id": 13,
+                    "title": "Átrio Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.75,
+                    "placement": "left"
+                },
+                {
+                    "id": 13,
+                    "title": "Arco Aórtico",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 14,
+                    "title": "Veia Ázigo",
+                    "description": "Drena sangue das paredes posteriores do tórax e abdome.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 14,
+                    "title": "Veia Cava Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.46,
+                    "placement": "left"
+                }
+            ]    
+            
+        },
+        { 
+
+            "id": 8,
+            "title": "Vista Superior Direita",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao9.png",
+            "pins":[
+                {
+                    "id": 1,
+                    "title": "Átrio Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.66,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Ventrículo Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.88,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Veia Cava Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.09,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Veia Àzigo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Artéria Pulmonar Superior Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.32,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Artéria Pulmonar Direita",
+                    "description": "Origina-se do tronco pulmonar e conduz sangue pouco oxigenado aos pulmões.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Artéria Pulmonar Inferior Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Veia Pulmonar Superior Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Veia Cava Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.9,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Átrio Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.37,
+                    "y": 0.74,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Veia Pulmonar Inferior Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.37,
+                    "y": 0.74,
+                    "placement": "left"
+                },
+                {
+                    "id": 12,
+                    "title": "Àtrio Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 13,
+                    "title": "Veia Pulmonar Inferior Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.13,
+                    "y": 0.63,
+                    "placement": "right"
+                },
+                {
+                    "id": 14,
+                    "title": "Veia Pulmonar Superior Esquerda",
+                    "description": "As veias pulmonares carregam sangue rico em oxigênio dos pulmões até o átrio esquerdo do coração. Elas são as únicas veias da circulação pós-fetal do corpo humano que carregam sangue arterial.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.15,
+                    "y": 0.49,
+                    "placement": "right"
+                },
+                {
+                    "id": 15,
+                    "title": "Artéria Pulmonar Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.19,
+                    "y": 0.35,
+                    "placement": "right"
+                },
+                {
+                    "id": 16,
+                    "title": "Arco da Aorta",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.15,
+                    "y": 0.13,
+                    "placement": "right"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "title": "Camadas Musculares do Coração",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao18.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Camada Interna do Músculo Estriado Cardíaco",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.54,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Camada Externa do Músculo Estriado Cardíaco",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.49,
+                    "placement": "left"
+                }      
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Corte Axial",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao15.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Endocárdio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.76,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Miocárdio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Endocárdio",
+                    "description": "Camada interna do coração, contínua com o endotélio vascular.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Miocárdio",
+                    "description": "Camada média e mais espessa da parede cardíaca.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Epicárdio",
+                    "description": "Camada externa do coração, corresponde à lâmina visceral do pericárdio seroso.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.61,
+                    "placement": "left"
+                }    
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Corte Coronal",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao14.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Válvula Atrioventricular Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.17,
+                    "y": 0.3,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Ventrículo Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.72,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Septo Interventricular",
+                    "description": "Espessa camada muscular que separa os ventrículos esquerdo e direito.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Válvula Atrioventricular Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Ventrículo Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.81,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Trabéculas Cárneas",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Átrio Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Músculos Papilares",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.84,
+                    "y": 0.68,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Válvula Semilunar da Valva Aórtica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.35,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Aurícula Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.23,
+                    "placement": "left"
+                },
+                {
+                    "id": 11,
+                    "title": "Cordas Tendíneas",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.77,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 12,
+                    "title": "Músculos Pectíneos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.38,
+                    "placement": "left"
+                } 
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Vista Anterior - Secção de Ventrículo Direito",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao13.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Átrio Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.12,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Artéria Aorta (Parte Ascendente)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.07,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Ventrículo Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.8,
+                    "y": 0.73,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Músculo Papilar",
+                    "description": "São projeções musculares cônicas com bases fixadas à parede ventricular. Começam a se contrair antes dos ventrículos, tencionando as cordas tendíneas e aproximando as válvulas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Trabéculas Cárneas",
+                    "description": "Feixes elevados de fibras musculares cardíacas. Podem ser de três tipos: Cristas (que são relevos musculares implantados na parede do ventrículo); Pontes (que apresentam a porção central livre, estando presas à parede ventricular pelas extremidades) e os Músculos Papilares (formações musculares cônicas, cuja base está presa à parede ventricular e em seus ápices fixam-se as cordas tendíneas).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.19,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Cordas Tendíneas",
+                    "description": "São filamentos que conectam as cúspides das valvas atrioventriculares aos músculos papilares nos ventrículos. Estes impedem que as válvulas se invertam quando os ventrículos se contraem.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Ventrículo Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.65,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "title": "Vista Superior (Remoção dos Átrios)",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao16.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Valva Atrioventricular Esquerda (Bicúspide)",
+                    "description": "Também chamada de valva mitral, possui duas cúspides: anterior e posterior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.04,
+                    "y": 0.47,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Óstio Atrioventricular Esquerdo",
+                    "description": "Orifício de passagem do sangue arterial do átrio esquerdo para o ventrículo esquerdo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.1,
+                    "y": 0.36,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Anel Fibroso Aórtico",
+                    "description": "É um anel fibroso onde estão fixadas as válvulas semilunares direita, esquerda e posterior da artéria aorta.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.13,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Valva Atrioventricular Direita (Tricúspide)",
+                    "description": "Possui três cúspides: anterior, posterior e septal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.72,
+                    "y": 0.86,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Óstio Atrioventricular Direito",
+                    "description": "Orifício de passagem do sangue venoso do átrio direito para o ventrículo direito.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.92,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Anel Fibroso Pulmonar",
+                    "description": "É um anel fibroso, onde estão fixadas as válvulas semilunares anterior, direita e esquerda do tronco pulmonar.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.95,
+                    "y": 0.19,
+                    "placement": "left"
+                }    
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Vista Superior (Remoção dos Átrios)",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao17.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Válvula Posterior da Valva Bicúspide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.22,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Válvula Anterior da Valva Bicúspide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.35,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Válvula Posterior da Valva Tricúspide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.76,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Válvula Anterior da Valva Tricúspide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.76,
+                    "y": 0.69,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Válvula Septal da Valva Tricúspide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.63,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Válvula Semilunar da Valva Aórtica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Valva Aórtica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.82,
+                    "y": 0.24,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Valva Pulmonar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.1,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Válvula Semilunar da Valva Pulmonar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.9,
+                    "y": 0.15,
+                    "placement": "left"
+                }     
+            ]
+        },
+        { 
+            
+            "id": 9,
+            "title": "Vista Interna do Átrio Direito",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao10.png",
+            "pins":[
+            
+                {
+                    "id": 0,
+                    "title": "Músculos Pectíneos",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.79,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Válvula Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Válvula Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.77,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Válvula Septal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Fossa Oval",
+                    "description": " É um resquício do forame oval, uma abertura no septo interatrial no coração fetal, que normalmente se fecha logo após o nascimento.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.11,
+                    "y": 0.62,
+                    "placement": "right"
+                },
+                {
+                    "id": 6,
+                    "title": "Limbo da Fossa Oval",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.08,
+                    "y": 0.56,
+                    "placement": "right"
+                },
+                {
+                    "id": 7,
+                    "title": "Septo Interatrial",
+                    "description": "Fina camada muscular que separa os átrios direito e esquerdo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.21,
+                    "y": 0.46,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Valva Tricúspide - Vista Superior",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/coracao/coracao11.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Válvula Septal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.44,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Válvula Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Cordas Tendíneas",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Válvula Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Músculo Papilar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.51,
+                    "placement": "left"
+                }  
+            ]
+        }
+    ]
+}

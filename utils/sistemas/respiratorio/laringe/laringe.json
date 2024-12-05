@@ -1,0 +1,661 @@
+{
+    "systemName": "Laringe",
+    "pieces": [
+        {
+            "id": 1,
+            "title": "Vista Medial",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/laringe/laringe1.png",
+            "pins": [
+                    {
+                        "id": 0,
+                        "title": "Palato Duro",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.29,
+                        "y": 0.14,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 1,
+                        "title": "Mandíbula",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.27,
+                        "y": 0.45,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Parte Oral da Faringe",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.56,
+                        "y": 0.26,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Osso Hioide",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.44,
+                        "y": 0.44,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Ádito da Laringe",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.74,
+                        "y": 0.45,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 5,
+                        "title": "Laringe",
+                        "description": "Está situada na região anterior do pescoço, ao nível dos corpos das vértebras C3-C6. É formada por 9 cartilagens unidas por membranas e ligamentos, além de conter as pregas vocais.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.47,
+                        "y": 0.61,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 6,
+                        "title": "Glândula Tireoide",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.62,
+                        "y": 0.77,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 7,
+                        "title": "Traqueia",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.73,
+                        "y": 0.76,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 5,
+                        "title": "Prega Vestibular",
+                        "description": "Consiste em duas pregas espessas de mucosa, que não desempenham nenhum papel na produção da voz. Sua função é apenas protetora.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.53,
+                        "y": 0.52,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 7,
+                        "title": "Prega Vocal",
+                        "description": "Também chamadas de cordas vocais verdadeiras, são pregas salientes de mucosa que controlam a produção da voz.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.54,
+                        "y": 0.55,
+                        "placement": "left"
+                    }
+                ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/laringe/laringe2.png",
+            "pins": [
+                    {
+                        "id": 0,
+                        "title": "Osso Hioide",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.52,
+                        "y": 0.07,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 1,
+                        "title": "Cartilagem Tireóidea",
+                        "description": "É a maior das cartilagens. Suas lâminas fundem-se anteriormente no plano mediano para formar a proeminência laríngea.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.56,
+                        "y": 0.18,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Proeminência Laríngea",
+                        "description": "Proeminência anterior da cartilagem tireóidea. É mais pronunciada nos indivíduos do sexo masculino, em razão dos hormônios sexuais, principalmente a testosterona.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.51,
+                        "y": 0.16,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Músculo Tireo-hióideo",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.42,
+                        "y": 0.16,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Músculo Cricotireóideo",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.45,
+                        "y": 0.27,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 5,
+                        "title": "Cartilagem Cricóidea",
+                        "description": "Constitui a porção inferior da laringe. Possui a forma de um 'anel de sinete', com o arco voltado anteriormente e a lâmina voltada posteriormente, sendo o único anel de cartilagem completo que circunda a via respiratória.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.51,
+                        "y": 0.32,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 6,
+                        "title": "Glândula Tireoide",
+                        "description": "Situa-se profundamente aos músculos esternotireóideo e esterno-hióideo, na porção anterior do pescoço, no nível de C5-T1. É formada principalmente pelos lobos direito e esquerdo unidos por um istmo relativamente fino.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.37,
+                        "y": 0.4,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 7,
+                        "title": "Traqueia",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.51,
+                        "y": 0.66,
+                        "placement": "left"
+                    }
+                ]
+        },
+        {
+            "id": 3,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/laringe/laringe3.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Esôfago (rebatido)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.15,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Músculo Cricoaritenóideo Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Cartilagem Cricóidea - Lâmina",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Glândula Tireoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Traqueia - Parede Membranácea",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.505,
+                    "y": 0.66,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Brônquio Principal Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.87,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Brônquio Principal Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.9,
+                    "placement": "left"
+                }
+            ]
+            
+        },
+        {
+            "id": 4,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/laringe/laringe4.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Corpo da Língua",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.07,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Raiz da Língua",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Epiglote",
+                    "description": "Situada posteriormente à raiz da língua e ao osso hioide e anteriormente ao ádito da laringe. Possui forma de folha e fecha o ádito da laringe durante a deglutição.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Prega Ariepiglótica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Ádito da Laringe",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.87,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Recesso Piriforme",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.12,
+                    "y": 0.46,
+                    "placement": "right"
+                },
+                {
+                    "id": 6,
+                    "title": "Porção Laríngea da Faringe",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Traqueia",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.94,
+                    "placement": "left"
+                }
+            ]
+            
+        },
+        {
+            "id": 5,
+            "title": "Vista Medial",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/laringe/laringe5.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Palato Duro",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.15,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Mandíbula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.44,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Porção Oral da Faringe",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.26,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Epiglote",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Osso Hioide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Prega Vestibular",
+                    "description": "Consiste em duas pregas espessas de mucosa, que não desempenham nenhum papel na produção da voz. Sua função é apenas protetora.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Músculo Aritenóideo Transverso",
+                    "description": "Inervado pelo nervo laríngeo recorrente, tracionam simultaneamente as cartilagens aritenóideas. Fecha a porção intercartilagínea da rima da glote. Tem em sua origem uma cartilagem aritenóidea e sua inserção a cartilagem aritenóidea oposta.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Prega Vocal",
+                    "description": "Também chamadas de cordas vocais verdadeiras, são pregas salientes de mucosa que controlam a produção da voz.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Ventrículo da Laringe",
+                    "description": "Recessos que se estendem lateralmente da parte média da cavidade da laringe entre as pregas vestibulares e vocal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.77,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Cartilagem Cricóidea",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Glândula Tireoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.77,
+                    "placement": "left"
+                },
+                {
+                    "id": 11,
+                    "title": "Traqueia",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.73,
+                    "placement": "left"
+                }
+            ]
+            
+        }, 
+        {
+            "id": 6,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/laringe/laringe6.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Língua",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Epiglote",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Vestíbulo da Laringe",
+                    "description": "A cavidade da laringe é dividida em três partes: vestíbulo da laringe, ventrículo da laringe e cavidade infraglótica. Acima das pregas vestibulares está o vestíbulo da laringe.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ventrículo da Laringe",
+                    "description": "Recessos que estendem lateralmente entre as pregas vocais e vestibulares.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.88,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Prega Vestibular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.37,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Prega Vocal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.37,
+                    "y": 0.59,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Cavidade Infraglótica",
+                    "description": "É a cavidade inferior da laringe entre as pregas vocais e a margem inferior da cartilagem cricóidea, onde é contínua com a luz da traqueia.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Traqueia",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.9,
+                    "placement": "left"
+                }
+            ]   
+            
+        },
+        {
+            "id": 7,
+            "title": "Vista Superior",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/laringe/laringe7.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Epiglote",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Glote",
+                    "description": "É o aparelho vocal da laringe e compreende as pregas e processos vocais, junto com a rima da glote. Esta última é a abertura entre as pregas vocais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.04,
+                    "y": 0.61,
+                    "placement": "right"
+                }
+            ]
+            
+        },
+        {
+            "id": 8,
+            "title": "Vista Superior",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/laringe/laringe8.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Epiglote",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Prega Vocal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Prega Vestibular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.59,
+                    "placement": "left"
+                }
+            ]
+            
+        }
+    ]
+}

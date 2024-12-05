@@ -1,0 +1,143 @@
+{
+    "systemName": "Glândulas Anexas",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/genital_masculino/glandulas_gm/glandulas_gm1.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Próstata",
+                    "description": "Glândula situada inferiormente à bexiga e atravessada pela uretra. Sua secreção, juntamente com a secreção das demais glândulas anexas e os espermatozoides, formam o sêmen.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.79,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Glândula Seminal Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.42,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Glândula Seminal Esquerda",
+                    "description": "Bolsas saculiformes localizadas na região posterior da bexiga, acima da próstata. Sua secreção corresponde a cerca de 70% da composição do líquido seminal. O ducto da glândula seminal se une ao ducto deferente para formar o ducto ejaculatório, que atravessa a próstata.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.42,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Ducto Deferente Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.42,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Ducto Deferente Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Bexiga Urinária",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.2,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Corte Coronal da Próstata",
+            "description": "",
+            "image": "./utils/sistemas/genital_masculino/glandulas_gm/glandulas_gm2.png",
+            "pins": 
+            [
+                {
+                    "id": 0,
+                    "title": "Bexiga Urinária",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Parte Prostática da Uretra",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.79,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Próstata",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Seio Uretral",
+                    "description": "É a depressão existente a cada lado da crista e do colículo uretral. Nele desembocam os ductos das glândulas prostáticas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.65,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Colículo Seminal",
+                    "description": "Elevação arredondada da crista uretral, com um orifício pequeno denominado utrículo prostático. De cada lado do utrículo prostático, encontra-se um óstio do ducto ejaculatório.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Utrículo Prostático",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.65,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

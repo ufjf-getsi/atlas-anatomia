@@ -1,0 +1,233 @@
+{
+    "systemName": "Medula Espinal",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/medula_espinal/medula_espinal1.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Intumescência Cervical",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.12,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Intumescência Lombar",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.62,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/medula_espinal/medula_espinal3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Ligamento Denticulado",
+                    "description": "Prega longitudinal de pia-máter situada de cada lado da medula espinal, em toda a sua extensão. A margem medial do ligamento é contínua com a pia-máter da medula; já a margem lateral se insere na aracnoide e na dura-máter em pontos alternados com as emergências dos nervos espinhais. Esses ligamentos são importantes pontos de referência em cirurgia e, junto com ligamento coccígeo, promovem a sustentação da medula espinal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Dura-máter e Aracnoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.39,
+                    "y": 0.18,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Fissura Mediana Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.71,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/medula_espinal/medula_espinal4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Intumescência Lombar",
+                    "description": "Dilatação da medula em nível lombar, onde fazem conexão as raízes nervosas que formam o plexo lombossacral.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Intumescência Cervical",
+                    "description": "Dilatação da medula em nível cervical, onde fazem conexão as raízes nervosas que formam o plexo braquial.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Cauda Equina",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.7,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/medula_espinal/medula_espinal5.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Cauda Equina",
+                    "description": "É o conjunto formado pelo filamento terminal e pelas raízes nervosas dos últimos nervos espinhais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.79,
+                    "y": 0.06,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Filamento Terminal",
+                    "description": "Filamento de pia-máter que continua caudalmente após o fim da medula espinal. Ao atravessar o saco dural, recebe vários prolongamentos da dura-máter e o conjunto passa a ser denominado filamento de dura-máter espinal. Este ao inserir-se no periósteo da superfície dorsal do cóccix constitui o ligamento coccígeo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.49,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/medula_espinal/medula_espinal6.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Cone Medular",
+                    "description": "Porção final da medula espinal, cujo limite caudal situa-se geralmente em nível da segunda vértebra lombar (L2). Abaixo do cone medular encontra-se a cauda equina.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Cauda Equina",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.73,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Gânglio Espinal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Nervo Espinal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.21,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/medula_espinal/medula_espinal7.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Filamentos Radiculares",
+                    "description": "Filamentos nervosos que emergem da medula espinal pelos sulcos laterais anterior e posterior, e se unem para formar as raízes anterior e posterior do nervo espinal, respectivamente.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.53,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Nervo Espinal",
+                    "description": "Formado pela união da raiz sensitiva (dorsal) e raiz motora (ventral).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Raiz Dorsal do Nervo Espinal",
+                    "description": "É a raiz sensitiva do nervo espihal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Gânglio Espinal",
+                    "description": "Gânglio situado na raiz dorsal do nervo espinal, onde estão presentes os corpos de neurônios sensitivos pseudounipolares (primeiro neurônio sensitivo).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.57,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

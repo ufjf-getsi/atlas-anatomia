@@ -1,0 +1,427 @@
+{
+    "systemName": "Pulmão",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Vista Anterior - Pulmões e Coração",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/pulmao/pulmao1.png",
+            "pins": [
+            {
+                "id": 0,
+                "title": "Coração",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.59,
+                "y": 0.59,
+                "placement": "left"
+            },
+            {
+                "id": 0,
+                "title": "Pulmão Direito",
+                "description": "O pulmão direito é maior e mais pesado do que o esquerdo, mas é mais curto e mais largo, pois a cúpula direita do diafragma é mais alta e o coração e o pericárdio projetam-se para a esquerda. Ele possui três lobos: superior, médio e inferior, divididos pelas fissuras oblíqua e horizontal.",
+                "color": "red",
+                "url": "",
+                "x": 0.32,
+                "y": 0.47,
+                "placement": "left"
+            },
+            {
+                "id": 0,
+                "title": "Pulmão Esquerdo",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.8,
+                "y": 0.47,
+                "placement": "left"
+            },
+            {
+                "id": 0,
+                "title": "Arco da Aorta",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.49,
+                "y": 0.33,
+                "placement": "left"
+            },
+            {
+                "id": 0,
+                "title": "Traquéia",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.48,
+                "y": 0.23,
+                "placement": "left"
+            }                             
+        ]
+    
+    },
+    {
+        "id": 0,
+        "title": "Vista Posterior - Pulmões e Coração",
+        "description": "",
+        "image": "./utils/sistemas/respiratorio/pulmao/pulmao2.png",
+        "pins": [
+        {
+            "id": 0,
+            "title": "Traquéia",
+            "description": "",
+            "color": "blue",
+            "url": "",
+            "x": 0.54,
+            "y": 0.39,
+            "placement": "left"
+        },
+        {
+            "id": 0,
+            "title": "Pulmão Direito",
+            "description": "",
+            "color": "blue",
+            "url": "",
+            "x": 0.72,
+            "y": 0.53,
+            "placement": "left"
+        },
+        {
+            "id": 0,
+            "title": "Pulmão Esquerdo",
+            "description": "",
+            "color": "blue",
+            "url": "",
+            "x": 0.28,
+            "y": 0.51,
+            "placement": "left"
+        },
+        {
+            "id": 0,
+            "title": "Coração",
+            "description": "",
+            "color": "blue",
+            "url": "",
+            "x": 0.52,
+            "y": 0.61,
+            "placement": "left"
+        },
+        {
+            "id": 0,
+            "title": "Artéria Aorta",
+            "description": "",
+            "color": "blue",
+            "url": "",
+            "x": 0.45,
+            "y": 0.54,
+            "placement": "left"
+        }
+
+    ]
+
+},
+{
+    "id": 0,
+    "title": "Pulmões - Vistas Laterais",
+    "description": "Pulmões - Vistas Laterais",
+    "image": "./utils/sistemas/respiratorio/pulmao/pulmao3.png",
+    "pins": [
+    {
+        "id": 0,
+        "title": "Base do Pulmão Esquerdo",
+        "description": "",
+        "color": "blue",
+        "url": "",
+        "x": 0.77,
+        "y": 0.69,
+        "placement": "left"
+    },
+    {
+        "id": 0,
+        "title": "Língula do Pulmão Esquerdo",
+        "description": "",
+        "color": "blue",
+        "url": "",
+        "x": 0.55,
+        "y": 0.63,
+        "placement": "left"
+    },
+    {
+        "id": 0,
+        "title": "Fissura Oblíqua",
+        "description": "Divide o pulmão esquerdo em um lobo superior e um lobo inferior.",
+        "color": "red",
+        "url": "",
+        "x": 0.75,
+        "y": 0.55,
+        "placement": "left"
+    },
+    {
+        "id": 0,
+        "title": "Lobo Inferior Esquerdo",
+        "description": "",
+        "color": "blue",
+        "url": "",
+        "x": 0.84,
+        "y": 0.57,
+        "placement": "left"
+    },
+    {
+        "id": 0,
+        "title": "Lobo Superior Esquerdo",
+        "description": "",
+        "color": "blue",
+        "url": "",
+        "x": 0.69,
+        "y": 0.46,
+        "placement": "left"
+    },
+    {
+        "id": 0,
+        "title": "Ápice do Pulmão Esquerdo",
+        "description": "",
+        "color": "blue",
+        "url": "",
+        "x": 0.74,
+        "y": 0.3,
+        "placement": "left"
+    },
+    {
+        "id": 0,
+        "title": "Lobo Inferior Direito",
+        "description": "",
+        "color": "blue",
+        "url": "",
+        "x": 0.16,
+        "y": 0.6,
+        "placement": "right"
+    },
+    {
+        "id": 0,
+        "title": "Base do Pulmão Direito",
+        "description": "Porção pulmonar de forma côncava. Apoia-se sobre a face superior do diafragma. A concavidade da base do pulmão direito é mais profunda que a do esquerdo devido à presença do fígado.",
+        "color": "red",
+        "url": "",
+        "x": 0.2,
+        "y": 0.7,
+        "placement": "right"
+    },
+    {
+        "id": 0,
+        "title": "Fissura Oblíqua",
+        "description": "Separa o lobo inferior dos lobos médio e superior.",
+        "color": "red",
+        "url": "",
+        "x": 0.24,
+        "y": 0.61,
+        "placement": "right"
+    },
+    {
+        "id": 0,
+        "title": "Lobo Médio",
+        "description": "",
+        "color": "blue",
+        "url": "",
+        "x": 0.34,
+        "y": 0.62,
+        "placement": "right"
+    },
+    {
+        "id": 0,
+        "title": "Fissura Horizontal",
+        "description": "Separa o lobo superior do lobo médio.",
+        "color": "red",
+        "url": "",
+        "x": 0.31,
+        "y": 0.56,
+        "placement": "right"
+    },
+    {
+        "id": 0,
+        "title": "Lobo Superior Direito",
+        "description": "",
+        "color": "blue",
+        "url": "",
+        "x": 0.22,
+        "y": 0.46,
+        "placement": "right"
+    },
+    {
+        "id": 0,
+        "title": "Ápice do Pulmão Direito",
+        "description": "",
+        "color": "blue",
+        "url": "",
+        "x": 0.24,
+        "y": 0.31,
+        "placement": "right"
+    }                            
+]
+
+},
+{
+    "id": 0,
+    "title": "Pulmão Esquerdo - Vista Lateral",
+    "description": "",
+    "image": "./utils/sistemas/respiratorio/pulmao/pulmao5.png",
+    "pins": [
+    {
+        "id": 0,
+        "title": "Incisura Cardíaca",
+        "description": "Fissura na borda anterior do pulmão esquerdo. A concavidade pericárdica é naturalmente mais profunda no pulmão esquerdo devido ao fato de dois terços do coração estarem à esquerda.",
+        "color": "red",
+        "url": "",
+        "x": 0.25,
+        "y": 0.61,
+        "placement": "left"
+    },
+    {
+        "id": 0,
+        "title": "Língula do Pulmão Esquerdo",
+        "description": "Prolongamento que representa resquícios do desenvolvimento embrionário do lobo médio.",
+        "color": "red",
+        "url": "",
+        "x": 0.13,
+        "y": 0.83,
+        "placement": "right"
+    },
+    {
+        "id": 0,
+        "title": "Base do Pulmão",
+        "description": "",
+        "color": "blue",
+        "url": "",
+        "x": 0.82,
+        "y": 0.87,
+        "placement": "left"
+    },
+    {
+        "id": 0,
+        "title": "Impressões Costais",
+        "description": "",
+        "color": "blue",
+        "url": "",
+        "x": 0.87,
+        "y": 0.29,
+        "placement": "left"
+    },
+    {
+        "id": 0,
+        "title": "Ápice do Pulmão",
+        "description": "Porção superior do pulmão em dorma levemente arredondada. No corpo humano, o ápice do pulmão atinge o nível da articulação esterno-clavicular.",
+        "color": "red",
+        "url": "",
+        "x": 0.48,
+        "y": 0.1,
+        "placement": "left"
+    }
+
+]
+
+},
+{
+    "id": 0,
+    "title": "Pulmão Direito - Vista Medial",
+    "description": "",
+    "image": "./utils/sistemas/respiratorio/pulmao/pulmao6.png",
+    "pins": [
+    {
+        "id": 0,
+        "title": "Hilo do Pulmão",
+        "description": "É uma área cuneiforme na face mediastinal do pulmão através da qual as estruturas que formam a raiz pulmonar entram ou saem desse órgão.",
+        "color": "red",
+        "url": "",
+        "x": 0.54,
+        "y": 0.49,
+        "placement": "left"
+    },
+    {
+        "id": 0,
+        "title": "Face Diafragmática",
+        "description": "",
+        "color": "blue",
+        "url": "",
+        "x": 0.45,
+        "y": 0.83,
+        "placement": "left"
+    }
+
+]
+
+},
+{
+    "id": 0,
+    "title": "Pulmão Direito - Vista Medial",
+    "description": "",
+    "image": "./utils/sistemas/respiratorio/pulmao/pulmao7.png",
+    "pins": [
+    {
+        "id": 0,
+        "title": "Face Diafragmática",
+        "description": "",
+        "color": "blue",
+        "url": "",
+        "x": 0.45,
+        "y": 0.83,
+        "placement": "right"
+    },
+    {
+        "id": 0,
+        "title": "Ligamento Pulmonar",
+        "description": "Se estende entre o pulmão e o mediastino, imediatamente anterior ao esôfago. É formado por uma camada dupla de pleura, separada por uma pequena quantidade de tecido conjuntivo. Tem função de fixação do pulmão e parece pender da raiz pulmonar quando esta é seccionada, como uma manga de jaleco grande pendendo sobre o braço abduzido.",
+        "color": "red",
+        "url": "",
+        "x": 0.55,
+        "y": 0.72,
+        "placement": "right"
+    },
+    {
+        "id": 0,
+        "title": "Brônquios Lobares Médio e Inferior",
+        "description": "",
+        "color": "blue",
+        "url": "",
+        "x": 0.78,
+        "y": 0.44,
+        "placement": "right"
+    },
+    {
+        "id": 0,
+        "title": "Brônquio Lobar Superior",
+        "description": "",
+        "color": "blue",
+        "url": "",
+        "x": 0.82,
+        "y": 0.36,
+        "placement": "right"
+    },
+    {
+        "id": 0,
+        "title": "Tributária das Veias Pulmonares Direitas",
+        "description": "As veias pulmonares (superior e inferior), levam o sangue oxigenado proveniente dos pulmões para o coração. Começam no hilo pulmonar, passam através da raiz dos pulmões e drenam para o átrio esquerdo.",
+        "color": "red",
+        "url": "",
+        "x": 0.19,
+        "y": 0.47,
+        "placement": "left"
+    },
+    {
+        "id": 0,
+        "title": "Ramos da Artéria Pulmonar Direita",
+        "description": "Artérias pulmonares direita e esquerda originam-se no tronco pulmonar e levam sangue desoxigenado, vindo do coração, para os pulmões. A artéria pulmonar direita é mais longa que a esquerda, entra na raiz do pulmão e fornece um grande ramo para o lobo superior e se divide para suprir os lobos médio e inferior.",
+        "color": "red",
+        "url": "",
+        "x": 0.23,
+        "y": 0.24,
+        "placement": "left"
+    }
+
+]
+
+}
+    
+        
+    
+        
+    ]
+}
