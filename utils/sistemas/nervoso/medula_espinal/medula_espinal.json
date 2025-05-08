@@ -228,6 +228,104 @@
                     "placement": "left"
                 }
             ]
+        },
+        {
+            "id": 2,
+            "title": "Medula Espinal",
+            "description": "",
+            "image": "./utils/sistemas/nervoso/medula_espinal/medula.png",
+            "pins": [
+                {
+                    "id": 1,
+                    "title": "Coluna Posterior",
+                    "description": "Recebe informações sensoriais, como dor, temperatura e tato, provenientes das raízes dorsais dos nervos espinais. Atua como um ponto de transmissão dessas informações para o cérebro.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Fissura Mediana Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.505,
+                    "y": 0.75,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Filamentos Radiculares",
+                    "description": "Conjunto de fibras nervosas que emergem da medula espinhal e formam as raízes dos nervos espinhais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.28,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Sulco Mediano Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.26,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Canal Central",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Coluna Anterior",
+                    "description": "Contém os neurônios motores inferiores, cujos axônios formam as raízes ventrais dos nervos espinais. Faz parte da substância cinzenta da medula e recebe informações das vias descendentes encefálicas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.59,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Funículo Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.75,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Funículo Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.89,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Funículo Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.57,
+                    "y": 0.34,
+                    "placement": "left"
+                }
+            ]
         }
     ]
 }

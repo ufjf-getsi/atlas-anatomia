@@ -66,16 +66,6 @@
                     "placement": "left"
                 },
                 {
-                    "id": 2,
-                    "title": "Mesentério",
-                    "description": "Lâmina dupla de peritônio que possibilita a comunicação neurovascular entre o órgão e a parede posterior do abdome.",
-                    "color": "red",
-                    "url": "",
-                    "x": 0.46,
-                    "y": 0.43,
-                    "placement": "left"
-                },
-                {
                     "id": 3,
                     "title": "Intestino Delgado (Jejuno)",
                     "description": "",
@@ -146,8 +136,8 @@
                 {
                     "id": 4,
                     "title": "Mesentério",
-                    "description": "",
-                    "color": "blue",
+                    "description": "Lâmina dupla de peritônio que possibilita a comunicação neurovascular entre o órgão e a parede posterior do abdome.",
+                    "color": "red",
                     "url": "",
                     "x": 0.38,
                     "y": 0.64,
@@ -295,8 +285,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "",
-                    "x": 0.62,
-                    "y": 0.54,
+                    "x": 0.57,
+                    "y": 0.53,
                     "placement": "left"
                 },
                 {
@@ -362,6 +352,92 @@
         },
         {
             "id": 6,
+            "title": "Intestinos",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/intestinos/intestinos2 copy.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Mesentério",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.6,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Mesocolo Transverso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Alça de Intestino Delgado",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Alça de Intestino Grosso (Colo Transverso)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.78,
+                    "y": 0.24,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Intestinos",
+            "description": "",
+            "image": "./utils/sistemas/digestorio/intestinos/intestinos1 copy.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Mesentério",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.17,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Alça de Intestino Delgado",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Alça de Intestino Grosso (Colo Descendente)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.66,
+                    "y": 0.61,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 8,
             "title": "Jejuno - Vista Interna",
             "description": "",
             "image": "./utils/sistemas/digestorio/intestinos/intestinos2.png",
@@ -380,7 +456,7 @@
             ]
         },
         {
-            "id": 7,
+            "id": 9,
             "title": "Íleo Proximal - Vista Interna",
             "description": "",
             "image": "./utils/sistemas/digestorio/intestinos/intestinos3.png",
@@ -399,7 +475,7 @@
             ]
         },
         {
-            "id": 8,
+            "id": 10,
             "title": "Íleo Distal - Vista Interna",
             "description": "",
             "image": "./utils/sistemas/digestorio/intestinos/intestinos4.png",
@@ -418,72 +494,41 @@
             ]
         },
         {
-            "id": 9,
-            "title": "Junção Ileocecal e Primeiros Segmentos do Intestino Grosso",
+            "id": 11,
+            "title": "Intestino Grosso",
             "description": "",
-            "image": "./utils/sistemas/digestorio/intestinos/intestinos5.png",
-            "pins":
-            [
+            "image": "./utils/sistemas/digestorio/intestinos/intestinos4 copy.png",
+            "pins": [
                 {
                     "id": 0,
-                    "title": "Colo Ascendente",
-                    "description": "É o segundo segmento do intestino grosso, contínuo ao ceco, tendo como limite a flexura cólica direita (flexura hepática). O colo ascendente é mais estreito do que o ceco.",
+                    "title": "Tênia do Colo",
+                    "description": "Condensação da musculatura longitudinal que percorre o intestino grosso em quase toda a sua extensão. São em número de três: livre, omental e mesocólica.",
                     "color": "red",
                     "url": "",
                     "x": 0.32,
-                    "y": 0.48,
+                    "y": 0.38,
                     "placement": "left"
                 },
                 {
                     "id": 1,
-                    "title": "Tênia Livre",
-                    "description": "Condensação da musculatura longitudinal que percorre o intestino grosso em quase toda a sua extensão. São em número de três: livre, omental e mesocólica.",
+                    "title": "Saculação do Colo",
+                    "description": "Dilatações limitadas por sulcos transversais. O intestino grosso pode ser diferenciado do intestino delgado pela presença de tênias, saculações e apêndices omentais, além do maior diâmetro interno.",
                     "color": "red",
                     "url": "",
-                    "x": 0.42,
-                    "y": 0.59,
+                    "x": 0.67,
+                    "y": 0.26,
                     "placement": "left"
                 },
                 {
                     "id": 2,
-                    "title": "Ceco",
-                    "description": "Primeiro segmento do intestino grosso, onde desemboca o íleo. O intestino grosso é formado por: ceco, apêndice vermiforme, colos ascendente, transverso, descendente e sigmoide, reto e canal anal. ",
+                    "title": "Apêndices Omentais",
+                    "description": "Pequenas projeções adiposas semelhantes ao omento.",
                     "color": "red",
                     "url": "",
-                    "x": 0.43,
-                    "y": 0.83,
-                    "placement": "left"
-                },
-                {
-                    "id": 3,
-                    "title": "Apêndice Vermiforme",
-                    "description": "É um divertículo cecal cego e verdadeiro, que mede entre 6 cm e 10 cm de comprimento.",
-                    "color": "red",
-                    "url": "",
-                    "x": 0.74,
-                    "y": 0.79,
-                    "placement": "left"
-                },
-                {
-                    "id": 4,
-                    "title": "Junção Ileocecal",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.67,
-                    "y": 0.68,
-                    "placement": "left"
-                },
-                {
-                    "id": 5,
-                    "title": "Porção Terminal do Íleo",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.8,
-                    "y": 0.68,
-                    "placement": "left"
-                }     
+                    "x": 0.17,
+                    "y": 0.48,
+                    "placement": "right"
+                }
             ]
         },
         {
@@ -505,9 +550,9 @@
                 },
                 {
                     "id": 1,
-                    "title": "Saculação do Ceco",
-                    "description": "Dilatações limitadas por sulcos transversais. O intestino grosso pode ser diferenciado do intestino delgado pela presença de tênias, saculações e apêndices omentais, além do maior diâmetro interno.",
-                    "color": "red",
+                    "title": "Saculação",
+                    "description": "",
+                    "color": "blue",
                     "url": "",
                     "x": 0.21,
                     "y": 0.62,
@@ -516,8 +561,8 @@
                 {
                     "id": 2,
                     "title": "Ceco",
-                    "description": "",
-                    "color": "blue",
+                    "description": "Primeiro segmento do intestino grosso, onde desemboca o íleo. O intestino grosso é formado por: ceco, colos ascendente, transverso, descendente e sigmoide, reto e canal anal.",
+                    "color": "red",
                     "url": "",
                     "x": 0.42,
                     "y": 0.84,
@@ -536,8 +581,8 @@
                 {
                     "id": 4,
                     "title": "Apêndice Vermiforme",
-                    "description": "",
-                    "color": "blue",
+                    "description": "É um divertículo cecal cego e verdadeiro, que mede entre 6 cm e 10 cm de comprimento.",
+                    "color": "red",
                     "url": "",
                     "x": 0.69,
                     "y": 0.76,
@@ -546,8 +591,8 @@
                 {
                     "id": 5,
                     "title": "Apêndice Omental",
-                    "description": "Projeções adiposas pequenas, semelhantes ao omento.",
-                    "color": "red",
+                    "description": "",
+                    "color": "blue",
                     "url": "",
                     "x": 0.59,
                     "y": 0.28,
@@ -647,8 +692,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "",
-                    "x": 0.5,
-                    "y": 0.46,
+                    "x": 0.49,
+                    "y": 0.78,
                     "placement": "left"
                 },
                 {
@@ -657,8 +702,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "",
-                    "x": 0.46,
-                    "y": 0.41,
+                    "x": 0.44,
+                    "y": 0.84,
                     "placement": "left"
                 }
             ]
