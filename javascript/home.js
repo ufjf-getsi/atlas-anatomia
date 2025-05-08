@@ -38,4 +38,9 @@ const loadSystemsCards = async (systems) => {
   });
 };
 
-export { loadSystemsCards, loadHomeCards };
+const updateHomeTitle = (title) => {
+  const titleElement = document.getElementById("home-title");
+  titleElement.innerText = title; 
+}
+
+export { loadSystemsCards, loadHomeCards, updateHomeTitle};

@@ -1,7 +1,7 @@
 // RESPONSÁVEL PELO ROTEAMENTO ATRAVÉS DA URL
 
 import { loadSystemContent } from "./atlas.js";
-import { loadHomeCards, loadSystemsCards } from "./home.js";
+import { loadHomeCards, loadSystemsCards, updateHomeTitle } from "./home.js";
 import { closeSidebar } from "./menu.js";
 import { getAllSystemsData } from "./services.js";
 
@@ -104,14 +104,20 @@ const handler = async (location) => {
         //carrega as infomações de acordo com a seção atual
         switch (atualRoute.section) {
             case "atlas":
+                // carrega o título da home
+                updateHomeTitle(atualRoute.systemName);
                 loadSystemContent(atualRoute.url);
                 break;
 
             case "subsystems":
+                // carrega o título da home
+                updateHomeTitle(atualRoute.systemName);
                 loadSystemsCards(atualRoute.subsystems);
                 break;
 
             case "home":
+                // carrega o título da home
+                updateHomeTitle("Selecione um sistema:");
                 loadHomeCards();
                 break;
         }
