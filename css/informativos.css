@@ -51,6 +51,10 @@
     margin-top: 20px;
 }
 
+.card a, .card a:visited {
+    color: #2e2e2e;
+}
+
 .flex {
 	display: flex;
 	flex-wrap: wrap;

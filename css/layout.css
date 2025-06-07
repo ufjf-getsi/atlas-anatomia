@@ -61,6 +61,10 @@ footer {
     font-size: 0.85em;
 }
 
+footer a, footer a:hover, footer a:visited {
+    color: #F1F1F1;
+}
+
 .opcoes{
     text-align: center;
 }
