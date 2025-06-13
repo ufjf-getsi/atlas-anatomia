@@ -1,15 +1,18 @@
+/* era um grid e foi ajustado para flex */
 #systems-grid {
 	width: 100%;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-	gap: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	column-gap: 80px;
 	margin: auto;
 	position: relative;
 }
 
 @media screen and (width > 768px) {
 	#systems-grid {
-		max-width: 1120px;
+		max-width: 1220px;
 		margin: auto;
 	}
 }
@@ -18,8 +21,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 100%;	
-	padding: 15px 0px;
+	width: clamp(150px, 30vw, 175px);
+	padding: 15px 0;
 	transition: 0.25s all;
 	position: relative;
 }

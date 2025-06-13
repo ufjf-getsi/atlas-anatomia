@@ -11,7 +11,7 @@
 
 /* ATLAS */
 .image-card {
-    max-width: 700px;
+    max-width: 600px;
     width: 95%;
     margin: 25px auto;
     border-radius: 28px;
@@ -136,16 +136,27 @@
 }
 
 .selectors {
-    padding: 7px;
-    aspect-ratio: 1;
-    margin: 0 3px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    background-color: var(--bg-shadow);    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0 3px;
+    background-color: var(--bg-shadow); 
+    color: var(--black);   
     transition: 0.3s all;
+    font-size: 60%;
+    font-weight: bold;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .selected {
     background-color: var(--black);
+    color: var(--bg-white);  
     margin: 0 5px;
 }
 

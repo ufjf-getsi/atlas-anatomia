@@ -16,6 +16,7 @@ const loadNavigations = (piecesNumber) => {
     if(!i)
       d.classList.add("selected");
     d.id = `item_${i}`;
+    d.innerText = i + 1;
     d.onclick = () => handleNavigations(i);
     navigations.appendChild(d);
   }
@@ -40,6 +41,7 @@ const navigateToImage = (index) => {
   setPieceIndex(index);
 
   document.querySelector("#container").setAttribute("isLoading", true);
+  // atualiza a imagem de fundo
   document.querySelector("#content").src = getPieces()[index].image;
   document.querySelector("#image-title").innerText = "Carregando...";
 
