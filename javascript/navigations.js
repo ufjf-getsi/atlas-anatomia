@@ -23,7 +23,7 @@ const loadNavigations = (piecesNumber) => {
 };
 
 const handleNavigations = (index) => {
-  document.querySelector("#item_"+index).scrollIntoView({ behavior: "smooth"});
+  document.querySelector("#item_"+index).scrollIntoView({ behavior: "smooth", inline: "center" });
   navigateToImage(index);
 }
 
