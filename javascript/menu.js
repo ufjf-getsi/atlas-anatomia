@@ -115,8 +115,12 @@ const toggleSidebar = () => {
 
     if (searchContainer.classList.contains("active"))
       searchContainer.classList.remove("active");
+
+    if (document.body.classList.contains("active"))
+      document.body.classList.remove("active");
   }
 
+  document.body.classList.toggle("no-scroll");
   sidebarWrapper.classList.toggle("active");
   sidebarIcon.classList.toggle("active");
 

@@ -4,22 +4,31 @@
 @import url(https://fonts.googleapis.com/css?family=Cinzel);
 
 body {
-	margin: 0;
-    background-image: url("../imagens/fundo.png");
-    color: #F1F1F1;
-    font-family: 'Cinzel', sans-serif;
-    position: relative;
-    min-height: 100vh;
-    font-size: clamp(18px, 2vw, 20px);
-    scroll-behavior: smooth;
+  margin: 0;
+  background-image: linear-gradient(rgba(91, 86, 245, 0.116), rgba(0,0,0,0.4)), url("../imagens/fundo.png");
+  color: #F1F1F1;
+  font-family: 'Cinzel', sans-serif;
+  min-height: 100vh;
+  font-size: clamp(18px, 2vw, 20px);
+  scroll-behavior: smooth;
+  position: relative;
 }
 
 header {
-    height: clamp(150px, 15vh, 250px);
+    background-color: #18181854;
+    border-bottom: 3px solid #18181854;
 }
 
 header .logoPrincipal {
-    height: 45%;
+    backdrop-filter: blur(2px);
+    height: clamp(40px, 15vh, 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header .logo {
+    max-height: 70%;
 }
 
 header .navbar {
@@ -55,7 +64,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    min-height: 50px;
+    height: clamp(50px, 8vh, 70px);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -66,6 +75,7 @@ footer {
     font-size: 0.75rem;
     backdrop-filter: blur(2px);
     padding-top: 10px;
+    border-top: 3px solid #18181854;
 }
 
 footer p {

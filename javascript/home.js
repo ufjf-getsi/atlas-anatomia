@@ -14,6 +14,23 @@ const loadSystemsCards = async (systems) => {
 
   const container = document.getElementById("systems-grid");
   container.innerHTML = "";
+  
+  const maxColumns = 5;
+  const cardWidth = 180;  
+  const gap = 85;         
+  const maxWidth = 1220;  
+  let columns = maxColumns; 
+
+  if (systems.length % 3 === 0) {
+    columns = 3;  // 6, 9 => 3 colunas
+  } else if (systems.length % 4 === 0) {
+    columns = 4;  // 8, 12 => 4 colunas
+  } 
+
+  const totalWidth = (cardWidth * columns) + (gap * (columns - 1));
+  const containerWidth = Math.min(totalWidth, maxWidth);
+
+  container.style.maxWidth = `${containerWidth}px`;
 
   systems.forEach((data) => {
     const card = document.createElement("div");

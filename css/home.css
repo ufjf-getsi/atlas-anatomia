@@ -21,7 +21,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: clamp(150px, 30vw, 175px);
+	width: clamp(100px, 35vw, 180px);
 	padding: 15px 0;
 	transition: 0.25s all;
 	position: relative;
@@ -42,7 +42,7 @@
 }
 
 .system-card img {
-	width: clamp(120px, 40vw, 180px);
+	width: 100%;
 	aspect-ratio: 1;
 	border-radius: 15px;
 	box-shadow: -10px 10px 2rem rgba(0, 0, 0, 0.562);
@@ -72,6 +72,7 @@
 
 .selecione{
 	text-align: center;
+	font-size: 1.2em;
 }
 
 

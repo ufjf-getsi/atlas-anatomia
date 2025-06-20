@@ -24,18 +24,16 @@
 .title {
     text-align: center;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
     font-family: 'Cinzel', sans-serif;
     font-weight: 700;
-    font-size: clamp(20px, 3vw, 30px);
+    font-size: clamp(20px, 3vw, 30%);
     color: #ebebeb;
     background-color: #3b678b;
-    box-shadow: inset 1px 3px 2rem rgba(18, 55, 126, 0.815);
     text-indent: 0px;
 }
 
 .subtitle {
-    text-align: center;
     padding-bottom: 20px;
     color: #2e2e2e;
     font-family: 'Poppins', sans-serif;

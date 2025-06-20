@@ -147,7 +147,7 @@
     background-color: var(--bg-shadow); 
     color: var(--black);   
     transition: 0.3s all;
-    font-size: 60%;
+    font-size: clamp(0.5em, 1.5em, 60%);
     font-weight: bold;
     opacity: 0.8;
     font-family: 'Poppins', sans-serif;
@@ -209,7 +209,7 @@
     max-width: 50%;
     background: var(--bg-white);
     background-size: 800%;
-    border-radius: 25px;
+    border-radius: 15px;
     color: #303030;
     font-family: 'Poppins', sans-serif;
     font-size: 0.75rem;
@@ -217,7 +217,6 @@
     display: none;
     word-wrap: break-word;
     box-shadow: 1px 5px 15px var(--bg-shadow);
-
     transition: 0.2s ease-in-out;
 }
 
