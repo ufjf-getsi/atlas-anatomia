@@ -280,10 +280,14 @@
 }   
 
 #tooltip-description[data-show] {   
-    max-height: 250px;
+    max-height: 350px;
     overflow-y: scroll;
     opacity: 1;
     padding: 10px 0px;
+}
+
+#tooltip-description::-webkit-scrollbar {
+    display: none;
 }
 
 #tooltip-content {  
