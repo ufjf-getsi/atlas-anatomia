@@ -23,7 +23,7 @@ const loadNavigations = (piecesNumber) => {
 };
 
 const handleNavigations = (index) => {
-  document.querySelector("#item_"+index).scrollIntoView({ behavior: "smooth", inline: "center"});
+  document.querySelector("#item_"+index).scrollIntoView({ behavior: "smooth"});
   navigateToImage(index);
 }
 
@@ -41,6 +41,7 @@ const navigateToImage = (index) => {
   setPieceIndex(index);
 
   document.querySelector("#container").setAttribute("isLoading", true);
+  document.querySelector("#atlas").scrollIntoView({ behavior: "smooth", block: "start" });
   // atualiza a imagem de fundo
   document.querySelector("#content").src = getPieces()[index].image;
   document.querySelector("#image-title").innerText = "Carregando...";

@@ -83,6 +83,14 @@ const loadPinContent = async (index) => {
         placement
     });
 
+    if(color == 'red') 
+        setTimeout(() => {
+        tooltip.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+        });
+    }, 100);
+    
 }
 
 // esconde o conteudo do alfinete
@@ -90,6 +98,11 @@ const hideContent = () => {
 
     document.querySelector("#tooltip").removeAttribute('data-show');
     document.querySelector("#tooltip-description").removeAttribute('data-show');
+
+    document.querySelector("#atlas").scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+    });
 }
 
 // personaliza as cores do alfinete 
