@@ -97,7 +97,7 @@ const closeSidebar = () => {
   document.querySelector("#sidebar-icon").classList.remove("active");
   document.querySelector("#menu-sidebar-container").classList.remove("active");
   document.querySelector("#search-menu-container").classList.remove("active");
-
+  document.body.classList.remove("no-scroll");
 }
 
 const toggleSidebar = () => {
@@ -115,15 +115,11 @@ const toggleSidebar = () => {
 
     if (searchContainer.classList.contains("active"))
       searchContainer.classList.remove("active");
-
-    if (document.body.classList.contains("active"))
-      document.body.classList.remove("active");
-  }
-
+  } 
+  
   document.body.classList.toggle("no-scroll");
   sidebarWrapper.classList.toggle("active");
   sidebarIcon.classList.toggle("active");
-
 }
 
 export { loadMenu, toggleMenu, toggleDropdown, toggleSidebar, closeSidebar };
