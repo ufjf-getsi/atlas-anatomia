@@ -64,7 +64,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: clamp(50px, 8vh, 70px);
+    height: clamp(50px, 8vh, 100px);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -72,9 +72,9 @@ footer {
     align-items: center;
     gap: 5px;
     background-color: #18181854;
-    font-size: 0.75rem;
+    font-size: clamp(10px, 3vh, 55%);
     backdrop-filter: blur(2px);
-    padding-top: 10px;
+    padding-top: 5px;
     border-top: 3px solid #18181854;
 }
 
