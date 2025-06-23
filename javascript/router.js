@@ -23,6 +23,10 @@ let routes = [
         section: "about",
     },
     {
+        path: "#contatos",
+        section: "contact",
+    },
+    {
         path: "#error",
         section: "error"
     }

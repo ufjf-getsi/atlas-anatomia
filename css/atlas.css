@@ -28,6 +28,7 @@
     position: relative;
     border-radius: 25px;
     background: linear-gradient(var(--bg-white), var(--bg-gray));
+    backdrop-filter: blur(2px);
     box-shadow: 1px 1px 5px var(--bg-shadow);
     border: 1px solid var(--bg-gray);
     width: clamp(300px, 80%, 600px);

@@ -18,9 +18,13 @@ const links = [
     path: "#equipe",
   },
   {
-    title: "Sobre",
+    title: "Sobre Nós",
     path: "#sobre",
   },
+  {
+    title: "Contatos",
+    path: "#contatos",
+  }
 ];
 
 const loadMenu = async () => {

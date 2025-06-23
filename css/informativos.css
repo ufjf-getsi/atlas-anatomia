@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Poppins&display=swap');
 
 .card {
-    width: 90%;
+    width: clamp(300px, 80%, 1320px);
     margin: 15px auto;
-    padding: 0px 10px 100px 10px;
+    padding: 10px;
     border-radius: 15px;
-    background: rgba(255, 255, 255, 0.767);
+    background: linear-gradient(var(--bg-white), #d2d1d1e0);
     border: solid 0.3px #d8d8d82c;
+    backdrop-filter: blur(2px);
     font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
     color: #2e2e2e;
     text-indent: 50px;
 }
@@ -24,12 +26,12 @@
 .title {
     text-align: center;
     border-radius: 10px;
-    padding: 5px;
+    padding: 8px;
     font-family: 'Cinzel', sans-serif;
-    font-weight: 700;
-    font-size: clamp(20px, 3vw, 30%);
-    color: #ebebeb;
-    background-color: #3b678b;
+    font-weight: bold;
+    font-size: clamp(1.3em, 3vw, 30%);
+    color: #254368;
+    letter-spacing: 0.12em;
     text-indent: 0px;
 }
 
@@ -39,8 +41,22 @@
     font-family: 'Poppins', sans-serif;
 }
 
+h2.subtitle {
+    font-size: 1.15em;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.card p.subtitle {
+    font-size: 0.95em;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 0;
+}
+
 .card ul {
-    list-style-type: number;
+    list-style-type: square;
     margin-left: 10px;
 }
 

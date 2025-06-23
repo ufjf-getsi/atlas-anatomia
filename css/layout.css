@@ -142,6 +142,10 @@ body[data-show = error] #error {
     display: block;
 }
 
+body[data-show = contact] #contact {
+    display: block;
+}
+
 #error {
     text-align: center;
 }
