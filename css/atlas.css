@@ -108,9 +108,15 @@
     color: var(--black);
     padding-top: 15px;
     margin: 0;
+
+    font-size: clamp(1.3em, 3vw, 30%);
+    color: #254368;
+    letter-spacing: 0.12em;
+    text-indent: 0px;
 }
 
 #image-title {
+    font-size: 0.85em;
     text-align: center;
     color: var(--black);
     font-family: 'Poppins', sans-serif;
@@ -266,18 +272,18 @@
 
 #tooltip-description {
     width: clamp(300px, 80%, 600px);
-    margin: 10px 0;
-    border-radius: 25px;
-    border: 1px solid var(--bg-gray);
-    box-shadow: 1px 1px 5px var(--bg-shadow);
+    margin: 10px;
+    border-radius: 0px;
+    border-left: 3px solid var(--bg-gray);
     color: var(--black);
-    backdrop-filter: blur(5px);
     font-family: 'Poppins', sans-serif;
     word-wrap: break-word;
     max-height: 0;
     opacity: 0;
     pointer-events: none;
     transition: 0.25s ease-in-out;
+    margin-bottom: 35px;
+    margin-top: 10px;
 }   
 
 #tooltip-description[data-show] {   
