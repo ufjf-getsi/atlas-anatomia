@@ -25,14 +25,14 @@ header {
 
 header .logoPrincipal {
     backdrop-filter: blur(2px);
-    height: clamp(40px, 15vh, 100px);
+    height: clamp(40px, 8vh, 70px);
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 header .logo {
-    max-height: 70%;
+    max-height: 100%;
 }
 
 header .navbar {
@@ -69,17 +69,17 @@ main {
 
 footer {
     width: 100%;
-    height: clamp(50px, 8vh, 100px);
+    height: clamp(30px, 8vh, 65px);
+    overflow-y: scroll;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 2px;
     background-color: #18181854;
-    font-size: clamp(10px, 2vw, 50%);
+    font-size: 0.5em;
     backdrop-filter: blur(2px);
-    padding-top: 5px;
     border-top: 3px solid #18181854;
 }
 

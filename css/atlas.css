@@ -11,9 +11,8 @@
 
 /* ATLAS */
 .image-card {
-    max-width: 600px;
-    width: 95%;
-    margin: 25px auto;
+    width: clamp(280px, calc(100vh - 25vh), 650px);
+    margin: 15px auto;
     border-radius: 28px;
     display: flex;
     flex-direction: column;
@@ -31,9 +30,32 @@
     backdrop-filter: blur(2px);
     box-shadow: 1px 1px 5px var(--bg-shadow);
     border: 1px solid var(--bg-gray);
-    width: clamp(300px, 80%, 600px);
+
     aspect-ratio: 1;
 }
+
+@media (orientation: landscape) {    
+    #container {        
+        max-height: calc(100vh - 40vh);
+    }  
+
+    #tooltip-description {
+        max-width: calc(100vh - 40vh);
+    }
+}
+
+@media (orientation: portrait) {
+    
+    .image-card {
+        width: 95%;
+    }
+
+    #container, #tooltip-description {
+        max-width: clamp(280px, 80%, 600px);
+    }
+}
+
+
 
 .flex-container {
     width: 100%;
@@ -98,30 +120,31 @@
 }
 
 .image-info {
-    min-height: 100px;
+    height: clamp(50px, 15%, 100px);
+    font-size: clamp(10px, 0.75em, 2vh);
+    padding: 10px 0;
     text-align: center;
+}
+
+.image-info p, h1 {
+    margin: 0;
+    padding: 0;
 }
 
 #main-title {
     font-family: 'Cinzel', sans-serif;
     font-weight: 700;
     color: var(--black);
-    padding-top: 15px;
-    margin: 0;
-
-    font-size: clamp(1.3em, 3vw, 30%);
+    font-size: 1.5em;
     color: #254368;
     letter-spacing: 0.12em;
     text-indent: 0px;
 }
 
 #image-title {
-    font-size: 0.85em;
     text-align: center;
     color: var(--black);
     font-family: 'Poppins', sans-serif;
-    padding: 5px;
-    margin: 0;
 }
 
 /* ITEMS & FUNCIONALIDADES */
@@ -143,8 +166,8 @@
 }
 
 .selectors {
-    width: 20px;
-    height: 20px;
+    width: clamp(15px, 2.5vh, 20px);
+    height: clamp(15px, 2.5vh, 20px);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -154,15 +177,14 @@
     background-color: var(--bg-shadow); 
     color: var(--black);   
     transition: 0.3s all;
-    font-size: clamp(0.5em, 1.5em, 60%);
+    font-size: clamp(0.6em, 50%, 1em);
     font-weight: bold;
     opacity: 0.8;
     font-family: 'Poppins', sans-serif;
-
 }
 
 .selected {
-    background-color: var(--black);
+    background-color: #254368;
     color: var(--bg-white);  
     margin: 0 5px;
 }
@@ -171,11 +193,12 @@
     aspect-ratio: 1;
     height: 100%;
     margin: 15%;
+    fill: var(--black);
 }
 
 .slide-button {
     padding: 0px;
-    width: 6%;
+    width: clamp(20px, 6%, 45px);
     background: transparent;
     color: var(--black);
     border: none;
@@ -190,7 +213,7 @@
 
 .slide-button:hover {
     background: var(--bg-gray);
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 /* ALFINETES & TOOLTIPS */
@@ -271,9 +294,9 @@
 }
 
 #tooltip-description {
-    width: clamp(300px, 80%, 600px);
+    width: clamp(300px, calc(100vh - 25vh), 650px);
+    font-size: clamp(10px, 0.75em, 2vh);
     margin: 10px;
-    border-radius: 0px;
     border-left: 3px solid var(--bg-gray);
     color: var(--black);
     font-family: 'Poppins', sans-serif;
@@ -282,8 +305,6 @@
     opacity: 0;
     pointer-events: none;
     transition: 0.25s ease-in-out;
-    margin-bottom: 35px;
-    margin-top: 10px;
 }   
 
 #tooltip-description[data-show] {   
@@ -291,6 +312,8 @@
     overflow-y: scroll;
     opacity: 1;
     padding: 10px 0px;
+    margin-bottom: 35px;
+    margin-top: 10px;
 }
 
 #tooltip-description::-webkit-scrollbar {
@@ -301,5 +324,4 @@
     text-align: justify;
     margin: 0;
     padding: 10px;
-    font-size: 0.75em;
 }

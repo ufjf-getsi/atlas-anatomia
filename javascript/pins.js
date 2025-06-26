@@ -89,7 +89,7 @@ const loadPinContent = async (index) => {
             behavior: 'smooth',
             block: 'start',
         });
-    }, 100);
+    }, 300);
     
 }
 
