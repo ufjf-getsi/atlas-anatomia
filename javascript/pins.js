@@ -103,6 +103,8 @@ const hideContent = () => {
         behavior: 'smooth',
         block: 'start',
     });
+
+    isShowingPin = false
 }
 
 // personaliza as cores do alfinete 
