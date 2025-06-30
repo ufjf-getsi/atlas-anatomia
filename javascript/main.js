@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector("#search-input").addEventListener("input", (e) => setSearchContent(e.target.value))
   document.querySelector("#content").addEventListener("load", () => finishImageLoading());
   document.querySelector(".tooltip-card").addEventListener("click", () => hideContent());
+  document.querySelector("#tooltip-close-button").addEventListener("click", () => hideContent());
 
   // inicia a aplicação
   createRoutes();
