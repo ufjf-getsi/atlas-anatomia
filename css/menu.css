@@ -20,7 +20,7 @@
     background-color: rgb(37, 37, 37);
     height: 3px;
     width: 80%;
-    transition: 0.5s all ease;
+    transition: 0.25s all ease;
     position: absolute;
     border-radius: 50px;
 }
@@ -64,7 +64,7 @@ body.no-scroll {
 
 #sidebar-wrapper {   
     background: #1f1f1f;
-    transition: 0.1s all ease;
+    transition: 0.25s all ease;
     position: absolute;
     top: 0;
     right: 0;
