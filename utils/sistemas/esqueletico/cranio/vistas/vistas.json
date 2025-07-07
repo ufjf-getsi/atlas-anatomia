@@ -98,7 +98,7 @@
                 {
                     "id": 2,
                     "title": "Forame Infraorbital",
-                    "description": "Dá passagem a artéria e ao nervo infraorbitais.",
+                    "description": "Dá passagem à artéria e ao nervo infraorbitais.",
                     "color": "red",
                     "url": "",
                     "x": 0.38,
@@ -127,7 +127,7 @@
                 {
                     "id": 0,
                     "title": "Canal Óptico",
-                    "description": "Dá passagem ao nervo óptico e a artéria oftálmica.",
+                    "description": "Dá passagem ao nervo óptico e à artéria oftálmica.",
                     "color": "red",
                     "url": "",
                     "x": 0.54,
@@ -137,7 +137,7 @@
                 {
                     "id": 1,
                     "title": "Fissura Orbital Superior",
-                    "description": "Dá passagem ao nervo craniano III, IV e VI, aos ramos do nervo oftálmico e as veias oftálmicas.",
+                    "description": "Dá passagem ao nervo craniano III, IV e VI, aos ramos do nervo oftálmico e às veias oftálmicas.",
                     "color": "red",
                     "url": "",
                     "x": 0.56,
@@ -274,7 +274,7 @@
                 },
                 {
                     "id": 5,
-                    "title": "Osso Occiptal",
+                    "title": "Osso Occipital",
                     "description": "",
                     "color": "blue",
                     "url": "",
@@ -314,7 +314,7 @@
                 {
                     "id": 0,
                     "title": "Processo Mastoide",
-                    "description": "Porção do osso temporal que, no adulto, contem espaços aéreos chamados células mastóideas. Dá inserção à vários músculos.",
+                    "description": "Porção do osso temporal que, no adulto, contém espaços aéreos chamados células mastóideas. Dá inserção à vários músculos.",
                     "color": "red",
                     "url": "",
                     "x": 0.55,
@@ -324,7 +324,7 @@
                 {
                     "id": 1,
                     "title": "Meato Acústico Externo",
-                    "description": "Canal ósseo que condúz à orelha interna.",
+                    "description": "Canal ósseo que conduz à orelha interna.",
                     "color": "red",
                     "url": "",
                     "x": 0.52,
@@ -334,7 +334,7 @@
                 {
                     "id": 2,
                     "title": "Processo Estilo-hioideo",
-                    "description": "Fina projeção óssea que serve como ponto de inserção ao ligamento estilo-hioideo pelo qual o osso hioide está suspenso. Nele se inserem também o ligamento estilomandibular e três músculos (estiloglosso, estilofaríngico e estilo-hioideo).",
+                    "description": "Fina projeção óssea que serve como ponto de inserção ao ligamento estilo-hioideo pelo qual o osso hioide está suspenso. Nele se inserem também o ligamento estilomandibular e três músculos (estiloglosso, estilofaríngeo e estilo-hioideo).",
                     "color": "red",
                     "url": "",
                     "x": 0.46,
@@ -379,7 +379,7 @@
                     "url": "",
                     "x": 0.35,
                     "y": 0.63,
-                    "placement": "left"
+                    "placement": "right"
                 }
             ]   
         },
@@ -542,7 +542,7 @@
         },
         {
             "id": 1, 
-            "title": "Vista Superior",
+            "title": "Vista Superior da Calvária",
             "description": "",
             "image": "./utils/sistemas/esqueletico/cranio/vistas/superior1.png",
             "pins":    
@@ -581,7 +581,7 @@
             
         }, {
             "id": 1, 
-            "title": "Vista Superior",
+            "title": "Vista Superior da Calvária",
             "description": "",
             "image": "./utils/sistemas/esqueletico/cranio/vistas/superior2.png",
             "pins":    
@@ -610,7 +610,7 @@
         },
         {
             "id": 1, 
-            "title": "Vista Superior",
+            "title": "Vista Inferior da Calvária",
             "description": "",
             "image": "./utils/sistemas/esqueletico/cranio/vistas/superior3.png",
             "pins":    
@@ -637,13 +637,13 @@
                 },
                 {
                     "id": 2,
-                    "title": "Sulco para artéria meníngea e seus ramos",
+                    "title": "Sulco para Artéria Meníngea e seus Ramos",
                     "description": "",
                     "color": "blue",
                     "url": "",
                     "x": 0.27,
                     "y": 0.43,
-                    "placement": "left"
+                    "placement": "right"
                 }
             ]            
         }

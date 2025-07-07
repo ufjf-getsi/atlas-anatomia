@@ -3,7 +3,7 @@
     "pieces": [
         {
             "id": 0, 
-            "title": "",
+            "title": "Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/cranio/mandibula/mandibula1.png",
             "pins": [
@@ -45,7 +45,7 @@
                     "url": "...",
                     "x": 0.02,
                     "y": 0.69,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 1,
@@ -71,7 +71,7 @@
         },
         {
             "id": 1, 
-            "title": "",
+            "title": "Vista Lateral",
             "description": "",
             "image": "./utils/sistemas/esqueletico/cranio/mandibula/mandibula2.png",
             "pins": [
@@ -237,7 +237,7 @@
         },
         {
             "id": 0, 
-            "title": "",
+            "title": "Dentes Mandibulares - Vista Superior da Mandíbula",
             "description": "",
             "image": "./utils/sistemas/esqueletico/cranio/mandibula/mandibula4.png",
             "pins": [
@@ -305,7 +305,7 @@
         },
         {
             "id": 0, 
-            "title": "",
+            "title": "Vista Posterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/cranio/mandibula/mandibula5.png",
             "pins": [

@@ -61,7 +61,7 @@
         },
         {
             "id": 2, 
-            "title": "Vista Posterior",
+            "title": "Vista Lateral",
             "description": "",
             "image": "./utils/sistemas/articular/membro_inferior/tornozelo_pe/tornozelo2.png",
             "pins": [
@@ -81,8 +81,8 @@
                     "description": "",
                     "color": "blue",
                     "url": "",
-                    "x": 0.51,
-                    "y": 0.5,
+                    "x": 0.29,
+                    "y": 0.48,
                     "placement": "left"
                 },
                 {
@@ -192,12 +192,12 @@
                 {
                     "id": 0,
                     "title": "Articulação Talocalcaneonavicular",
-                    "description": "Entre a face articular do calcâneo do tálus, face articular posterior no navicular e a face talar do calcâneo.",
+                    "description": "Entre a face articular do calcâneo do tálus, face articular posterior do navicular e a face talar do calcâneo.",
                     "color": "red",
                     "url": "",
                     "x": 0.35,
                     "y": 0.55,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 1,
@@ -207,7 +207,7 @@
                     "url": "",
                     "x": 0.36,
                     "y": 0.65,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 0,
@@ -217,7 +217,7 @@
                     "url": "",
                     "x": 0.29,
                     "y": 0.48,
-                    "placement": "left"
+                    "placement": "right"
                 }
             ]
         }

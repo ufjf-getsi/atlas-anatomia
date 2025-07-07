@@ -3,7 +3,7 @@
     "pieces": [
         {
             "id": 0,
-            "title": "Rádio",
+            "title": "Rádio - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco1.png",
             "pins": [
@@ -51,7 +51,7 @@
         },
         {
             "id": 1,
-            "title": "Rádio",
+            "title": "Rádio - Vista Medial",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco2.png",
             "pins": [
@@ -78,7 +78,7 @@
                 {
                     "id": 2,
                     "title": "Fóvea da Cabeça do Rádio",
-                    "description": "É coberta por cartilagem articular. Sua superfície é lisa, discoide e côncava para articulação com o capítulo do úmero (flexão e extensão do antebraço.)",
+                    "description": "É coberta por cartilagem articular. Sua superfície é lisa, discoide e côncava para articulação com o capítulo do úmero (flexão e extensão do antebraço).",
                     "color": "red",
                     "url": "",
                     "x": 0.5,
@@ -99,7 +99,7 @@
         },
         {
             "id": 2,
-            "title": "Rádio",
+            "title": "Rádio - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco3.png",
             "pins": [
@@ -137,7 +137,7 @@
         },
         {
             "id": 3,
-            "title": "Rádio",
+            "title": "Rádio - Vista Posterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco4.png",
             "pins": [
@@ -159,7 +159,7 @@
                     "url": "",
                     "x": 0.15,
                     "y": 0.39,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 2,
@@ -185,7 +185,7 @@
         },
         {
             "id": 4,
-            "title": "Rádio",
+            "title": "Rádio - Vista Medial",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco5.png",
             "pins": [
@@ -213,7 +213,7 @@
         },
         {
             "id": 5,
-            "title": "Rádio",
+            "title": "Rádio - Vista Inferior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco6.png",
             "pins": [
@@ -241,7 +241,7 @@
         },
         {
             "id": 6,
-            "title": "Ulna",
+            "title": "Ulna - Vista Lateral",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco7.png",
             "pins": [
@@ -287,7 +287,7 @@
                 },
                 {
                     "id": 4,
-                    "title": "Borda Interóssea do Carpo",
+                    "title": "Borda Interóssea",
                     "description": "",
                     "color": "blue",
                     "url": "",
@@ -299,7 +299,7 @@
         },
         {
             "id": 7,
-            "title": "Ulna",
+            "title": "Ulna - Vista Posterolateral",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco8.png",
             "pins": [
@@ -357,7 +357,7 @@
         },
         {
             "id": 8,
-            "title": "Ulna",
+            "title": "Ulna - Vista Medial",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco9.png",
             "pins": [
@@ -405,7 +405,7 @@
         },
         {
             "id": 9,
-            "title": "Ulna",
+            "title": "Ulna - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/antebraco/antebraco10.png",
             "pins": [

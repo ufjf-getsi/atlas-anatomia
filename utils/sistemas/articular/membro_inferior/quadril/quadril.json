@@ -45,12 +45,12 @@
                     "url": "",
                     "x": 0.24,
                     "y": 0.52,
-                    "placement": "blue"
+                    "placement": "right"
                 },
                 {
                     "id": 5,
                     "title": "Ligamento Inguinal",
-                    "description": "Esse ligamento, assim como o trato iliopúbico, se estende da espinha ilíaca anterossuperior até o tubérculo púbico. Ambos combrem uma área de fraqureza inata da parede abdominal, onde, com frequência, surgem hérnias inguinais.",
+                    "description": "Esse ligamento, assim como o trato iliopúbico, se estende da espinha ilíaca anterossuperior até o tubérculo púbico. Ambos cobrem uma área de fraqueza inata da parede abdominal, onde, com frequência, surgem hérnias inguinais.",
                     "color": "red",
                     "url": "",
                     "x": 0.72,
@@ -60,7 +60,7 @@
                 {
                     "id": 6,
                     "title": "Cápsula Articular do Quadril",
-                    "description": "Os ligamentos iliofemoral,isquifemoral e pubofemoral colaboram para sua formação.",
+                    "description": "Os ligamentos iliofemoral, isquifemoral e pubofemoral colaboram para sua formação.",
                     "color": "red",
                     "url": "",
                     "x": 0.73,

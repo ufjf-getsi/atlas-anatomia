@@ -1,11 +1,11 @@
 {
-    "systemName": "Costelas",
+    "systemName": "Costelas e Gradil Costal",
     "pieces": [
         {
             "id": 0,
             "title": "Primeira Costela",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas1.png",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas_esterno/costelas1.png",
             "pins": [
                 {
                     "id": 0,
@@ -73,7 +73,7 @@
             "id": 1,
             "title": "Primeira Costela",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas2.png",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas_esterno/costelas2.png",
             "pins": [
                 {
                     "id": 0,
@@ -110,7 +110,7 @@
             "id": 2,
             "title": "Segunda Costela",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas3.png",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas_esterno/costelas3.png",
             "pins": [
                 {
                     "id": 0,
@@ -158,7 +158,7 @@
             "id": 3,
             "title": "Segunda Costela",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas4.png",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas_esterno/costelas4.png",
             "pins": [
                 {
                     "id": 0,
@@ -196,7 +196,7 @@
             "id": 4,
             "title": "Costela Típica",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas5.png",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas_esterno/costelas5.png",
             "pins": [
                 {
                     "id": 0,
@@ -244,7 +244,7 @@
             "id": 5,
             "title": "Costela Típica",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas6.png",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas_esterno/costelas6.png",
             "pins": [
                 {
                     "id": 1,
@@ -292,7 +292,7 @@
             "id": 6,
             "title": "Costela Típica",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas7.png",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas_esterno/costelas7.png",
             "pins": [
                 {
                     "id": 1,
@@ -340,7 +340,7 @@
             "id": 7,
             "title": "Costela Atípica Flutuante",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas8.png",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas_esterno/costelas8.png",
             "pins": [
                 {
                     "id": 1,
@@ -368,7 +368,7 @@
             "id": 8,
             "title": "Costela Atípica Flutuante",
             "description": "",
-            "image": "./utils/sistemas/esqueletico/tronco/costelas/costelas9.png",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas_esterno/costelas9.png",
             "pins": [
                 {
                     "id": 1,
@@ -388,6 +388,94 @@
                     "url": "",
                     "x": 0.47,
                     "y": 0.43,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/esqueletico/tronco/costelas_esterno/esterno.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Incisura Clavicular",
+                    "description": "É côncava e recebe a face articular esternal da clavícula.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.06,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Incisuras Costais",
+                    "description": "Articulam-se com as cartilagens costais da 2ª a 7ª costelas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.9,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Incisura Jugular",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.04,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Incisura Costal para Primeira Costela",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.14,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Manúbrio do Esterno",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.14,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Face para Articulação com o Corpo do Esterno",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Corpo do Esterno",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Processo Xifoide",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.78,
                     "placement": "left"
                 }
             ]

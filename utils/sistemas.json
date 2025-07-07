@@ -68,19 +68,11 @@
                             "image": "./utils/imagens/icone_coluna.png"
                         },
                         {
-                            "systemName": "Costelas",
+                            "systemName": "Esterno e Gradil Costal",
                             "id": 0,
-                            "path": "#costelas-E",
+                            "path": "#costelas-esterno-E",
                             "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/tronco/costelas/costelas.json",
-                            "image": "./utils/imagens/icone_costelas.png"
-                        },
-                        {
-                            "systemName": "Esterno",
-                            "id": 0,
-                            "path": "#esterno-E",
-                            "section": "atlas",
-                            "url": "./utils/sistemas/esqueletico/tronco/esterno/esterno.json",
+                            "url": "./utils/sistemas/esqueletico/tronco/costelas_esterno/costelas_esterno.json",
                             "image": "./utils/imagens/icone_esterno.png"
                         }
                     ],
@@ -92,7 +84,7 @@
                     "section": "subsystems",
                     "subsystems": [
                         {
-                            "systemName": "Cíngulo dos Membros Superiores",
+                            "systemName": "Cíngulo do Membro Superior",
                             "id": 0,
                             "path": "#cingulo-dos-mmss-E",
                             "section": "atlas",
@@ -132,7 +124,7 @@
                     "section": "subsystems",
                     "subsystems": [
                         {
-                            "systemName": "Cíngulo",
+                            "systemName": "Cíngulo do Membro Inferior",
                             "id": 0,
                             "path": "#cingulo-E",
                             "section": "atlas",
@@ -184,12 +176,12 @@
             "section": "subsystems",
             "subsystems": [
                 {
-                    "systemName": "Cabeça",
-                    "path": "#cabeça-A",
+                    "systemName": "Crânio",
+                    "path": "#cranio-A",
                     "id": 0,
                     "section": "atlas",
-                    "url": "./utils/sistemas/articular/cabeca/cabeca.json",
-                    "image": "./utils/imagens/icone_cabeca_A.png"
+                    "url": "./utils/sistemas/articular/cranio/cranio.json",
+                    "image": "./utils/imagens/icone_cranio_A.png"
                 },
                 {
                     "systemName": "Tronco",
@@ -239,9 +231,9 @@
                             "image": "./utils/imagens/icone_cotovelo_A.png"
                         },
                         {
-                            "systemName": "Mão",
+                            "systemName": "Punho e Mão",
                             "id": 2,
-                            "path": "#mao-A",
+                            "path": "#punho-mao-A",
                             "section": "atlas",
                             "url": "./utils/sistemas/articular/membro_superior/mao/mao.json",
                             "image": "./utils/imagens/icone_mao_A.png"
@@ -264,9 +256,9 @@
                             "image": "./utils/imagens/icone_quadril_A.png"
                         },
                         {
-                            "systemName": "Joelho e Perna",
+                            "systemName": "Joelho",
                             "id": 1,
-                            "path": "#joelho-perna-A",
+                            "path": "#joelho-A",
                             "section": "atlas",
                             "url": "./utils/sistemas/articular/membro_inferior/joelho_perna/joelho_perna.json",
                             "image": "./utils/imagens/icone_joelho_A.png"
@@ -507,7 +499,7 @@
                     "image": "./utils/imagens/icone_diencefalo_N.png"
                 },
                 {
-                    "systemName": "Telencefalo",
+                    "systemName": "Telencéfalo",
                     "path": "#telencefalo",
                     "id": 0,
                     "section": "atlas",

@@ -195,7 +195,7 @@
                     "url": "",
                     "x": 0.08,
                     "y": 0.43,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 1,
@@ -295,7 +295,7 @@
                     "url": "",
                     "x": 0.07,
                     "y": 0.67,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 3,
@@ -335,7 +335,7 @@
                     "url": "",
                     "x": 0.2,
                     "y": 0.46,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 7,
