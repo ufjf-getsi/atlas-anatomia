@@ -93,7 +93,7 @@
                     "url": "",
                     "x": 0.04,
                     "y": 0.43,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 8,
@@ -103,7 +103,7 @@
                     "url": "",
                     "x": 0.03,
                     "y": 0.55,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 9,
@@ -126,8 +126,8 @@
                 {
                     "id": 1,
                     "title": "Nervo Isquiático",
-                    "description": "É o maior nervo do corpo. Fornece inervação motora e sensitiva para os membros inferiores.",
-                    "color": "red",
+                    "description": "",
+                    "color": "blue",
                     "url": "",
                     "x": 0.58,
                     "y": 0.5,
@@ -201,7 +201,7 @@
                     "url": "",
                     "x": 0.04,
                     "y": 0.46,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 9,
@@ -211,7 +211,7 @@
                     "url": "",
                     "x": 0.04,
                     "y": 0.59,
-                    "placement": "left"
+                    "placement": "right"
                 }
             ]
         }

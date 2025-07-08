@@ -154,7 +154,7 @@
                     "url": "",
                     "x": 0.23,
                     "y": 0.62,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 6,
@@ -274,7 +274,7 @@
                 },
                 {
                     "id": 3,
-                    "title": "Escápula rebatida juntamente com os músculos escapuloumerais para melhor visualização.",
+                    "title": "Escápula e Músculos Escapuloumerais (rebatidos)",
                     "description": "",
                     "color": "blue",
                     "url": "",

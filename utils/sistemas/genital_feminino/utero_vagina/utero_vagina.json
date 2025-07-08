@@ -3,7 +3,7 @@
     "pieces": [
         {
             "id": 0,
-            "title": "Útero e Vagina in situ",
+            "title": "Corte Sagital - Pelve Feminina",
             "description": "",
             "image": "./utils/sistemas/genital_feminino/utero_vagina/utero_vagina1.png",
             "pins": [
@@ -101,7 +101,7 @@
         },
         {
             "id": 0,
-            "title": "Útero",
+            "title": "Partes Uterinas",
             "description": "",
             "image": "./utils/sistemas/genital_feminino/utero_vagina/utero_vagina2.png",
             "pins": 
@@ -180,7 +180,7 @@
         },
         {
             "id": 0,
-            "title": "Útero",
+            "title": "Camadas Uterinas",
             "description": "",
             "image": "./utils/sistemas/genital_feminino/utero_vagina/utero_vagina5.png",
             "pins": 

@@ -49,7 +49,7 @@
                 },
                 {
                     "id": 4,
-                    "title": "Lábio inferior",
+                    "title": "Lábio Inferior",
                     "description": "",
                     "color": "blue",
                     "url": "",
@@ -242,7 +242,7 @@
                 {
                     "id": 0,
                     "title": "Cavidade Oral Propriamente Dita",
-                    "description": "A Cavidade Oral consiste em Vestíbulo da Boca e Cavidade Própria da Boca. O vestíbulo é uma fenda entre os lábios e as bochechas, externamente, e a gengiva e os dentes, internamente. A cavidade própria da boca, por sua vez, é o espaço interno às arcadas dentais e contém a língua.",
+                    "description": "A cavidade oral consiste em vestíbulo da boca e cavidade própria da boca. O vestíbulo é uma fenda entre os lábios e as bochechas, externamente, e a gengiva e os dentes, internamente. A cavidade própria da boca, por sua vez, é o espaço interno às arcadas dentais e contém a língua.",
                     "color": "red",
                     "url": "",
                     "x": 0.21,
@@ -398,7 +398,7 @@
                 {
                     "id": 4,
                     "title": "Forame Cego",
-                    "description": "Resquício não funcional da parte proximal do ducto tireoglossso embrionário a partir da qual a glândula tireóidea se desenvolveu.",
+                    "description": "Resquício não funcional da parte proximal do ducto tireoglossso embrionário a partir da qual a glândula tireoide se desenvolveu.",
                     "color": "red",
                     "url": "",
                     "x": 0.47,

@@ -1,9 +1,9 @@
 {
-    "systemName": "Cíngulo",
+    "systemName": "Cíngulo do Membro Inferior",
     "pieces": [
         {
             "id": 0, 
-            "title": "Cíngulo",
+            "title": "Osso do Quadril - Vista Lateral",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/acetabulo.png",
             "pins":     [
@@ -51,7 +51,7 @@
         },
         {
             "id": 1,
-            "title": "Osso do quadril",
+            "title": "Osso do Quadril - Vista Medial",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/ossodoquadril1.png",
             "pins": [
@@ -139,7 +139,7 @@
         },
         {
             "id": 2, 
-            "title": "Osso do quadril",
+            "title": "Osso do Quadril - Vista Medial",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/ossodoquadril2.png",
             "pins": 
@@ -219,7 +219,7 @@
         },
         {
             "id": 3, 
-            "title": "Osso do quadril",
+            "title": "Osso do Quadril - Vista Medial",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/ossodoquadril3.png",
             "pins": 
@@ -306,7 +306,7 @@
                 },
                 {
                     "id": 8,
-                    "title": "Íleo",
+                    "title": "Ílio",
                     "description": "",
                     "color": "blue",
                     "url": "",
@@ -319,7 +319,7 @@
         },
         {
             "id": 4, 
-            "title": "Osso do quadril",
+            "title": "Osso do Quadril - Vista Lateral",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/ossodoquadril4.png",
             "pins": 
@@ -429,7 +429,7 @@
         },
         {
             "id": 5, 
-            "title": "Osso do quadril",
+            "title": "Pelve - Vista Anterossuperior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/vistafrontaldapelve1.png",
             "pins": 
@@ -469,7 +469,7 @@
         },
         {
             "id": 6, 
-            "title": "Osso do quadril",
+            "title": "Pelve - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/vistafrontaldapelve2.png",
             "pins": 
@@ -559,7 +559,7 @@
         },
         {
             "id": 7, 
-            "title": "Osso do quadril",
+            "title": "Pelve - Vista Inferior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/vistainferiordapelve1.png",
             "pins": 
@@ -628,7 +628,7 @@
         },
         {
             "id": 7, 
-            "title": "Osso do quadril",
+            "title": "Pelve - Vista Superior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/cingulo/vistasuperiordapelve1.png",
             "pins": 

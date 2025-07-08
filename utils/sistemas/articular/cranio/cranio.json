@@ -1,11 +1,11 @@
 {
-    "systemName": "Cabeça",
+    "systemName": "Crânio",
     "pieces": [
         {
             "id": 0, 
             "title": "Vista Frontal",
             "description": "",
-            "image": "./utils/sistemas/articular/cabeca/vistafrontal.png",
+            "image": "./utils/sistemas/articular/cranio/vistafrontal.png",
             "pins": 
             [
                 {
@@ -84,7 +84,7 @@
             "id": 1,
             "title": "Vista Lateral",
             "description": "",
-            "image": "./utils/sistemas/articular/cabeca/vistalateral1.png",
+            "image": "./utils/sistemas/articular/cranio/vistalateral1.png",
             "pins": [
                 {
                     "id": 0,
@@ -169,7 +169,7 @@
                 {
                     "id": 9,
                     "title": "Sutura Escamosa",
-                    "description": "Sutura Fibrosa que une o osso temporal ao osso parietal de cada lado.",
+                    "description": "Sutura fibrosa que une o osso temporal ao osso parietal de cada lado.",
                     "color": "red",
                     "url": "",
                     "x": 0.63,
@@ -182,7 +182,7 @@
             "id": 1,
             "title": "Vista Lateral",
             "description": "",
-            "image": "./utils/sistemas/articular/cabeca/vistalateral2.png",
+            "image": "./utils/sistemas/articular/cranio/vistalateral2.png",
             "pins": [
                 {
                     "id": 0,
@@ -260,7 +260,7 @@
             "id": 2, 
             "title": "Vista Posterior",
             "description": "",
-            "image": "./utils/sistemas/articular/cabeca/vistaposterior.png",
+            "image": "./utils/sistemas/articular/cranio/vistaposterior.png",
             "pins": [
                 {
                     "id": 0,
@@ -305,7 +305,7 @@
                 {
                     "id": 4,
                     "title": "Sutura Lambdóidea",
-                    "description": "Sutura Fibrosa que une os ossos parietais ao osso occipital.",
+                    "description": "Sutura fibrosa que une os ossos parietais ao osso occipital.",
                     "color": "red",
                     "url": "",
                     "x": 0.3,
@@ -318,7 +318,7 @@
             "id": 3, 
             "title": "Vista Superior",
             "description": "",
-            "image": "./utils/sistemas/articular/cabeca/vistasuperior.png",
+            "image": "./utils/sistemas/articular/cranio/vistasuperior.png",
             "pins": [
                 {
                     "id": 0,
@@ -343,7 +343,7 @@
                 {
                     "id": 2,
                     "title": "Sutura Coronal",
-                    "description": "Sutura Fibrosa que une os ossos parietais ao osso frontal.",
+                    "description": "Sutura fibrosa que une os ossos parietais ao osso frontal.",
                     "color": "red",
                     "url": "",
                     "x": 0.63,
@@ -353,7 +353,7 @@
                 {
                     "id": 3,
                     "title": "Sutura Sagital",
-                    "description": "Sutura Fibrosa que une os dois ossos parietais.",
+                    "description": "Sutura fibrosa que une os dois ossos parietais.",
                     "color": "red",
                     "url": "",
                     "x": 0.5,

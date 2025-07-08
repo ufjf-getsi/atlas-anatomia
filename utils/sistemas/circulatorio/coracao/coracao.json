@@ -302,7 +302,7 @@
                     "url": "",
                     "x": 0.39,
                     "y": 0.64,
-                    "placement": "left"
+                    "placement": "right"
                 }
             ]
         },
@@ -340,7 +340,7 @@
                     "url": "",
                     "x": 0.13,
                     "y": 0.46,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 3,
@@ -398,7 +398,7 @@
                     "url": "",
                     "x": 0.02,
                     "y": 0.2,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 3,
@@ -899,7 +899,7 @@
                     "url": "",
                     "x": 0.82,
                     "y": 0.67,
-                    "placement": "right"
+                    "placement": "left"
                 },
                 {
                     "id": 0,
@@ -969,7 +969,7 @@
                     "url": "",
                     "x": 0.63,
                     "y": 0.68,
-                    "placement": "right"
+                    "placement": "left"
                 },
                 {
                     "id": 0,
@@ -979,7 +979,7 @@
                     "url": "",
                     "x": 0.71,
                     "y": 0.65,
-                    "placement": "right"
+                    "placement": "left"
                 },
                 {
                     "id": 0,
@@ -989,7 +989,7 @@
                     "url": "",
                     "x": 0.78,
                     "y": 0.22,
-                    "placement": "right"
+                    "placement": "left"
                 },
                 {
                     "id": 0,
@@ -999,7 +999,7 @@
                     "url": "",
                     "x": 0.87,
                     "y": 0.26,
-                    "placement": "right"
+                    "placement": "left"
                 },
                 {
                     "id": 0,
@@ -1009,7 +1009,7 @@
                     "url": "",
                     "x": 0.77,
                     "y": 0.15,
-                    "placement": "right"
+                    "placement": "left"
                 },
                 {
                     "id": 0,
@@ -1047,7 +1047,7 @@
                     "url": "",
                     "x": 0.38,
                     "y": 0.16,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 3,
@@ -1081,7 +1081,7 @@
                 },
                 {
                     "id": 6,
-                    "title": "Arteria Aorta (Parte Ascendente)",
+                    "title": "Artéria Aorta (Parte Ascendente)",
                     "description": "Primeiro segmento da aorta. Seus únicos ramos são as artérias coronárias, originadas nos seios da valva aórtica.",
                     "color": "red",
                     "url": "",
@@ -1107,7 +1107,7 @@
                     "url": "",
                     "x": 0.3,
                     "y": 0.61,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 9,
@@ -1624,7 +1624,7 @@
                 {
                     "id": 4,
                     "title": "Trabéculas Cárneas",
-                    "description": "Feixes elevados de fibras musculares cardíacas. Podem ser de três tipos: Cristas (que são relevos musculares implantados na parede do ventrículo); Pontes (que apresentam a porção central livre, estando presas à parede ventricular pelas extremidades) e os Músculos Papilares (formações musculares cônicas, cuja base está presa à parede ventricular e em seus ápices fixam-se as cordas tendíneas).",
+                    "description": "Feixes elevados de fibras musculares cardíacas. Podem ser de três tipos: cristas (que são relevos musculares implantados na parede do ventrículo); pontes (que apresentam a porção central livre, estando presas à parede ventricular pelas extremidades) e os músculos papilares (formações musculares cônicas, cuja base está presa à parede ventricular e em seus ápices fixam-se as cordas tendíneas).",
                     "color": "red",
                     "url": "",
                     "x": 0.36,
@@ -1735,7 +1735,7 @@
                     "url": "",
                     "x": 0.22,
                     "y": 0.53,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 1,
@@ -1745,7 +1745,7 @@
                     "url": "",
                     "x": 0.35,
                     "y": 0.47,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 2,

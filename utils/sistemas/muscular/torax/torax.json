@@ -26,7 +26,7 @@
                     "url": "",
                     "x": 0.23,
                     "y": 0.24,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 2,
@@ -74,7 +74,7 @@
                     "url": "",
                     "x": 0.82,
                     "y": 0.35,
-                    "placement": "right"
+                    "placement": "left"
                 },
                 {
                     "id": 2,
@@ -84,7 +84,7 @@
                     "url": "",
                     "x": 0.29,
                     "y": 0.55,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 3,
@@ -107,7 +107,7 @@
                 {
                     "id": 0,
                     "title": "Músculos Intercostais Internos",
-                    "description": "Esses músculos vão das extremidades mediais dos espaços intercostais para os ângulos das costelas, onde dão lugar as membranas intercostais internas. Inervação: nervos intercostais. Ação: são considerados músculos da expiração. Origem: margem superior das costelas. Inserção: margem inferior das costelas.",
+                    "description": "Esses músculos vão das extremidades mediais dos espaços intercostais para os ângulos das costelas, onde dão lugar às membranas intercostais internas. Inervação: nervos intercostais. Ação: são considerados músculos da expiração. Origem: margem superior das costelas. Inserção: margem inferior das costelas.",
                     "color": "red",
                     "url": "",
                     "x": 0.02,
@@ -145,7 +145,7 @@
                 {
                     "id": 0,
                     "title": "Músculo Serrátil Anterior",
-                    "description": "Inervação: nervo torácico longo (C5-C7). Ação: giram a escápula, movendo lateralmente o ângulo inferior, desempenhando, assim, importante papel na abdução do braço e elevação do mesmo acima da horizontal. Além disso, traciona a escápula para frente no ato de empurrar. Origem: faces externas das partes laterais das 1ª-8ª costelas. Inserção: face anterior da margem medial da escápula.",
+                    "description": "Inervação: nervo torácico longo (C5-C7). Ação: gira a escápula, movendo lateralmente o ângulo inferior. Desempenha, assim, importante papel na abdução e na elevação do braço. Além disso, traciona a escápula para frente no ato de empurrar. Origem: faces externas das partes laterais das 1ª-8ª costelas. Inserção: face anterior da margem medial da escápula.",
                     "color": "red",
                     "url": "",
                     "x": 0.56,

@@ -1,9 +1,9 @@
 {
-    "systemName": "Cíngulo",
+    "systemName": "Cíngulo do Membro Superior",
     "pieces": [
         {
             "id": 0,
-            "title": "Clavícula",
+            "title": "Clavícula - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/cingulo/clavicula1.png",
             "pins": [
@@ -15,7 +15,7 @@
                     "url": "",
                     "x": 0.14,
                     "y": 0.48,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 1,
@@ -31,7 +31,7 @@
         },
         {
             "id": 1,
-            "title": "Clavícula",
+            "title": "Clavícula - Vista Posterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/cingulo/clavicula2.png",
             "pins": [
@@ -43,7 +43,7 @@
                     "url": "",
                     "x": 0.15,
                     "y": 0.53,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 1,
@@ -79,7 +79,7 @@
         },
         {
             "id": 2,
-            "title": "Escápula",
+            "title": "Escápula - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/cingulo/escapula1.png",
             "pins": [
@@ -96,7 +96,7 @@
                 {
                     "id": 1,
                     "title": "Processo Coracoide",
-                    "description": "O processo coracoide é uma estrutura semelhante a um gancho palpável. É posicionado sobre a parte ântero-superior da escápula.Esta parte do sistema esquelético proporciona estabilidade para a região do ombro.",
+                    "description": "O processo coracoide é uma estrutura semelhante a um gancho palpável. É posicionado sobre a parte ântero-superior da escápula. Esta parte do sistema esquelético proporciona estabilidade para a região do ombro.",
                     "color": "red",
                     "url": "",
                     "x": 0.28,
@@ -187,7 +187,7 @@
         },
         {
             "id": 3,
-            "title": "Escápula",
+            "title": "Escápula - Vista Posterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/cingulo/escapula2.png",
             "pins": [
@@ -245,7 +245,7 @@
         },
         {
             "id": 4,
-            "title": "Escápula",
+            "title": "Escápula - Vista Lateral",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/cingulo/escapula3.png",
             "pins": [

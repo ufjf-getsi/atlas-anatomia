@@ -1,11 +1,11 @@
 {
-    "systemName": "Cabeça",
+    "systemName": "Crânio",
     "pieces": [
         {
             "id": 0,
             "title": "Vista Lateral",
             "description": "",
-            "image": "./utils/sistemas/muscular/cabeca/cabeca1.png",
+            "image": "./utils/sistemas/muscular/cranio/cabeca1.png",
             "pins": [
                 {
                     "id": 1,
@@ -31,9 +31,9 @@
         },
         {
             "id": 1,
-            "title": "Vista Medial (Cabeça Seccionada)",
+            "title": "Vista Medial (Crânio Seccionado)",
             "description": "",
-            "image": "./utils/sistemas/muscular/cabeca/cabeca2.png",
+            "image": "./utils/sistemas/muscular/cranio/cabeca2.png",
             "pins": [
                 {
                     "id": 1,

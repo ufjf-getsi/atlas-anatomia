@@ -3,7 +3,7 @@
     "pieces": [
         {
             "id": 0,
-            "title": "Fíbula",
+            "title": "Fíbula - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/perna/fibula1.png",
             "pins": [
@@ -61,7 +61,7 @@
         },
         {
             "id": 0,
-            "title": "Fíbula",
+            "title": "Fíbula - Vista Posterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/perna/fibula2.png",
             "pins": [
@@ -99,7 +99,7 @@
         },
         {
             "id": 0,
-            "title": "Fíbula",
+            "title": "Fíbula - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/perna/fibula3.png",
             "pins": [
@@ -157,7 +157,7 @@
         },
         {
             "id": 0,
-            "title": "Tíbia",
+            "title": "Tíbia - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/perna/tibia1.png",
             "pins": 
@@ -216,7 +216,7 @@
         },
         {
             "id": 0,
-            "title": "Tíbia",
+            "title": "Tíbia - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/perna/tibia2.png",
             "pins": 
@@ -275,7 +275,7 @@
         },
         {
             "id": 0,
-            "title": "Tíbia",
+            "title": "Tíbia - Vista Inferior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/perna/tibia3.png",
             "pins": 
@@ -345,7 +345,7 @@
         },
         {
             "id": 0,
-            "title": "Tíbia",
+            "title": "Tíbia - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/perna/tibia4.png",
             "pins": 
@@ -368,7 +368,7 @@
                     "url": "",
                     "x": 0.34,
                     "y": 0.86,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 3,
@@ -384,7 +384,7 @@
         },
         {
             "id": 0,
-            "title": "Tíbia",
+            "title": "Tíbia - Vista Posterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/perna/tibia6.png",
             "pins": 
@@ -392,7 +392,7 @@
                 {
                     "id": 0,
                     "title": "Linha do Músculo Sóleo",
-                    "description": "Crista Diagonal áspera, segue sentido inferomedial até a margem medial da tíbia.",
+                    "description": "Crista diagonal áspera, segue sentido inferomedial até a margem medial da tíbia.",
                     "color": "red",
                     "url": "",
                     "x": 0.52,

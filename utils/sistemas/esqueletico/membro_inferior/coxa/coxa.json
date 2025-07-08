@@ -3,7 +3,7 @@
     "pieces": [
         {
             "id": 0, 
-            "title": "Fêmur",
+            "title": "Fêmur - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/coxa/femur1.png",
             "pins":     
@@ -70,7 +70,7 @@
                 },
                 {
                     "id": 7,
-                    "title": "Cabeça do Femur",
+                    "title": "Cabeça do Fêmur",
                     "description": "",
                     "color": "blue",
                     "url": "",
@@ -82,7 +82,7 @@
         },
         {
             "id": 1,
-            "title": "Fêmur",
+            "title": "Fêmur - Vista Posterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/coxa/femur2.png",
             "pins": 
@@ -131,7 +131,7 @@
         },
         {
             "id": 2, 
-            "title": "Fêmur",
+            "title": "Fêmur - Vista Medial",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/coxa/femur3.png",
             "pins": 
@@ -144,7 +144,7 @@
                     "url": "",
                     "x": 0.24,
                     "y": 0.3,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 1,
@@ -200,7 +200,7 @@
         },
         {
             "id": 3, 
-            "title": "Fêmur",
+            "title": "Fêmur - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/coxa/femur4.png",
             "pins": 
@@ -243,13 +243,13 @@
                     "url": "",
                     "x": 0.07,
                     "y": 0.67,
-                    "placement": "left"
+                    "placement": "right"
                 }
             ]      
         },
         {
             "id": 4, 
-            "title": "Fêmur",
+            "title": "Vista Inferior da Extremidade Distal do Fêmur",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/coxa/femur5.png",
             "pins": 
@@ -288,7 +288,7 @@
         },
         {
             "id": 5, 
-            "title": "Fêmur",
+            "title": "Fêmur Seccionado",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/coxa/femur6.png",
             "pins": 
@@ -377,7 +377,7 @@
         },
         {
             "id": 6, 
-            "title": "Fêmur",
+            "title": "Fêmur Seccionado",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/coxa/femur7.png",
             "pins":    

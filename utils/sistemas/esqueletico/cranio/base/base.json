@@ -127,7 +127,7 @@
                 },
                 {
                     "id": 4,
-                    "title": "Parte Basilar do Osso Occiptal",
+                    "title": "Parte Basilar do Osso Occipital",
                     "description": "",
                     "color": "blue",
                     "url": "...",
@@ -167,7 +167,7 @@
                 },
                 {
                     "id": 8,
-                    "title": "Côndilo Occiptal",
+                    "title": "Côndilo Occipital",
                     "description": "Articula com a massa lateral do atlas.",
                     "color": "red",
                     "url": "...",
@@ -201,7 +201,7 @@
                     "url": "...",
                     "x": 0.65,
                     "y": 0.49,
-                    "placement": "right"
+                    "placement": "left"
                 },
                 {
                     "id": 2,
@@ -635,7 +635,7 @@
                 },
                 {
                     "id": 4,
-                    "title": "Fossa Hipofisial",
+                    "title": "Fossa Hipofisária",
                     "description": "",
                     "color": "blue",
                     "url": "...",

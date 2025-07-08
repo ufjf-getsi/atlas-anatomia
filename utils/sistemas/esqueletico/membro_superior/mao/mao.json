@@ -55,7 +55,7 @@
                     "url": "",
                     "x": 0.23,
                     "y": 0.49,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 5,
@@ -65,7 +65,7 @@
                     "url": "",
                     "x": 0.21,
                     "y": 0.64,
-                    "placement": "left"
+                    "placement": "right"
                 }
             ]
         },
@@ -93,7 +93,7 @@
                     "url": "",
                     "x": 0.2,
                     "y": 0.4,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 2,
@@ -113,7 +113,7 @@
                     "url": "",
                     "x": 0.08,
                     "y": 0.85,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 4,
@@ -139,7 +139,7 @@
         },
         {
             "id": 2,
-            "title": "Carpo",
+            "title": "Carpo - Vista Posterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/mao/mao3.png",
             "pins": [
@@ -237,7 +237,7 @@
         },
         {
             "id": 3,
-            "title": "Carpo",
+            "title": "Carpo - Vista Superior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/mao/mao4.png",
             "pins": [

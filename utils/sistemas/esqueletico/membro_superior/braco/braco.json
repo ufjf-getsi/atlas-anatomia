@@ -3,7 +3,7 @@
     "pieces": [
         {
             "id": 0,
-            "title": "Úmero",
+            "title": "Úmero - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/braco/braco1.png",
             "pins": [
@@ -81,13 +81,13 @@
         },
         {
             "id": 1,
-            "title": "Úmero",
+            "title": "Úmero - Vista Posterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/braco/braco2.png",
             "pins": [
                 {
                     "id": 0,
-                    "title": "Sulco do Nervo Medial",
+                    "title": "Sulco do Nervo Radial",
                     "description": "Sulco oblíquo localizado posteriormente no úmero e por onde passa o nervo radial e ramos da artéria braquial profunda. A lesão deste nervo manifesta-se como mão caída.",
                     "color": "red",
                     "url": "",
@@ -139,7 +139,7 @@
         },
         {
             "id": 2,
-            "title": "Úmero",
+            "title": "Úmero - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/braco/braco3.png",
             "pins": [
@@ -197,7 +197,7 @@
         },
         {
             "id": 3,
-            "title": "Úmero",
+            "title": "Úmero - Vista Posterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/braco/braco4.png",
             "pins": [
@@ -235,7 +235,7 @@
         },
         {
             "id": 4,
-            "title": "Úmero",
+            "title": "Úmero - Vista Anterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/braco/braco5.png",
             "pins": [
@@ -303,7 +303,7 @@
         },
         {
             "id": 5,
-            "title": "Úmero",
+            "title": "Úmero - Vista Posterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_superior/braco/braco6.png",
             "pins": [

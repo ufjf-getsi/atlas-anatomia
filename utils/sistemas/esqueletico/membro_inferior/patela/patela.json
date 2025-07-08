@@ -3,7 +3,7 @@
     "pieces": [
         {
             "id": 0, 
-            "title": "Vista anterior e posterior",
+            "title": "Vista Anterior e Posterior",
             "description": "",
             "image": "./utils/sistemas/esqueletico/membro_inferior/patela/patela.png",
             "pins": [

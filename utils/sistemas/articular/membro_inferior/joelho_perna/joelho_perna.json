@@ -1,5 +1,5 @@
 {
-    "systemName": "Joelho e Perna",
+    "systemName": "Joelho",
     "pieces": [
         {
             "id": 0, 
@@ -186,8 +186,8 @@
                 {
                     "id": 5,
                     "title": "Ligamento Patelar",
-                    "description": "Faixa espessa que vai da patela até a tuberosidade da tíbia. É nele que se percute, a fim de achar o reflexo patelar.",
-                    "color": "red",
+                    "description": "",
+                    "color": "blue",
                     "url": "",
                     "x": 0.53,
                     "y": 0.54,

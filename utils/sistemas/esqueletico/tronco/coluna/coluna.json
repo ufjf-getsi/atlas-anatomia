@@ -30,7 +30,7 @@
                 {
                     "id": 2,
                     "title": "Sulco da Artéria Vertebral",
-                    "description": "Impressão pela passagem da artéria vertebral e do primeiro nervo cervical",
+                    "description": "Impressão pela passagem da artéria vertebral e do primeiro nervo cervical.",
                     "color": "red",
                     "url": "",
                     "x": 0.71,
@@ -40,7 +40,7 @@
                 {
                     "id": 3,
                     "title": "Face Articular Superior",
-                    "description": "Localizada sobre as massas laterais da vértebra. É côncava e recebe os côndilos occiptais.",
+                    "description": "Localizada sobre as massas laterais da vértebra. É côncava e recebe os côndilos occipitais.",
                     "color": "red",
                     "url": "",
                     "x": 0.31,
@@ -59,7 +59,7 @@
                 },
                 {
                     "id": 5,
-                    "title": "Processo Transversário",
+                    "title": "Processo Transverso",
                     "description": "",
                     "color": "blue",
                     "url": "",
@@ -98,7 +98,7 @@
                 {
                     "id": 0,
                     "title": "Face Articular Inferior",
-                    "description": "É plana e se articula com o Áxis (Segunda Vértebra Cervical).",
+                    "description": "É plana e se articula com o áxis (segunda vértebra cervical).",
                     "color": "red",
                     "url": "",
                     "x": 0.29,
@@ -542,7 +542,7 @@
                 {
                     "id": 0,
                     "title": "Processo Espinhoso",
-                    "description": "Longo e fino. Serve como local de fixação dos músculos profundo do dorso e como alavanca, facilitando a ação dos músculos que fixam ou mudam a posição das vértebras.",
+                    "description": "Longo e fino. Serve como local de fixação dos músculos profundos do dorso e como alavanca, facilitando a ação dos músculos que fixam ou mudam a posição das vértebras.",
                     "color": "red",
                     "url": "",
                     "x": 0.48,
@@ -562,7 +562,7 @@
                 {
                     "id": 2,
                     "title": "Forame Vertebral",
-                    "description": "Circular e menor do que os forames das vértebras cervicais e lombares. Formado pelo corpo vertebral, os pedículos e as lâminas. A sobreposição de forames vertebrais forma o canal vertebral, que aloja a medula espinhal e as raízes dos nervos espinhais que dela emergem, juntamente com membranas (meninges), gordura e vasos.",
+                    "description": "Circular e menor do que os forames das vértebras cervicais e lombares. Formado pelo corpo vertebral, os pedículos e as lâminas. A sobreposição de forames vertebrais forma o canal vertebral, que aloja a medula espinal e as raízes dos nervos espinais que dela emergem, juntamente com membranas (meninges), gordura e vasos.",
                     "color": "red",
                     "url": "",
                     "x": 0.48,
@@ -621,7 +621,7 @@
                 {
                     "id": 0,
                     "title": "Processo Articular Inferior",
-                    "description": "Articula-se com o processo articular Superior da vértebra abaixo. Também auxilia na manutenção do alinhamento das vértebras adjacentes, evitando o deslizamento anterior de uma vértebra sobre a outra.",
+                    "description": "Articula-se com o processo articular superior da vértebra abaixo. Também auxilia na manutenção do alinhamento das vértebras adjacentes, evitando o deslizamento anterior de uma vértebra sobre a outra.",
                     "color": "red",
                     "url": "",
                     "x": 0.34,

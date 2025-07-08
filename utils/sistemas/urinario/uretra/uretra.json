@@ -100,12 +100,12 @@
                 {
                     "id": 2,
                     "title": "Uretra - Parte Esponjosa",
-                    "description": "Atravessa o bulbo e o corpo esponjoso do pênis. Possui cerca de 15cm de comprimento e termina no óstio externo da uretra, que se abre na glande do pênis.",
+                    "description": "Atravessa o bulbo e o corpo esponjoso do pênis. Possui cerca de 15 cm de comprimento e termina no óstio externo da uretra, que se abre na glande do pênis.",
                     "color": "red",
                     "url": "",
                     "x": 0.28,
                     "y": 0.57,
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "id": 3,
@@ -141,7 +141,7 @@
                 {
                     "id": 6,
                     "title": "Uretra - Parte Prostática",
-                    "description": "A uretra masculina é uma estrutura comum aos sistemas urinário e genital. Tem início no óstio interno da uretra, é longa e possui cerca de 20cm de comprimento. A parte prostática da uretra tem cerca de 3cm e é envolvida pela próstata.",
+                    "description": "A uretra masculina é uma estrutura comum aos sistemas urinário e genital. Tem início no óstio interno da uretra, é longa e possui cerca de 20 cm de comprimento. A parte prostática da uretra tem cerca de 3 cm e é envolvida pela próstata.",
                     "color": "red",
                     "url": "",
                     "x": 0.69,
