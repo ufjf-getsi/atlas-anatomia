@@ -148,7 +148,7 @@
                 {
                     "id": 6,
                     "title": "Brônquio Principal Direito",
-                    "description": "Possui 3cm de comprimento e se divide em 3 brônquios lobares. É mais vertical, mais curto e mais calibroso que o esquerdo.",
+                    "description": "Possui 3 cm de comprimento e se divide em 3 brônquios lobares. É mais vertical, mais curto e mais calibroso que o esquerdo.",
                     "color": "red",
                     "url": "",
                     "x": 0.44,
@@ -158,7 +158,7 @@
                 {
                     "id": 7,
                     "title": "Brônquio Principal Esquerdo",
-                    "description": "Possui 5cm de comprimento e divide-se em 2 brônquios lobares.",
+                    "description": "Possui 5 cm de comprimento e divide-se em 2 brônquios lobares.",
                     "color": "red",
                     "url": "",
                     "x": 0.61,
@@ -206,7 +206,7 @@
                 {
                     "id": 3,
                     "title": "Traqueia (Porção Membranácea)",
-                    "description": "Formada por fibras musculares lisas (Músculo Traqueal) e tecido conjuntivo elástico, sem presença de tecido cartilaginoso.",
+                    "description": "Formada por fibras musculares lisas (músculo traqueal) e tecido conjuntivo elástico, sem presença de tecido cartilaginoso.",
                     "color": "red",
                     "url": "",
                     "x": 0.51,

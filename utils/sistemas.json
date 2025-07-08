@@ -278,42 +278,41 @@
             "image": "./utils/imagens/icone_articular.png"
         },
         {
-            "locked": false,
             "systemName": "Muscular",
             "id": 2,
             "path": "#muscular",
             "section": "subsystems",
             "subsystems": [
                 {
-                    "systemName": "Cabeça",
-                    "path": "#cabeça-M",
+                    "systemName": "Crânio",
+                    "path": "#cranio-M",
                     "id": 0,
                     "section": "atlas",
-                    "url": "./utils/sistemas/muscular/cabeca/cabeca.json",
+                    "url": "./utils/sistemas/muscular/cranio/cranio.json", 
                     "image": "./utils/imagens/icone_cabeca_M.png"
                 },
                 {
                     "systemName": "Tórax",
                     "path": "#torax-M",
-                    "id": 1,
+                    "id": 5,
                     "section": "atlas",
-                    "url": "./utils/sistemas/muscular/torax/torax.json",
+                    "url": "./utils/sistemas/muscular/torax/torax.json", 
                     "image": "./utils/imagens/icone_torax_M.png"
                 },
                 {
                     "systemName": "Abdome",
                     "path": "#abdome-M",
-                    "id": 2,
+                    "id": 1,
                     "section": "atlas",
-                    "url": "./utils/sistemas/muscular/abdome/abdome.json",
+                    "url": "./utils/sistemas/muscular/abdome/abdome.json", 
                     "image": "./utils/imagens/icone_abdome_M.png"
                 },
                 {
                     "systemName": "Dorso",
                     "path": "#dorso-M",
-                    "id": 3,
+                    "id": 1,
                     "section": "atlas",
-                    "url": "./utils/sistemas/muscular/dorso/dorso.json",
+                    "url": "./utils/sistemas/muscular/dorso/dorso.json", 
                     "image": "./utils/imagens/icone_dorso_M.png"
                 },
                 {
@@ -325,93 +324,41 @@
                         {
                             "systemName": "Ombro",
                             "path": "#ombro-M",
-                            "id": 0,
+                            "id": 3,
                             "section": "atlas",
-                            "url": "./utils/sistemas/muscular/membro_superior/ombro/ombro.json",
+                            "url": "./utils/sistemas/muscular/membro_superior/ombro/ombro.json", 
                             "image": "./utils/imagens/icone_ombro_M.png"
                         },
                         {
                             "systemName": "Braço",
-                            "path": "#braco-M",
-                            "id": 1,
+                            "path": "#braço-M",
+                            "id": 0,
                             "section": "atlas",
-                            "url": "./utils/sistemas/muscular/membro_superior/braco/braco.json",
+                            "url": "./utils/sistemas/muscular/membro_superior/braco/braco.json", 
                             "image": "./utils/imagens/icone_braco_M.png"
-                        },
-                        {
+                        },{
                             "systemName": "Antebraço",
-                            "path": "#antebraco_M",
-                            "id": 2,
-                            "section": "subsystems",
-                            "subsystems": [
-                                {
-                                    "systemName": "Anterior",
-                                    "path": "#antebraco-anterior-M",
-                                    "id": 0,
-                                    "section": "subsystems",
-                                    "subsystems": [
-                                        {
-                                            "systemName": "Superficial",
-                                            "path": "#anterior-superficial-M",
-                                            "id": 0,
-                                            "section": "atlas",
-                                            "url": "./utils/sistemas/muscular/membro_superior/antebraco/anterior/superficial/superficial.json",
-                                            "image": "./utils/imagens/icone_antebraco_M.png"
-                                        },
-                                        {
-                                            "systemName": "Profundo",
-                                            "path": "#anterior-profundo-M",
-                                            "id": 1,
-                                            "section": "atlas",
-                                            "url": "./utils/sistemas/muscular/membro_superior/antebraco/anterior/profundo/profundo.json",
-                                            "image": "./utils/imagens/icone_antebraco_M.png"
-                                        }
-                                    ],
-                                    "image": "./utils/imagens/icone_antebraco_M.png"
-                                },
-                                {
-                                    "systemName": "Posterior",
-                                    "path": "#antebraco-posterior-M",
-                                    "id": 1,
-                                    "section": "subsystems",
-                                    "subsystems": [
-                                        {
-                                            "systemName": "Superficial",
-                                            "path": "#posterior-superficial-M",
-                                            "id": 0,
-                                            "section": "atlas",
-                                            "url": "./utils/sistemas/muscular/membro_superior/antebraco/posterior/superficial/superficial.json",
-                                            "image": "./utils/imagens/icone_antebraco_M.png"
-                                        },
-                                        {
-                                            "systemName": "Profundo",
-                                            "path": "#posterior-profundo-M",
-                                            "id": 1,
-                                            "section": "atlas",
-                                            "url": "./utils/sistemas/muscular/membro_superior/antebraco/posterior/profundo/profundo.json",
-                                            "image": "./utils/imagens/icone_antebraco_M.png"
-                                        }
-                                    ],
-                                    "image": "./utils/imagens/icone_antebraco_M.png"
-                                }
-                            ],
+                            "path": "#antebraço-M",
+                            "id": 0,
+                            "section": "atlas",
+                            "url": "./utils/sistemas/muscular/membro_superior/antebraco/antebraco.json", 
                             "image": "./utils/imagens/icone_antebraco_M.png"
                         },
                         {
-                            "systemName": "Mão",
+                            "systemName": "Punho e Mão",
                             "path": "#mao-M",
-                            "id": 3,
+                            "id": 2,
                             "section": "atlas",
-                            "url": "./utils/sistemas/muscular/membro_superior/mao/mao.json",
+                            "url": "./utils/sistemas/muscular/membro_superior/mao/mao.json", 
                             "image": "./utils/imagens/icone_mao_M.png"
                         }
-                    ],
+                    ], 
                     "image": "./utils/imagens/icone_mao_M.png"
                 },
                 {
                     "systemName": "Membro Inferior",
                     "path": "#membro-inferior-M",
-                    "id": 5,
+                    "id": 3,
                     "section": "subsystems",
                     "subsystems": [
                         {
@@ -419,7 +366,7 @@
                             "path": "#gluteo-M",
                             "id": 0,
                             "section": "atlas",
-                            "url": "./utils/sistemas/muscular/membro_inferior/gluteo/gluteo.json",
+                            "url": "./utils/sistemas/muscular/membro_inferior/gluteo/gluteo.json", 
                             "image": "./utils/imagens/icone_gluteo_M.png"
                         },
                         {
@@ -427,7 +374,7 @@
                             "path": "#coxa-M",
                             "id": 1,
                             "section": "atlas",
-                            "url": "./utils/sistemas/muscular/membro_inferior/coxa/coxa.json",
+                            "url": "./utils/sistemas/muscular/membro_inferior/coxa/coxa.json", 
                             "image": "./utils/imagens/icone_coxa_M.png"
                         },
                         {
@@ -435,18 +382,18 @@
                             "path": "#perna-M",
                             "id": 2,
                             "section": "atlas",
-                            "url": "./utils/sistemas/muscular/membro_inferior/perna/perna.json",
+                            "url": "./utils/sistemas/muscular/membro_inferior/perna/perna.json", 
                             "image": "./utils/imagens/icone_perna_M.png"
                         },
                         {
-                            "systemName": "Pé",
+                            "systemName": "Tornozelo e Pé",
                             "path": "#pe-M",
                             "id": 3,
                             "section": "atlas",
-                            "url": "./utils/sistemas/muscular/membro_inferior/pe/pe.json",
+                            "url": "./utils/sistemas/muscular/membro_inferior/pe/pe.json", 
                             "image": "./utils/imagens/icone_pe_M.png"
                         }
-                    ],
+                    ], 
                     "image": "./utils/imagens/icone_pe_M.png"
                 }
             ],

@@ -10,8 +10,8 @@
                 {
                     "id": 1,
                     "title": "Intumescência Cervical",
-                    "description": "",
-                    "color": "blue",
+                    "description": "Dilatação da medula em nível cervical, onde fazem conexão as raízes nervosas que formam o plexo braquial.",
+                    "color": "red",
                     "url": "",
                     "x": 0.51,
                     "y": 0.12,
@@ -20,8 +20,8 @@
                 {
                     "id": 2,
                     "title": "Intumescência Lombar",
-                    "description": "",
-                    "color": "blue",
+                    "description": "Dilatação da medula em nível lombar, onde fazem conexão as raízes nervosas que formam o plexo lombossacral.",
+                    "color": "red",
                     "url": "",
                     "x": 0.49,
                     "y": 0.62,
@@ -76,8 +76,8 @@
                 {
                     "id": 0,
                     "title": "Intumescência Lombar",
-                    "description": "Dilatação da medula em nível lombar, onde fazem conexão as raízes nervosas que formam o plexo lombossacral.",
-                    "color": "red",
+                    "description": "",
+                    "color": "blue",
                     "url": "",
                     "x": 0.52,
                     "y": 0.61,
@@ -86,8 +86,8 @@
                 {
                     "id": 1,
                     "title": "Intumescência Cervical",
-                    "description": "Dilatação da medula em nível cervical, onde fazem conexão as raízes nervosas que formam o plexo braquial.",
-                    "color": "red",
+                    "description": "",
+                    "color": "blue",
                     "url": "",
                     "x": 0.48,
                     "y": 0.21,
@@ -114,7 +114,7 @@
                 {
                     "id": 0,
                     "title": "Cauda Equina",
-                    "description": "É o conjunto formado pelo filamento terminal e pelas raízes nervosas dos últimos nervos espinhais.",
+                    "description": "É o conjunto formado pelo filamento terminal e pelas raízes nervosas dos últimos nervos espinais.",
                     "color": "red",
                     "url": "",
                     "x": 0.79,
@@ -210,7 +210,7 @@
                 {
                     "id": 2,
                     "title": "Raiz Dorsal do Nervo Espinal",
-                    "description": "É a raiz sensitiva do nervo espihal.",
+                    "description": "É a raiz sensitiva do nervo espinal.",
                     "color": "red",
                     "url": "",
                     "x": 0.56,

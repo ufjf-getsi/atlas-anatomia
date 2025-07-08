@@ -3,7 +3,7 @@
     "pieces": [
         {
             "id": 0,
-            "title": "",
+            "title": "Vista Superior",
             "description": "",
             "image": "./utils/sistemas/respiratorio/diafragma/diafragma1.png",
             "pins":[
@@ -41,7 +41,7 @@
         },
         {
             "id": 1,
-            "title": "",
+            "title": "Vista Superior",
             "description": "",
             "image": "./utils/sistemas/respiratorio/diafragma/diafragma2.png",
             "pins":[
