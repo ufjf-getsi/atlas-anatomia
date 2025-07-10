@@ -285,7 +285,7 @@
             "subsystems": [
                 {
                     "systemName": "Cabeça",
-                    "path": "#cranio-M",
+                    "path": "#cabeca-M",
                     "id": 0,
                     "section": "atlas",
                     "url": "./utils/sistemas/muscular/cranio/cranio.json", 
