@@ -66,16 +66,6 @@
             "image": "./utils/sistemas/articular/membro_inferior/tornozelo_pe/tornozelo2.png",
             "pins": [
                 {
-                    "id": 0,
-                    "title": "Ligamento Tibiofibular Posterior",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.46,
-                    "y": 0.47,
-                    "placement": "left"
-                },
-                {
                     "id": 1,
                     "title": "Articulação Talocrural",
                     "description": "",
@@ -83,16 +73,6 @@
                     "url": "",
                     "x": 0.29,
                     "y": 0.48,
-                    "placement": "left"
-                },
-                {
-                    "id": 2,
-                    "title": "Ligamento Talofibular Posterior",
-                    "description": "",
-                    "color": "blue",
-                    "url": "",
-                    "x": 0.53,
-                    "y": 0.54,
                     "placement": "left"
                 },
                 {
