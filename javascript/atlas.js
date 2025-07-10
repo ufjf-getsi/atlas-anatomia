@@ -13,18 +13,19 @@ const loadSystemContent = async (systemURL) => {
   // buscar os dados
   const request = new Request(systemURL);
   const systemData = await fetchData(request.url);
-  const { systemName } = systemData;
   pieces = systemData.pieces;
   piecesNumber = pieces.length;
 
-  // define o título do sistema
-  document.getElementById("main-title").innerHTML = systemName;
 
   // inicar navegando para a primeira imagem
   setPieceIndex(0);
   loadNavigations(piecesNumber);
   navigateToImage(pieceIndex);
 };
+
+const updateSystemName = (systemName) => {
+  document.getElementById("main-title").innerHTML = systemName;
+}
 
 const showCoordinates = (e) => {
   const backgroundImage = document.getElementById("content");
@@ -66,6 +67,7 @@ const getPieces = () => {
 export {
   loadSystemContent,
   showCoordinates,
+  updateSystemName,
   getPieceIndex,
   setPieceIndex,
   getPiecesNumber,

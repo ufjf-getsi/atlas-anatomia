@@ -284,7 +284,7 @@
             "section": "subsystems",
             "subsystems": [
                 {
-                    "systemName": "Crânio",
+                    "systemName": "Cabeça",
                     "path": "#cranio-M",
                     "id": 0,
                     "section": "atlas",

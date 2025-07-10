@@ -1,6 +1,6 @@
 // RESPONSÁVEL PELO ROTEAMENTO ATRAVÉS DA URL
 
-import { loadSystemContent } from "./atlas.js";
+import { loadSystemContent, updateSystemName } from "./atlas.js";
 import { loadHomeCards, loadSystemsCards, updateHomeTitle } from "./home.js";
 import { closeSidebar } from "./menu.js";
 import { getAllSystemsData } from "./services.js";
@@ -110,6 +110,7 @@ const handler = async (location) => {
             case "atlas":
                 // carrega o título da home
                 updateHomeTitle(atualRoute.systemName);
+                updateSystemName(atualRoute.systemName);
                 loadSystemContent(atualRoute.url);
                 break;
 
