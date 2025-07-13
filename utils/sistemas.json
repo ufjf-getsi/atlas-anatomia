@@ -300,6 +300,7 @@
                     "image": "./utils/imagens/icone_torax_M.png"
                 },
                 {
+                    "locked": true,
                     "systemName": "Abdome",
                     "path": "#abdome-M",
                     "id": 1,
