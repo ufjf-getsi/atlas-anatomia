@@ -5,6 +5,7 @@ import { slideLeft, slideRight, finishImageLoading } from "./navigations.js";
 import { navigate, createRoutes } from "./router.js";
 import { setSearchContent, search, toggleSearchMenu, loadSearchContents } from './search.js'
 import { hideContent } from "./pins.js";
+import i18next from "./i18n.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   window.location = "#home";

@@ -1,6 +1,6 @@
 // RESPONSÁVEL PELA MANIPULAÇÃO DO ALFINETE 
 
-import { getPieceIndex, getPieces } from "./atlas.js   ";
+import { getPieceIndex, getPieces } from "./atlas.js";
 
 let isShowingPin = false;
 let atualPinIndex = 0;
