@@ -1,0 +1,315 @@
+{
+    "systemName": "Bexiga",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Vista Lateral - Bexiga Masculina",
+            "description": "",
+            "image": "./utils/sistemas/urinario/bexiga/bexiga1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Colo da Bexiga",
+                    "description": "Parte afilada que aloja o óstio interno da uretra.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.58,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Fundo da Bexiga",
+                    "description": "Parte posterior e convexa da bexiga, sendo oposta ao ápice.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.7,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Corpo da Bexiga",
+                    "description": "Localiza-se entre o ápice e o fundo e é a maior parte da bexiga.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ápice da Bexiga",
+                    "description": "Tem relação com a sínfise púbica em ambos os sexos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.05,
+                    "y": 0.4,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Ureter Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Vesícula Seminal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.86,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Próstata",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.7,
+                    "y": 0.66,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Superior - Bexiga Masculina",
+            "description": "",
+            "image": "./utils/sistemas/urinario/bexiga/bexiga3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Vesicula Seminal Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.1,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Vesicula Seminal Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.76,
+                    "y": 0.11,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Ureter Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.79,
+                    "y": 0.26,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ureter Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.21,
+                    "y": 0.17,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Corpo da Bexiga",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Ápice da Bexiga",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.93,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Inferior - Bexiga Masculina",
+            "description": "",
+            "image": "./utils/sistemas/urinario/bexiga/bexiga4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Ápice da Bexiga",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.07,
+                    "y": 0.44,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Corpo da Bexiga",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Próstata",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ureter Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.75,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Ureter Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.21,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Vesícula Seminal Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.88,
+                    "y": 0.22,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Vesícula Seminal Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.86,
+                    "y": 0.74,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Vista Interna",
+            "description": "",
+            "image": "./utils/sistemas/urinario/bexiga/bexiga5.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Músculo Detrusor da Bexiga",
+                    "description": "Músculo liso que compõe a parede da bexiga. Sua contração promove o esvaziamento vesical.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.07,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Túnica Mucosa",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.66,
+                    "y": 0.25,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Óstio do Ureter Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.38,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Óstio do Ureter Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Prega Interuretérica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.56,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Óstio Interno da Uretra",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.65,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Vista Interna",
+            "description": "",
+            "image": "./utils/sistemas/urinario/bexiga/bexiga6.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Trígono Vesical",
+                    "description": "Área triangular limitada pelos óstios dos ureteres e o óstio interno da uretra. Sua mucosa é lisa, diferenciando-se do restante da bexiga.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.59,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

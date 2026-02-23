@@ -1,0 +1,287 @@
+{
+    "systemName": "Faringe",
+    "pieces": [
+    {
+        "id": 0,
+        "title": "Corte Sagital",
+        "description": "",
+        "image": "./utils/sistemas/respiratorio/faringe/faringe1.png",
+        "pins":[
+            {
+                "id": 0,
+                "title": "Porção Nasal da Faringe",
+                "description": "Região situada posteriormente à cavidade nasal. Estende-se até o bordo inferior do palato mole, comunicando-se com o ouvido médio através das tubas auditivas e com a cavidade nasal através dos cóanos.",
+                "color": "red",
+                "url": "",
+                "x": 0.56,
+                "y": 0.36,
+                "placement": "left"
+            },
+            {
+                "id": 1,
+                "title": "Porção Oral da Faringe",
+                "description": "Região situada posteriormente à cavidade oral. É limitada pelo palato mole acima e pela raiz da língua abaixo. Comunica-se com a cavidade oral através do istmo das fauces.",
+                "color": "red",
+                "url": "",
+                "x": 0.57,
+                "y": 0.45,
+                "placement": "left"
+            },
+            {
+                "id": 2,
+                "title": "Porção Laríngea da Faringe",
+                "description": "Região situada posteriormente à cavidade da laringe. Estende-se da margem superior da epiglote à margem inferior da cartilagem cricóidea, continuando-se com o esôfago. Comunica-se com a laringe pelo ádito da laringe.",
+                "color": "red",
+                "url": "",
+                "x": 0.63,
+                "y": 0.56,
+                "placement": "left"
+            },
+            {
+                "id": 3,
+                "title": "Laringe",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.34,
+                "y": 0.63,
+                "placement": "left"
+            },
+            {
+                "id": 4,
+                "title": "Traqueia",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.39,
+                "y": 0.73,
+                "placement": "left"
+            },
+            {
+                "id": 5,
+                "title": "Esôfago",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.7,
+                "y": 0.71,
+                "placement": "left"
+            },
+            {
+                "id": 6,
+                "title": "Cavidade Nasal",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.31,
+                "y": 0.21,
+                "placement": "left"
+            },
+            {
+                "id": 7,
+                "title": "Língua",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.34,
+                "y": 0.39,
+                "placement": "left"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Corte Sagital",
+        "description": "",
+        "image": "./utils/sistemas/respiratorio/faringe/faringe2.png",
+        "pins":[
+            {
+                "id": 0,
+                "title": "Cóano",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.4,
+                "y": 0.44,
+                "placement": "left"
+            },
+            {
+                "id": 2,
+                "title": "Toro Tubário",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.47,
+                "y": 0.44,
+                "placement": "left"
+            },
+            {
+                "id": 3,
+                "title": "Óstio Faríngeo da Tuba Auditiva",
+                "description": "Comunica a orelha média e a nasofaringe.",
+                "color": "red",
+                "url": "",
+                "x": 0.47,
+                "y": 0.48,
+                "placement": "left"
+            },
+            {
+                "id": 4,
+                "title": "Tonsila Faríngea",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.52,
+                "y": 0.43,
+                "placement": "left"
+            },
+            {
+                "id": 5,
+                "title": "Prega Salpingofaríngea",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.5,
+                "y": 0.49,
+                "placement": "left"
+            },
+            {
+                "id": 6,
+                "title": "Recesso Faríngeo",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.52,
+                "y": 0.51,
+                "placement": "left"
+            } 
+        ]
+    },
+    { 
+        "id": 2,
+        "title": "Corte Sagital",
+        "description": "",
+        "image": "./utils/sistemas/respiratorio/faringe/faringe3.png",
+        "pins":[
+            {
+                "id": 0,
+                "title": "Lábio Superior",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.19,
+                "y": 0.56,
+                "placement": "left"
+            },
+            {
+                "id": 1,
+                "title": "Lábio Inferior",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.3,
+                "y": 0.64,
+                "placement": "left"
+            },
+            {
+                "id": 2,
+                "title": "Língua",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.48,
+                "y": 0.65,
+                "placement": "left"
+            },
+            {
+                "id": 3,
+                "title": "Fossa Tonsilar",
+                "description": "Aloja a tonsila palatina.",
+                "color": "red",
+                "url": "",
+                "x": 0.54,
+                "y": 0.53,
+                "placement": "left"
+            },
+            {
+                "id": 4,
+                "title": "Epiglote",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.66,
+                "y": 0.65,
+                "placement": "left"
+            },
+            {
+                "id": 5,
+                "title": "Arco Palatoglosso",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.53,
+                "y": 0.58,
+                "placement": "left"
+            },
+            {
+                "id": 6,
+                "title": "Palato Mole",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.51,
+                "y": 0.45,
+                "placement": "left"
+            },
+            {
+                "id": 7,
+                "title": "Arco Palatofaríngeo",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.6,
+                "y": 0.54,
+                "placement": "left"
+            }
+        ]
+    },
+    { 
+        "id": 3,
+        "title": "Vista Posterior",
+        "description": "",
+        "image": "./utils/sistemas/respiratorio/faringe/faringe4.png",
+        "pins":[
+            {
+                "id": 0,
+                "title": "Esôfago",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.46,
+                "y": 0.88,
+                "placement": "left"
+            },
+            {
+                "id": 1,
+                "title": "Epiglote",
+                "description": "",
+                "color": "blue",
+                "url": "",
+                "x": 0.51,
+                "y": 0.13,
+                "placement": "left"
+            },
+            {
+                "id": 2,
+                "title": "Recesso Piriforme",
+                "description": "Pequena depressão localizada na porção laríngea da faringe em ambos os lados do ádito da laringe. Local comum de impactação de alimentos e medicamentos.",
+                "color": "red",
+                "url": "",
+                "x": 0.84,
+                "y": 0.54,
+                "placement": "left"
+            }          
+        ]
+    }
+]
+}

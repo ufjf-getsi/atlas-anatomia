@@ -1,0 +1,151 @@
+{
+    "systemName": "Baço",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Face Diafragmática",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/baco/baco1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Artéria Esplênica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Margem Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.35,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Margem Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.93,
+                    "y": 0.66,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Polo Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.62,
+                    "y": 0.18,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Polo Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.58,
+                    "y": 0.82,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Face Visceral",
+            "description": "",
+            "image": "./utils/sistemas/circulatorio/baco/baco2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Artéria Esplênica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.78,
+                    "y": 0.48,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Margem Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Margem Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.09,
+                    "y": 0.4,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Polo Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.13,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Polo Anterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.37,
+                    "y": 0.86,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Face Cólica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.71,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Face Gástrica",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Face Renal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.18,
+                    "y": 0.47,
+                    "placement": "left"
+                }
+            ]
+        } 
+    ]
+}

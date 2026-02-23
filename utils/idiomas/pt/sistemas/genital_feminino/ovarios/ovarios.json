@@ -1,0 +1,379 @@
+{
+    "systemName": "Ovários e Tubas Uterinas",
+    "pieces": [
+        {
+            "id": 4,
+            "title": "Vista Superior - In situ",
+            "description": "",
+            "image": "./utils/sistemas/genital_feminino/ovarios/tuba_uterina1.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Ovário Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.19,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Tuba Uterina Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Fundo do Útero",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Intestino Grosso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Ovário Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Ligamento Largo do Útero",
+                    "description": "Prega dupla de peritônio que se estende do útero até o assoalho e as paredes laterais da pelve, auxiliando na manutenção do posicionamento uterino.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.64,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Tuba Uterina Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.56,
+                    "placement": "left"
+                }
+            ]  
+        },
+        {
+            "id": 0,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "utils/sistemas/genital_feminino/ovarios/ovarios1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Ovário Direito",
+                    "description": "Gônada responsável pela produção dos ovócitos e dos hormônios sexuais femininos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Tuba Uterina Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Tuba Uterina Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.26,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Útero",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Ovário Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.23,
+                    "y": 0.48,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "utils/sistemas/genital_feminino/ovarios/ovarios2.png",
+            "pins": [
+                    {
+                        "id": 0,
+                        "title": "Ligamento Suspensor do Ovário",
+                        "description": "É uma prega peritoneal localizada superolateralmente ao ovário. Através dele, vasos sanguíneos, linfáticos e os nervos ovarianos cruzam a margem da pelve.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.1,
+                        "y": 0.43,
+                        "placement": "right"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Ligamento Útero-ovárico",
+                        "description": "Estende-se da extremidade uterina do ovário até o útero e contribui para a fixação dos ovários.",
+                        "color": "red",
+                        "url": "",
+                        "x": 0.34,
+                        "y": 0.48,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Ovário Esquerdo",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.24,
+                        "y": 0.46,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 6,
+                        "title": "Tuba Uterina Esquerda",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.74,
+                        "y": 0.45,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 7,
+                        "title": "Útero",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.5,
+                        "y": 0.43,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 8,
+                        "title": "Extremidade Uterina",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.6,
+                        "y": 0.57,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 9,
+                        "title": "Extremidade Tubária",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.86,
+                        "y": 0.6,
+                        "placement": "left"
+                    },
+                    {
+                        "id": 10,
+                        "title": "Margem Livre do Ovário",
+                        "description": "",
+                        "color": "blue",
+                        "url": "",
+                        "x": 0.75,
+                        "y": 0.68,
+                        "placement": "left"
+                    }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vista Superior - In situ",
+            "description": "",
+            "image": "./utils/sistemas/genital_feminino/ovarios/tuba_uterina1.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Ovário Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.19,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Tuba Uterina Direita",
+                    "description": "Possuem cerca de 10 cm de comprimento e conduzem o ovócito da cavidade peritoneal para a cavidade uterina.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Fundo do Útero",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Intestino Grosso",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.36,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Ovário Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Ampola",
+                    "description": "É a parte mais longa e larga da tuba, onde geralmente ocorre a fecundação.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.88,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Istmo da Tuba Uterina",
+                    "description": "É a porção mais estreita da tuba e comunica-se com a cavidade uterina.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.56,
+                    "placement": "left"
+                }
+            ]  
+        },
+        {
+            "id": 3,
+            "title": "Vista Posterior",
+            "description": "",
+            "image": "./utils/sistemas/genital_feminino/ovarios/tuba_uterina2.png",
+            "pins": 
+            [
+                {
+                    "id": 2,
+                    "title": "Útero",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Ovário Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Tuba Uterina Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.44,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Fímbrias",
+                    "description": "São projeções digitiformes na margem do infundíbulo que facilitam a captura dos ovócitos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.78,
+                    "y": 0.42,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Óstio Abdominal",
+                    "description": "É a abertura distal das tubas uterinas que se comunica com a cavidade peritoneal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.81,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Infundíbulo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.89,
+                    "y": 0.49,
+                    "placement": "left"
+                }
+            ]
+        }
+        
+    ]
+}

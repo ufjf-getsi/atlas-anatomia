@@ -3,6 +3,7 @@
 
 import { navigate } from "./router.js";
 import { getAllSystemsData } from "./services.js";
+import i18next from 'i18next';
 
 const loadHomeCards = async () => {
 
@@ -48,7 +49,7 @@ const loadSystemsCards = async (systems) => {
     card.appendChild(img);
     const p = document.createElement("p");
     p.classList.add("system-name");
-    p.innerText = data.systemName;
+    p.innerText = i18next.t(data.systemName);
 
     card.appendChild(p);
     container.appendChild(card)

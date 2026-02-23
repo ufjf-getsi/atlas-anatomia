@@ -1,0 +1,763 @@
+{
+    "systemName": "Rins e Ureteres",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/urinario/rim_ureter/rim_ureter.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Glândula Suprarrenal Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.09,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Rim Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.12,
+                    "y": 0.34,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Artéria Renal Direita",
+                    "description": "Passa posteriormente à veia cava inferior e é mais longa que a esquerda.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.27,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Veia Renal Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Ureter Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Veia Cava Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.4,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Artéria Aorta (Parte Abdominal)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Ureter Esquerdo",
+                    "description": "Tubo muscular (25 a 30 cm de comprimento) que transporta urina dos rins para a bexiga urinária. Divide-se em partes abdominal, pélvica e intramural.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.66,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Artéria Renal Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Veia Renal Esquerda",
+                    "description": "Passa anteriormente à parte abdominal da artéria aorta e é mais longa que a direita. Recebe a veia suprarrenal e a veia gonadal esquerdas.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.64,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Glândula Suprarrenal Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.15,
+                    "placement": "left"
+                },
+                {
+                    "id": 11,
+                    "title": "Rim Esquerdo",
+                    "description": "Os rins são dois órgãos localizados na região posterior do abdome, a cada lado da coluna vertebral. São retroperitoneais, sendo o rim direito ligeiramente inferior ao esquerdo, devido à relação com o fígado. ",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.81,
+                    "y": 0.33,
+                    "placement": "left"
+                }
+            ]            
+        },
+        {
+            "id": 1,
+            "title": "Vista Anterior do Rim Esquerdo",
+            "description": "",
+            "image": "./utils/sistemas/urinario/rim_ureter/rim_ureter2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Glândula Suprarrenal Esquerda",
+                    "description": "As glândulas suprarrenais estão associadas ao polo superior de cada rim.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.09,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Polo Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.6,
+                    "y": 0.19,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Margem Lateral",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.87,
+                    "y": 0.44,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Margem Medial",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.61,
+                    "y": 0.42,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Artéria Renal Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Veia Renal Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.43,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Polo Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.47,
+                    "y": 0.7,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Ureter Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.79,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Veia Gonadal Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.66,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Veia Suprarrenal Esquerda",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.3,
+                    "placement": "left"
+                }
+            ]      
+        },
+        {
+            "id": 2,
+            "title": "Vista Posterior do Rim Direito",
+            "description": "",
+            "image": "./utils/sistemas/urinario/rim_ureter/rim_ureter8.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Artéria Renal Extra-Hilar",
+                    "description": "Artérias renais extra hilares são ramos da artéria renal ou da parte abdominal da artéria aorta, que entram na superfície do rim fora do hilo, muitas vezes em seus polos (polares). São variações anatômicas importantes em cirurgias renais e transplantes.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.26,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Artéria Renal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.2,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Veia Renal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.33,
+                    "y": 0.42,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Artéria do Segmento Superior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.37,
+                    "y": 0.34,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Artéria do Segmento Anterossuperior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.38,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Artéria do Segmento Posterior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.42,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Artéria do Segmento Anteroinferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Artéria do Segmento Inferior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.37,
+                    "y": 0.5,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Pelve Renal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Ureter",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.2,
+                    "y": 0.8,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Vista Medial do Rim",
+            "description": "",
+            "image": "./utils/sistemas/urinario/rim_ureter/rim_ureter9.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Artéria Renal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.31,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Veia Renal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Hilo Renal",
+                    "description": "Consiste em uma fenda na margem medial do rim, que aloja o pedículo renal, conjunto de estruturas que entram ou saem do rim (vasos, nervos e ureter).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.42,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Ureter",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.87,
+                    "placement": "left"
+                }
+            ]    
+        },
+        {
+            "id": 4,
+            "title": "Corte Frontal do Rim",
+            "description": "",
+            "image": "./utils/sistemas/urinario/rim_ureter/rim_ureter7.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Veia Renal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.19,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Artéria Renal",
+                    "description": "Tem múltiplas ramificações intraparenquimatosas: artérias segmentares, interlobares, arqueadas, interlobulares.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.18,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Ureter",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Pelve Renal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.37,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Cálice Renal Maior ",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.53,
+                    "placement": "left"
+                }
+            ]       
+        },
+        {
+            "id": 5,
+            "title": "Corte Frontal do Rim",
+            "description": "",
+            "image": "./utils/sistemas/urinario/rim_ureter/rim_ureter4.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Seio Renal",
+                    "description": "Espaço no interior dos rins ocupado pela pelve renal, cálices, vasos, nervos e uma quantidade variável de gordura.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.79,
+                    "y": 0.5,
+                    "placement": "left"
+                }
+            ]    
+        },
+        {
+            "id": 6,
+            "title": "Corte Frontal do Rim",
+            "description": "",
+            "image": "./utils/sistemas/urinario/rim_ureter/rim_ureter6.png",
+            "pins": [
+                {
+                    "id": 3,
+                    "title": "Pirâmide Renal ",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.37,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Cálice Renal Menor",
+                    "description": "Recebe urina da papila renal e conduz até um cálice renal maior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Ureter",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.82,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Pelve Renal",
+                    "description": "É a extremidade superior dilatada do ureter. Recebe dois ou três cálices renais maiores.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Cálice Renal Maior",
+                    "description": "Cada rim tem dois ou três cálices maiores. Cada cálice maior recebe dois ou três cálices menores.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.52,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Cálice Renal Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Papila Renal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.44,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Coluna Renal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.78,
+                    "placement": "left"
+                }
+            ]        
+        },
+        {
+            "id": 7,
+            "title": "Corte Frontal do Rim",
+            "description": "",
+            "image": "./utils/sistemas/urinario/rim_ureter/rim_ureter5.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Seio Renal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.505,
+                    "y": 0.18,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Cálice Renal Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.36,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Cálice Renal Menor",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.3,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Gordura Renal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Papila Renal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.72,
+                    "y": 0.47,
+                    "placement": "left"
+                }
+            ]      
+        },
+        {
+            "id": 8,
+            "title": "Corte Frontal do Rim",
+            "description": "",
+            "image": "./utils/sistemas/urinario/rim_ureter/rim_ureter3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Córtex Renal",
+                    "description": "Faixa contínua de tecido pálido externo à medula renal.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.09,
+                    "y": 0.36,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Coluna Renal",
+                    "description": "Extensões do córtex renal que se projetam para a medula, situando-se entre as pirâmides renais.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.27,
+                    "y": 0.26,
+                    "placement": "right"
+                },
+                {
+                    "id": 2,
+                    "title": "Papila Renal",
+                    "description": "São saliências formadas pelos vértices das pirâmides medulares. Abrem-se nos cálices renais menores.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.29,
+                    "y": 0.67,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Medula Renal",
+                    "description": "A medula renal é composta pelo conjunto de pirâmides renais, cujo número varia de cerca de 8 a 18 em cada rim.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.22,
+                    "y": 0.7,
+                    "placement": "right"
+                },
+                {
+                    "id": 5,
+                    "title": "Papila Renal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.67,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Córtex Renal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.89,
+                    "y": 0.69,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Pirâmide Renal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.78,
+                    "y": 0.29,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Vista Anterior do Rim",
+            "description": "",
+            "image": "./utils/sistemas/urinario/rim_ureter/rim_ureter10.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Rim",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Cápsula Fibrosa",
+                    "description": "Membrana transparente e fibrosa que protege externamente o rim.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.17,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Vista Anterior do Rim",
+            "description": "",
+            "image": "./utils/sistemas/urinario/rim_ureter/rim_ureter11.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Fáscia Renal",
+                    "description": "É uma condensação de tecido conjuntivo que envolve o rim, situando-se entre duas camadas adiposas: a gordura pararrenal externa a ela e a gordura perirrenal mais interna (entre a fáscia renal e a cápsula fibrosa).",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.65,
+                    "y": 0.13,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Gordura Perirrenal (Cápsula Adiposa)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Ureter",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.17,
+                    "y": 0.95,
+                    "placement": "left"
+                }
+            ]    
+        }
+        ]
+}

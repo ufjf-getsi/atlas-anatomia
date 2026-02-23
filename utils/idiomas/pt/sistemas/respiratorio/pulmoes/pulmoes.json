@@ -1,0 +1,571 @@
+{
+    "systemName": "Pulmões",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "In Situ",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/pulmoes/visceras_p1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Lobo Superior do Pulmão Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 1,
+                    "title": "Fissura Horizontal",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.4,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Lobo Médio do Pulmão Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Fissura Oblíqua",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.19,
+                    "y": 0.52,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Lobo Inferior do Pulmão Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.15,
+                    "y": 0.66,
+                    "placement": "right"
+                },
+                {
+                    "id": 5,
+                    "title": "Coração",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.56,
+                    "y": 0.54,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Lobo Superior do Pulmão Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.71,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 7,
+                    "title": "Impressões Costais",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.97,
+                    "y": 0.35,
+                    "placement": "left"
+                },
+                {
+                    "id": 8,
+                    "title": "Fissura Oblíqua",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.87,
+                    "y": 0.66,
+                    "placement": "left"
+                },
+                {
+                    "id": 9,
+                    "title": "Lobo Inferior do Pulmão Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.87,
+                    "y": 0.8,
+                    "placement": "left"
+                },
+                {
+                    "id": 10,
+                    "title": "Língula",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.73,
+                    "y": 0.79,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "In Situ",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/pulmoes/visceras_p2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Lobo Superior do Pulmão Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.21,
+                    "placement": "right"
+                },
+                {
+                    "id": 1,
+                    "title": "Lobo Inferior do Pulmão Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.82,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Lobo Médio do Pulmão Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.22,
+                    "y": 0.57,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Lobo Inferior do Pulmão Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.1,
+                    "y": 0.69,
+                    "placement": "right"
+                },
+                {
+                    "id": 4,
+                    "title": "Impressão Cardíaca",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.77,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Coração",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Lobo Superior do Pulmão Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.78,
+                    "y": 0.23,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Vista Anterior - Pulmões e Coração",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/pulmoes/pulmao1.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Coração",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.59,
+                    "y": 0.59,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Pulmão Direito",
+                    "description": "O pulmão direito é maior e mais pesado do que o esquerdo, porém, é mais curto e mais largo, pois a cúpula direita do diafragma é mais alta e o coração projeta-se para a esquerda.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.32,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Pulmão Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.8,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Arco da Aorta",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.49,
+                    "y": 0.33,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Traquéia",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.23,
+                    "placement": "left"
+                }                             
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Vista Posterior - Pulmões e Coração",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/pulmoes/pulmao2.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Traqueia",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.39,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Pulmão Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.72,
+                    "y": 0.53,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Pulmão Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.28,
+                    "y": 0.51,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Coração",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Aorta Descendente",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.54,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Pulmões - Vistas Laterais",
+            "description": "Pulmões - Vistas Laterais",
+            "image": "./utils/sistemas/respiratorio/pulmoes/pulmao3.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Língula do Pulmão Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.63,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Fissura Oblíqua",
+                    "description": "Divide o pulmão esquerdo em um lobo superior e um lobo inferior.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.75,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Lobo Inferior Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.84,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Lobo Superior Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.69,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Ápice do Pulmão Esquerdo",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.74,
+                    "y": 0.3,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Lobo Inferior Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.16,
+                    "y": 0.6,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Fissura Oblíqua",
+                    "description": "Separa o lobo inferior dos lobos superior e médio do pulmão direito.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.61,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Lobo Médio",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.62,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Fissura Horizontal",
+                    "description": "Separa o lobo superior do lobo médio do pulmão direito.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.31,
+                    "y": 0.56,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Lobo Superior Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.22,
+                    "y": 0.46,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Ápice do Pulmão Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.24,
+                    "y": 0.31,
+                    "placement": "right"
+                }                            
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Pulmão Esquerdo - Vista Lateral",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/pulmoes/pulmao5.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Incisura Cardíaca",
+                    "description": "Parte da borda do pulmão esquerdo que se ajusta ao coração.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.25,
+                    "y": 0.61,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Língula do Pulmão Esquerdo",
+                    "description": "Prolongamento que representa resquícios do desenvolvimento embrionário do lobo médio, limitado pela presença do coração.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.13,
+                    "y": 0.83,
+                    "placement": "right"
+                },
+                {
+                    "id": 0,
+                    "title": "Base do Pulmão",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.82,
+                    "y": 0.87,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Impressões Costais",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.87,
+                    "y": 0.29,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Ápice do Pulmão",
+                    "description": "Porção superior do pulmão que atinge o nível da articulação esternoclavicular.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.1,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Pulmão Direito - Vista Medial",
+            "description": "",
+            "image": "./utils/sistemas/respiratorio/pulmoes/pulmao6.png",
+            "pins": [
+                {
+                    "id": 0,
+                    "title": "Hilo do Pulmão",
+                    "description": "É uma área cuneiforme, na face mediastinal do pulmão, que aloja as estruturas que entram ou saem desse órgão e formam a raiz pulmonar. No pulmão direito, o brônquio principal é superior à artéria pulmonar, enquanto no pulmão esquerdo, o brônquio principal é inferior a este vaso.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.54,
+                    "y": 0.49,
+                    "placement": "left"
+                },
+                {
+                    "id": 0,
+                    "title": "Face Diafragmática (Base do Pulmão)",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Brônquio Lobar Superior Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.45,
+                    "y": 0.35,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Brônquio Lobar Médio/Inferior Direito",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.46,
+                    "y": 0.41,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Artéria Pulmonar Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.41,
+                    "y": 0.45,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Veia Pulmonar Superior Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.51,
+                    "y": 0.55,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Veia Pulmonar Inferior Direita",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.5,
+                    "y": 0.6,
+                    "placement": "left"
+                }
+            ]
+        }
+    ]
+}

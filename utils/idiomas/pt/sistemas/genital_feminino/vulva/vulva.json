@@ -1,0 +1,173 @@
+{
+    "systemName": "Vulva",
+    "pieces": [
+        {
+            "id": 0,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/genital_feminino/vulva/vulva1.png",
+            "pins":
+            [
+                {
+                    "id": 0,
+                    "title": "Monte Púbico",
+                    "description": "Elevação mediana, anterior à sínfise púbica, constituída de tecido adiposo.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.42,
+                    "y": 0.07,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Clitóris",
+                    "description": "Homólogo ao corpo cavernoso do pênis. É extremamente sensível e está ligado à excitabilidade feminina.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.535,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Lábios Menores",
+                    "description": "Pregas cutâneas menores, sem pelos, situadas medialmente aos lábios maiores.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.15,
+                    "y": 0.54,
+                    "placement": "right"
+                },
+                {
+                    "id": 3,
+                    "title": "Lábios Maiores",
+                    "description": "Pregas cutâneas alongadas que se estendem do monte púbico até a região perianal. A pele é pigmentada e tem uma distribuição característica de pelos.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.87,
+                    "y": 0.79,
+                    "placement": "left"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/genital_feminino/vulva/vulva2.png",
+            "pins":
+            [
+                {
+                    "id": 3,
+                    "title": "Clitóris",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.535,
+                    "y": 0.46,
+                    "placement": "left"
+                },
+                {
+                    "id": 2,
+                    "title": "Lábio Menor",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.62,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Rima do Pudendo",
+                    "description": "Fenda delimitada pelos lábios maiores.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.67,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Lábio  Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.34,
+                    "y": 0.43,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Monte Púbico",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.55,
+                    "y": 0.06,
+                    "placement": "left"
+                }
+            ]
+        },
+        { "id": 0,
+            "title": "Vista Anterior",
+            "description": "",
+            "image": "./utils/sistemas/genital_feminino/vulva/vulva3.png",
+            "pins":
+            [
+                {
+                    "id": 1,
+                    "title": "Lábio Maior",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.18,
+                    "y": 0.47,
+                    "placement": "left"
+                },
+                {
+                    "id": 3,
+                    "title": "Lábio Menor",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.68,
+                    "y": 0.57,
+                    "placement": "left"
+                },
+                {
+                    "id": 4,
+                    "title": "Óstio Externo da Uretra",
+                    "description": "",
+                    "color": "blue",
+                    "url": "",
+                    "x": 0.52,
+                    "y": 0.68,
+                    "placement": "left"
+                },
+                {
+                    "id": 5,
+                    "title": "Óstio da Vagina",
+                    "description": "Abertura externa da vagina.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.48,
+                    "y": 0.83,
+                    "placement": "left"
+                },
+                {
+                    "id": 6,
+                    "title": "Vestíbulo da Vagina",
+                    "description": "Espaço entre os lábios menores, onde se localizam o óstio externo da uretra, o óstio da vagina e os orifícios dos ductos das glândulas vestibulares.",
+                    "color": "red",
+                    "url": "",
+                    "x": 0.85,
+                    "y": 0.89,
+                    "placement": "left"
+                }
+            ]
+
+        }
+
+    ]
+}
