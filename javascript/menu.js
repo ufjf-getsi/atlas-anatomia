@@ -2,29 +2,15 @@
 
 import { navigate } from "./router.js";
 import { getAllSystemsData } from "./services.js";
+import i18next from './i18n.js';
 
 // links já definidos
-const links = [
-  {
-    title: "Home",
-    path: "#home",
-  },
-  {
-    title: "Instruções",
-    path: "#instrucoes",
-  },
-  {
-    title: "Equipe",
-    path: "#equipe",
-  },
-  {
-    title: "Sobre Nós",
-    path: "#sobre",
-  },
-  {
-    title: "Contatos",
-    path: "#contatos",
-  }
+const getLinks = () => [
+  { title: i18next.t('menu.home', 'Home'), path: '#home' },
+  { title: i18next.t('menu.instructions', 'Instruções'), path: '#instrucoes' },
+  { title: i18next.t('menu.team', 'Equipe'), path: '#equipe' },
+  { title: i18next.t('menu.about', 'Sobre Nós'), path: '#sobre' },
+  { title: i18next.t('menu.contact', 'Contatos'), path: '#contatos' },
 ];
 
 const loadMenu = async () => {
@@ -32,7 +18,7 @@ const loadMenu = async () => {
   const systemsData = await getAllSystemsData();
   const sidebar = document.querySelector("#menu-sidebar-container");
 
-  links.forEach((link) => {
+  getLinks().forEach((link) => {
     const a = document.createElement("a");
     a.onclick = () => navigate(link.path);
     a.innerText = link.title;
@@ -40,7 +26,7 @@ const loadMenu = async () => {
   });
 
   // carrega a dropdown com o array dos sistemas e a sidebar sendo o pai
-  loadDropdown("sistemas", "systems", systemsData, sidebar);
+  loadDropdown(i18next.t('menu.systems', 'sistemas'), "systems", systemsData, sidebar);
 };
 
 // recebe um objeto e gera um dropdown a partir desse

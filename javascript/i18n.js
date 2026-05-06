@@ -1,38 +1,28 @@
 import i18next from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
+import HttpBackend from 'i18next-http-backend';
 
-const resources = {
-    en: {
-        translation: {
-            "app_title": "Interactive Anatomy Atlas",
-            "system_muscular": "Muscular System",
-            "structure_heart": "Heart",
-            "structure_heart_desc": "The heart is a muscular organ that pumps blood through the circulatory system."
-        }
-    },
-    pt: {
-        translation: {
-            "app_title": "Atlas Interativo de Anatomia",
-            "system_muscular": "Sistema Muscular",
-            "structure_heart": "Coração",
-            "structure_heart_desc": "O coração é um órgão muscular que bombeia sangue através do sistema circulatório."
-        }
-    }
-};
-
-i18next
-    //detector para tentar adivinhar o idioma do usuário
+await i18next
+    .use(HttpBackend)
     .use(LanguageDetector)
     .init({
-        resources, 
-        fallbackLng: 'pt', 
-        debug: true, 
-        ns: ['translation'], 
+        fallbackLng: 'pt',
+        supportedLngs: ['pt', 'en'],
+        load: 'languageOnly',     // 'pt-BR' vira 'pt', 'en-US' vira 'en'
+        nonExplicitSupportedLngs: true,
+        debug: false,             // trocar pra true se precisar investigar
+        ns: ['translation'],
         defaultNS: 'translation',
-        keySeparator: false, 
-        interpolation: {
-            escapeValue: false, 
+        keySeparator: '.',
+        interpolation: { escapeValue: false },
+        backend: {
+            loadPath: './utils/locales/{{lng}}/{{ns}}.json',
         },
-    });
+        detection: {
+            order: ['localStorage', 'navigator'],
+            caches: ['localStorage'],
+            convertDetectedLanguage: (lng) => lng.split('-')[0],  // 'pt-BR' -> 'pt'
+        },
+});
 
 export default i18next;

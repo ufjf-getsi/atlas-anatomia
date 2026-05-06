@@ -4,35 +4,21 @@ import { loadSystemContent, updateSystemName } from "./atlas.js";
 import { loadHomeCards, loadSystemsCards, updateHomeTitle } from "./home.js";
 import { closeSidebar } from "./menu.js";
 import { getAllSystemsData } from "./services.js";
+import i18next from './i18n.js';
 
 let routes = [
-    {
-        path: "#home",
-        section: "home",
-    },
-    {
-        path: "#instrucoes",
-        section: "guide",
-    },
-    {
-        path: "#equipe",
-        section: "team",
-    },
-    {
-        path: "#sobre",
-        section: "about",
-    },
-    {
-        path: "#contatos",
-        section: "contact",
-    },
-    {
-        path: "#error",
-        section: "error"
-    }
-]
+    { path: "#home",       section: "home"    },
+    { path: "#instrucoes", section: "guide"   },
+    { path: "#equipe",     section: "team"    },
+    { path: "#sobre",      section: "about"   },
+    { path: "#contatos",   section: "contact" },
+    { path: "#error",      section: "error"   },
+];
 
-// adiciona às rotas padrões as rotas dos sistemas 
+// quantas rotas fixas (não vindas de sistemas.json) existem
+const BASE_ROUTES_COUNT = routes.length;
+
+// adiciona às rotas padrões as rotas dos sistemas
 const createSystemRoutes = (data, parent = "") => {
     data.forEach(route => {
         routes.push({
@@ -45,18 +31,18 @@ const createSystemRoutes = (data, parent = "") => {
             "url": route.url
         });
 
-        // caso possua um objeto de subsistemas crie as rotas também 
-        if(!!route.subsystems) {
+        if (!!route.subsystems) {
             createSystemRoutes(route.subsystems, parent + " > " + route.systemName);
         }
     });
 }
 
-const getRoutes = () => {
-    return routes;
-}
+const getRoutes = () => routes;
 
 const createRoutes = async () => {
+    // remove rotas de sistemas antigas; mantém só as fixas
+    // (necessário para poder rechamar createRoutes ao trocar idioma)
+    routes.length = BASE_ROUTES_COUNT;
 
     const data = await getAllSystemsData();
     createSystemRoutes(data);
@@ -80,49 +66,41 @@ window.onpopstate = () => {
 }
 
 const isInvalidRoute = (route) => {
-
     if ((route.section == "atlas" && (!route.url || route.url == ""))
         || (route.section == "subsystems" && (!route.subsystems || !route.subsystems.length)))
         return true;
     else return false;
 }
 
-// gerencia qual seção da página será exibida 
+// gerencia qual seção da página será exibida
 const handler = async (location) => {
 
-    // caso nao tenha recebido por parâmetro
     if (!location) {
         location = window.location.hash;
     }
 
     const body = document.getElementsByTagName("body")[0];
-    let atualRoute = routes.find((route) => route.path == location)
+    let atualRoute = routes.find((route) => route.path == location);
 
-    //caso seja uma rota inválida, carrega a pág de erro
     if (!atualRoute || isInvalidRoute(atualRoute)) {
         body.dataset.show = "error";
     } else {
-
         body.dataset.show = atualRoute.section;
 
-        //carrega as infomações de acordo com a seção atual
         switch (atualRoute.section) {
             case "atlas":
-                // carrega o título da home
                 updateHomeTitle(atualRoute.systemName);
                 updateSystemName(atualRoute.systemName);
                 loadSystemContent(atualRoute.url);
                 break;
 
             case "subsystems":
-                // carrega o título da home
                 updateHomeTitle(atualRoute.systemName);
                 loadSystemsCards(atualRoute.subsystems);
                 break;
 
             case "home":
-                // carrega o título da home
-                updateHomeTitle("Selecione um sistema:");
+                updateHomeTitle(i18next.t('home.selectSystem', 'Selecione um sistema:'));
                 loadHomeCards();
                 break;
         }
