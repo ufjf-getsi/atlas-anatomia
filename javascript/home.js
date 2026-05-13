@@ -3,6 +3,7 @@
 
 import { navigate } from "./router.js";
 import { getAllSystemsData } from "./services.js";
+import i18next, { tSystem } from './i18n.js';
 
 const loadHomeCards = async () => {
 
@@ -48,7 +49,7 @@ const loadSystemsCards = async (systems) => {
     card.appendChild(img);
     const p = document.createElement("p");
     p.classList.add("system-name");
-    p.innerText = data.systemName;
+    p.innerText = tSystem(data.systemName);
 
     card.appendChild(p);
     container.appendChild(card)
@@ -56,8 +57,7 @@ const loadSystemsCards = async (systems) => {
 };
 
 const updateHomeTitle = (title) => {
-  const titleElement = document.getElementById("home-title");
-  titleElement.innerText = title; 
-}
+    document.getElementById("home-title").innerText = title;
+};
 
 export { loadSystemsCards, loadHomeCards, updateHomeTitle};
