@@ -3,7 +3,7 @@
 
 import { decPieceIndex, getPieceIndex, getPieces, incPieceIndex, setPieceIndex } from "./atlas.js";
 import { loadPins } from "./pins.js";
-import i18next from './i18n.js';
+import i18next, { tSystem } from './i18n.js';
 
 // carrega as navegações para navegar pelas imagens
 const loadNavigations = (piecesNumber) => {
@@ -31,7 +31,8 @@ const handleNavigations = (index) => {
 const finishImageLoading = () => {
 
   document.querySelector("#container").setAttribute("isLoading", false);
-  document.querySelector("#image-title").innerText = getPieces()[getPieceIndex()].title;
+  const titlePt = getPieces()[getPieceIndex()].title;
+  document.querySelector("#image-title").innerText = tSystem(titlePt);
   
   loadPins(getPieces()[getPieceIndex()].pins);
 }
