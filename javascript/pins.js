@@ -1,6 +1,7 @@
 // RESPONSÁVEL PELA MANIPULAÇÃO DO ALFINETE 
 
 import { getPieceIndex, getPieces } from "./atlas.js";
+import i18next, { tSystem } from './i18n.js';
 
 let isShowingPin = false;
 let atualPinIndex = 0;
@@ -69,10 +70,10 @@ const loadPinContent = async (index) => {
     const tooltipDescription = document.querySelector("#tooltip-description");
 
     // atualiza informações do alfinete
-    tooltipTitle.innerText = title;
+    tooltipTitle.innerText = tSystem(title);
 
     if (color == "red" && !!description) {
-        tooltipContent.innerText = description;
+        tooltipContent.innerText = tSystem(description);
         tooltipDescription.setAttribute('data-show', 'true');
     } else tooltipDescription.removeAttribute('data-show');
 
