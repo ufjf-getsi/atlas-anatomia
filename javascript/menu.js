@@ -2,7 +2,7 @@
 
 import { navigate } from "./router.js";
 import { getAllSystemsData } from "./services.js";
-import i18next from './i18n.js';
+import i18next, { tSystem } from './i18n.js';
 
 // links já definidos
 const getLinks = () => [
@@ -45,23 +45,21 @@ const loadDropdown = (dropdownName, id, data, parent) => {
 
   data.forEach((link) => {
 
-    if (!!link.subsystems) {
-      // nome da nova dropdown nesse caso dos subsistemas
-      let name = link.path.toLowerCase().replace("#", "");
+        if (!!link.subsystems && link.subsystems.length) {
+            const name = link.path.toLowerCase().replace("#", "");
+            // link.systemName está em PT — traduz antes de passar como título
+            loadDropdown(tSystem(link.systemName), "subsystem" + name, link.subsystems, content);
 
-      //gera uma nova dropdown ao invés de um link
-      loadDropdown(link.systemName, "subsystem" + name, link.subsystems, content);
-
-    } else {
-      const a = document.createElement("a");
-
-      if (!!link.url)
-        a.addEventListener("click", () => navigate(link.path, link.url));
-
-      a.innerText = link.systemName;
-      content.appendChild(a);
-    }
-  })
+        } else {
+            const a = document.createElement("a");
+            if (!!link.url) {
+                a.addEventListener("click", () => navigate(link.path, link.url));
+            }
+            // link.systemName está em PT — traduz
+            a.innerText = tSystem(link.systemName);
+            content.appendChild(a);
+        }
+    });
 
   container.appendChild(content)
   parent.appendChild(container);
