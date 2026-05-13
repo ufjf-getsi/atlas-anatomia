@@ -4,7 +4,7 @@ import { loadSystemContent, updateSystemName } from "./atlas.js";
 import { loadHomeCards, loadSystemsCards, updateHomeTitle } from "./home.js";
 import { closeSidebar } from "./menu.js";
 import { getAllSystemsData } from "./services.js";
-import i18next from './i18n.js';
+import i18next, { tSystem } from './i18n.js';
 
 let routes = [
     { path: "#home",       section: "home"    },
@@ -89,13 +89,13 @@ const handler = async (location) => {
 
         switch (atualRoute.section) {
             case "atlas":
-                updateHomeTitle(atualRoute.systemName);
-                updateSystemName(atualRoute.systemName);
+                updateHomeTitle(tSystem(atualRoute.systemName));
+                updateSystemName(tSystem(atualRoute.systemName));
                 loadSystemContent(atualRoute.url);
                 break;
 
             case "subsystems":
-                updateHomeTitle(atualRoute.systemName);
+                updateHomeTitle(tSystem(atualRoute.systemName));
                 loadSystemsCards(atualRoute.subsystems);
                 break;
 
