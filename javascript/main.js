@@ -5,14 +5,11 @@ import { slideLeft, slideRight, finishImageLoading } from "./navigations.js";
 import { navigate, createRoutes, handler } from "./router.js";
 import { setSearchContent, search, toggleSearchMenu, loadSearchContents } from './search.js'
 import { hideContent } from "./pins.js";
-import i18next from "./i18n.js";
+import i18next, { SYSTEM_NAMESPACES } from "./i18n.js";
 import { applyTranslations } from './dom-i18n.js';
 
   await i18next.loadNamespaces('translation');
   applyTranslations();
-  document.getElementById('lang-toggle').textContent = i18next.language.startsWith('pt') ? 'EN' : 'PT';
-
-  //window.location = "#home";
 
   document.getElementById("content").addEventListener("mousedown", (e) => {
     showCoordinates(e);
@@ -28,16 +25,25 @@ import { applyTranslations } from './dom-i18n.js';
   document.querySelector(".tooltip-card").addEventListener("click", () => hideContent());
   document.querySelector("#tooltip-close-button").addEventListener("click", () => hideContent());
 
-  document.querySelector('#lang-toggle').addEventListener('click', async () => {
-    const next = i18next.language.startsWith('pt') ? 'en' : 'pt';
+  const langSelect = document.getElementById('lang-select');
+  langSelect.value = i18next.language.startsWith('pt') ? 'pt' : 'en';
+
+  langSelect.addEventListener('change', async (e) => {
+    const next = e.target.value;
+
+    if (next == 'en') {
+      await i18next.loadNamespaces(SYSTEM_NAMESPACES);
+    }
+
     await i18next.changeLanguage(next);
-    document.getElementById('lang-toggle').textContent = next === 'pt' ? 'EN' : 'PT';
+
     document.querySelector('#menu-sidebar-container').innerHTML = '';
-    
     await createRoutes();
     loadMenu();
     await handler();
-  });
+  }
+  
+  )
 
   if (!window.location.hash) window.location.hash = "#home";
 

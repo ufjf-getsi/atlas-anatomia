@@ -156,3 +156,96 @@ body[data-show = contact] #contact {
     color: rgb(32, 57, 80);
     text-indent: 0;
 }
+
+/* ========== Seletor de idioma ========== */
+
+#lang-select,
+#lang-select::picker(select) {
+  appearance: base-select;
+}
+
+#lang-select {
+  font-family: Arial;
+  font-size: clamp(12px, 1.2vw, 16px);
+  font-weight: bold;
+  color: #f1f1f1;
+  background: rgba(30, 50, 80, 0.8);
+  border: 1px solid rgba(150, 180, 220, 0.3);
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+#lang-select:hover {
+  background: rgba(40, 65, 105, 0.9);
+  border-color: rgba(150, 180, 220, 0.6);
+}
+
+#lang-select:focus-visible {
+  outline: 2px solid #5b9bd5;
+  outline-offset: 2px;
+}
+
+/* Botão interno */
+#lang-select > button[type="popover"] {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: transparent;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  padding: 2px 4px;
+}
+
+/* Dropdown aberto */
+#lang-select::picker(select) {
+  background: #1a2a42;
+  border: 1px solid rgba(150, 180, 220, 0.25);
+  border-radius: 8px;
+  padding: 4px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+/* Opções */
+#lang-select option {
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #f1f1f1;
+  background: transparent;
+  transition: background 0.15s;
+}
+
+#lang-select option:hover {
+  background: rgba(91, 155, 213, 0.2);
+}
+
+#lang-select option:checked {
+  background: rgba(91, 155, 213, 0.35);
+  font-weight: bold;
+}
+
+/* Fallback para browsers sem base-select */
+@supports not (appearance: base-select) {
+  #lang-select {
+    background: rgba(30, 50, 80, 0.95);
+    padding: 6px 10px;
+    color: #f1f1f1;
+  }
+
+  #lang-select option {
+    background: #1a2a42;
+    color: #f1f1f1;
+  }
+
+  
+}
+
+#lang-select {
+  min-width: 80px;
+  white-space: nowrap;
+  overflow: visible;
+}
