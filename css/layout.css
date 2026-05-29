@@ -244,8 +244,3 @@ body[data-show = contact] #contact {
   
 }
 
-#lang-select {
-  min-width: 80px;
-  white-space: nowrap;
-  overflow: visible;
-}
