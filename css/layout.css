@@ -166,7 +166,7 @@ body[data-show = contact] #contact {
 
 #lang-select {
   font-family: Arial;
-  font-size: clamp(12px, 1.2vw, 16px);
+  font-size: 0.6em;
   font-weight: bold;
   color: #f1f1f1;
   background: rgba(30, 50, 80, 0.8);
